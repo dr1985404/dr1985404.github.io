@@ -1,1 +1,73 @@
+[
+  {
+    "id": "ETH-CAN-001",
+    "cat": "Ethics",
+    "sub": "Confidentiality & Driving",
+    "text": "A 45-year-old commercial truck driver is diagnosed with uncontrolled tonic-clonic seizures. He pleads with you not to report his condition to the provincial Ministry of Transportation, fearing he will lose his livelihood. What is your legal obligation in most Canadian provinces?",
+    "options": [
+      "Respect patient confidentiality and do not report",
+      "Wait for the patient's consent before reporting",
+      "Report the condition to the Ministry of Transportation immediately",
+      "Advise the patient to stop driving and review in 3 months"
+    ],
+    "correct": 2,
+    "rationale": "In Canada, public safety overrides patient confidentiality in specific scenarios. Physicians have a 'Mandatory Reporting' obligation to notify authorities when a patient has a medical condition (like uncontrolled epilepsy) that makes it dangerous for them to operate a motor vehicle."
+  },
+  {
+    "id": "ETH-CAN-002",
+    "cat": "Ethics",
+    "sub": "Mature Minor Doctrine",
+    "text": "A 14-year-old male requests testing for sexually transmitted infections (STIs). He clearly understands the procedure and the implications of the results but insists that his parents must not be informed. What is the most appropriate next step?",
+    "options": [
+      "Refuse testing until a parent provides consent",
+      "Perform the tests and maintain the patient's confidentiality",
+      "Perform the tests but notify the parents of the results",
+      "Refer the patient to a specialized youth clinic only"
+    ],
+    "correct": 1,
+    "rationale": "According to the 'Mature Minor Doctrine' in Canada, if a minor possesses sufficient intelligence and understanding to appreciate the nature and consequences of a proposed treatment, they can legally provide consent independently. Parental notification is not required if the minor is deemed capable."
+  },
+  {
+    "id": "ETH-CAN-003",
+    "cat": "Ethics",
+    "sub": "Informed Consent",
+    "text": "During an informed consent discussion for an elective cholecystectomy, the surgeon explains the benefits and the common risks of the procedure. To meet the Canadian legal standard for 'Informed Consent', what else MUST be disclosed?",
+    "options": [
+      "The exact brand of surgical instruments used",
+      "The surgeon's total years of experience",
+      "The alternatives to surgery and risks of no treatment",
+      "The cost of the hospital stay to the healthcare system"
+    ],
+    "correct": 2,
+    "rationale": "The Canadian standard for informed consent (Reibl v. Hughes) requires that a patient be informed of: 1. Nature of the treatment, 2. Material risks, 3. Special or unusual risks, 4. Alternatives to the treatment, and 5. Consequences of refusing treatment."
+  },
+  {
+    "id": "ETH-CAN-004",
+    "cat": "Ethics",
+    "sub": "End of Life (MAID)",
+    "text": "A 70-year-old patient with terminal ALS requests Medical Assistance in Dying (MAID). According to current Canadian law (Bill C-7), which of the following is true regarding the eligibility criteria?",
+    "options": [
+      "The patient's death must be reasonably foreseeable",
+      "Two independent practitioners must assess the patient",
+      "The family must provide unanimous consent",
+      "A court order is required for every MAID request"
+    ],
+    "correct": 1,
+    "rationale": "Under Canadian law, MAID eligibility requires assessment by two independent medical or nurse practitioners. Since Bill C-7, a 'reasonably foreseeable' death is no longer a strict requirement for all cases, but independent assessments and informed consent remain mandatory."
+  },
+  {
+    "id": "ETH-CAN-005",
+    "cat": "Ethics",
+    "sub": "Substitute Decision Maker",
+    "text": "An unconscious elderly patient requires urgent surgery. There is no advance directive. The patient's common-law partner and his adult son from a previous marriage disagree on the course of action. Who is the highest-ranking Substitute Decision Maker (SDM) in most Canadian jurisdictions?",
+    "options": [
+      "The adult son",
+      "The common-law partner",
+      "The patient's legal lawyer",
+      "The hospital ethics committee"
+    ],
+    "correct": 1,
+    "rationale": "In the hierarchy of Substitute Decision Makers (SDMs) in Canada (e.g., Ontario's HCCA), a spouse or partner (including common-law) generally ranks higher than children (adult offspring). The SDM's role is to make decisions based on the patient's previously expressed wishes or best interests."
+  }
+]
 
