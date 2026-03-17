@@ -68,7 +68,8 @@
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
       --card:#ffffff; --text:#1f2a37; --muted:#6b7280; --line:#e5e7eb;
-      --green:#22c55e; --red:#ef4444; --blue:#2563eb; --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
+      --green:#22c55e; --red:#ef4444; --blue:#2563eb;
+      --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
     }
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
     body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
@@ -91,7 +92,6 @@
     .m-btn{ border:none; padding:6px 14px; border-radius:6px; cursor:pointer; font-weight:800; font-size:0.75rem; }
     .m-btn.active{ background:var(--navy); color:#fff; }
     .timer-display{ font-weight:900; color:var(--red); font-size:1rem; display:none; }
-    /* Progress Bar */
     .progress-wrap{ width:100%; background:#e2e8f0; border-radius:999px; height:8px; margin:8px 0; }
     .progress-bar{ height:8px; border-radius:999px; background:linear-gradient(90deg,var(--blue),var(--green)); transition:width 0.4s; }
     .progress-label{ font-size:0.78rem; color:var(--muted); font-weight:800; text-align:right; }
@@ -103,72 +103,168 @@
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
     .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; align-items:center; }
     .bookmark-btn{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:0; }
-    .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
+    .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; color:var(--text); }
     .content-img{ width:100%; max-width:600px; height:auto; border-radius:12px; margin:15px auto; border:1px solid var(--line); display:block; background:#eee; }
     table{ width:100%; border-collapse:collapse; margin:15px 0; font-size:0.92rem; }
-    th,td{ border:1px solid var(--line); padding:10px; text-align:left; }
-    th{ background:#f8fafc; }
+    th,td{ border:1px solid var(--line); padding:10px; text-align:left; color:var(--text); }
+    th{ background:#f8fafc; color:var(--text); }
     .hl-blue{ color:var(--blue); font-weight:800; }
     .hl-green{ color:#16a34a; font-weight:800; }
     .hl-red{ color:var(--red); font-weight:800; }
-    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background:#fff; }
-    .option.selected{ border-color:var(--blue); background:#eff6ff; }
-    .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534; font-weight:800; }
-    .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b; font-weight:800; }
-    .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background:#f9fafb; border-radius:8px; }
+    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background:#fff; color:var(--text); font-weight:500; }
+    .option.selected{ border-color:var(--blue); background:#eff6ff; color:#1e40af; }
+    .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534!important; font-weight:800; }
+    .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b!important; font-weight:800; }
+    .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background:#f9fafb; border-radius:8px; color:var(--text); }
     .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
-    .btn-bookmark{ background:#fef3c7; color:#92400e; }
 
-    /* Dark Mode - base */
-    body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
-    body.dark .vault-stats,
-    body.dark .main-tabs,
-    body.dark .panel,
-    body.dark .sub-card,
-    body.dark .card{
-      background:var(--card); border-color:var(--line);
+    /* ======================== DARK MODE - FIX COMPLETE ======================== */
+    body.dark{
+      --bg:#0f172a;
+      --card:#1e293b;
+      --text:#e2e8f0;
+      --muted:#94a3b8;
+      --line:#334155;
+      background:var(--bg);
+      color:var(--text);
     }
-    body.dark .tab{ background:var(--card); color:var(--muted); }
-    body.dark .tab.active{ background:#1e3a5f; }
-    body.dark .mode-bar{ background:#1e293b; }
-    body.dark .rationale{ background:#253347; color:#e2e8f0; }
-    body.dark .card-body{ color:#e2e8f0; }
-    body.dark th{ background:#1e293b; color:#e2e8f0; }
-    body.dark td{ color:#e2e8f0; }
-    body.dark .sub-card h3{ color:#e2e8f0; }
+    body.dark .vault-stats{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
+    body.dark .stat-item{ color:#e2e8f0; }
+    body.dark .main-tabs{ background:#1e293b; border-color:#334155; }
+    body.dark .tab{ background:#1e293b; color:#94a3b8; }
+    body.dark .tab.active{ background:#1e3a5f; color:#60a5fa; border-bottom-color:#60a5fa; }
+    body.dark .panel{ background:#1e293b; border-color:#334155; }
+    body.dark .mode-bar{ background:#1a2744; border-color:#334155; }
+    body.dark .mode-switch{ background:#0f172a; }
+    body.dark .m-btn{ background:#253347; color:#94a3b8; }
+    body.dark .m-btn.active{ background:#1d4ed8; color:#fff; }
+    body.dark .sub-card{ background:#1e293b; border-color:#334155; }
+    body.dark .sub-card h3{ color:#e2e8f0 !important; }
+    body.dark .sub-card p{ color:#94a3b8; }
+    body.dark .card{ background:#1e293b; border-color:#334155; }
+    body.dark .card-body{ color:#e2e8f0 !important; background:#1e293b; }
+    body.dark .card-body *{ color:#e2e8f0; }
+    body.dark .card-body .hl-blue{ color:#60a5fa !important; }
+    body.dark .card-body .hl-green{ color:#4ade80 !important; }
+    body.dark .card-body .hl-red{ color:#f87171 !important; }
+    body.dark .rationale{
+      background:#253347 !important;
+      color:#e2e8f0 !important;
+      border-color:#334155;
+    }
+    body.dark .rationale *{ color:#e2e8f0 !important; }
+    body.dark .rationale strong{ color:#93c5fd !important; }
+    body.dark th{ background:#1a2744 !important; color:#e2e8f0 !important; }
+    body.dark td{ color:#e2e8f0 !important; background:#1e293b; }
+    body.dark table{ border-color:#334155; }
+    body.dark th, body.dark td{ border-color:#334155; }
 
-    /* Dark Mode - options default (قبل الإجابة) */
+    /* Dark - Options */
     body.dark .option{
       background:#253347;
       border-color:#334155;
-      color:#e2e8f0;
+      color:#e2e8f0 !important;
     }
     body.dark .option.selected{
-      background:#1e3a5f!important;
-      border-color:#2563eb!important;
-      color:#bfdbfe!important;
+      background:#1e3a5f !important;
+      border-color:#2563eb !important;
+      color:#bfdbfe !important;
     }
-
-    /* Dark Mode - correct / wrong (ألوان واضحة في Exam/Study) */
     body.dark .option.correct{
-      background:#14532d!important;
-      border-color:#22c55e!important;
-      color:#bbf7d0!important;
+      background:#14532d !important;
+      border-color:#22c55e !important;
+      color:#bbf7d0 !important;
       font-weight:800;
     }
     body.dark .option.wrong{
-      background:#450a0a!important;
-      border-color:#ef4444!important;
-      color:#fca5a5!important;
+      background:#450a0a !important;
+      border-color:#ef4444 !important;
+      color:#fca5a5 !important;
       font-weight:800;
     }
 
+    /* Dark - Notes content area */
+    body.dark #content-container{ color:#e2e8f0; }
+    body.dark #progress-text{ color:#94a3b8 !important; }
+    body.dark .btn-light{ background:#253347; color:#e2e8f0; }
+    body.dark .btn-gold{ background:#b8944c; color:#fff; }
+
+    /* Dark - FAQ section */
+    body.dark .faq-section h2{ color:#93c5fd; }
+    body.dark .faq-item{ background:#1e293b !important; border-color:#334155 !important; }
+    body.dark .faq-item h3{ color:#e2e8f0 !important; }
+    body.dark .faq-item p{ color:#94a3b8 !important; }
+
+    /* Dark - Hero section */
+    body.dark .hero-section{ background:#0b1f40; border-bottom-color:#c8a45c; }
+    body.dark .hero-section p{ color:#94a3b8; }
+
+    /* Dark - Progress label */
+    body.dark .progress-label{ color:#94a3b8; }
+    body.dark .progress-wrap{ background:#334155; }
+
+    /* Dark - AdSense wrapper */
+    body.dark .ad-wrapper{ background:#1e293b; border-color:#334155; }
+
+    /* ======================== END DARK MODE ======================== */
+
     .dark-toggle{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:4px 8px; }
-    /* Bookmark badge */
     .bm-badge{ position:absolute; top:10px; right:10px; background:var(--gold); color:#fff; border-radius:999px; font-size:0.7rem; font-weight:900; padding:2px 7px; display:none; }
     #sub-dashboard,#view-area,#main-dashboard{ display:none; }
+
+    /* AdSense wrapper */
+    .ad-wrapper{
+      max-width:1100px;
+      margin:16px auto;
+      padding:8px 14px;
+      background:#fff;
+      border-radius:12px;
+      border:1px solid var(--line);
+      text-align:center;
+      overflow:hidden;
+    }
+    .ad-label{
+      font-size:0.7rem;
+      color:var(--muted);
+      text-align:center;
+      margin-bottom:4px;
+      font-weight:600;
+      letter-spacing:0.05em;
+    }
+
+    /* FAQ section */
+    .faq-section{
+      max-width:1100px;
+      margin:40px auto 20px auto;
+      padding:0 14px;
+    }
+    .faq-section h2{
+      font-size:1.3rem;
+      font-weight:800;
+      margin-bottom:10px;
+      color:#0b1730;
+    }
+    .faq-item{
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:12px;
+      padding:16px;
+      margin-bottom:10px;
+    }
+    .faq-item h3{
+      margin:0 0 6px 0;
+      font-size:1rem;
+      font-weight:800;
+      color:#111827;
+    }
+    .faq-item p{
+      margin:0;
+      font-size:0.92rem;
+      color:#374151;
+      line-height:1.6;
+    }
   </style>
 </head>
 <body>
@@ -186,10 +282,22 @@
     </div>
   </header>
 
-  <section style="background:#0b1730;color:white;padding:20px 14px;border-bottom:2px solid #c8a45c;">
+  <!-- Ad Top Banner -->
+  <div class="ad-wrapper">
+    <div class="ad-label">ADVERTISEMENT</div>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <section class="hero-section" style="background:#0b1730;color:white;padding:20px 14px;border-bottom:2px solid #c8a45c;">
     <div style="max-width:1100px;margin:0 auto;">
       <h2 style="margin:0 0 8px 0;font-size:1.4rem;font-weight:800;">Free MCCQE1 Q-Bank for International Medical Graduates</h2>
-      <p style="margin:0 0 4px 0;font-size:0.95rem;line-height:1.6;">MediVault Pro is a free, high-yield MCCQE1 preparation platform built specifically for International Medical Graduates in Canada.</p>
+      <p style="margin:0 0 4px 0;font-size:0.95rem;line-height:1.6;">MediVault Pro is a free, high-yield MCCQE1 preparation platform built specifically for International Medical Graduates (IMGs) in Canada. Practice with over 2,000 exam-style questions across all major specialties.</p>
       <p style="margin:0;font-size:0.92rem;opacity:0.9;">Use the Q-BANK tab for timed questions and explanations, and the HIGH-YIELD tab to review structured summaries by specialty before your exam day.</p>
     </div>
   </section>
@@ -232,6 +340,89 @@
         <button class="btn btn-light" style="width:100%;margin-top:10px;" onclick="goBack()">← Back</button>
       </div>
     </div>
+  </div>
+
+  <!-- Ad Middle - After Q-Bank Panel -->
+  <div class="ad-wrapper">
+    <div class="ad-label">ADVERTISEMENT</div>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- ======= SEO TEXT SECTION ======= -->
+  <section style="max-width:1100px;margin:30px auto 10px auto;padding:0 14px;">
+    <h2 style="font-size:1.2rem;font-weight:800;color:#0b1730;margin-bottom:8px;">About MediVault Pro – MCCQE1 Preparation for IMGs</h2>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">
+      MediVault Pro is a free, comprehensive MCCQE1 question bank designed specifically for International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part I (MCCQE1). Our platform covers all key clinical disciplines including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology, Preventive Medicine, and Medical Ethics — all aligned with the MCC's official objectives.
+    </p>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">
+      Every question in our Q-Bank comes with a detailed explanation and rationale to help you not just memorize answers, but truly understand the clinical reasoning required for the MCCQE1. High-Yield notes provide concise, exam-ready summaries of the most commonly tested topics, making your study sessions efficient and targeted.
+    </p>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0;">
+      Whether you are a new IMG to Canada, a family medicine resident, or a physician seeking licensure through the MCCQE1, MediVault Pro gives you the tools to study smarter — completely free of charge.
+    </p>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2>Frequently Asked Questions about MCCQE1 Prep</h2>
+
+    <div class="faq-item">
+      <h3>What is the MCCQE1 exam?</h3>
+      <p>The MCCQE1 (Medical Council of Canada Qualifying Examination Part I) is a computer-based exam required for all physicians seeking licensure in Canada. It assesses clinical decision-making, medical knowledge, and patient management across multiple specialties. International Medical Graduates (IMGs) must pass it to practice medicine in Canada.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is MediVault Pro?</h3>
+      <p>MediVault Pro is a free MCCQE1 question bank and high-yield notes platform designed for International Medical Graduates preparing for Canadian medical licensing exams. It includes thousands of practice questions with detailed explanations, plus structured clinical notes organized by specialty.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is MediVault Pro really free?</h3>
+      <p>Yes. The entire Q-Bank and all high-yield notes are completely free to access. The platform is supported by advertising to keep it free for all IMGs worldwide. We believe every IMG deserves access to quality MCCQE1 preparation resources without financial barriers.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How should I use this Q-Bank for MCCQE1?</h3>
+      <p>Start with the HIGH-YIELD notes to consolidate core topics, then switch to the Q-BANK in Exam mode to practice timed questions under pressure. Review the explanations for each question carefully, even when you answer correctly. Use the bookmark feature to save difficult questions for later review.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What specialties are covered in MediVault Pro?</h3>
+      <p>MediVault Pro covers all major MCCQE1 specialties including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology (OB/GYN), Emergency Medicine, Preventive Medicine, and Medical Ethics and Law — all aligned with MCC's Clinical Presentations framework.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between Study Mode and Exam Mode?</h3>
+      <p>In Study Mode, you see the correct answer and full explanation immediately after each question, making it ideal for learning. In Exam Mode, a timer runs as you answer all questions without feedback, then you receive your final score — simulating real MCCQE1 exam conditions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Does MediVault Pro replace official MCCQE1 resources?</h3>
+      <p>No. MediVault Pro is a supplementary tool. You should still review the official MCC objectives, guidelines, and recommended textbooks. MediVault Pro is designed to complement your main study resources by providing extra practice and quick high-yield reviews.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I use MediVault Pro on my mobile phone?</h3>
+      <p>Yes. MediVault Pro is fully responsive and works on all devices including mobile phones, tablets, and desktop computers. You can also install it as a Progressive Web App (PWA) on your phone for offline access and a faster experience.</p>
+    </div>
+  </section>
+
+  <!-- Ad Bottom -->
+  <div class="ad-wrapper" style="margin-bottom:30px;">
+    <div class="ad-label">ADVERTISEMENT</div>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
 
   <script>
@@ -284,7 +475,14 @@
       document.getElementById("prog-label").innerText=`${done} / ${total} answered (${pct}%)`;
     }
 
-    function setMode(m){examMode=(m==='exam');document.getElementById('m-study').className="m-btn"+(!examMode?" active":"");document.getElementById('m-exam').className="m-btn"+(examMode?" active":"");document.getElementById('timer').style.display=examMode?'block':'none';if(examMode)startTimer();else stopTimer();start(currentSubcategory);}
+    function setMode(m){
+      examMode=(m==='exam');
+      document.getElementById('m-study').className="m-btn"+(!examMode?" active":"");
+      document.getElementById('m-exam').className="m-btn"+(examMode?" active":"");
+      document.getElementById('timer').style.display=examMode?'block':'none';
+      if(examMode)startTimer();else stopTimer();
+      start(currentSubcategory);
+    }
     function startTimer(){examSec=0;clearInterval(timerInt);timerInt=setInterval(()=>{examSec++;let m=Math.floor(examSec/60).toString().padStart(2,'0');let s=(examSec%60).toString().padStart(2,'0');document.getElementById('timer').innerText=`${m}:${s}`;},1000);}
     function stopTimer(){clearInterval(timerInt);}
 
@@ -351,7 +549,10 @@
     function showNote(){
       const n=filteredNotes[currentIdx],container=document.getElementById("content-container");
       document.getElementById("progress-text").innerText=`High-Yield > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
-      container.innerHTML=`<div class="card" style="border-top:6px solid var(--blue)"><div class="card-header" style="background:var(--blue)">${n.title}</div><div class="card-body">${getSafeImg(n.img)}<div>${formatText(n.content)}</div></div></div>`;
+      container.innerHTML=`<div class="card" style="border-top:6px solid var(--blue)">
+        <div class="card-header" style="background:var(--blue)">${n.title}</div>
+        <div class="card-body">${getSafeImg(n.img)}<div>${formatText(n.content)}</div></div>
+      </div>`;
       renderNav();
     }
 
@@ -406,32 +607,25 @@
     function next(){const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes);if(currentIdx<data.length-1){currentIdx++;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}else if(examMode)finishEx();}
     function prev(){if(currentIdx>0){currentIdx--;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}}
     function finishEx(){stopTimer();let score=0;filteredQuestions.forEach((q,i)=>{if(userSels[i]===q.correct)score++;});alert(`Finished!\nScore: ${score}/${filteredQuestions.length}\nTime: ${document.getElementById('timer').innerText}`);examMode=false;setMode('study');}
-    function formatText(t){if(!t)return"";return t.replace(/Dx:/g,'<span class="hl-blue">Dx:</span>').replace(/Tx:/g,'<span class="hl-green">Tx:</span>').replace(/Risk:/g,'<span class="hl-red">Risk:</span>').replace(/\n/g,"<br>");}
+    function formatText(t){
+      if(!t)return"";
+      return t
+        .replace(/Dx:/g,'<span class="hl-blue">Dx:</span>')
+        .replace(/Tx:/g,'<span class="hl-green">Tx:</span>')
+        .replace(/Risk:/g,'<span class="hl-red">Risk:</span>')
+        .replace(/\n/g,"<br>");
+    }
     function goBack(){if(document.getElementById("view-area").style.display==="block")openCat(currentCategory);else renderMain();}
-    function switchMainTab(t){activeMainTab=t;document.getElementById("tab-questions").className=(t==="questions"?"tab active":"tab");document.getElementById("tab-notes").className=(t==="notes"?"tab active":"tab");document.getElementById("tab-bookmarks").className=(t==="bookmarks"?"tab active":"tab");renderMain();}
+    function switchMainTab(t){
+      activeMainTab=t;
+      document.getElementById("tab-questions").className=(t==="questions"?"tab active":"tab");
+      document.getElementById("tab-notes").className=(t==="notes"?"tab active":"tab");
+      document.getElementById("tab-bookmarks").className=(t==="bookmarks"?"tab active":"tab");
+      renderMain();
+    }
     function getIcon(c){const i={Medicine:"🩺",Surgery:"🔪",Pediatrics:"👶",Psychiatry:"🧠",Ethics:"⚖️",Emergency:"🚨"};return i[c]||"📚";}
     init();
   </script>
-
-  <section style="max-width:1100px;margin:40px auto 20px auto;padding:0 14px;">
-    <h2 style="font-size:1.3rem;font-weight:800;margin-bottom:10px;color:#0b1730;">Frequently Asked Questions about MediVault Pro</h2>
-    <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin-bottom:10px;">
-      <h3 style="margin:0 0 6px 0;font-size:1rem;font-weight:800;color:#111827;">What is MediVault Pro?</h3>
-      <p style="margin:0;font-size:0.92rem;color:#374151;line-height:1.6;">MediVault Pro is a free MCCQE1 question bank and high-yield notes platform designed for International Medical Graduates preparing for Canadian medical licensing exams.</p>
-    </div>
-    <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin-bottom:10px;">
-      <h3 style="margin:0 0 6px 0;font-size:1rem;font-weight:800;color:#111827;">Is MediVault Pro really free?</h3>
-      <p style="margin:0;font-size:0.92rem;color:#374151;line-height:1.6;">Yes. The entire Q-Bank and all high-yield notes are free to access.</p>
-    </div>
-    <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin-bottom:10px;">
-      <h3 style="margin:0 0 6px 0;font-size:1rem;font-weight:800;color:#111827;">How should I use this Q-Bank for MCCQE1?</h3>
-      <p style="margin:0;font-size:0.92rem;color:#374151;line-height:1.6;">Start with the HIGH-YIELD notes to consolidate core topics, then switch to the Q-BANK in exam mode to practice timed questions and explanations under pressure.</p>
-    </div>
-    <div style="background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;">
-      <h3 style="margin:0 0 6px 0;font-size:1rem;font-weight:800;color:#111827;">Does MediVault Pro replace official MCCQE1 resources?</h3>
-      <p style="margin:0;font-size:0.92rem;color:#374151;line-height:1.6;">No. MediVault Pro is a supplementary tool. You should still review official MCC objectives and guidelines.</p>
-    </div>
-  </section>
 
   <!-- PWA Service Worker -->
   <script>
@@ -440,6 +634,18 @@
     }
   </script>
 
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="Help us keep the MCCQE1 vault free for all IMGs! ☕" data-color="#5F7FFF" data-position="Right" data-x-margin="18" data-y-margin="18"></script>
+  <!-- Buy Me A Coffee Widget -->
+  <script
+    data-name="BMC-Widget"
+    data-cfasync="false"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="MediVaultPro"
+    data-description="Support me on Buy me a coffee!"
+    data-message="☕ ساعدنا في إبقاء منصة MCCQE1 مجانية للجميع! Support free MCCQE1 prep for all IMGs!"
+    data-color="#c8a45c"
+    data-position="Right"
+    data-x-margin="18"
+    data-y-margin="18">
+  </script>
 </body>
 </html>
