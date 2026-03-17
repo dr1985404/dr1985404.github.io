@@ -16745,5 +16745,43 @@
     "correct": 1,
     "rationale": "Dx: Acute Ischemic Stroke. \nNote: The window for tPA in Canada is up to 4.5 hours from symptom onset if no contraindications exist. \nTx: IV tPA (Alteplase)."
   }
+,
+  {
+    "id": "REC-ENT001",
+    "cat": "Emergency",
+    "sub": "ENT",
+    "text": "A 6-year-old child presents with high fever, drooling, and sitting in a 'tripod position'. He appears toxic and has a muffled voice. What is the most appropriate next step?",
+    "options": ["Examine the throat with a tongue depressor", "Lateral neck X-ray", "Immediate intubation in a controlled setting", "Start oral antibiotics"],
+    "correct": 2,
+    "rationale": "Dx: Epiglottitis. \nNote: This is a medical emergency. Do NOT examine the throat as it may cause laryngospasm and airway obstruction. \nTx: Secure the airway first (Intubation by an expert) before any imaging or labs. \nRisk: H. influenzae type B (Hib) was the main cause, now rarer due to vaccines."
+  },
+  {
+    "id": "REC-EYE005",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "A 65-year-old patient presents with sudden onset of severe eye pain, blurred vision, and seeing 'halos around lights'. On exam, the eye is red, and the pupil is mid-dilated and non-reactive. Diagnosis?",
+    "options": ["Acute Angle-Closure Glaucoma", "Central Retinal Artery Occlusion", "Retinal Detachment", "Conjunctivitis"],
+    "correct": 0,
+    "rationale": "Dx: Acute Angle-Closure Glaucoma. \nNote: This is an ophthalmologic emergency. Key findings: Mid-dilated pupil, stony hard eye on palpation. \nTx: Immediate pressure-lowering drops (Timolol, Pilocarpine) and Acetazolamide. Definitive treatment is Laser Peripheral Iridotomy."
+  },
+  {
+    "id": "REC-ORTH010",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A 10-year-old boy presents with a painful limp and hip pain radiating to the knee. On exam, there is limited internal rotation of the hip. He is obese. What is the most likely diagnosis?",
+    "options": ["Legg-Calvé-Perthes Disease", "Slipped Capital Femoral Epiphysis (SCFE)", "Septic Arthritis", "Transient Synovitis"],
+    "correct": 1,
+    "rationale": "Dx: SCFE. \nNote: Typical in obese adolescents (10-16 years). Knee pain is often a referred pain from the hip. \nRisk: Avascular necrosis if not treated. \nTx: Surgical pinning (In-situ fixation). Do NOT allow weight-bearing until treated."
+  },
+  {
+    "id": "REC-EYE012",
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "text": "A patient presents with 'painless' sudden loss of vision in one eye. Fundoscopic exam reveals a 'cherry-red spot' on the macula and a pale retina. Diagnosis?",
+    "options": ["Central Retinal Vein Occlusion", "Central Retinal Artery Occlusion (CRAO)", "Vitreous Hemorrhage", "Optic Neuritis"],
+    "correct": 1,
+    "rationale": "Dx: CRAO. \nNote: Think of this as a 'stroke of the eye'. Usually embolic. \nTx: Ocular massage, carbogen, or paracentesis (though efficacy is limited, it must be done urgently)."
+  }
 ]
+
 
