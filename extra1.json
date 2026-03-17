@@ -1269,7 +1269,45 @@
     "title": "Epistaxis (Nosebleed) Management",
     "content": "Note: 90% are Anterior (Kiesselbach's Plexus). \nTx: 1. Direct pressure (pinch nose) for 10-15 mins while leaning forward. 2. Topical vasoconstrictors (e.g., Oxymetazoline). 3. Cautery (Silver Nitrate). 4. Packing. \nNote: Posterior bleeds require specialist (ENT) consultation and admission."
   }
+,
+  {
+    "cat": "OBGYN",
+    "sub": "IUGR Comparison",
+    "title": "Symmetrical vs Asymmetrical IUGR",
+    "content": "Dx: Symmetrical IUGR: \n- All growth parameters (HC, AC, FL) are equally small. \n- Cause: Early insult (Genetics, TORCH infection). \nDx: Asymmetrical IUGR: \n- Head Sparring (Normal HC, Small AC). \n- Cause: Late insult (Placental insufficiency, Smoking, HTN). \nNote: AC is the most sensitive parameter for fetal growth. \n"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Psychiatry",
+    "title": "Serotonin Syndrome vs NMS",
+    "content": "Note: Use this table for the exam: \n| Feature | Serotonin Syndrome | NMS | \n| :--- | :--- | :--- | \n| Trigger | SSRIs, MAOIs | Antipsychotics | \n| Reflexes | Hyperreflexia, Clonus | Hyporeflexia, Rigidity | \n| Rigidity | Mild | Lead-pipe rigidity | \n| Onset | Rapid (<24h) | Slow (days/weeks) | \nTx: SS -> Cyproheptadine; NMS -> Dantrolene. \n[attachment_0](attachment)"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Electrolytes",
+    "title": "Hyperkalemia ECG Progression",
+    "content": "Dx: Hyperkalemia Signs: \n1. Peaked T waves (Early). \n2. Flat P waves and PR prolongation. \n3. Wide QRS (Warning!). \n4. Sine Wave -> Ventricular Fibrillation (Death). \nTx: Calcium Gluconate (STABILIZE) -> Insulin + D50 (SHIFT) -> Kayexalate or Dialysis (REMOVE). \n[attachment_1](attachment)"
+  },
+  {
+    "cat": "Pediatrics",
+    "sub": "Infectious",
+    "title": "Pediatric Rashes Summary",
+    "content": "Dx: Measles (Rubeola): 3 C's (Cough, Coryza, Conjunctivitis) + Koplik spots. \nDx: Scarlet Fever: Sandpaper rash + Strawberry tongue. \nDx: Roseola: High fever GONE then rash APPEARS. \nDx: Erythema Infectiosum (5th Disease): Slapped-cheek appearance. \nNote: All are managed supportively unless complications occur. \n"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Geriatrics",
+    "title": "Delirium Causes: PINCHES ME",
+    "content": "Note: Use this mnemonic to find the cause of Delirium: \n- P: Pain \n- I: Infection (UTI/Pneumonia) \n- N: Nutrition (Dehydration/B12) \n- C: Constipation \n- H: Hydration/Hypoxia \n- E: Endocrine (Thyroid/Glucose) \n- S: Sleep deprivation \n- M: Medication (Anticholinergics/Benzos) \n- E: Environment change. \nTx: Fix the underlying trigger!"
+  },
+  {
+    "cat": "OBGYN",
+    "sub": "Hypertension",
+    "title": "Preeclampsia Screening and Prevention",
+    "content": "Note: High-risk patients (History of preeclampsia, Multiple gestation, HTN, Diabetes). \nTx: Start Low-dose Aspirin (81-162 mg) daily starting at 12-16 weeks until delivery. \nDx: Preeclampsia: BP ≥ 140/90 + Proteinuria or End-organ damage. \n"
+  }
 ]
+
 
 
 
