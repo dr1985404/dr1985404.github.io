@@ -1306,7 +1306,39 @@
     "title": "Preeclampsia Screening and Prevention",
     "content": "Note: High-risk patients (History of preeclampsia, Multiple gestation, HTN, Diabetes). \nTx: Start Low-dose Aspirin (81-162 mg) daily starting at 12-16 weeks until delivery. \nDx: Preeclampsia: BP ≥ 140/90 + Proteinuria or End-organ damage. \n"
   }
+,
+  {
+    "cat": "Medicine",
+    "sub": "Screening",
+    "title": "🇨🇦 Canadian Screening Guidelines Master Table",
+    "content": "Note: Quick review for MCCQE1: \n- **Colorectal:** FIT every 2 years (50-74). \n- **Breast:** Mammography every 2-3 years (50-74). \n- **Cervical:** Pap Smear every 3 years (25-69). \n- **Lung:** Low-dose CT Scan annually (55-74 if 30+ pack-year history). \n- **AAA:** One-time Ultrasound for Men (65-80). \n"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "title": "🚨 Anaphylaxis Management (First-Line)",
+    "content": "Dx: Anaphylaxis (2+ systems involved or hypotension). \nTx: 1. **Epinephrine (1:1000)** 0.3-0.5 mg IM (Lateral Thigh) - **The single most important step.** \n2. Aggressive IV Fluids (Normal Saline). \n3. Oxygen and airway management. \n4. Adjuncts (Corticosteroids, Antihistamines) - Note: These do NOT save lives in the acute phase! \n"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "title": "🩸 Microcytic Anemia Workup",
+    "content": "Note: Use the Ferritin level to differentiate: \n- **Low Ferritin:** Iron Deficiency (Most Common). \n- **Normal/High Ferritin + Low TIBC:** Anemia of Chronic Disease. \n- **Normal/High Ferritin + Normal TIBC:** Thalassemia (Look for target cells). \nTx: Iron deficiency = Oral Iron; Thalassemia = No treatment or transfusion if severe. \n"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "title": "⚡ Tension Pneumothorax vs Cardiac Tamponade",
+    "content": "Dx: Both cause Hypotension and High JVP. \n- **Tension PTX:** Absent breath sounds + Tracheal deviation + Hyper-resonance. \n- **Tamponade:** Clear breath sounds + Muffled heart sounds + Pulsus paradoxus. \nTx: PTX = Needle decompression; Tamponade = Pericardiocentesis. \n[attachment_0](attachment)"
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Psychiatry",
+    "title": "💊 Lithium Toxicity Summary",
+    "content": "Dx: Acute vs Chronic Toxicity. \nRisk: **Avoid NSAIDs, ACEi, and Diuretics (The 'BAD' drugs for Lithium).** \nNote: Signs include coarse tremors, vomiting, and diarrhea. \nTx: Stop Lithium + Aggressive hydration. If levels >4.0 -> Emergency Dialysis. \n"
+  }
 ]
+
 
 
 
