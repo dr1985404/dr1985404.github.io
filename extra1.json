@@ -1213,7 +1213,39 @@
     "content": "<table><tr><th>Feature</th><th>Schizophrenia</th><th>Schizoaffective</th></tr><tr><td>Core Symptoms</td><td>Psychosis (Delusions/Hallucinations)</td><td>Psychosis <b>PLUS</b> Mood (Mania/Depression)</td></tr><tr><td>Duration</td><td>> 6 months</td><td>Varies</td></tr><tr><td>Key Rule</td><td>No prominent mood episodes</td><td>Psychosis for <b>2 weeks WITHOUT</b> mood</td></tr></table><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> To diagnose Schizoaffective, the patient <b>must</b> have had hallucinations/delusions for at least <b>2 weeks in the absence</b> of a major mood episode (Depression or Mania).</div>",
     "quiz": { "q": "How long must symptoms last to meet the DSM-5 criteria for Schizophrenia?", "a": "At least 6 months (including 1 month of active symptoms)." }
   }
+,
+  {
+    "cat": "Surgery",
+    "sub": "Trauma",
+    "title": "Ottawa Ankle Rules (High Yield)",
+    "content": "Dx: Ankle X-ray is needed IF: \n1. Bone tenderness at posterior edge of lateral/medial malleolus. \n2. Inability to bear weight (4 steps) immediately and in ED. \nDx: Foot X-ray is needed IF: \n1. Bone tenderness at base of 5th metatarsal or Navicular bone."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Emergency",
+    "title": "Canadian CT Head Rules",
+    "content": "Note: CT Head is required for minor head injury (GCS 13-15) if: \n1. GCS < 15 at 2 hours. \n2. Suspected open/depressed skull fracture. \n3. Any sign of basal skull fracture (Racoon eyes, Battle's sign). \n4. Vomiting ≥ 2 times. \n5. Age ≥ 65. \n6. Anticoagulation use."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "General",
+    "title": "Post-Op Fever Timeline (5 W's)",
+    "content": "Note: Timing is key for the exam: \n1. Day 1-2: Wind (Atelectasis/Pneumonia). \n2. Day 3: Water (UTI). \n3. Day 5: Walking (DVT/PE). \n4. Day 7: Wound (Infection). \n5. Day 10+: Wonder drugs (Drug fever) or Abscess."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "Rheumatology",
+    "title": "Back Pain Red Flags",
+    "content": "Dx: Cauda Equina Syndrome. \nNote: Red flags include: \n1. Saddle anesthesia. \n2. New fecal/urinary incontinence. \n3. Progressive motor weakness. \nTx: Emergency MRI and Surgical Decompression."
+  },
+  {
+    "cat": "Psychiatry",
+    "sub": "Pharmacology",
+    "title": "Neuroleptic Malignant Syndrome (NMS)",
+    "content": "Dx: NMS. \nNote: Caused by Antipsychotics. Triad: Fever, Rigidity (Lead pipe), and Autonomic instability. \nRisk: High CK levels. \nTx: Stop drug, cooling, and Dantrolene or Bromocriptine."
+  }
 ]
+
 
 
 
