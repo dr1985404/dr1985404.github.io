@@ -16782,6 +16782,62 @@
     "correct": 1,
     "rationale": "Dx: CRAO. \nNote: Think of this as a 'stroke of the eye'. Usually embolic. \nTx: Ocular massage, carbogen, or paracentesis (though efficacy is limited, it must be done urgently)."
   }
+,
+  {
+    "id": "REC-OB-IUGR",
+    "cat": "OBGYN",
+    "sub": "Fetal Growth",
+    "text": "A 34-week pregnant woman is diagnosed with Intrauterine Growth Restriction (IUGR). On ultrasound, the Head Circumference (HC) is normal for gestational age, but the Abdominal Circumference (AC) is significantly lagging. What is the most likely etiology?",
+    "options": ["Chromosomal abnormalities", "Early intrauterine infection (TORCH)", "Placental insufficiency", "Constitutional small stature"],
+    "correct": 2,
+    "rationale": "Dx: Asymmetrical IUGR. \nNote: When AC lags behind HC ('Head sparing'), it is typically due to placental insufficiency (e.g., from hypertension or smoking). \nDx: Symmetrical IUGR (all parameters small) is usually due to early insults like genetics or TORCH infections. \nTx: Close monitoring with BPP and Doppler studies."
+  },
+  {
+    "id": "REC-ETH-COL",
+    "cat": "Ethics",
+    "sub": "Professionalism",
+    "text": "You notice a senior colleague smelling of alcohol while preparing for surgery. When confronted, he denies being drunk and insists on proceeding. What is your mandatory next step?",
+    "options": ["Let him proceed but watch him closely", "Report him to the police immediately", "Inform the Chief of Staff or the provincial regulatory body", "Ask the nurse to take over"],
+    "correct": 2,
+    "rationale": "Note: Patient safety is the absolute priority. If a colleague is impaired and refuses to stop, you have a mandatory duty to report to the medical leadership (Chief of Staff) or the College (CPSO/CPSS etc.). \nRisk: Failure to report an impaired colleague can lead to legal action against you as well."
+  },
+  {
+    "id": "REC-PSY-SS",
+    "cat": "Psychiatry",
+    "sub": "Pharmacology",
+    "text": "A patient on Fluoxetine for depression takes an over-the-counter cough medicine and presents with agitation, tremors, hyperreflexia, and clonus. What is the most likely diagnosis?",
+    "options": ["Neuroleptic Malignant Syndrome (NMS)", "Serotonin Syndrome", "Anticholinergic Toxicity", "Opioid Withdrawal"],
+    "correct": 1,
+    "rationale": "Dx: Serotonin Syndrome. \nNote: Key differentiator from NMS is 'Hyperreflexia and Clonus' (NMS has lead-pipe rigidity). \nRisk: Often caused by combining SSRIs with MAOIs, Tramadol, or St. John's Wort. \nTx: Discontinue offending agents, supportive care, and Benzodiazepines. Specific antidote: Cyproheptadine."
+  },
+  {
+    "id": "REC-MED-K",
+    "cat": "Medicine",
+    "sub": "Nephrology",
+    "text": "A patient with chronic kidney disease presents with fatigue. ECG shows peaked T waves and a prolonged PR interval. Potassium level is 7.2 mmol/L. What is the immediate first step in management?",
+    "options": ["Hemodialysis", "Intravenous Insulin and Glucose", "Intravenous Calcium Gluconate", "Oral Sodium Polystyrene Sulfonate"],
+    "correct": 2,
+    "rationale": "Dx: Severe Hyperkalemia with ECG changes. \nTx: 1. Stabilize cardiac membrane with Calcium Gluconate (Immediate). 2. Shift K+ into cells with Insulin/Glucose or Ventolin. 3. Remove K+ from body (Lasix, Resonium, or Dialysis). \nNote: Calcium does NOT lower potassium; it only protects the heart."
+  },
+  {
+    "id": "REC-GER-DEL",
+    "cat": "Medicine",
+    "sub": "Geriatrics",
+    "text": "An 80-year-old male is brought from a nursing home with sudden confusion and visual hallucinations. He was fine 2 days ago. He has a history of mild dementia. What is the most likely diagnosis?",
+    "options": ["Worsening Alzheimer’s Disease", "Vascular Dementia", "Delirium", "Schizophrenia"],
+    "correct": 2,
+    "rationale": "Dx: Delirium (Acute Brain Failure). \nNote: Sudden onset and fluctuating consciousness are hallmarks. Dementia is chronic and progressive. \nRisk: In the elderly, always look for a trigger like UTI, pneumonia, or new medications (PINCHES ME mnemonic). \nTx: Identify and treat the underlying cause."
+  },
+  {
+    "id": "REC-PED-FEB",
+    "cat": "Pediatrics",
+    "sub": "Neurology",
+    "text": "An 18-month-old child has a generalized tonic-clonic seizure lasting 2 minutes during a fever of 39.5°C. This is the first time. The child is now back to baseline. Diagnosis?",
+    "options": ["Epilepsy", "Complex Febrile Seizure", "Simple Febrile Seizure", "Meningitis"],
+    "correct": 2,
+    "rationale": "Dx: Simple Febrile Seizure. \nNote: Criteria: 1. Generalized. 2. Duration < 15 mins. 3. Only one in 24 hours. \nTx: Reassurance and fever control. No need for long-term anticonvulsants or extensive imaging."
+  }
 ]
+
 
 
