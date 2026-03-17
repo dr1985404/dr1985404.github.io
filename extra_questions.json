@@ -14209,4 +14209,54 @@
 ],
 "correct":0,
 "rationale":"Tinnitus is classic for salicylate toxicity."
-}]
+}  ,
+  {
+    "id": "Q_DERM_001",
+    "cat": "Dermatology",
+    "sub": "Pressure Ulcers",
+    "text": "A 39-year-old man comes to the physician for a follow-up examination. He was treated for a urinary tract infection with trimethoprim-sulfamethoxazole 2 months ago. He is paraplegic as a result of a burst lumbar fracture that occurred after a fall 5 years ago. He has hypertension and type 2 diabetes mellitus. Current medications include enalapril and metformin. He performs clean intermittent catheterization daily. He has smoked one pack of cigarettes daily for 19 years. His temperature is 37.1°C (98.8°F), pulse is 95/min, respirations are 14/min, and blood pressure is 120/80 mm Hg. He appears malnourished. Examination shows palpable pedal pulse. Multiple dilated tortuous veins are present over both lower extremities. There is a 2 cm wound surrounded by partial-thickness loss of skin and a pink wound bed over the right calcaneum. Neurologic examination shows paraparesis. His hemoglobin A1c is 6.5%, and fingerstick blood glucose concentration is 7.5 mmol/L. Which of the following is most likely to have prevented this patient's wound?",
+    "img": "",
+    "options":[
+      "Compression stockings",
+      "Cessation of smoking",
+      "Optimizing blood sugar control",
+      "Frequent position changes",
+      "Peripheral artery bypass surgery"
+    ],
+    "correct": 3,
+    "rationale": "Dx: The presence of partial-thickness skin loss calcaneal wound with a pink wound bed in a paraplegic individual is suggestive of a stage II pressure ulcer.\nTx: At-risk patients should undergo position changes at least every 2 hours to reduce the duration and magnitude of pressure over vulnerable areas.\nRisk: Bedfast or chairfast status, prolonged immobilization (paraplegia), malnutrition, and poor glycemic control."
+  },
+  {
+    "id": "Q_DERM_002",
+    "cat": "Dermatology",
+    "sub": "Fungal Infections",
+    "text": "A previously healthy 16-year-old boy comes to the physician because of a pruritic rash on the chest that has become progressively larger over the past 10 days. It is not painful. He is sexually active with two female partners and uses condoms inconsististently. He works part-time as a lifeguard. He has no family history of serious illness. He does not smoke. He drinks 5–6 beers on weekends. His temperature is 36.7°C (98°F), pulse is 66/min, and blood pressure is 110/70 mm Hg. A photograph of the rash shows an annular lesion with central clearing. Which of the following is the most appropriate next step in management?",
+    "img": "https://example.com/placeholder_tinea_corporis.jpg",
+    "options":[
+      "Topical erythromycin",
+      "Phototherapy",
+      "Topical miconazole",
+      "Parenteral benzathine penicillin",
+      "Reassurance"
+    ],
+    "correct": 2,
+    "rationale": "Dx: A pruritic and slowly-enlarging rash with elevated, red, scaly borders and central clearing is consistent with a diagnosis of tinea corporis.\nTx: Topical miconazole is used to treat several fungal infections, including tinea corporis.\nRisk: Dermatophytes grow best in moist environments such as public swimming pool facilities; the patient's job as a lifeguard predisposes him to the condition."
+  },
+  {
+    "id": "Q_PEDS_001",
+    "cat": "Pediatrics",
+    "sub": "Atopic Dermatitis",
+    "text": "A 5-month-old male infant is brought to the physician by his mother because of a generalized pruritic rash for 2 weeks. The itchiness often causes the infant to wake up at night. He was strictly breastfed until 4 months of age, when he was transitioned to formula feeding. His father has a history of asthma. His immunizations are up-to-date. He is at the 75th percentile for length and the 70th percentile for weight. Examination shows dry and scaly patches on the face and extensor surfaces of the extremities. The groin is spared. Which of the following is the most appropriate next step in management?",
+    "img": "",
+    "options":[
+      "Topical coal tar",
+      "Oral vitamin A",
+      "Topical clotrimazole",
+      "Topical emollient",
+      "Tar-containing shampoo"
+    ],
+    "correct": 3,
+    "rationale": "Dx: Atopic dermatitis, classically presenting in infants with severely pruritic, dry, poorly-demarcated white scaling and erythema on the face and extensor surfaces (sparing the diaper area).\nTx: Topical skin moisturizers (emollients) are the first-line treatment.\nRisk: Personal or family history of atopy (such as the father's asthma) is a major risk factor."
+  }
+]
+
