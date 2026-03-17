@@ -1244,7 +1244,33 @@
     "title": "Neuroleptic Malignant Syndrome (NMS)",
     "content": "Dx: NMS. \nNote: Caused by Antipsychotics. Triad: Fever, Rigidity (Lead pipe), and Autonomic instability. \nRisk: High CK levels. \nTx: Stop drug, cooling, and Dantrolene or Bromocriptine."
   }
+,
+  {
+    "cat": "Medicine",
+    "sub": "Ophthalmology",
+    "title": "Red Eye Differential Diagnosis",
+    "content": "Dx: Acute Glaucoma: Severe pain, mid-dilated pupil, cloudy cornea. \nDx: Iritis (Uveitis): Pain, photophobia, constricted (small) pupil, ciliary flush. \nDx: Conjunctivitis: Itching, discharge, normal vision, no deep pain. \nNote: Always check 'Pupil size' and 'Visual Acuity' to differentiate."
+  },
+  {
+    "cat": "Surgery",
+    "sub": "ENT",
+    "title": "Otitis Externa vs Otitis Media",
+    "content": "Dx: Otitis Externa (Swimmer's Ear). \nNote: Pain when pulling the pinna or tragus. Canal is red/swollen. \nTx: Topical antibiotic drops (Ciprofloxacin/Dexamethasone). \nDx: Otitis Media. \nNote: Bulging, immobile tympanic membrane. Deep ear pain, often after a cold. \nTx: Oral Amoxicillin."
+  },
+  {
+    "cat": "Pediatrics",
+    "sub": "Orthopedics",
+    "title": "Pediatric Hip Pain Comparison",
+    "content": "Dx: Septic Arthritis: High fever, cannot bear weight, high WBC/ESR. (Emergency!). \nDx: Transient Synovitis: Post-viral, mild pain, child can usually walk. \nDx: Legg-Calvé-Perthes: Age 4-8, avascular necrosis, gradual onset. \nDx: SCFE: Age 10-16, obese, sudden or gradual pain, internal rotation is limited."
+  },
+  {
+    "cat": "Medicine",
+    "sub": "ENT",
+    "title": "Epistaxis (Nosebleed) Management",
+    "content": "Note: 90% are Anterior (Kiesselbach's Plexus). \nTx: 1. Direct pressure (pinch nose) for 10-15 mins while leaning forward. 2. Topical vasoconstrictors (e.g., Oxymetazoline). 3. Cautery (Silver Nitrate). 4. Packing. \nNote: Posterior bleeds require specialist (ENT) consultation and admission."
+  }
 ]
+
 
 
 
