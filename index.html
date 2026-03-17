@@ -3,6 +3,16 @@
 <head>
   <meta name="description" content="Free MCCQE1 exam prep - Q-Bank with 2357 questions and High-Yield notes for Canadian medical licensing">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6061088335639984" crossorigin="anonymous"></script>
+
+  <!-- Google Analytics GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-37QQETTBR9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-37QQETTBR9');
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="no-referrer" />
@@ -110,15 +120,51 @@
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
     .btn-bookmark{ background:#fef3c7; color:#92400e; }
-    /* Dark Mode */
+
+    /* Dark Mode - base */
     body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
-    body.dark .vault-stats, body.dark .main-tabs, body.dark .panel, body.dark .sub-card, body.dark .card, body.dark .option{ background:var(--card); border-color:var(--line); }
+    body.dark .vault-stats,
+    body.dark .main-tabs,
+    body.dark .panel,
+    body.dark .sub-card,
+    body.dark .card{
+      background:var(--card); border-color:var(--line);
+    }
     body.dark .tab{ background:var(--card); color:var(--muted); }
     body.dark .tab.active{ background:#1e3a5f; }
     body.dark .mode-bar{ background:#1e293b; }
-    body.dark .rationale{ background:#1e293b; }
-    body.dark .option{ background:#1e293b; }
-    body.dark th{ background:#1e293b; }
+    body.dark .rationale{ background:#253347; color:#e2e8f0; }
+    body.dark .card-body{ color:#e2e8f0; }
+    body.dark th{ background:#1e293b; color:#e2e8f0; }
+    body.dark td{ color:#e2e8f0; }
+    body.dark .sub-card h3{ color:#e2e8f0; }
+
+    /* Dark Mode - options default (قبل الإجابة) */
+    body.dark .option{
+      background:#253347;
+      border-color:#334155;
+      color:#e2e8f0;
+    }
+    body.dark .option.selected{
+      background:#1e3a5f!important;
+      border-color:#2563eb!important;
+      color:#bfdbfe!important;
+    }
+
+    /* Dark Mode - correct / wrong (ألوان واضحة في Exam/Study) */
+    body.dark .option.correct{
+      background:#14532d!important;
+      border-color:#22c55e!important;
+      color:#bbf7d0!important;
+      font-weight:800;
+    }
+    body.dark .option.wrong{
+      background:#450a0a!important;
+      border-color:#ef4444!important;
+      color:#fca5a5!important;
+      font-weight:800;
+    }
+
     .dark-toggle{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:4px 8px; }
     /* Bookmark badge */
     .bm-badge{ position:absolute; top:10px; right:10px; background:var(--gold); color:#fff; border-radius:999px; font-size:0.7rem; font-weight:900; padding:2px 7px; display:none; }
