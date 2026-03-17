@@ -4043,4 +4043,27 @@
     "content": "A healthcare worker has a positive PPD (15mm). CXR is normal. No symptoms.<br><br>• <b>Next Best Step:</b> Treatment for <b>Latent TB Infection (LTBI)</b>.<br>• <b>Options:</b> <b>Isoniazid (INH)</b> for 9 months OR Rifampin for 4 months.<br><br><div style='background:#eff6ff; border-left:5px solid var(--blue); padding:10px; border-radius:8px;'><b>⚠️ Exam Trap:</b> Before starting INH, you must check <b>Baseline LFTs</b> and monitor for hepatotoxicity. Always co-prescribe <b>Pyridoxine (Vit B6)</b> to prevent peripheral neuropathy.</div>",
         "quiz": { "q": "What is the target for the final phase?", "a": "Reviewing high-yield concepts." }
   }
+  ,
+  {
+    "title": "Stage II Pressure Ulcer",
+    "cat": "Dermatology",
+    "sub": "Pressure Ulcers",
+    "img": "",
+    "content": "Dx: Presents as a partial-thickness loss of dermis presenting as a shallow open ulcer with a red/pink wound bed. Commonly occurs over bony prominences.\nTx: Prevention is key. At-risk patients must undergo frequent position changes at least every 2 hours. Optimize nutrition and control infection.\nRisk: Immobility (paraplegia, bedfast/chairfast individuals), malnutrition, poor perfusion, and impaired sensation."
+  },
+  {
+    "title": "Tinea Corporis",
+    "cat": "Dermatology",
+    "sub": "Fungal Infections",
+    "img": "",
+    "content": "Dx: A skin infection caused by dermatophytes (Trichophyton, Microsporum, Epidermophyton). Presents as a pruritic, slowly-enlarging rash with elevated, red, scaly borders and central clearing.\nTx: Topical antifungals (e.g., Miconazole, Clotrimazole) are the first-line treatment.\nRisk: Exposure to moist environments (e.g., public pools, lifeguards, excessive sweating)."
+  },
+  {
+    "title": "Infantile Atopic Dermatitis",
+    "cat": "Pediatrics",
+    "sub": "Atopic Dermatitis",
+    "img": "",
+    "content": "Dx: Clinical diagnosis based on severe pruritic skin, dry scaling, and erythema. In infants (<2 years), it typically affects the face and extensor surfaces while sparing the diaper area.\nTx: Topical skin moisturizers (emollients) are the first-line therapy to restore the skin barrier.\nRisk: Strong association with a family history of atopy (asthma, allergic rhinitis, eczema)."
+  }
 ]
+
