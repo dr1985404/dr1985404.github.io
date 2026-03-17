@@ -16699,4 +16699,51 @@
   ],
   "correct": 1,
   "rationale": "Septic arthritis is a classic association with Septic arthritis."
-}]
+},
+  {
+    "id": "REC-ORTH021",
+    "cat": "Surgery",
+    "sub": "Orthopedics",
+    "text": "A 25-year-old male twisted his ankle during soccer. He can walk 4 steps in the ED but has severe tenderness over the posterior edge of the lateral malleolus. According to Ottawa Ankle Rules, what is the next step?",
+    "options": ["Reassurance and RICE", "X-ray of the ankle", "X-ray of the foot", "CT scan of the ankle"],
+    "correct": 1,
+    "rationale": "Dx: Ankle Injury. \nNote: Ottawa Ankle Rules state an X-ray is required if there is bone tenderness at the posterior edge of the malleolus OR inability to bear weight (4 steps). \nTx: Ankle X-ray is mandatory here."
+  },
+  {
+    "id": "REC-EMER025",
+    "cat": "Emergency",
+    "sub": "Trauma",
+    "text": "A 70-year-old female fell and hit her head. She has a GCS of 15 but is on Warfarin for AFib. She has no focal neurological deficits. According to the Canadian CT Head Rule, what is the management?",
+    "options": ["Discharge with head injury instructions", "CT Head is mandatory", "Observe for 24 hours without CT", "Skull X-ray"],
+    "correct": 1,
+    "rationale": "Dx: Minor Head Injury. \nNote: Use of anticoagulation (like Warfarin) is a high-risk criteria in Canadian CT Head Rules regardless of GCS. \nTx: Non-contrast CT Head to rule out intracranial hemorrhage."
+  },
+  {
+    "id": "REC-PED030",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "text": "A 2-year-old child presents with a barking cough and inspiratory stridor at rest. He has mild intercostal retractions. What is the first-line treatment in the ED?",
+    "options": ["Albuterol nebulizer", "Inhaled Epinephrine and Oral Dexamethasone", "Oral Antibiotics", "Chest X-ray"],
+    "correct": 1,
+    "rationale": "Dx: Croup (Laryngotracheobronchitis). \nNote: Stridor at rest indicates moderate to severe croup. \nTx: Inhaled (nebulized) Epinephrine for rapid relief and Oral Dexamethasone (0.6 mg/kg) for long-term control."
+  },
+  {
+    "id": "REC-SURG035",
+    "cat": "Surgery",
+    "sub": "Post-Op",
+    "text": "A patient is 24 hours post-laparotomy and develops a fever of 38.6°C. What is the most likely cause of fever on Post-Op Day 1-2?",
+    "options": ["Wound Infection", "Urinary Tract Infection", "Atelectasis (Wind)", "Deep Vein Thrombosis"],
+    "correct": 2,
+    "rationale": "Dx: Post-Op Fever (5 W's). \nNote: Fever in the first 24-48 hours is most commonly due to Atelectasis (Wind). \nRisk: Wound infection (Wound) usually appears after day 3-5. \nTx: Chest physiotherapy and incentive spirometry."
+  },
+  {
+    "id": "REC-MED040",
+    "cat": "Medicine",
+    "sub": "Neurology",
+    "text": "An 80-year-old male presents with sudden onset right-sided weakness and aphasia that started 2 hours ago. CT head shows no hemorrhage. What is the most appropriate next step?",
+    "options": ["Start Aspirin 325mg", "Intravenous Thrombolysis (tPA)", "Start Heparin infusion", "Carotid Endarterectomy"],
+    "correct": 1,
+    "rationale": "Dx: Acute Ischemic Stroke. \nNote: The window for tPA in Canada is up to 4.5 hours from symptom onset if no contraindications exist. \nTx: IV tPA (Alteplase)."
+  }
+]
+
