@@ -5052,5 +5052,430 @@
     ],
     "correct": 0,
     "rationale": "Dx: Open fracture. Early IV antibiotics, tetanus prophylaxis, irrigation, and operative debridement are core steps."
+  },
+  {
+    "id": "NEU-001",
+    "cat": "Neurology",
+    "sub": "Stroke",
+    "text": "A 68-year-old man with atrial fibrillation presents with sudden left-sided weakness and facial droop. Onset 2 hours ago. CT head: no hemorrhage. BP 160/90. Most appropriate next step?",
+    "options": [
+      "Administer IV tPA (alteplase)",
+      "Start aspirin and observe",
+      "Urgent carotid endarterectomy",
+      "Start heparin infusion"
+    ],
+    "correct": 0,
+    "rationale": "Ischemic stroke within 4.5 hours with no contraindications → IV tPA is first-line. Must exclude hemorrhage with non-contrast CT first. Canadian Stroke Best Practices guidelines support tPA up to 4.5h from onset."
+  },
+  {
+    "id": "NEU-002",
+    "cat": "Neurology",
+    "sub": "Stroke",
+    "text": "A 72-year-old woman develops sudden onset severe headache described as 'worst headache of my life'. No focal deficits. CT head is negative. Most appropriate next step?",
+    "options": [
+      "Discharge with analgesics",
+      "MRI brain with gadolinium",
+      "Lumbar puncture",
+      "EEG"
+    ],
+    "correct": 2,
+    "rationale": "Thunderclap headache with negative CT → LP is mandatory to rule out subarachnoid hemorrhage (SAH). CT misses up to 5% of SAH, especially after 6 hours. LP shows xanthochromia in SAH."
+  },
+  {
+    "id": "NEU-003",
+    "cat": "Neurology",
+    "sub": "Seizures",
+    "text": "A 25-year-old woman is brought in actively seizing for 8 minutes. IV access obtained. First-line treatment?",
+    "options": [
+      "IV Phenytoin",
+      "IV Lorazepam",
+      "IV Levetiracetam",
+      "Rectal diazepam"
+    ],
+    "correct": 1,
+    "rationale": "Status epilepticus first-line: IV benzodiazepine (lorazepam 0.1 mg/kg). If no IV access → IM midazolam. Phenytoin/levetiracetam are second-line agents. Canadian guidelines: treat >5 min seizure as status epilepticus."
+  },
+  {
+    "id": "NEU-004",
+    "cat": "Neurology",
+    "sub": "Headache",
+    "text": "A 35-year-old woman has recurrent unilateral throbbing headaches with photophobia, phonophobia, and nausea lasting 4–72 hours. Best acute treatment?",
+    "options": [
+      "Codeine",
+      "Sumatriptan",
+      "Carbamazepine",
+      "Prednisone"
+    ],
+    "correct": 1,
+    "rationale": "Migraine acute treatment: triptans (sumatriptan) are first-line for moderate-severe attacks not responding to NSAIDs. Avoid opioids (risk of medication overuse headache). NSAIDs ± antiemetics for mild attacks."
+  },
+  {
+    "id": "NEU-005",
+    "cat": "Neurology",
+    "sub": "Meningitis",
+    "text": "A 19-year-old university student presents with fever, neck stiffness, and photophobia. CSF: cloudy, WBC 3000 (neutrophils), protein elevated, glucose low. Most likely organism?",
+    "options": [
+      "Listeria monocytogenes",
+      "Neisseria meningitidis",
+      "Cryptococcus neoformans",
+      "Herpes simplex virus"
+    ],
+    "correct": 1,
+    "rationale": "Bacterial meningitis in young adults/university students → N. meningitidis most common. Treatment: IV ceftriaxone + dexamethasone ASAP. Do not delay antibiotics for LP if CT needed. Notify public health (reportable in Canada)."
+  },
+  {
+    "id": "NEU-006",
+    "cat": "Neurology",
+    "sub": "TIA",
+    "text": "A 65-year-old man had sudden right arm weakness and slurred speech lasting 20 minutes, now fully resolved. ABCD2 score is 6. Best management?",
+    "options": [
+      "Reassure and follow up in 2 weeks",
+      "Urgent admission and investigation within 24 hours",
+      "Start warfarin and discharge",
+      "CT head only and discharge"
+    ],
+    "correct": 1,
+    "rationale": "High-risk TIA (ABCD2 ≥4) → urgent workup within 24h (brain imaging, ECG, echo, carotids). Early dual antiplatelet therapy (ASA + clopidogrel x 21 days) reduces early stroke risk. Canadian Stroke Best Practices 2022."
+  },
+  {
+    "id": "NEU-007",
+    "cat": "Neurology",
+    "sub": "Multiple Sclerosis",
+    "text": "A 28-year-old woman has two episodes of neurological symptoms separated in time and space: optic neuritis 6 months ago and now leg weakness. MRI: multiple periventricular white matter lesions. Diagnosis?",
+    "options": [
+      "Neuromyelitis optica",
+      "Multiple sclerosis",
+      "CNS vasculitis",
+      "Vitamin B12 deficiency"
+    ],
+    "correct": 1,
+    "rationale": "MS diagnosis requires lesions disseminated in time AND space (McDonald Criteria 2017). MRI periventricular plaques, optic neuritis, and spinal cord lesions are classic. Disease-modifying therapy improves outcomes."
+  },
+  {
+    "id": "NEU-008",
+    "cat": "Neurology",
+    "sub": "Parkinson",
+    "text": "A 65-year-old man has resting tremor, bradykinesia, cogwheel rigidity, and shuffling gait. First-line treatment?",
+    "options": [
+      "Haloperidol",
+      "Levodopa/Carbidopa",
+      "Memantine",
+      "Donepezil"
+    ],
+    "correct": 1,
+    "rationale": "Parkinson's disease: Levodopa/carbidopa remains the most effective treatment. Carbidopa prevents peripheral conversion. Dopamine agonists (pramipexole) used in younger patients to delay levodopa. Avoid antipsychotics (worsen PD)."
+  },
+  {
+    "id": "ENDO-001",
+    "cat": "Endocrinology",
+    "sub": "Diabetes",
+    "text": "A 22-year-old type 1 diabetic presents with nausea, vomiting, Kussmaul breathing, and fruity breath. Blood glucose 28 mmol/L, pH 7.1, bicarbonate 10, ketones +++. Most critical initial step?",
+    "options": [
+      "Start insulin infusion immediately",
+      "Aggressive IV normal saline resuscitation",
+      "Administer IV bicarbonate",
+      "Give subcutaneous insulin and oral fluids"
+    ],
+    "correct": 1,
+    "rationale": "DKA management: FIRST priority is IV fluid resuscitation (0.9% NaCl). Corrects hypovolemia, dilutes glucose/ketones. Start insulin drip only AFTER fluids are running (avoid hypokalemia). Replace potassium if K+ <3.5. Bicarb rarely needed."
+  },
+  {
+    "id": "ENDO-002",
+    "cat": "Endocrinology",
+    "sub": "Diabetes",
+    "text": "A 55-year-old woman with Type 2 diabetes has HbA1c of 8.5%. She has CKD stage 3 (eGFR 38). Which medication is most appropriate?",
+    "options": [
+      "Metformin",
+      "SGLT-2 inhibitor (empagliflozin)",
+      "GLP-1 agonist (semaglutide)",
+      "Sulfonylurea (glyburide)"
+    ],
+    "correct": 2,
+    "rationale": "CKD stage 3 (eGFR 30-60): GLP-1 agonists are safe and preferred. Metformin: hold if eGFR <30. SGLT-2 inhibitors: less effective eGFR <45. Sulfonylureas: avoid (hypoglycemia risk with renal impairment). Canadian Diabetes Association 2023."
+  },
+  {
+    "id": "ENDO-003",
+    "cat": "Endocrinology",
+    "sub": "Thyroid",
+    "text": "A 45-year-old woman presents with fatigue, weight gain, cold intolerance, constipation, and dry skin. TSH 12 mIU/L, free T4 low. Diagnosis and treatment?",
+    "options": [
+      "Hyperthyroidism – start methimazole",
+      "Hypothyroidism – start levothyroxine",
+      "Subclinical hypothyroidism – observe only",
+      "Hashimoto's thyroiditis – start prednisone"
+    ],
+    "correct": 1,
+    "rationale": "Primary hypothyroidism: elevated TSH + low T4. Most common cause in Canada = Hashimoto's thyroiditis (autoimmune). Treatment: levothyroxine. Start low in elderly/cardiac patients. Monitor TSH every 6-8 weeks until stable."
+  },
+  {
+    "id": "ENDO-004",
+    "cat": "Endocrinology",
+    "sub": "Thyroid",
+    "text": "A 32-year-old woman presents with palpitations, weight loss, heat intolerance, tremor, and exophthalmos. TSH undetectable, T4 elevated. Most appropriate first-line treatment?",
+    "options": [
+      "Radioactive iodine",
+      "Thyroidectomy",
+      "Methimazole (antithyroid drug)",
+      "Propranolol alone"
+    ],
+    "correct": 2,
+    "rationale": "Graves' disease (most common hyperthyroidism in young women): anti-thyroid drugs (methimazole) are first-line in Canada. Propranolol controls symptoms (tremor, palpitations) but is not definitive. RAI or surgery if medical therapy fails."
+  },
+  {
+    "id": "ENDO-005",
+    "cat": "Endocrinology",
+    "sub": "Thyroid",
+    "text": "A 55-year-old woman with known Graves' disease develops fever 40°C, HR 145, hypertension, agitation, and confusion after surgery. Most likely diagnosis?",
+    "options": [
+      "Septic shock",
+      "Thyroid storm",
+      "Malignant hyperthermia",
+      "Neuroleptic malignant syndrome"
+    ],
+    "correct": 1,
+    "rationale": "Thyroid storm (Burch-Wartofsky score): precipitated by surgery, infection, or trauma. Treatment: PTU or methimazole, iodine (1h after PTU), propranolol, hydrocortisone, cooling, and ICU. Life-threatening emergency."
+  },
+  {
+    "id": "ENDO-006",
+    "cat": "Endocrinology",
+    "sub": "Adrenal",
+    "text": "A 35-year-old woman on long-term prednisone suddenly stops her medication. She presents with hypotension, hyponatremia, hyperkalemia, and hypoglycemia. Most likely diagnosis?",
+    "options": [
+      "Cushing's syndrome",
+      "Primary adrenal insufficiency (Addison's disease)",
+      "Pheochromocytoma",
+      "SIADH"
+    ],
+    "correct": 1,
+    "rationale": "Adrenal crisis from abrupt steroid withdrawal (secondary adrenal insufficiency). Treatment: IV hydrocortisone 100mg stat, IV fluids. Key features: hypotension not responding to fluids, hyponatremia, hyperkalemia. Never abruptly stop long-term steroids."
+  },
+  {
+    "id": "ENDO-007",
+    "cat": "Endocrinology",
+    "sub": "Diabetes",
+    "text": "Screening criteria for Type 2 diabetes in Canada. Which patient should be screened?",
+    "options": [
+      "25-year-old BMI 22 with no risk factors",
+      "40-year-old with BMI 27 and hypertension",
+      "30-year-old marathon runner BMI 20",
+      "18-year-old with no family history"
+    ],
+    "correct": 1,
+    "rationale": "Canadian Diabetes Association: screen every 3 years starting age 40, OR earlier if risk factors present: obesity (BMI≥25), hypertension, dyslipidemia, family history, Indigenous/South Asian/African ethnicity, gestational DM history, or prediabetes."
   }
+,
+  {
+    "id": "ID-001",
+    "cat": "Infectious Disease",
+    "sub": "Sepsis",
+    "text": "A 70-year-old nursing home patient: HR 118, RR 24, temp 38.8°C, BP 88/52 not responding to 2L fluids, lactate 4.2 mmol/L. Diagnosis and next step?",
+    "options": [
+      "SIRS – culture and wait",
+      "Septic shock – vasopressors + broad-spectrum antibiotics within 1 hour",
+      "Severe dehydration – continue IV fluids",
+      "Cardiogenic shock – start dobutamine"
+    ],
+    "correct": 1,
+    "rationale": "Septic shock (Surviving Sepsis Campaign 2021): fluid-refractory hypotension + lactate >2. Hour-1 bundle: cultures, broad-spectrum antibiotics, 30mL/kg IV crystalloid, norepinephrine if needed, measure lactate. Each hour of delay increases mortality."
+  },
+  {
+    "id": "ID-002",
+    "cat": "Infectious Disease",
+    "sub": "Pneumonia",
+    "text": "A 65-year-old man presents with fever, productive cough, lobar consolidation on CXR, and confusion. PSI score high-risk. Most appropriate management?",
+    "options": [
+      "Outpatient oral amoxicillin",
+      "Hospital admission + IV ceftriaxone + azithromycin",
+      "Outpatient azithromycin monotherapy",
+      "Await sputum culture before starting antibiotics"
+    ],
+    "correct": 1,
+    "rationale": "Community-acquired pneumonia (CAP) requiring hospitalization: IV beta-lactam + macrolide or respiratory fluoroquinolone (IDSA/ATS guidelines). CURB-65 or PSI guides admission. Confusion (encephalopathy) = high risk → admit. Start antibiotics promptly."
+  },
+  {
+    "id": "ID-003",
+    "cat": "Infectious Disease",
+    "sub": "HIV",
+    "text": "A 30-year-old man presents with fever, night sweats, and lymphadenopathy 3 weeks after unprotected sex. HIV Ag/Ab 4th generation test is positive. Next step?",
+    "options": [
+      "Start ART immediately without further testing",
+      "Confirm with HIV-1/2 differentiation immunoassay + viral load",
+      "Repeat the screening test in 3 months",
+      "ELISA only is sufficient"
+    ],
+    "correct": 1,
+    "rationale": "HIV diagnosis in Canada: reactive 4th-generation screening → confirm with HIV-1/2 differentiation immunoassay. Check viral load (HIV RNA PCR) and CD4 count. Acute HIV seroconversion illness presents 2-4 weeks post-exposure. Start ART as soon as diagnosis confirmed."
+  },
+  {
+    "id": "ID-004",
+    "cat": "Infectious Disease",
+    "sub": "Tuberculosis",
+    "text": "A recent immigrant from a high-prevalence country has latent TB (positive IGRA, negative CXR, asymptomatic). Best management per Canadian TB Standards?",
+    "options": [
+      "No treatment needed if asymptomatic",
+      "Isoniazid (INH) 9 months or INH + rifapentine 12 weeks (3HP)",
+      "Full 4-drug RIPE therapy for 6 months",
+      "Observe and repeat CXR in 1 year"
+    ],
+    "correct": 1,
+    "rationale": "Latent TB infection (LTBI) in Canada: treat to prevent reactivation. First-line: INH x 9 months or 3HP (INH + rifapentine weekly x 12 weeks). RIPE (Rifampin/INH/Pyrazinamide/Ethambutol) is for active TB. PHAC Canadian TB Standards 2022."
+  },
+  {
+    "id": "ID-005",
+    "cat": "Infectious Disease",
+    "sub": "STI",
+    "text": "A 22-year-old sexually active woman has vaginal discharge and cervical motion tenderness on exam. No peritoneal signs. Most likely diagnosis and treatment?",
+    "options": [
+      "Bacterial vaginosis – metronidazole",
+      "Pelvic inflammatory disease – ceftriaxone + doxycycline + metronidazole",
+      "Candidiasis – fluconazole",
+      "Chlamydia only – doxycycline alone"
+    ],
+    "correct": 1,
+    "rationale": "PID treatment (PHAC Canadian STI Guidelines): ceftriaxone 500mg IM + doxycycline 100mg BID x14d + metronidazole 500mg BID x14d. Treat empirically for N. gonorrhoeae + C. trachomatis + anaerobes. Partner notification required."
+  },
+  {
+    "id": "ID-006",
+    "cat": "Infectious Disease",
+    "sub": "UTI",
+    "text": "A 28-year-old non-pregnant woman has dysuria, frequency, and urgency. Urinalysis: positive nitrites, WBC 20/hpf. No fever or flank pain. Best treatment?",
+    "options": [
+      "IV ceftriaxone",
+      "Nitrofurantoin 100mg BID x 5 days",
+      "Ciprofloxacin 500mg x 3 days",
+      "TMP-SMX x 7 days"
+    ],
+    "correct": 1,
+    "rationale": "Uncomplicated UTI in non-pregnant women: nitrofurantoin is first-line (AMMI Canada guidelines). Avoids fluoroquinolone resistance. TMP-SMX second-line if susceptibility known. Ciprofloxacin reserved for complicated UTI or pyelonephritis."
+  }
+,
+  {
+    "id": "PREV-001",
+    "cat": "Preventive Medicine",
+    "sub": "Cancer Screening",
+    "text": "A 52-year-old average-risk woman asks about colorectal cancer screening. According to Canadian Task Force guidelines, what is the recommended approach?",
+    "options": [
+      "Colonoscopy every 10 years starting age 50",
+      "Fecal immunochemical test (FIT) every 2 years for ages 50–74",
+      "Sigmoidoscopy every 5 years",
+      "No screening recommended unless symptomatic"
+    ],
+    "correct": 1,
+    "rationale": "Canadian Task Force on Preventive Health Care (CTFPHC) 2016: FIT every 2 years OR flexible sigmoidoscopy every 10 years for average-risk adults 50-74. Colonoscopy is not recommended as primary screening (unlike USA). Abnormal FIT → colonoscopy."
+  },
+  {
+    "id": "PREV-002",
+    "cat": "Preventive Medicine",
+    "sub": "Cancer Screening",
+    "text": "A 48-year-old woman asks about cervical cancer screening in Ontario. What is the current recommendation?",
+    "options": [
+      "Annual Pap smear starting age 18",
+      "Pap smear every 3 years for ages 25-69",
+      "HPV co-testing every 5 years starting age 30",
+      "No screening if fully vaccinated"
+    ],
+    "correct": 1,
+    "rationale": "Ontario cervical cancer screening: Pap smear every 3 years for women ages 25-69 who are or have been sexually active. Screening continues regardless of HPV vaccination status. Colposcopy if HSIL/ASC-H on Pap."
+  },
+  {
+    "id": "PREV-003",
+    "cat": "Preventive Medicine",
+    "sub": "Cancer Screening",
+    "text": "A 52-year-old woman with average risk asks about breast cancer screening. Canadian Task Force recommendation?",
+    "options": [
+      "Annual mammogram starting age 40",
+      "Mammogram every 2-3 years for ages 50-74",
+      "Monthly self-breast exam + annual clinical exam",
+      "MRI breast annually"
+    ],
+    "correct": 1,
+    "rationale": "CTFPHC 2018: mammography every 2-3 years for women aged 50-74. Routine screening not recommended for ages 40-49 due to harms vs benefits ratio. High-risk women (BRCA, family history) → earlier/more frequent screening with MRI."
+  },
+  {
+    "id": "PREV-004",
+    "cat": "Preventive Medicine",
+    "sub": "Immunization",
+    "text": "A 65-year-old healthy Canadian asks what vaccines are recommended. Which is most important for his age group?",
+    "options": [
+      "MMR booster",
+      "Influenza annually + Pneumococcal (PCV20) + Shingles (RZV)",
+      "Hepatitis B series",
+      "Meningococcal quadrivalent"
+    ],
+    "correct": 1,
+    "rationale": "NACI Canadian Immunization Guide for adults ≥65: Annual influenza, Pneumococcal (PCV20 or PPCV23+PCV15), Shingles (Shingrix/RZV x2 doses), Tdap every 10 years. Influenza + pneumococcal together prevent significant mortality in elderly."
+  },
+  {
+    "id": "PREV-005",
+    "cat": "Preventive Medicine",
+    "sub": "Hypertension Screening",
+    "text": "A 45-year-old man has office BP of 148/94 on two visits. No target organ damage. According to Hypertension Canada 2023, what is the threshold for diagnosis and treatment initiation?",
+    "options": [
+      "≥160/100 for treatment",
+      "≥140/90 on 2 visits = high BP; treat if ≥160/100 or with risk factors",
+      "≥130/80 with lifestyle only",
+      "Only treat if symptomatic"
+    ],
+    "correct": 1,
+    "rationale": "Hypertension Canada 2023: High BP confirmed if ≥140/90 on 2+ visits. Lifestyle modification for all. Pharmacotherapy if: BP ≥160/100 OR ≥140/90 with diabetes/CKD/target organ damage/high CV risk. Home BP monitoring recommended."
+  },
+  {
+    "id": "PREV-006",
+    "cat": "Preventive Medicine",
+    "sub": "Lipid Screening",
+    "text": "According to Canadian Cardiovascular Society (CCS) 2021, who should be screened for dyslipidemia?",
+    "options": [
+      "All adults annually",
+      "Men ≥40, women ≥50 or postmenopausal, or those with cardiovascular risk factors",
+      "Only patients with known heart disease",
+      "Men ≥50, women ≥60 only"
+    ],
+    "correct": 1,
+    "rationale": "CCS 2021: Screen men ≥40, women ≥50 or postmenopausal. Screen earlier with: diabetes, hypertension, smoking, family history premature CVD, inflammatory disease, CKD, HIV. Use FRS or PCE for 10-year CV risk calculation."
+  }
+,
+  {
+    "id": "HEM-001",
+    "cat": "Hematology",
+    "sub": "Anemia",
+    "text": "A 35-year-old woman has fatigue, pallor, MCV 68 fL, serum ferritin 6 ng/mL, low iron, high TIBC. Most appropriate treatment?",
+    "options": [
+      "B12 injection",
+      "Oral ferrous sulfate",
+      "Blood transfusion",
+      "Folic acid"
+    ],
+    "correct": 1,
+    "rationale": "Iron deficiency anemia: low ferritin (<30) is diagnostic. Oral ferrous sulfate is first-line. Investigate underlying cause (menorrhagia, GI bleed). IV iron for malabsorption, intolerance, or urgent need. Treat for 3+ months after hemoglobin normalizes."
+  },
+  {
+    "id": "HEM-002",
+    "cat": "Hematology",
+    "sub": "DVT/PE",
+    "text": "A 55-year-old woman, 1 week post-knee surgery, presents with sudden dyspnea, pleuritic chest pain, and hypoxia. Most appropriate diagnostic step?",
+    "options": [
+      "D-dimer only",
+      "CT pulmonary angiography (CTPA)",
+      "V/Q scan as first-line",
+      "Lower limb Doppler only"
+    ],
+    "correct": 1,
+    "rationale": "Pulmonary embolism: CTPA is gold standard for high-probability PE. D-dimer useful only in LOW pretest probability (Wells score). Post-surgical setting = high pre-test probability → go directly to CTPA. Anticoagulate immediately if high suspicion."
+  },
+  {
+    "id": "HEM-003",
+    "cat": "Hematology",
+    "sub": "Thrombocytopenia",
+    "text": "A patient on heparin day 8 develops new thrombosis and platelet count drops from 230 to 75 × 10⁹/L. Most likely diagnosis?",
+    "options": [
+      "ITP (immune thrombocytopenia)",
+      "TTP",
+      "Heparin-Induced Thrombocytopenia (HIT)",
+      "DIC"
+    ],
+    "correct": 2,
+    "rationale": "HIT: platelet drop >50% on days 5-14 of heparin + new thrombosis = 4T score. STOP all heparin (including flushes). Switch to direct thrombin inhibitor (argatroban) or fondaparinux. Never use warfarin acutely. Confirm with anti-PF4 antibody test."
+  }
+
+
 ]
