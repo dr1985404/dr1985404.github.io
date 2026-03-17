@@ -16837,7 +16837,54 @@
     "correct": 2,
     "rationale": "Dx: Simple Febrile Seizure. \nNote: Criteria: 1. Generalized. 2. Duration < 15 mins. 3. Only one in 24 hours. \nTx: Reassurance and fever control. No need for long-term anticonvulsants or extensive imaging."
   }
+,
+  {
+    "id": "REC-PREV-001",
+    "cat": "Medicine",
+    "sub": "Preventive",
+    "text": "A 52-year-old male with no significant family history asks about colon cancer screening. According to the Canadian Task Force, what is the most appropriate screening recommendation?",
+    "options": ["Colonoscopy every 5 years", "Fecal Immunochemical Test (FIT) every 2 years", "Annual Fecal Occult Blood Test (gFOBT)", "CT Colonography every 10 years"],
+    "correct": 1,
+    "rationale": "Dx: Colorectal Cancer Screening. \nNote: For average-risk individuals aged 50–74, Canada recommends FIT every 2 years OR flexible sigmoidoscopy every 10 years. \nRisk: Screening is NOT routinely recommended after age 75. \nTx: FIT (Fecal Immunochemical Test) is preferred over the older gFOBT."
+  },
+  {
+    "id": "REC-EMER-010",
+    "cat": "Emergency",
+    "sub": "Trauma",
+    "text": "A 30-year-old male is brought to the ED after a motor vehicle accident. He is in respiratory distress, has absent breath sounds on the right side, and his trachea is deviated to the left. BP is 80/50. What is the immediate next step?",
+    "options": ["Chest X-ray", "Needle decompression in the 2nd intercostal space", "Endotracheal intubation", "Chest tube insertion (Thoracostomy)"],
+    "correct": 1,
+    "rationale": "Dx: Tension Pneumothorax. \nNote: This is a clinical diagnosis! Do NOT wait for an X-ray in an unstable patient. \nRisk: Tracheal deviation and hypotension indicate a life-threatening emergency. \nTx: Immediate needle decompression followed by a chest tube."
+  },
+  {
+    "id": "REC-ETH-015",
+    "cat": "Ethics",
+    "sub": "Capacity",
+    "text": "An 85-year-old woman with mild cognitive impairment needs an urgent hip surgery. She is confused today and cannot understand the risks. Her daughter is present and has 'Power of Attorney for Personal Care'. Who should provide consent?",
+    "options": ["The patient herself", "The daughter", "The hospital Ethics Committee", "Two independent surgeons"],
+    "correct": 1,
+    "rationale": "Dx: Substitute Decision Maker (SDM). \nNote: When a patient lacks capacity, the physician must turn to the highest-ranking SDM. A Power of Attorney for Personal Care ranks highest in Canada. \nRisk: If no SDM is available, the Public Guardian and Trustee may be involved."
+  },
+  {
+    "id": "REC-PSY-020",
+    "cat": "Psychiatry",
+    "sub": "Pharmacology",
+    "text": "A 25-year-old patient on Lithium for Bipolar Disorder presents with coarse tremors, ataxia, and confusion. Her creatinine is elevated. She recently started a new medication for back pain. Which medication most likely caused this?",
+    "options": ["Acetaminophen", "Ibuprofen (NSAID)", "Gabapentin", "Cyclobenzaprine"],
+    "correct": 1,
+    "rationale": "Dx: Lithium Toxicity. \nNote: NSAIDs, ACE inhibitors, and Diuretics decrease lithium clearance and increase its levels. \nRisk: Toxicity presents with GI symptoms first, then neurological (tremors, ataxia). \nTx: Hydration or Hemodialysis if levels are very high (>2.5 or >4.0)."
+  },
+  {
+    "id": "REC-HEM-025",
+    "cat": "Medicine",
+    "sub": "Hematology",
+    "text": "A 40-year-old female presents with fatigue. Her labs show: Hb 90 (Low), MCV 72 (Low), Ferritin 10 (Low), and high Total Iron Binding Capacity (TIBC). Diagnosis?",
+    "options": ["Anemia of Chronic Disease", "Iron Deficiency Anemia", "Thalassemia", "Sideroblastic Anemia"],
+    "correct": 1,
+    "rationale": "Dx: Iron Deficiency Anemia. \nNote: Low Ferritin is the most specific test for iron deficiency. \nTx: Oral Iron (Ferrous Gluconate) and look for the source of bleeding (especially GI or Menstrual)."
+  }
 ]
+
 
 
 
