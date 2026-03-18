@@ -4,6 +4,7 @@
   <meta name="description" content="Free MCCQE1 exam prep - Q-Bank with 2357 questions and High-Yield notes for Canadian medical licensing">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6061088335639984" crossorigin="anonymous"></script>
 
+  <!-- Google Analytics GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-37QQETTBR9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -14,11 +15,54 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="no-referrer" />
   <title>MediVault Pro | MCCQE1 Elite Edition</title>
   <meta name="keywords" content="MCCQE1, MCCQE1 prep, MCCQE1 questions, IMG Canada, international medical graduate, Canadian medical licensing, MCCQE1 free, MCC exam, LMCC, MCCQE1 qbank, family medicine Canada, MCCQE1 study notes, high yield MCCQE1" />
   <meta name="author" content="MediVault Pro" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://dr1985404.github.io/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dr1985404.github.io/" />
+  <meta property="og:title" content="MediVault Pro | Free MCCQE1 Q-Bank for IMGs" />
+  <meta property="og:description" content="Free MCCQE1 exam prep - Q-Bank with 2357 questions and High-Yield notes for Canadian medical licensing." />
+  <meta property="og:image" content="https://dr1985404.github.io/og-image.png.PNG" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="MediVault Pro" />
+  <meta property="og:locale" content="en_CA" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="MediVault Pro | Free MCCQE1 Q-Bank for IMGs" />
+  <meta name="twitter:description" content="Free MCCQE1 exam prep - Q-Bank with 2357 questions and High-Yield notes for Canadian medical licensing." />
+  <meta name="twitter:image" content="https://dr1985404.github.io/og-image.png.PNG" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#0b1730" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="MediVault Pro" />
+  <link rel="apple-touch-icon" href="og-image.png.PNG" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "MediVault Pro",
+    "url": "https://dr1985404.github.io/",
+    "description": "Free MCCQE1 exam preparation platform for International Medical Graduates in Canada. Features a Q-Bank and High-Yield clinical notes.",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "All",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
+    "audience": { "@type": "Audience", "audienceType": "International Medical Graduates, Medical Students, MCCQE1 candidates" },
+    "keywords": "MCCQE1, IMG Canada, medical licensing, Q-Bank, High-Yield notes"
+  }
+  </script>
 
   <style>
     :root{
@@ -28,7 +72,8 @@
       --shadow:0 10px 25px rgba(15,23,42,.08); --radius:16px;
     }
     *{ box-sizing:border-box; -webkit-user-select:none; user-select:none; }
-    body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); padding-bottom:120px; }
+    body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
+    .seo-h1{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.4rem; font-weight:900; }
@@ -42,47 +87,132 @@
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
     .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
+    .mode-bar{ padding:12px 16px; background:#f8fafc; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; }
+    .mode-switch{ display:flex; gap:5px; background:#e2e8f0; padding:4px; border-radius:8px; }
+    .m-btn{ border:none; padding:6px 14px; border-radius:6px; cursor:pointer; font-weight:800; font-size:0.75rem; }
+    .m-btn.active{ background:var(--navy); color:#fff; }
+    .timer-display{ font-weight:900; color:var(--red); font-size:1rem; display:none; }
+    .progress-wrap{ width:100%; background:#e2e8f0; border-radius:999px; height:8px; margin:8px 0; }
+    .progress-bar{ height:8px; border-radius:999px; background:linear-gradient(90deg,var(--blue),var(--green)); transition:width 0.4s; }
+    .progress-label{ font-size:0.78rem; color:var(--muted); font-weight:800; text-align:right; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
-    .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; }
+    .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; position:relative; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
     .sub-card i{ display:block; font-size:2.2rem; margin-bottom:10px; }
+    .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:800; margin-top:5px; }
     .card{ background:#fff; border-radius:18px; border:1px solid var(--line); margin-bottom:16px; overflow:hidden; }
-    .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; align-items:center; background:var(--navy); }
-    .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
-    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background:#fff; }
+    .card-header{ padding:12px 18px; color:#fff; font-weight:800; display:flex; justify-content:space-between; align-items:center; }
+    .bookmark-btn{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:0; }
+    .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; color:var(--text); }
+    .content-img{ width:100%; max-width:600px; height:auto; border-radius:12px; margin:15px auto; border:1px solid var(--line); display:block; background:#eee; }
+    table{ width:100%; border-collapse:collapse; margin:15px 0; font-size:0.92rem; }
+    th,td{ border:1px solid var(--line); padding:10px; text-align:left; color:var(--text); }
+    th{ background:#f8fafc; color:var(--text); }
+    .hl-blue{ color:var(--blue); font-weight:800; }
+    .hl-green{ color:#16a34a; font-weight:800; }
+    .hl-red{ color:var(--red); font-weight:800; }
+    .option{ padding:14px; border:1px solid #dbe2ea; border-radius:12px; margin-bottom:10px; cursor:pointer; background:#fff; color:var(--text); font-weight:500; }
+    .option.selected{ border-color:var(--blue); background:#eff6ff; color:#1e40af; }
     .option.correct{ background:#e9f9ef!important; border-color:#22c55e!important; color:#166534!important; font-weight:800; }
     .option.wrong{ background:#fef0f0!important; border-color:#ef4444!important; color:#991b1b!important; font-weight:800; }
-    .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background:#f9fafb; border-radius:8px; }
+    .rationale{ display:none; margin-top:15px; padding:15px; border-top:1px solid var(--line); background:#f9fafb; border-radius:8px; color:var(--text); }
     .btn{ border:none; border-radius:12px; padding:14px; font-weight:800; cursor:pointer; flex:1; }
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
-    body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --line:#334155; }
-    body.dark .vault-stats, body.dark .main-tabs, body.dark .panel, body.dark .sub-card, body.dark .card, body.dark .option{ background:var(--card); border-color:var(--line); color: var(--text); }
+
+    /* ======================== DARK MODE ======================== */
+    body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
+    body.dark .vault-stats{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
+    body.dark .stat-item{ color:#e2e8f0; }
+    body.dark .main-tabs{ background:#1e293b; border-color:#334155; }
+    body.dark .tab{ background:#1e293b; color:#94a3b8; }
+    body.dark .tab.active{ background:#1e3a5f; color:#60a5fa; border-bottom-color:#60a5fa; }
+    body.dark .panel{ background:#1e293b; border-color:#334155; }
+    body.dark .mode-bar{ background:#1a2744; border-color:#334155; }
+    body.dark .mode-switch{ background:#0f172a; }
+    body.dark .m-btn{ background:#253347; color:#94a3b8; }
+    body.dark .m-btn.active{ background:#1d4ed8; color:#fff; }
+    body.dark .sub-card{ background:#1e293b; border-color:#334155; }
+    body.dark .sub-card h3{ color:#e2e8f0 !important; }
+    body.dark .sub-card p{ color:#94a3b8; }
+    body.dark .card{ background:#1e293b; border-color:#334155; }
+    body.dark .card-body{ color:#e2e8f0 !important; background:#1e293b; }
+    body.dark .card-body *{ color:#e2e8f0; }
+    body.dark .card-body .hl-blue{ color:#60a5fa !important; }
+    body.dark .card-body .hl-green{ color:#4ade80 !important; }
+    body.dark .card-body .hl-red{ color:#f87171 !important; }
+    body.dark .rationale{ background:#253347 !important; color:#e2e8f0 !important; border-color:#334155; }
+    body.dark .rationale *{ color:#e2e8f0 !important; }
+    body.dark .rationale strong{ color:#93c5fd !important; }
+    body.dark th{ background:#1a2744 !important; color:#e2e8f0 !important; }
+    body.dark td{ color:#e2e8f0 !important; background:#1e293b; }
+    body.dark table{ border-color:#334155; }
+    body.dark th, body.dark td{ border-color:#334155; }
+    body.dark .option{ background:#253347; border-color:#334155; color:#e2e8f0 !important; }
+    body.dark .option.selected{ background:#1e3a5f !important; border-color:#2563eb !important; color:#bfdbfe !important; }
+    body.dark .option.correct{ background:#14532d !important; border-color:#22c55e !important; color:#bbf7d0 !important; font-weight:800; }
+    body.dark .option.wrong{ background:#450a0a !important; border-color:#ef4444 !important; color:#fca5a5 !important; font-weight:800; }
+    body.dark #content-container{ color:#e2e8f0; }
+    body.dark #progress-text{ color:#94a3b8 !important; }
+    body.dark .btn-light{ background:#253347; color:#e2e8f0; }
+    body.dark .btn-gold{ background:#b8944c; color:#fff; }
+    body.dark .faq-section h2{ color:#93c5fd; }
+    body.dark .faq-item{ background:#1e293b !important; border-color:#334155 !important; }
+    body.dark .faq-item h3{ color:#e2e8f0 !important; }
+    body.dark .faq-item p{ color:#94a3b8 !important; }
+    body.dark .hero-section{ background:#0b1f40; border-bottom-color:#c8a45c; }
+    body.dark .hero-section p{ color:#94a3b8; }
+    body.dark .progress-label{ color:#94a3b8; }
+    body.dark .progress-wrap{ background:#334155; }
+    body.dark .ad-wrapper{ background:#1e293b; border-color:#334155; }
+    /* ======================== END DARK MODE ======================== */
+
+    .dark-toggle{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:4px 8px; }
+    .bm-badge{ position:absolute; top:10px; right:10px; background:var(--gold); color:#fff; border-radius:999px; font-size:0.7rem; font-weight:900; padding:2px 7px; display:none; }
     #sub-dashboard,#view-area,#main-dashboard{ display:none; }
     .ad-wrapper{ max-width:1100px; margin:16px auto; padding:8px 14px; background:#fff; border-radius:12px; border:1px solid var(--line); text-align:center; overflow:hidden; }
-    .ad-label{ font-size:0.7rem; color:var(--muted); text-align:center; margin-bottom:4px; font-weight:600; }
+    .ad-label{ font-size:0.7rem; color:var(--muted); text-align:center; margin-bottom:4px; font-weight:600; letter-spacing:0.05em; }
     .faq-section{ max-width:1100px; margin:40px auto 20px auto; padding:0 14px; }
+    .faq-section h2{ font-size:1.3rem; font-weight:800; margin-bottom:10px; color:#0b1730; }
     .faq-item{ background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin-bottom:10px; }
+    .faq-item h3{ margin:0 0 6px 0; font-size:1rem; font-weight:800; color:#111827; }
+    .faq-item p{ margin:0; font-size:0.92rem; color:#374151; line-height:1.6; }
   </style>
 </head>
 <body>
+
+  <h1 class="seo-h1">MediVault Pro – Free MCCQE1 Q-Bank and High-Yield Notes for International Medical Graduates in Canada</h1>
 
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
       <div class="social-btns">
-        <button class="social-link" style="background:none; border:none; cursor:pointer;" onclick="toggleDark()">🌙</button>
-        <a class="social-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">📺 YT</a>
+        <button class="dark-toggle" onclick="toggleDark()" title="Dark Mode">🌙</button>
+        <a class="social-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">📺 YouTube</a>
         <a class="social-link" href="https://www.facebook.com/share/1B5BwQUhim/" target="_blank">📘 FB</a>
       </div>
     </div>
   </header>
 
+  <!-- Ad Top Banner -->
   <div class="ad-wrapper">
     <div class="ad-label">ADVERTISEMENT</div>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6061088335639984" data-ad-slot="AUTO" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
+
+  <section class="hero-section" style="background:#0b1730;color:white;padding:20px 14px;border-bottom:2px solid #c8a45c;">
+    <div style="max-width:1100px;margin:0 auto;">
+      <h2 style="margin:0 0 8px 0;font-size:1.4rem;font-weight:800;">Free MCCQE1 Q-Bank for International Medical Graduates</h2>
+      <p style="margin:0 0 4px 0;font-size:0.95rem;line-height:1.6;">MediVault Pro is a free, high-yield MCCQE1 preparation platform built specifically for International Medical Graduates (IMGs) in Canada. Practice with over 2,000 exam-style questions across all major specialties.</p>
+      <p style="margin:0;font-size:0.92rem;opacity:0.9;">Use the Q-BANK tab for timed questions and explanations, and the HIGH-YIELD tab to review structured summaries by specialty before your exam day.</p>
+    </div>
+  </section>
 
   <div class="vault-stats">
     <div class="stat-item">📋 Questions: <span id="total-q" class="stat-val">0</span></div>
@@ -98,8 +228,22 @@
 
   <div class="container">
     <div class="panel">
+      <div id="mode-panel" class="mode-bar" style="display:none;">
+        <div class="mode-switch">
+          <button id="m-study" class="m-btn active" onclick="setMode('study')">Study</button>
+          <button id="m-exam" class="m-btn" onclick="setMode('exam')">Exam</button>
+        </div>
+        <div id="timer" class="timer-display">00:00</div>
+      </div>
+
+      <div id="progress-section" style="padding:10px 16px 0 16px; display:none;">
+        <div class="progress-wrap"><div class="progress-bar" id="prog-bar" style="width:0%"></div></div>
+        <div class="progress-label" id="prog-label">0 / 0 answered</div>
+      </div>
+
       <div id="main-dashboard" class="dashboard"></div>
       <div id="sub-dashboard" class="dashboard"></div>
+
       <div id="view-area" style="padding:16px;">
         <div id="progress-text" style="font-weight:800;color:var(--muted);margin-bottom:12px;font-size:0.85rem;"></div>
         <div id="content-container"></div>
@@ -109,99 +253,302 @@
     </div>
   </div>
 
+  <!-- Ad Middle -->
   <div class="ad-wrapper">
     <div class="ad-label">ADVERTISEMENT</div>
-    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6061088335639984" data-ad-slot="AUTO" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
 
-  <section class="faq-section">
-    <h2>About MediVault Pro</h2>
-    <div class="faq-item"><h3>What is MediVault Pro?</h3><p>A free MCCQE1 question bank for IMGs preparing for the Medical Council of Canada Qualifying Examination.</p></div>
-    <div class="faq-item"><h3>Privacy & Rights</h3><p>© 2026 MediVault Pro. All content provided for educational purposes. For more information, visit our <a href="privacy.html">Privacy Policy</a>.</p></div>
+  <!-- SEO TEXT SECTION -->
+  <section style="max-width:1100px;margin:30px auto 10px auto;padding:0 14px;">
+    <h2 style="font-size:1.2rem;font-weight:800;color:#0b1730;margin-bottom:8px;">About MediVault Pro – MCCQE1 Preparation for IMGs</h2>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">
+      MediVault Pro is a free, comprehensive MCCQE1 question bank designed specifically for International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part I (MCCQE1). Our platform covers all key clinical disciplines including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology, Preventive Medicine, and Medical Ethics — all aligned with the MCC's official objectives.
+    </p>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">
+      Every question in our Q-Bank comes with a detailed explanation and rationale to help you not just memorize answers, but truly understand the clinical reasoning required for the MCCQE1. High-Yield notes provide concise, exam-ready summaries of the most commonly tested topics, making your study sessions efficient and targeted.
+    </p>
+    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0;">
+      Whether you are a new IMG to Canada, a family medicine resident, or a physician seeking licensure through the MCCQE1, MediVault Pro gives you the tools to study smarter — completely free of charge.
+    </p>
   </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section">
+    <h2>Frequently Asked Questions about MCCQE1 Prep</h2>
+    <div class="faq-item">
+      <h3>What is the MCCQE1 exam?</h3>
+      <p>The MCCQE1 (Medical Council of Canada Qualifying Examination Part I) is a computer-based exam required for all physicians seeking licensure in Canada. It assesses clinical decision-making, medical knowledge, and patient management across multiple specialties. International Medical Graduates (IMGs) must pass it to practice medicine in Canada.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is MediVault Pro?</h3>
+      <p>MediVault Pro is a free MCCQE1 question bank and high-yield notes platform designed for International Medical Graduates preparing for Canadian medical licensing exams. It includes thousands of practice questions with detailed explanations, plus structured clinical notes organized by specialty.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is MediVault Pro really free?</h3>
+      <p>Yes. The entire Q-Bank and all high-yield notes are completely free to access. The platform is supported by advertising to keep it free for all IMGs worldwide. We believe every IMG deserves access to quality MCCQE1 preparation resources without financial barriers.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How should I use this Q-Bank for MCCQE1?</h3>
+      <p>Start with the HIGH-YIELD notes to consolidate core topics, then switch to the Q-BANK in Exam mode to practice timed questions under pressure. Review the explanations for each question carefully, even when you answer correctly. Use the bookmark feature to save difficult questions for later review.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What specialties are covered in MediVault Pro?</h3>
+      <p>MediVault Pro covers all major MCCQE1 specialties including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology (OB/GYN), Emergency Medicine, Preventive Medicine, and Medical Ethics and Law — all aligned with MCC's Clinical Presentations framework.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is the difference between Study Mode and Exam Mode?</h3>
+      <p>In Study Mode, you see the correct answer and full explanation immediately after each question, making it ideal for learning. In Exam Mode, a timer runs as you answer all questions without feedback, then you receive your final score — simulating real MCCQE1 exam conditions.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does MediVault Pro replace official MCCQE1 resources?</h3>
+      <p>No. MediVault Pro is a supplementary tool. You should still review the official MCC objectives, guidelines, and recommended textbooks. MediVault Pro is designed to complement your main study resources by providing extra practice and quick high-yield reviews.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I use MediVault Pro on my mobile phone?</h3>
+      <p>Yes. MediVault Pro is fully responsive and works on all devices including mobile phones, tablets, and desktop computers. You can also install it as a Progressive Web App (PWA) on your phone for offline access and a faster experience.</p>
+    </div>
+  </section>
+
+  <!-- Ad Bottom -->
+  <div class="ad-wrapper" style="margin-bottom:30px;">
+    <div class="ad-label">ADVERTISEMENT</div>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-client="ca-pub-6061088335639984"
+      data-ad-slot="AUTO"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
 
   <script>
     let bank=[],notes=[],filteredQuestions=[],filteredNotes=[],currentIdx=0;
     let activeMainTab="questions",currentCategory="",currentSubcategory="";
+    let examMode=false,examSec=0,timerInt,userSels={};
     let answered=JSON.parse(localStorage.getItem('answered_questions')||'[]');
     let bookmarks=JSON.parse(localStorage.getItem('bookmarks')||'[]');
 
-    const qFiles=["questions.json","extra_questions.json","extra_questions_2.json","ethics_questions.json","neuro.json"];
+    const qFiles=["questions.json","extra_questions.json","extra_questions_2.json","ethics_questions.json"];
     const nFiles=["notes.json","clinical_cards.json","extra1.json"];
 
-    function toggleDark(){ document.body.classList.toggle('dark'); localStorage.setItem('dark', document.body.classList.contains('dark')?'1':'0'); }
     if(localStorage.getItem('dark')==='1') document.body.classList.add('dark');
+    function toggleDark(){
+      document.body.classList.toggle('dark');
+      localStorage.setItem('dark', document.body.classList.contains('dark')?'1':'0');
+    }
 
     async function init(){
       let rawB=[];
-      for(let f of qFiles){const r=await fetch(`./${f}?v=${Date.now()}`); if(r.ok){const d=await r.json(); rawB=rawB.concat(d);}}
-      bank=rawB;
-      for(let f of nFiles){const r=await fetch(`./${f}?v=${Date.now()}`); if(r.ok){const d=await r.json(); notes=notes.concat(d);}}
+      for(let f of qFiles){const d=await fetchJson(f);rawB=rawB.concat(d);}
+      bank=sanitize(rawB);
+      for(let f of nFiles){const d=await fetchJson(f);notes=notes.concat(d);}
       document.getElementById('total-q').innerText=bank.length;
       document.getElementById('total-n').innerText=notes.length;
       document.getElementById('total-solved').innerText=answered.length;
       renderMain();
     }
 
-    function renderMain(){
-      hideAll(); if(activeMainTab==="bookmarks"){showBookmarks();return;}
-      const data=(activeMainTab==="questions"?bank:notes);
-      const cats=[...new Set(data.map(x=>x.cat))].sort();
-      const db=document.getElementById("main-dashboard"); db.style.display="grid";
-      db.innerHTML=cats.map(c=>`<div class="sub-card" onclick="openCat('${c}')"><i>${getIcon(c)}</i><h3>${c}</h3><p>${data.filter(x=>x.cat===c).length} items</p></div>`).join("");
+    async function fetchJson(f){try{const r=await fetch(`./${f}?v=${Date.now()}`);return await r.json();}catch(e){return[];}}
+    function sanitize(d){const s=new Set();return d.filter(q=>{if(!q.text||s.has(q.text.trim().toLowerCase()))return false;s.add(q.text.trim().toLowerCase());return true;});}
+    function getSafeImg(src){if(!src)return'';const pSrc=`https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;return`<img src="${pSrc}" class="content-img" onerror="this.style.display='none'" alt="Medical illustration">`;}
+
+    function hideAll(){
+      document.getElementById("content-container").innerHTML="";
+      document.getElementById("main-dashboard").style.display="none";
+      document.getElementById("sub-dashboard").style.display="none";
+      document.getElementById("view-area").style.display="none";
+      document.getElementById("mode-panel").style.display="none";
+      document.getElementById("progress-section").style.display="none";
+      if(!examMode)stopTimer();
     }
 
-    function hideAll(){ document.getElementById("main-dashboard").style.display="none"; document.getElementById("sub-dashboard").style.display="none"; document.getElementById("view-area").style.display="none"; }
+    function updateProgress(){
+      const total=filteredQuestions.length;
+      const done=filteredQuestions.filter(q=>answered.some(a=>a===q.id)).length;
+      const pct=total?Math.round(done/total*100):0;
+      document.getElementById("prog-bar").style.width=pct+"%";
+      document.getElementById("prog-label").innerText=`${done} / ${total} answered (${pct}%)`;
+    }
+
+    function setMode(m){
+      examMode=(m==='exam');
+      document.getElementById('m-study').className="m-btn"+(!examMode?" active":"");
+      document.getElementById('m-exam').className="m-btn"+(examMode?" active":"");
+      document.getElementById('timer').style.display=examMode?'block':'none';
+      if(examMode)startTimer();else stopTimer();
+      start(currentSubcategory);
+    }
+    function startTimer(){examSec=0;clearInterval(timerInt);timerInt=setInterval(()=>{examSec++;let m=Math.floor(examSec/60).toString().padStart(2,'0');let s=(examSec%60).toString().padStart(2,'0');document.getElementById('timer').innerText=`${m}:${s}`;},1000);}
+    function stopTimer(){clearInterval(timerInt);}
+
+    function renderMain(){
+      hideAll();
+      if(activeMainTab==="bookmarks"){showBookmarks();return;}
+      const data=(activeMainTab==="questions"?bank:notes);
+      const cats=[...new Set(data.map(x=>x.cat))].sort();
+      const db=document.getElementById("main-dashboard");db.style.display="grid";
+      db.innerHTML=cats.map(c=>{
+        const count=data.filter(x=>x.cat===c).length;
+        const solved=activeMainTab==="questions"?data.filter(x=>x.cat===c&&answered.includes(x.id)).length:0;
+        const pct=count?Math.round(solved/count*100):0;
+        return`<div class="sub-card" onclick="openCat('${c}')">
+          <i>${getIcon(c)}</i><h3>${c}</h3><p>${count} items</p>
+          ${activeMainTab==="questions"?`<div class="progress-wrap" style="margin-top:8px"><div class="progress-bar" style="width:${pct}%"></div></div><div class="progress-label">${pct}%</div>`:''}
+        </div>`;
+      }).join("");
+    }
+
+    function showBookmarks(){
+      hideAll();
+      const bqs=bank.filter(q=>bookmarks.includes(q.id));
+      const db=document.getElementById("main-dashboard");db.style.display="grid";
+      if(bqs.length===0){db.innerHTML=`<div style="padding:30px;text-align:center;color:var(--muted);grid-column:1/-1;">🔖 No saved questions yet.<br>Tap ⭐ on any question to save it.</div>`;return;}
+      filteredQuestions=bqs; currentIdx=0; currentSubcategory="bookmarks"; currentCategory="Bookmarks";
+      document.getElementById("view-area").style.display="block";
+      document.getElementById("progress-section").style.display="block";
+      document.getElementById("mode-panel").style.display="flex";
+      updateProgress(); showQ();
+    }
+
+    function toggleBookmark(qId){
+      if(bookmarks.includes(qId)) bookmarks=bookmarks.filter(b=>b!==qId);
+      else bookmarks.push(qId);
+      localStorage.setItem('bookmarks',JSON.stringify(bookmarks));
+      showQ();
+    }
 
     function openCat(c){
-      hideAll(); currentCategory=c; const data=(activeMainTab==="questions"?bank:notes);
+      hideAll();currentCategory=c;const data=(activeMainTab==="questions"?bank:notes);
       const subs=[...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
-      const sdb=document.getElementById("sub-dashboard"); sdb.style.display="grid";
-      sdb.innerHTML=`<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3></div>` + subs.map(s=>`<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("");
+      const sdb=document.getElementById("sub-dashboard");sdb.style.display="grid";
+      let allCount=data.filter(x=>x.cat===c).length;
+      sdb.innerHTML=`<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${allCount} items</p></div>`+
+        subs.map(s=>{const count=data.filter(x=>x.cat===c&&(x.sub||"General")===s).length;return`<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;}).join("")+
+        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Back</h3></div>`;
     }
 
     function start(s){
-      hideAll(); currentSubcategory=s; currentIdx=0; document.getElementById("view-area").style.display="block";
+      hideAll();currentSubcategory=s;currentIdx=0;userSels={};
+      document.getElementById("view-area").style.display="block";
       if(activeMainTab==="questions"){
+        document.getElementById("mode-panel").style.display="flex";
+        document.getElementById("progress-section").style.display="block";
         filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s));
-        showQ();
+        updateProgress(); showQ();
       } else {
         filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s));
         showNote();
       }
     }
 
-    function showQ(){
-      const q=filteredQuestions[currentIdx]; const isBm=bookmarks.includes(q.id);
-      document.getElementById("content-container").innerHTML=`<div class="card"><div class="card-header"><span>ID: ${q.id}</span><button onclick="toggleBookmark('${q.id}')" style="background:none;border:none;color:white;cursor:pointer;">${isBm?'⭐':'☆'}</button></div><div class="card-body"><p><strong>${q.text}</strong></p>${q.options.map((o,i)=>`<div class="option" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("")}<div id="rat" class="rationale"><strong>Rationale:</strong><br>${q.rationale}</div></div></div>`;
+    function showNote(){
+      const n=filteredNotes[currentIdx],container=document.getElementById("content-container");
+      document.getElementById("progress-text").innerText=`High-Yield > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
+      container.innerHTML=`<div class="card" style="border-top:6px solid var(--blue)">
+        <div class="card-header" style="background:var(--blue)">${n.title}</div>
+        <div class="card-body">${getSafeImg(n.img)}<div>${formatText(n.content)}</div></div>
+      </div>`;
       renderNav();
     }
 
-    function showNote(){
-      const n=filteredNotes[currentIdx];
-      document.getElementById("content-container").innerHTML=`<div class="card" style="border-top:6px solid var(--blue)"><div class="card-header" style="background:var(--blue)">${n.title}</div><div class="card-body">${n.content}</div></div>`;
+    function showQ(){
+      const q=filteredQuestions[currentIdx],container=document.getElementById("content-container");
+      document.getElementById("progress-text").innerText=`Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
+      const isBm=bookmarks.includes(q.id);
+      let optionsHtml=q.options.map((o,i)=>{
+        let st="";
+        if(!examMode&&answered.includes(q.id+i))st=(i===q.correct?"correct":"wrong");
+        if(examMode&&userSels[currentIdx]===i)st="selected";
+        return`<div class="option ${st}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`;
+      }).join("");
+      container.innerHTML=`<div class="card" style="border-top:6px solid var(--navy)">
+        <div class="card-header" style="background:var(--navy)">
+          <span>ID: ${q.id}</span>
+          <button class="bookmark-btn" onclick="toggleBookmark('${q.id}')" title="Save question">${isBm?'⭐':'☆'}</button>
+        </div>
+        <div class="card-body">
+          <div style="font-weight:800;margin-bottom:15px;">${q.text}</div>
+          ${getSafeImg(q.img)}
+          ${optionsHtml}
+          <div class="rationale" id="rat" style="${!examMode&&answered.includes(q.id)?'display:block':''}">
+            <strong>Explanation:</strong><br>${formatText(q.rationale)}
+          </div>
+        </div>
+      </div>`;
       renderNav();
+      updateProgress();
     }
 
     function handleAns(idx,cor,qId){
-      const ops=document.querySelectorAll(".option"); ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
-      document.getElementById("rat").style.display="block";
-      if(!answered.includes(qId)){ answered.push(qId); localStorage.setItem('answered_questions',JSON.stringify(answered)); document.getElementById('total-solved').innerText=answered.length; }
+      if(examMode){userSels[currentIdx]=idx;showQ();}
+      else{
+        const ops=document.querySelectorAll(".option");
+        ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
+        document.getElementById("rat").style.display="block";
+        if(!answered.includes(qId)){
+          answered.push(qId);
+          localStorage.setItem('answered_questions',JSON.stringify(answered));
+          document.getElementById('total-solved').innerText=answered.length;
+        }
+        updateProgress();
+      }
     }
 
-    function renderNav(){ document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Prev</button><button class="btn btn-gold" onclick="next()">Next</button>`; }
-    function next(){ const d=(activeMainTab==="questions"?filteredQuestions:filteredNotes); if(currentIdx<d.length-1){currentIdx++; activeMainTab==="questions"?showQ():showNote();} }
-    function prev(){ if(currentIdx>0){currentIdx--; activeMainTab==="questions"?showQ():showNote();} }
-    function goBack(){ renderMain(); }
-    function switchMainTab(t){ activeMainTab=t; renderMain(); }
-    function getIcon(c){ const i={Medicine:"🩺",Surgery:"🔪",Pediatrics:"👶",Psychiatry:"🧠",Ethics:"⚖️",Emergency:"🚨",Neurology:"🧠"}; return i[c]||"📚"; }
-    function toggleBookmark(id){ if(bookmarks.includes(id)) bookmarks=bookmarks.filter(b=>b!==id); else bookmarks.push(id); localStorage.setItem('bookmarks',JSON.stringify(bookmarks)); showQ(); }
+    function renderNav(){
+      let nextT=(currentIdx===filteredQuestions.length-1&&examMode)?"Finish":"Next";
+      document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${nextT}</button>`;
+    }
 
+    function next(){const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes);if(currentIdx<data.length-1){currentIdx++;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}else if(examMode)finishEx();}
+    function prev(){if(currentIdx>0){currentIdx--;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}}
+    function finishEx(){stopTimer();let score=0;filteredQuestions.forEach((q,i)=>{if(userSels[i]===q.correct)score++;});alert(`Finished!\nScore: ${score}/${filteredQuestions.length}\nTime: ${document.getElementById('timer').innerText}`);examMode=false;setMode('study');}
+    function formatText(t){
+      if(!t)return"";
+      return t
+        .replace(/Dx:/g,'<span class="hl-blue">Dx:</span>')
+        .replace(/Tx:/g,'<span class="hl-green">Tx:</span>')
+        .replace(/Risk:/g,'<span class="hl-red">Risk:</span>')
+        .replace(/\n/g,"<br>");
+    }
+    function goBack(){if(document.getElementById("view-area").style.display==="block")openCat(currentCategory);else renderMain();}
+    function switchMainTab(t){
+      activeMainTab=t;
+      document.getElementById("tab-questions").className=(t==="questions"?"tab active":"tab");
+      document.getElementById("tab-notes").className=(t==="notes"?"tab active":"tab");
+      document.getElementById("tab-bookmarks").className=(t==="bookmarks"?"tab active":"tab");
+      renderMain();
+    }
+    function getIcon(c){const i={Medicine:"🩺",Surgery:"🔪",Pediatrics:"👶",Psychiatry:"🧠",Ethics:"⚖️",Emergency:"🚨","Obstetrics and Gynecology":"🤰","OBGYN":"🤰","Family Medicine":"👨‍⚕️"};return i[c]||"📚";}
     init();
   </script>
 
-  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  <!-- PWA Service Worker -->
+  <script>
+    if('serviceWorker' in navigator){
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+
+  <!-- Buy Me A Coffee Widget -->
+  <script
+    data-name="BMC-Widget"
+    data-cfasync="false"
+    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+    data-id="MediVaultPro"
+    data-description="Support me on Buy me a coffee!"
+    data-message=""
+    data-color="#5F7FFF"
+    data-position="Right"
+    data-x_margin="18"
+    data-y_margin="18">
+  </script>
 
 </body>
 </html>
