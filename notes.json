@@ -1158,4 +1158,145 @@
   "title": "Exam Killer Rule",
   "content": "<div style='background:#fff5f5; padding:12px;'><b>If unstable → treat</b><br><b>If stable → investigate</b><br><b>If risk high → act fast</b></div>"
 }
+,
+{
+  "id": "CA-ELITE-091",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Unstable Patient – First 3 Moves",
+  "content": "<div style='background:#fff5f5; padding:10px;'>1. Airway</div><div style='background:#f0f7ff; padding:10px;'>2. Breathing</div><div style='background:#f0fff4; padding:10px;'>3. Circulation</div><br><span class='hl-red'>Rule:</span> Do not ask diagnosis before stabilizing."
+},
+{
+  "id": "CA-ELITE-092",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Syncope – Exam Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>First: ECG</div><div style='background:#f0fff4; padding:10px;'>Then: history (cardiac vs vasovagal)</div><br><span class='hl-red'>Red flag:</span> Syncope during exertion → cardiac cause."
+},
+{
+  "id": "CA-ELITE-093",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Chest Pain – First Step Logic",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Always ECG first</div><div style='background:#f0fff4; padding:10px;'>Then troponin</div><br><span class='hl-red'>Trap:</span> Do NOT wait for labs before ECG."
+},
+{
+  "id": "CA-ELITE-094",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Stable Angina vs ACS",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>Stable</b></td><td><b>ACS</b></td></tr><tr><td>Pain</td><td>Exertion</td><td>At rest</td></tr><tr style='background:#f9f9f9;'><td>Relief</td><td>Nitro</td><td>Not fully</td></tr></table>"
+},
+{
+  "id": "CA-ELITE-095",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Dyspnea – Rapid Sorting",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Wheeze → asthma/COPD</div><div style='background:#fff5f5; padding:10px;'>Crackles → HF</div><div style='background:#f0fff4; padding:10px;'>Clear lungs → PE</div>"
+},
+{
+  "id": "CA-ELITE-096",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "PE – Exam Logic",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Low risk → D-dimer</div><div style='background:#fff5f5; padding:10px;'>High risk → CT directly</div><br><span class='hl-red'>Trap:</span> Do not order D-dimer in high-risk."
+},
+{
+  "id": "CA-ELITE-097",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "RUQ Pain – Key Causes",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Cholecystitis</div><div style='background:#f0fff4; padding:10px;'>Hepatitis</div><div style='background:#fff5f5; padding:10px;'>Biliary obstruction</div>"
+},
+{
+  "id": "CA-ELITE-098",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Appendicitis – Classic Pattern",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Pain starts periumbilical</div><div style='background:#fff5f5; padding:10px;'>Then RLQ</div><br><span class='hl-green'>Dx:</span> CT abdomen"
+},
+{
+  "id": "CA-ELITE-099",
+  "cat": "Medicine",
+  "sub": "Renal",
+  "title": "Hyperkalemia – Emergency",
+  "content": "<div style='background:#fff5f5; padding:10px;'>ECG changes</div><br><span class='hl-green'>Tx order:</span><br>1. Calcium<br>2. Insulin + glucose<br>3. Dialysis"
+},
+{
+  "id": "CA-ELITE-100",
+  "cat": "Medicine",
+  "sub": "Renal",
+  "title": "Kidney Stone – Exam Pattern",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Severe flank pain → groin</div><div style='background:#f0f7ff; padding:10px;'>Hematuria</div><br><span class='hl-green'>Dx:</span> CT non-contrast"
+},
+{
+  "id": "CA-ELITE-101",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Headache – Imaging Rule",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Red flags → CT</div><div style='background:#f0fff4; padding:10px;'>No red flags → no imaging</div>"
+},
+{
+  "id": "CA-ELITE-102",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Stroke – Decision Flow",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>CT first</div><div style='background:#f0fff4; padding:10px;'>If ischemic → tPA</div><div style='background:#fff5f5; padding:10px;'>If bleed → no tPA</div>"
+},
+{
+  "id": "CA-ELITE-103",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Hypoglycemia – Immediate Action",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Low glucose → give glucose NOW</div><br><span class='hl-red'>Trap:</span> Do not wait labs."
+},
+{
+  "id": "CA-ELITE-104",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Hypercalcemia – Clue",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Stones + bones + groans</div><br><span class='hl-green'>Tx:</span> Fluids first"
+},
+{
+  "id": "CA-ELITE-105",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Fever – First Question",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Stable vs unstable</div><br><span class='hl-red'>Rule:</span> unstable → treat immediately"
+},
+{
+  "id": "CA-ELITE-106",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "title": "Bleeding – Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Platelets problem → mucosal</div><div style='background:#fff5f5; padding:10px;'>Coagulation → deep bleeding</div>"
+},
+{
+  "id": "CA-ELITE-107",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "title": "Abnormal Uterine Bleeding",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>First test → pregnancy test</div><br><span class='hl-red'>Trap:</span> always rule out pregnancy"
+},
+{
+  "id": "CA-ELITE-108",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "title": "Ectopic Pregnancy – Rule",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Pain + bleeding + +ve pregnancy</div><br><span class='hl-green'>Dx:</span> US + β-hCG"
+},
+{
+  "id": "CA-ELITE-109",
+  "cat": "Pediatrics",
+  "sub": "General",
+  "title": "Child with Vomiting",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Bilious vomiting → obstruction</div><div style='background:#f0f7ff; padding:10px;'>Non-bilious → pyloric stenosis</div>"
+},
+{
+  "id": "CA-ELITE-110",
+  "cat": "Medicine",
+  "sub": "Final Elite",
+  "title": "Ultimate Exam Rule",
+  "content": "<div style='background:#fff5f5; padding:12px;'><b>Do what saves life first</b><br><b>Then confirm diagnosis</b><br><b>Then refine management</b></div>"
+}
 ]
