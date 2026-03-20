@@ -524,4 +524,215 @@
   "title": "Electrolytes – Life-Threatening Changes",
   "content": "<div style='background:#fff5f5; padding:10px;'>Hyperkalemia → peaked T waves → calcium gluconate</div><div style='background:#f0f7ff; padding:10px;'>Hypokalemia → U waves → replace K</div><div style='background:#f0fff4; padding:10px;'>Hyponatremia → confusion → slow correction</div><br><span class='hl-red'>Trap:</span> Correct Na slowly to avoid osmotic demyelination"
 }
+,
+{
+  "id": "CA-HQ-001",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Canadian Chest Pain Framework",
+  "content": "<div style='background:#fff5f5; padding:10px; border-left:5px solid #c53030; border-radius:6px;'><b>Never miss:</b> ACS · Aortic dissection · PE · Pericarditis · Pneumothorax · Esophageal rupture</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Diagnosis</b></td><td><b>Key clue</b></td><td><b>First move</b></td></tr><tr><td>ACS</td><td>Pressure, diaphoresis, radiation</td><td>ECG within 10 min + ASA</td></tr><tr style='background:#f9f9f9;'><td>PE</td><td>Pleuritic pain, tachycardia, hypoxemia</td><td>Risk stratify → CTPA if indicated</td></tr><tr><td>Aortic dissection</td><td>Tearing pain to back, pulse deficit</td><td>Urgent imaging + BP control</td></tr><tr style='background:#f9f9f9;'><td>Pneumothorax</td><td>Unilateral breath sounds ↓</td><td>Decompress if tension</td></tr></table><br><span class='hl-red'>Exam trap:</span> Pleuritic pain is not always PE. Use the whole picture."
+},
+{
+  "id": "CA-HQ-002",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "STEMI vs NSTEMI vs Unstable Angina",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>STEMI</b></td><td><b>NSTEMI</b></td><td><b>Unstable angina</b></td></tr><tr><td>ECG</td><td>ST elevation</td><td>ST depression/T inversion or normal</td><td>Often no biomarker rise</td></tr><tr style='background:#f9f9f9;'><td>Troponin</td><td>Positive</td><td>Positive</td><td>Negative</td></tr><tr><td>Main action</td><td>Immediate reperfusion</td><td>ACS protocol + risk stratify</td><td>ACS protocol</td></tr></table><br><div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Core first steps:</b> ECG · ASA · monitor · IV access · troponin</div>"
+},
+{
+  "id": "CA-HQ-003",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Atrial Fibrillation – Canadian Exam Note",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Diagnosis:</b> Irregularly irregular rhythm + absent organized P waves</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Question</b></td><td><b>Answer</b></td></tr><tr><td>Unstable?</td><td>Synchronized cardioversion</td></tr><tr style='background:#f9f9f9;'><td>Stable?</td><td>Rate control first</td></tr><tr><td>Stroke prevention?</td><td>CHA2DS2-VASc</td></tr><tr style='background:#f9f9f9;'><td>Common rate drugs</td><td>Beta-blocker or diltiazem</td></tr></table><br><span class='hl-red'>Trap:</span> Do not jump to cardioversion in AF >48 h without thinking about anticoagulation and embolic risk."
+},
+{
+  "id": "CA-HQ-004",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Asthma – Canadian Step Logic",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Asthma diagnosis needs:</b> variable symptoms + objective evidence of reversible airflow limitation</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Situation</b></td><td><b>Key action</b></td></tr><tr><td>Suspected asthma</td><td>Spirometry if possible</td></tr><tr style='background:#f9f9f9;'><td>Poor control</td><td>Check inhaler technique + adherence + triggers before stepping up</td></tr><tr><td>Exacerbation</td><td>SABA + steroids ± ipratropium ± O2</td></tr></table><br><span class='hl-red'>Exam trap:</span> A normal exam does not rule out asthma between attacks."
+},
+{
+  "id": "CA-HQ-005",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "COPD – High Yield Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>Asthma</b></td><td><b>COPD</b></td></tr><tr><td>Usual age</td><td>Younger</td><td>Older</td></tr><tr style='background:#f9f9f9;'><td>Smoking link</td><td>Not required</td><td>Strong</td></tr><tr><td>Reversibility</td><td>Marked</td><td>Persistent obstruction</td></tr><tr style='background:#f9f9f9;'><td>Baseline treatment idea</td><td>ICS-based</td><td>Bronchodilator-based</td></tr></table><br><div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>Oxygen target in COPD exacerbation:</b> 88–92%</div>"
+},
+{
+  "id": "CA-HQ-006",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Acute Stroke – Exam Flow",
+  "content": "<div style='background:#fff5f5; padding:10px; border-left:5px solid #c53030; border-radius:6px;'><b>Stroke code:</b> sudden focal deficit = emergency</div><br><div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Flow:</b><br>1. ABCs + glucose<br>2. CT head urgently<br>3. Ischemic or hemorrhagic<br>4. Reperfusion eligibility if ischemic</div><br><span class='hl-green'>Key note:</span> CT comes before thrombolysis.<br><span class='hl-red'>Trap:</span> Never assume ischemic stroke before imaging."
+},
+{
+  "id": "CA-HQ-007",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "TIA – Canadian Risk Thinking",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Feature</b></td><td><b>Meaning</b></td></tr><tr><td>Transient focal deficit</td><td>Warning sign for stroke</td></tr><tr style='background:#f9f9f9;'><td>High ABCD2</td><td>Needs urgent assessment</td></tr><tr><td>Motor or speech symptoms</td><td>Higher concern</td></tr></table><br><div style='background:#f0fff4; padding:10px; border-radius:6px;'>Think brain imaging + vascular source + ECG monitoring.</div>"
+},
+{
+  "id": "CA-HQ-008",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "DKA vs HHS – Visual Comparison",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>DKA</b></td><td><b>HHS</b></td></tr><tr><td>Typical patient</td><td>T1DM</td><td>T2DM older adult</td></tr><tr style='background:#f9f9f9;'><td>Ketones</td><td>Present</td><td>Minimal/none</td></tr><tr><td>Acidosis</td><td>Yes</td><td>Less marked</td></tr><tr style='background:#f9f9f9;'><td>Water deficit</td><td>High</td><td>Very high</td></tr></table><br><div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Treatment order:</b> Fluids → potassium thinking → insulin</div><br><span class='hl-red'>Trap:</span> Low potassium changes the order."
+},
+{
+  "id": "CA-HQ-009",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Type 2 Diabetes – Canadian Treatment Layers",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Base:</b> lifestyle + individualized A1c target</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Clinical situation</b></td><td><b>Drug priority</b></td></tr><tr><td>No major cardiorenal issue</td><td>Metformin usually first</td></tr><tr style='background:#f9f9f9;'><td>ASCVD / high CV risk</td><td>SGLT2i or GLP-1 RA with proven benefit</td></tr><tr><td>CKD / HF</td><td>SGLT2i strongly important if eligible</td></tr></table><br><span class='hl-red'>Trap:</span> Do not memorize one single first-line answer for every patient."
+},
+{
+  "id": "CA-HQ-010",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Thyroid Problems – Fast Differentiation",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Pattern</b></td><td><b>Likely problem</b></td><td><b>Move</b></td></tr><tr><td>TSH high + free T4 low</td><td>Primary hypothyroidism</td><td>Levothyroxine</td></tr><tr style='background:#f9f9f9;'><td>TSH low + T4 high</td><td>Hyperthyroidism</td><td>Cause-based treatment</td></tr><tr><td>Thyroid storm picture</td><td>Emergency</td><td>Beta-blocker + antithyroid + ICU thinking</td></tr></table>"
+},
+{
+  "id": "CA-HQ-011",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Sepsis – One-Hour Thinking",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>Red flags:</b> hypotension · lactate high · altered mentation · tachypnea</div><br><div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Core sequence:</b><br>• Recognize<br>• Cultures if possible<br>• Broad antibiotics early<br>• IV crystalloid<br>• Vasopressor if shock persists</div><br><span class='hl-red'>Trap:</span> Antibiotics should not wait for perfect data."
+},
+{
+  "id": "CA-HQ-012",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Meningitis – Exam Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>CSF feature</b></td><td><b>Bacterial</b></td><td><b>Viral</b></td></tr><tr><td>Opening pressure</td><td>Often high</td><td>Usually milder</td></tr><tr style='background:#f9f9f9;'><td>Cells</td><td>Neutrophils</td><td>Lymphocytes</td></tr><tr><td>Protein</td><td>High</td><td>Mild/moderate</td></tr><tr style='background:#f9f9f9;'><td>Glucose</td><td>Low</td><td>Usually normal</td></tr></table><br><span class='hl-red'>Trap:</span> If bacterial meningitis is strongly suspected, do not create delay in antibiotics."
+},
+{
+  "id": "CA-HQ-013",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "UTI – Canadian Practical Note",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Uncomplicated cystitis:</b> dysuria + frequency + urgency without systemic features</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Situation</b></td><td><b>Approach</b></td></tr><tr><td>Simple cystitis</td><td>Nitrofurantoin common first choice</td></tr><tr style='background:#f9f9f9;'><td>Fever/flank pain</td><td>Think pyelonephritis</td></tr><tr><td>Pregnancy</td><td>Treat bacteriuria</td></tr><tr style='background:#f9f9f9;'><td>Asymptomatic nonpregnant adult</td><td>Usually do not treat</td></tr></table>"
+},
+{
+  "id": "CA-HQ-014",
+  "cat": "Medicine",
+  "sub": "Preventive",
+  "title": "Canadian Screening – Corrected Core Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Screen</b></td><td><b>Canadian high-yield note</b></td></tr><tr><td>Colorectal</td><td>FIT q2y or flex sig q10y age 50–74 average risk</td></tr><tr style='background:#f9f9f9;'><td>Breast</td><td>Mammography q2–3y age 50–74 average risk</td></tr><tr><td>Cervical</td><td>Program-specific in Canada. Classic exam note often uses Pap q3y age 25–69</td></tr><tr style='background:#f9f9f9;'><td>AAA</td><td>One-time screening in selected men 65–80 ever smokers</td></tr></table><br><span class='hl-red'>Trap:</span> Do not replace Canadian FIT screening with routine colonoscopy in average-risk adults."
+},
+{
+  "id": "CA-HQ-015",
+  "cat": "Medicine",
+  "sub": "Preventive",
+  "title": "Hypertension – Canadian Diagnosis and Treatment",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Routine office threshold:</b> 140/90 mmHg remains a key diagnostic and treatment anchor in many exam questions.</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Step</b></td><td><b>Meaning</b></td></tr><tr><td>Confirm elevated BP</td><td>Use proper repeated measurement strategy</td></tr><tr style='background:#f9f9f9;'><td>All patients</td><td>Lifestyle modification</td></tr><tr><td>Drug therapy</td><td>Start at ≥140/90 after diagnosis, or lower systolic range if high CV risk</td></tr></table>"
+},
+{
+  "id": "CA-HQ-016",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "Depression – Real Exam Distinctions",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Finding</b></td><td><b>Meaning</b></td></tr><tr><td>Low mood/anhedonia ≥2 weeks</td><td>Major depression possible</td></tr><tr style='background:#f9f9f9;'><td>Grandiosity + decreased need for sleep</td><td>Think bipolar, not simple depression</td></tr><tr><td>Psychosis only during mood episode</td><td>Mood disorder with psychotic features</td></tr></table><br><span class='hl-red'>Trap:</span> Never give antidepressant monotherapy if true bipolar disorder is suspected."
+},
+{
+  "id": "CA-HQ-017",
+  "cat": "Psychiatry",
+  "sub": "Psychosis",
+  "title": "Primary Psychotic Disorders – Fast Separation",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Disorder</b></td><td><b>High-yield clue</b></td></tr><tr><td>Schizophrenia</td><td>Psychosis + functional decline + duration</td></tr><tr style='background:#f9f9f9;'><td>Schizoaffective</td><td>Mood syndrome + psychosis, with psychosis also outside mood episode</td></tr><tr><td>Delusional disorder</td><td>Fixed delusion, function relatively preserved</td></tr></table>"
+},
+{
+  "id": "CA-HQ-018",
+  "cat": "Psychiatry",
+  "sub": "Personality",
+  "title": "Personality Disorders – Cleaner Exam Grid",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Cluster A</b></td><td>Paranoid · Schizoid · Schizotypal</td></tr><tr><td><b>Cluster B</b></td><td>Antisocial · Borderline · Histrionic · Narcissistic</td></tr><tr style='background:#eee;'><td><b>Cluster C</b></td><td>Avoidant · Dependent · OCPD</td></tr></table><br><span class='hl-red'>Trap:</span> OCPD is not OCD."
+},
+{
+  "id": "CA-HQ-019",
+  "cat": "Pediatrics",
+  "sub": "Emergency",
+  "title": "Pediatric Airway Emergencies",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Condition</b></td><td><b>Clue</b></td><td><b>Priority</b></td></tr><tr><td>Epiglottitis</td><td>Drooling + fever + toxic + stridor</td><td>Airway first</td></tr><tr style='background:#f9f9f9;'><td>Croup</td><td>Barking cough + inspiratory stridor</td><td>Dexamethasone ± epinephrine</td></tr><tr><td>Bronchiolitis</td><td>Infant + viral prodrome + wheeze</td><td>Supportive care</td></tr></table>"
+},
+{
+  "id": "CA-HQ-020",
+  "cat": "Pediatrics",
+  "sub": "Development",
+  "title": "Developmental Red Flags – Fast Review",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>Refer early if:</b> persistent head lag · major motor delay · language regression · loss of milestones · social red flags</div><br><span class='hl-green'>Principle:</span> Early assessment is better than delayed reassurance."
+},
+{
+  "id": "CA-HQ-021",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "title": "Third-Trimester Bleeding – Exam Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Diagnosis</b></td><td><b>Bleeding</b></td><td><b>Pain</b></td><td><b>Clue</b></td></tr><tr><td>Placenta previa</td><td>Bright</td><td>Painless</td><td>Do not do digital exam before localization</td></tr><tr style='background:#f9f9f9;'><td>Abruption</td><td>May be dark</td><td>Painful</td><td>Tender uterus, fetal distress</td></tr></table><br><span class='hl-red'>Trap:</span> Maternal stabilization comes first in unstable bleeding."
+},
+{
+  "id": "CA-HQ-022",
+  "cat": "OBGYN",
+  "sub": "Hypertensive Disorders",
+  "title": "Preeclampsia – HELLP – Eclampsia",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Preeclampsia:</b> hypertension after 20 weeks + proteinuria or end-organ features</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Condition</b></td><td><b>High-yield clue</b></td></tr><tr><td>HELLP</td><td>Hemolysis + elevated liver enzymes + low platelets</td></tr><tr style='background:#f9f9f9;'><td>Eclampsia</td><td>Seizure in preeclampsia context</td></tr></table><br><span class='hl-green'>Core drug:</span> Magnesium sulfate for seizure prevention/treatment."
+},
+{
+  "id": "CA-HQ-023",
+  "cat": "Surgery",
+  "sub": "Trauma",
+  "title": "Thoracic Trauma – One-Look Differentiation",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Emergency</b></td><td><b>Key sign</b></td><td><b>Immediate move</b></td></tr><tr><td>Tension pneumothorax</td><td>Tracheal deviation + no breath sounds + shock</td><td>Immediate decompression</td></tr><tr style='background:#f9f9f9;'><td>Massive hemothorax</td><td>Dullness + shock</td><td>Chest tube + trauma surgery</td></tr><tr><td>Cardiac tamponade</td><td>Hypotension + JVD + muffled sounds</td><td>Immediate decompression pathway</td></tr></table>"
+},
+{
+  "id": "CA-HQ-024",
+  "cat": "Surgery",
+  "sub": "Abdomen",
+  "title": "Acute Abdomen – Surgical Pattern Recognition",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>Peritonitis signs:</b> rigidity · rebound · involuntary guarding</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Pattern</b></td><td><b>Likely diagnosis</b></td></tr><tr><td>Pain central then RLQ</td><td>Appendicitis</td></tr><tr style='background:#f9f9f9;'><td>Sudden severe epigastric pain + free air</td><td>Perforated peptic ulcer</td></tr><tr><td>Colicky pain + distension + prior surgery</td><td>SBO</td></tr></table>"
+},
+{
+  "id": "CA-HQ-025",
+  "cat": "Surgery",
+  "sub": "Urology",
+  "title": "Scrotal Pain – Do Not Miss Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Diagnosis</b></td><td><b>Clue</b></td><td><b>Action</b></td></tr><tr><td>Testicular torsion</td><td>Sudden pain + high-riding testis + absent cremasteric reflex</td><td>Urgent urology, do not delay</td></tr><tr style='background:#f9f9f9;'><td>Epididymitis</td><td>More gradual + infectious context</td><td>Treat cause</td></tr></table><br><span class='hl-red'>Trap:</span> In exam stems, sudden scrotal pain is torsion until proven otherwise."
+},
+{
+  "id": "CA-HQ-026",
+  "cat": "Medicine",
+  "sub": "Biostatistics",
+  "title": "Study Designs – Cleaner Canadian Exam Note",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Design</b></td><td><b>Best use</b></td><td><b>Measure</b></td></tr><tr><td>Cross-sectional</td><td>Snapshot</td><td>Prevalence</td></tr><tr style='background:#f9f9f9;'><td>Case-control</td><td>Rare disease</td><td>Odds ratio</td></tr><tr><td>Cohort</td><td>Exposure → outcome</td><td>Incidence / relative risk</td></tr><tr style='background:#f9f9f9;'><td>RCT</td><td>Intervention efficacy</td><td>Best causal evidence</td></tr></table>"
+},
+{
+  "id": "CA-HQ-027",
+  "cat": "Medicine",
+  "sub": "Biostatistics",
+  "title": "P-value and Test Interpretation",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>P = 0.05</b> means: if the null hypothesis were true, the observed result or a more extreme one would occur about 5% of the time.</div><br><span class='hl-red'>Trap:</span> It does NOT mean the treatment works in 95% of patients."
+},
+{
+  "id": "CA-HQ-028",
+  "cat": "Medicine",
+  "sub": "Ethics",
+  "title": "Canadian Ethics – High Yield Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Scenario</b></td><td><b>Exam rule</b></td></tr><tr><td>Capable adult refuses life-saving care</td><td>Respect refusal</td></tr><tr style='background:#f9f9f9;'><td>Parents refuse life-saving treatment for child</td><td>Best interests of child prevail</td></tr><tr><td>Police request records</td><td>Need consent unless legal exception</td></tr><tr style='background:#f9f9f9;'><td>Adverse event disclosure</td><td>Disclose honestly + empathically</td></tr></table>"
+},
+{
+  "id": "CA-HQ-029",
+  "cat": "Medicine",
+  "sub": "Ethics",
+  "title": "MAID – Canadian Exam Skeleton",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>Think:</b> capacity · voluntariness · grievous and irremediable condition · procedural safeguards</div><br><div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>High-yield exam point:</b> two independent assessments remain a core classic note in exam-style teaching.</div>"
+},
+{
+  "id": "CA-HQ-030",
+  "cat": "Medicine",
+  "sub": "Top Review",
+  "title": "Canadian Exam Traps – Final Page",
+  "content": "<div style='background:#fff5f5; padding:12px; border-radius:6px;'><b>Do not miss these traps:</b><br>• Average-risk colon screening in Canada is FIT-based, not routine colonoscopy<br>• Stroke imaging before thrombolysis<br>• COPD oxygen target is 88–92%<br>• DKA starts with fluids, not insulin alone<br>• Sudden scrotal pain = torsion until proven otherwise<br>• Drooling + stridor child = airway emergency<br>• Capable adult may refuse even life-saving treatment</div>"
+}
 ]
