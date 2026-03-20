@@ -2083,4 +2083,85 @@
   "title": "Canadian Exam Strategy | Final Rule Set",
   "content": "<div style='background:#fff5f5; padding:12px; border-radius:8px;'><b>1.</b> unstable patient → stabilize first<br><b>2.</b> capacity question → autonomy first if capable<br><b>3.</b> pregnancy question → avoid teratogens and think maternal stabilization first<br><b>4.</b> pediatric emergency → airway and serious bacterial illness first<br><b>5.</b> preventive question → use Canadian screening, not US defaults</div>"
 }
+[
+{
+  "id": "HY-PRO-01",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Asthma – Stepwise Control",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Asthma_stepwise_management.png",
+  "content": "• <span class='hl-blue'>Dx:</span> Variable symptoms + reversible airflow obstruction<br>• <span class='hl-green'>Core rule:</span> ICS required for all persistent asthma<br><table><tr><th>Step</th><th>Therapy</th></tr><tr><td>Mild</td><td>Low-dose ICS</td></tr><tr><td>Moderate</td><td>ICS + LABA</td></tr><tr><td>Severe</td><td>High ICS + add-ons</td></tr></table>• <span class='hl-red'>Exacerbation:</span> O2 + Salbutamol + Steroids<br>• <span class='hl-blue'>Exam:</span> Always check adherence before step-up"
+},
+{
+  "id": "HY-PRO-02",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "STEMI – Localization",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/7/75/ST_elevation_inferior_leads.png",
+  "content": "• <span class='hl-blue'>Inferior:</span> II, III, aVF<br>• <span class='hl-blue'>Anterior:</span> V1–V4<br>• <span class='hl-blue'>Lateral:</span> I, aVL, V5–V6<br><table><tr><th>Lead</th><th>Area</th></tr><tr><td>II,III,aVF</td><td>Inferior</td></tr><tr><td>V1–V4</td><td>Anterior</td></tr></table>• <span class='hl-green'>Tx:</span> PCI immediately<br>• <span class='hl-red'>Exam:</span> ECG first within 10 min"
+},
+{
+  "id": "HY-PRO-03",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Stroke – Algorithm",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Stroke_treatment_algorithm.png",
+  "content": "• <span class='hl-blue'>First:</span> CT head<br>• No bleed → tPA<br>• <span class='hl-red'>If bleed:</span> NO tPA<br><table><tr><th>Step</th><th>Action</th></tr><tr><td>1</td><td>CT head</td></tr><tr><td>2</td><td>Decide tPA</td></tr></table>• <span class='hl-green'>Large vessel:</span> thrombectomy<br>• <span class='hl-red'>Exam:</span> Never delay CT"
+},
+{
+  "id": "HY-PRO-04",
+  "cat": "Medicine",
+  "sub": "Endocrine",
+  "title": "DKA – Management",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Diabetic_ketoacidosis_diagram.png",
+  "content": "• <span class='hl-blue'>Triad:</span> Hyperglycemia + Ketones + Acidosis<br><table><tr><th>Step</th><th>Action</th></tr><tr><td>1</td><td>IV fluids</td></tr><tr><td>2</td><td>Check K</td></tr><tr><td>3</td><td>Insulin</td></tr></table>• <span class='hl-red'>Exam trap:</span> Do NOT start insulin if K low<br>• <span class='hl-green'>Always treat cause</span>"
+},
+{
+  "id": "HY-PRO-05",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Peptic Ulcer Disease",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Peptic_ulcer_disease.png",
+  "content": "• <span class='hl-blue'>Cause:</span> H. pylori or NSAIDs<br>• <span class='hl-green'>Dx:</span> Endoscopy<br>• <span class='hl-green'>Tx:</span> PPI + antibiotics<br>• <span class='hl-red'>Alarm:</span> weight loss or bleeding"
+},
+{
+  "id": "HY-PRO-06",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "COPD – GOLD",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/COPD_GOLD_classification.png",
+  "content": "• <span class='hl-blue'>Dx:</span> FEV1/FVC <0.7<br><table><tr><th>Stage</th><th>FEV1</th></tr><tr><td>1</td><td>>80%</td></tr><tr><td>2</td><td>50-80%</td></tr><tr><td>3</td><td>30-50%</td></tr><tr><td>4</td><td><30%</td></tr></table>• <span class='hl-green'>Tx:</span> LABA/LAMA ± ICS"
+},
+{
+  "id": "HY-PRO-07",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Heart Failure",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Heart_failure_treatment.png",
+  "content": "• <span class='hl-blue'>HFrEF:</span> ACEi + BB + Spironolactone<br>• <span class='hl-green'>Add:</span> SGLT2<br>• <span class='hl-red'>Exam:</span> mortality reduction drugs"
+},
+{
+  "id": "HY-PRO-08",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Antibiotic Spectrum",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Antibiotic_spectrum.png",
+  "content": "• Gram + → Penicillin<br>• Gram - → Cephalosporin<br>• MRSA → Vancomycin<br>• <span class='hl-red'>Exam:</span> know coverage"
+},
+{
+  "id": "HY-PRO-09",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "Lithium – Toxicity",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Diabetic_ketoacidosis_diagram.png",
+  "content": "• <span class='hl-blue'>Monitor:</span> renal + thyroid<br><table><tr><th>Cause</th><th>Effect</th></tr><tr><td>NSAIDs</td><td>↑ Lithium</td></tr><tr><td>Dehydration</td><td>↑ Lithium</td></tr></table>• <span class='hl-red'>Toxicity:</span> tremor, confusion, ataxia"
+},
+{
+  "id": "HY-PRO-10",
+  "cat": "Pediatrics",
+  "sub": "ENT",
+  "title": "Epiglottitis vs Croup",
+  "img": "https://upload.wikimedia.org/wikipedia/commons/7/75/ST_elevation_inferior_leads.png",
+  "content": "<table><tr><th>Feature</th><th>Epiglottitis</th><th>Croup</th></tr><tr><td>Onset</td><td>Rapid</td><td>Gradual</td></tr><tr><td>Cough</td><td>No</td><td>Barking</td></tr><tr><td>Drooling</td><td>Yes</td><td>No</td></tr></table>• <span class='hl-red'>Epiglottitis:</span> airway emergency<br>• <span class='hl-green'>Croup:</span> steroids"
+}
 ]
