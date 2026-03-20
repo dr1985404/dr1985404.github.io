@@ -1702,4 +1702,125 @@
   "title": "Exam Pattern Summary",
   "content": "<div style='background:#f0fff4; padding:12px;'>See pattern → act fast<br>Do not overthink<br>Pick safest action</div>"
 }
+,
+{
+  "id": "CASE-ADV-021",
+  "cat": "Cardiology",
+  "title": "Chest Pain with Normal ECG",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Chest pain + normal ECG</div><br><div style='background:#fff5f5; padding:10px;'>Still suspect ACS</div><div style='background:#f0fff4; padding:10px;'>Action: serial troponin</div><br><span class='hl-red'>Trap:</span> do not discharge"
+},
+{
+  "id": "CASE-ADV-022",
+  "cat": "Respirology",
+  "title": "COPD Patient Given Oxygen",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>COPD + hypoxia</div><br><div style='background:#fff5f5; padding:10px;'>Risk CO2 retention</div><div style='background:#f0fff4; padding:10px;'>Target O2: 88–92%</div>"
+},
+{
+  "id": "CASE-ADV-023",
+  "cat": "Neurology",
+  "title": "Seizure First Episode",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>First seizure</div><br><div style='background:#f0fff4; padding:10px;'>Action: CT head</div><br><span class='hl-red'>Trap:</span> not EEG first"
+},
+{
+  "id": "CASE-ADV-024",
+  "cat": "GI",
+  "title": "Painless Jaundice",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Painless jaundice + weight loss</div><br><div style='background:#f0fff4; padding:10px;'>Think pancreatic cancer</div>"
+},
+{
+  "id": "CASE-ADV-025",
+  "cat": "Renal",
+  "title": "AKI After Contrast",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Recent contrast + ↑Cr</div><br><div style='background:#f0fff4; padding:10px;'>Contrast nephropathy</div>"
+},
+{
+  "id": "CASE-ADV-026",
+  "cat": "Infectious",
+  "title": "Fever + Neck Stiffness",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Meningitis suspected</div><br><div style='background:#f0fff4; padding:10px;'>Action: antibiotics immediately</div><br><span class='hl-red'>Trap:</span> do not delay for CT"
+},
+{
+  "id": "CASE-ADV-027",
+  "cat": "OBGYN",
+  "title": "Pregnant + HTN",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Pregnant + high BP</div><br><div style='background:#f0fff4; padding:10px;'>Safe drugs: labetalol / nifedipine</div><br><span class='hl-red'>Trap:</span> no ACEi"
+},
+{
+  "id": "CASE-ADV-028",
+  "cat": "Pediatrics",
+  "title": "Projectile Vomiting Infant",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Non-bilious projectile vomiting</div><br><div style='background:#f0fff4; padding:10px;'>Pyloric stenosis</div>"
+},
+{
+  "id": "CASE-ADV-029",
+  "cat": "Cardiology",
+  "title": "Syncope During Exercise",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Syncope with exertion</div><br><div style='background:#f0fff4; padding:10px;'>Cardiac cause → echo</div>"
+},
+{
+  "id": "CASE-ADV-030",
+  "cat": "Endocrine",
+  "title": "Diabetic + Vomiting",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Diabetic + vomiting + dehydration</div><br><div style='background:#f0fff4; padding:10px;'>Think DKA → fluids first</div>"
+},
+{
+  "id": "CASE-ADV-031",
+  "cat": "Neurology",
+  "title": "Headache + Fever",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Headache + fever</div><br><div style='background:#f0fff4; padding:10px;'>Rule out meningitis</div>"
+},
+{
+  "id": "CASE-ADV-032",
+  "cat": "GI",
+  "title": "RUQ Pain After Fatty Meal",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Pain after fatty food</div><br><div style='background:#f0fff4; padding:10px;'>Gallstones</div>"
+},
+{
+  "id": "CASE-ADV-033",
+  "cat": "Renal",
+  "title": "Elderly + Urinary Retention",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Cannot urinate</div><br><div style='background:#f0fff4; padding:10px;'>Action: catheterize</div>"
+},
+{
+  "id": "CASE-ADV-034",
+  "cat": "Infectious",
+  "title": "UTI in Pregnancy",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Pregnant + UTI</div><br><div style='background:#f0fff4; padding:10px;'>Treat always</div>"
+},
+{
+  "id": "CASE-ADV-035",
+  "cat": "Cardiology",
+  "title": "AF + Stroke Prevention",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>AF patient</div><br><div style='background:#f0fff4; padding:10px;'>Use CHA2DS2-VASc</div>"
+},
+{
+  "id": "CASE-ADV-036",
+  "cat": "Hematology",
+  "title": "Bleeding + Low Platelets",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Platelet problem</div><br><div style='background:#f0fff4; padding:10px;'>Think ITP</div>"
+},
+{
+  "id": "CASE-ADV-037",
+  "cat": "Dermatology",
+  "title": "Painful Rash + Fever",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Severe rash + systemic symptoms</div><br><div style='background:#f0fff4; padding:10px;'>Think SJS</div>"
+},
+{
+  "id": "CASE-ADV-038",
+  "cat": "OBGYN",
+  "title": "Postpartum Bleeding",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Heavy bleeding after delivery</div><br><div style='background:#f0fff4; padding:10px;'>Uterine atony → massage</div>"
+},
+{
+  "id": "CASE-ADV-039",
+  "cat": "Pediatrics",
+  "title": "Child + Fever No Source",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Age <3 months</div><br><div style='background:#f0fff4; padding:10px;'>Full septic workup</div>"
+},
+{
+  "id": "CASE-ADV-040",
+  "cat": "Final",
+  "title": "Advanced Exam Rule",
+  "content": "<div style='background:#fff5f5; padding:14px;'><b>If pattern is classic → do not doubt it</b><br><b>If patient is unstable → act immediately</b><br><b>If unsure → choose safest option</b></div>"
+}
 ]
