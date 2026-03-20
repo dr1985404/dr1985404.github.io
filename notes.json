@@ -1581,4 +1581,125 @@
   "title": "Last Minute Mindset",
   "content": "<div style='background:#f0fff4; padding:14px;'><b>You are not guessing</b><br>You are eliminating wrong answers<br>You are choosing safest action</div>"
 }
+,
+{
+  "id": "CASE-001",
+  "cat": "Emergency",
+  "title": "Chest Pain – First Move",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Man 58 y/o presents with chest pain for 30 minutes. Stable. Sweating.</div><br><div style='background:#fff5f5; padding:10px;'><b>Think:</b> ACS</div><div style='background:#f0fff4; padding:10px;'><b>Action:</b> ECG immediately</div><br><span class='hl-red'>Do NOT:</span> wait for troponin first"
+},
+{
+  "id": "CASE-002",
+  "cat": "Emergency",
+  "title": "Unstable Patient",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Patient hypotensive + altered mental status</div><br><div style='background:#f0fff4; padding:10px;'><b>Action:</b> ABC first</div><br><span class='hl-red'>Trap:</span> Do NOT order labs first"
+},
+{
+  "id": "CASE-003",
+  "cat": "Respirology",
+  "title": "Shortness of Breath",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Patient dyspnea + wheeze</div><br><div style='background:#f0fff4; padding:10px;'>Likely asthma/COPD</div><br><span class='hl-green'>Action:</span> bronchodilator first"
+},
+{
+  "id": "CASE-004",
+  "cat": "Respirology",
+  "title": "Pulmonary Embolism",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Sudden dyspnea + tachycardia + recent surgery</div><br><div style='background:#fff5f5; padding:10px;'>High suspicion PE</div><div style='background:#f0fff4; padding:10px;'>Action: CT pulmonary angiography</div><br><span class='hl-red'>Trap:</span> skip D-dimer"
+},
+{
+  "id": "CASE-005",
+  "cat": "Neurology",
+  "title": "Stroke",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Sudden weakness + speech difficulty</div><br><div style='background:#f0fff4; padding:10px;'>Action: CT head first</div><br><span class='hl-red'>Do NOT:</span> give tPA before CT"
+},
+{
+  "id": "CASE-006",
+  "cat": "Endocrine",
+  "title": "Hypoglycemia",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Confusion + low glucose</div><br><div style='background:#f0fff4; padding:10px;'>Action: give glucose immediately</div><br><span class='hl-red'>Trap:</span> no labs first"
+},
+{
+  "id": "CASE-007",
+  "cat": "GI",
+  "title": "Appendicitis",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Pain started periumbilical then RLQ</div><br><div style='background:#fff5f5; padding:10px;'>Appendicitis pattern</div><div style='background:#f0fff4; padding:10px;'>Action: CT abdomen</div>"
+},
+{
+  "id": "CASE-008",
+  "cat": "GI",
+  "title": "Upper GI Bleed",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Melena + anemia</div><br><div style='background:#f0fff4; padding:10px;'>Action: endoscopy</div>"
+},
+{
+  "id": "CASE-009",
+  "cat": "Renal",
+  "title": "Kidney Stone",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Flank pain → groin + hematuria</div><br><div style='background:#f0fff4; padding:10px;'>Action: CT non-contrast</div>"
+},
+{
+  "id": "CASE-010",
+  "cat": "Renal",
+  "title": "Hyperkalemia",
+  "content": "<div style='background:#fff5f5; padding:10px;'>ECG changes + high K</div><br><div style='background:#f0fff4; padding:10px;'>Action: calcium first</div>"
+},
+{
+  "id": "CASE-011",
+  "cat": "Infectious",
+  "title": "Sepsis",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Fever + hypotension</div><br><div style='background:#f0fff4; padding:10px;'>Action: antibiotics immediately</div><br><span class='hl-red'>Trap:</span> do not delay"
+},
+{
+  "id": "CASE-012",
+  "cat": "OBGYN",
+  "title": "Ectopic Pregnancy",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Abdominal pain + vaginal bleeding + +ve pregnancy</div><br><div style='background:#f0fff4; padding:10px;'>Action: ultrasound + β-hCG</div>"
+},
+{
+  "id": "CASE-013",
+  "cat": "OBGYN",
+  "title": "Abnormal Bleeding",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Irregular bleeding</div><br><div style='background:#f0fff4; padding:10px;'>First step: pregnancy test</div>"
+},
+{
+  "id": "CASE-014",
+  "cat": "Pediatrics",
+  "title": "Epiglottitis",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Child drooling + stridor</div><br><div style='background:#f0fff4; padding:10px;'>Action: secure airway first</div><br><span class='hl-red'>Do NOT:</span> examine throat"
+},
+{
+  "id": "CASE-015",
+  "cat": "Neurology",
+  "title": "Subarachnoid Hemorrhage",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Worst headache of life</div><br><div style='background:#f0fff4; padding:10px;'>Action: CT → LP if negative</div>"
+},
+{
+  "id": "CASE-016",
+  "cat": "Cardiology",
+  "title": "Atrial Fibrillation",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Irregular rhythm</div><br><div style='background:#f0fff4; padding:10px;'>Action: rate control + anticoagulation</div>"
+},
+{
+  "id": "CASE-017",
+  "cat": "Dermatology",
+  "title": "Drug Rash",
+  "content": "<div style='background:#fff5f5; padding:10px;'>New medication + rash</div><br><div style='background:#f0fff4; padding:10px;'>Action: stop drug</div>"
+},
+{
+  "id": "CASE-018",
+  "cat": "Hematology",
+  "title": "Anemia",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Fatigue + low Hb</div><br><div style='background:#f0fff4; padding:10px;'>First step: MCV</div>"
+},
+{
+  "id": "CASE-019",
+  "cat": "Emergency",
+  "title": "Anaphylaxis",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Airway swelling + hypotension</div><br><div style='background:#f0fff4; padding:10px;'>Action: epinephrine IM</div>"
+},
+{
+  "id": "CASE-020",
+  "cat": "Final",
+  "title": "Exam Pattern Summary",
+  "content": "<div style='background:#f0fff4; padding:12px;'>See pattern → act fast<br>Do not overthink<br>Pick safest action</div>"
+}
 ]
