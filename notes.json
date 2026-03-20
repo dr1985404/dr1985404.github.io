@@ -735,4 +735,145 @@
   "title": "Canadian Exam Traps – Final Page",
   "content": "<div style='background:#fff5f5; padding:12px; border-radius:6px;'><b>Do not miss these traps:</b><br>• Average-risk colon screening in Canada is FIT-based, not routine colonoscopy<br>• Stroke imaging before thrombolysis<br>• COPD oxygen target is 88–92%<br>• DKA starts with fluids, not insulin alone<br>• Sudden scrotal pain = torsion until proven otherwise<br>• Drooling + stridor child = airway emergency<br>• Capable adult may refuse even life-saving treatment</div>"
 }
+,
+{
+  "id": "CA-HQ-031",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Heart Failure – Canadian Clinical Logic",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Core idea:</b> Symptoms + objective evidence of cardiac dysfunction</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Type</b></td><td><b>Clue</b></td></tr><tr><td>HFrEF</td><td>Reduced EF, systolic failure</td></tr><tr style='background:#f9f9f9;'><td>HFpEF</td><td>Normal EF, diastolic dysfunction</td></tr></table><br><div style='background:#f0fff4; padding:10px;'><b>Core drugs:</b> ACEi/ARB + beta-blocker ± MRA ± SGLT2i</div><br><span class='hl-red'>Trap:</span> BNP supports diagnosis but does not replace clinical judgment."
+},
+{
+  "id": "CA-HQ-032",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Hypertensive Emergency vs Urgency",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>Emergency</b></td><td><b>Urgency</b></td></tr><tr><td>BP</td><td>Severely high</td><td>Severely high</td></tr><tr style='background:#f9f9f9;'><td>End-organ damage</td><td>YES</td><td>NO</td></tr><tr><td>Management</td><td>IV controlled reduction</td><td>Oral gradual reduction</td></tr></table><br><span class='hl-red'>Trap:</span> Do not drop BP rapidly without indication."
+},
+{
+  "id": "CA-HQ-033",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Pulmonary Embolism – Exam Flow",
+  "content": "<div style='background:#f0f7ff; padding:10px;'><b>Step 1:</b> Clinical suspicion</div><div style='background:#f0fff4; padding:10px;'><b>Step 2:</b> Risk stratify (Wells)</div><div style='background:#fff5f5; padding:10px;'><b>Step 3:</b> Low risk → D-dimer, High risk → imaging</div><br><span class='hl-red'>Trap:</span> Do not order D-dimer in high-risk patient."
+},
+{
+  "id": "CA-HQ-034",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Pneumonia – Clinical Differentiation",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Type</b></td><td><b>Clue</b></td><td><b>Common pathogen</b></td></tr><tr><td>Typical</td><td>Acute fever + productive cough</td><td>S. pneumoniae</td></tr><tr style='background:#f9f9f9;'><td>Atypical</td><td>Dry cough + mild exam</td><td>Mycoplasma</td></tr></table><br><span class='hl-red'>Trap:</span> Normal chest exam does not exclude pneumonia."
+},
+{
+  "id": "CA-HQ-035",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Liver Disease – Pattern Recognition",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Pattern</b></td><td><b>Clue</b></td></tr><tr><td>Hepatocellular</td><td>AST/ALT high</td></tr><tr style='background:#f9f9f9;'><td>Cholestatic</td><td>ALP ↑ + bilirubin ↑</td></tr></table><br><span class='hl-red'>Trap:</span> AST > ALT suggests alcohol-related disease."
+},
+{
+  "id": "CA-HQ-036",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Pancreatitis – Core Flow",
+  "content": "<div style='background:#f0fff4; padding:10px;'><b>Diagnosis:</b> 2 of 3 → pain + lipase ↑ + imaging</div><br><div style='background:#f0f7ff; padding:10px;'><b>Management:</b> IV fluids first</div><br><span class='hl-red'>Trap:</span> Lipase is more specific than amylase."
+},
+{
+  "id": "CA-HQ-037",
+  "cat": "Medicine",
+  "sub": "Renal",
+  "title": "Acute Kidney Injury – Categories",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Type</b></td><td><b>Cause</b></td></tr><tr><td>Pre-renal</td><td>Low perfusion</td></tr><tr style='background:#f9f9f9;'><td>Intrinsic</td><td>Kidney damage</td></tr><tr><td>Post-renal</td><td>Obstruction</td></tr></table><br><span class='hl-red'>Trap:</span> Always rule out obstruction first."
+},
+{
+  "id": "CA-HQ-038",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Headache – Red Flags (Canadian Style)",
+  "content": "<div style='background:#fff5f5; padding:10px;'><b>Red flags:</b><br>• Thunderclap onset<br>• Neurological deficit<br>• Fever/meningismus<br>• Age >50 new headache<br>• Cancer/immunosuppression</div><br><span class='hl-red'>Trap:</span> Always rule out secondary causes first."
+},
+{
+  "id": "CA-HQ-039",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Seizure – First Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px;'><b>Immediate:</b> ABC + glucose</div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>First-line drug</b></td><td>Benzodiazepine</td></tr><tr><td>Next</td><td>Antiepileptic</td></tr></table><br><span class='hl-red'>Trap:</span> Hypoglycemia is a reversible cause."
+},
+{
+  "id": "CA-HQ-040",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Adrenal Disorders – Quick Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Condition</b></td><td><b>Clue</b></td></tr><tr><td>Addison</td><td>Hypotension + hyperpigmentation</td></tr><tr style='background:#f9f9f9;'><td>Cushing</td><td>Central obesity + striae</td></tr></table>"
+},
+{
+  "id": "CA-HQ-041",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Antibiotic Stewardship – Canadian Thinking",
+  "content": "<div style='background:#f0fff4; padding:10px;'><b>Principle:</b> Narrow spectrum when possible</div><br><span class='hl-red'>Trap:</span> Do not treat viral infections with antibiotics."
+},
+{
+  "id": "CA-HQ-042",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "title": "Rash – Pattern Recognition",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Rash</b></td><td><b>Clue</b></td></tr><tr><td>Urticaria</td><td>Itchy, transient</td></tr><tr style='background:#f9f9f9;'><td>Psoriasis</td><td>Silvery scale</td></tr><tr><td>Cellulitis</td><td>Painful, warm</td></tr></table>"
+},
+{
+  "id": "CA-HQ-043",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "title": "Anemia – Quick Classification",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>MCV</b></td><td><b>Type</b></td></tr><tr><td>Low</td><td>Iron deficiency</td></tr><tr style='background:#f9f9f9;'><td>Normal</td><td>Chronic disease</td></tr><tr><td>High</td><td>B12/folate</td></tr></table>"
+},
+{
+  "id": "CA-HQ-044",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "title": "Coagulation – Quick Thinking",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>PT → extrinsic pathway</div><div style='background:#f0fff4; padding:10px;'>aPTT → intrinsic pathway</div><br><span class='hl-red'>Trap:</span> Heparin prolongs aPTT."
+},
+{
+  "id": "CA-HQ-045",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "title": "Abnormal Uterine Bleeding – Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px;'><b>Always rule out pregnancy first</b></div><br><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Age</b></td><td><b>Concern</b></td></tr><tr><td>Young</td><td>Anovulation</td></tr><tr style='background:#f9f9f9;'><td>Older</td><td>Malignancy</td></tr></table>"
+},
+{
+  "id": "CA-HQ-046",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "title": "Ectopic Pregnancy – Key Note",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Pain + bleeding + positive pregnancy test</div><br><span class='hl-red'>Trap:</span> Do not miss ruptured ectopic → emergency."
+},
+{
+  "id": "CA-HQ-047",
+  "cat": "Pediatrics",
+  "sub": "Infectious",
+  "title": "Fever in Child – Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Assess appearance first</div><br><span class='hl-red'>Trap:</span> Ill-appearing child → urgent evaluation."
+},
+{
+  "id": "CA-HQ-048",
+  "cat": "Pediatrics",
+  "sub": "Growth",
+  "title": "Failure to Thrive",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Weight drop across percentiles</div><br><span class='hl-green'>Think:</span> nutrition + chronic disease + psychosocial."
+},
+{
+  "id": "CA-HQ-049",
+  "cat": "Ethics",
+  "sub": "Consent",
+  "title": "Capacity – Canadian Concept",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Understand + appreciate + reason + communicate</div><br><span class='hl-red'>Trap:</span> Capacity is decision-specific."
+},
+{
+  "id": "CA-HQ-050",
+  "cat": "Medicine",
+  "sub": "Final",
+  "title": "Ultra High-Yield Final Rules",
+  "content": "<div style='background:#fff5f5; padding:12px;'><b>Exam mindset:</b><br>• Stabilize first<br>• Rule out life-threatening<br>• Use stepwise approach<br>• Avoid over-treatment<br>• Think Canadian guidelines</div>"
+}
 ]
