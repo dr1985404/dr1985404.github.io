@@ -454,4 +454,75 @@
   "title": "Anaphylaxis – Immediate Management",
   "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>FIRST:</b> IM Epinephrine<br><b>Then:</b> Airway + Oxygen + IV fluids</div>• <span class='hl-green'>Adjunct:</span> Antihistamine + Steroids • <span class='hl-red'>Trap:</span> Do NOT delay epinephrine"
 }
+},
+{
+  "id": "HY-VIS01",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Atrial Fibrillation – Full Visual Approach",
+  "content": "<div style='background:#f0f7ff; padding:12px; border-radius:8px;'><b>STEP 1: Diagnose</b><br>• Irregularly irregular rhythm<br>• No P waves on ECG</div><br><div style='background:#fff5f5; padding:12px; border-radius:8px;'><b>STEP 2: Stability</b><br>Unstable → Immediate cardioversion<br>Stable → Rate control</div><br><table style='width:100%; border-collapse:collapse; margin-top:8px;'><tr style='background:#eee;'><td>Rate control</td><td>Beta-blocker / Diltiazem</td></tr><tr><td>Rhythm control</td><td>Cardioversion if indicated</td></tr><tr style='background:#eee;'><td>Stroke prevention</td><td>CHA2DS2-VASc</td></tr></table><br><div style='background:#f0fff4; padding:10px; border-radius:6px;'>• Anticoagulate if ≥2 (male) or ≥3 (female)</div><br><span class='hl-red'>Trap:</span> Do NOT cardiovert if >48h without anticoagulation"
+},
+{
+  "id": "HY-VIS02",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "COPD vs Asthma – High Yield Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td>Asthma</td><td>COPD</td></tr><tr><td>Age</td><td>Young</td><td>Older smoker</td></tr><tr style='background:#eee;'><td>Reversibility</td><td>YES</td><td>NO</td></tr><tr><td>Inflammation</td><td>Eosinophils</td><td>Neutrophils</td></tr><tr style='background:#eee;'><td>Tx</td><td>ICS first</td><td>LABA/LAMA</td></tr></table><br><div style='background:#fff5f5; padding:10px; border-radius:6px;'>COPD oxygen target: <b>88–92%</b></div><br><span class='hl-red'>Trap:</span> Do NOT give high O2 in COPD"
+},
+{
+  "id": "HY-VIS03",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Shock – Visual Classification",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td>Type</td><td>Cause</td><td>Key Sign</td></tr><tr><td>Hypovolemic</td><td>Bleeding</td><td>Cold + low BP</td></tr><tr style='background:#eee;'><td>Cardiogenic</td><td>MI</td><td>JVD + pulmonary edema</td></tr><tr><td>Septic</td><td>Infection</td><td>Warm early</td></tr><tr style='background:#eee;'><td>Anaphylactic</td><td>Allergy</td><td>Airway + rash</td></tr></table><br><div style='background:#f0fff4; padding:10px;'>First step in ALL shock: IV fluids</div><br><span class='hl-red'>Trap:</span> Septic shock → antibiotics within 1 hour"
+},
+{
+  "id": "HY-VIS04",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "DKA vs HHS – Comparison Table",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td>DKA</td><td>HHS</td></tr><tr><td>Glucose</td><td>↑</td><td>Very ↑</td></tr><tr style='background:#eee;'><td>Ketones</td><td>YES</td><td>NO</td></tr><tr><td>pH</td><td>Low</td><td>Normal</td></tr><tr style='background:#eee;'><td>Onset</td><td>Rapid</td><td>Slow</td></tr></table><br><div style='background:#f0fff4; padding:10px;'>Treatment: IV fluids → Insulin → Potassium</div><br><span class='hl-red'>Trap:</span> Always correct K+ before insulin if low"
+},
+{
+  "id": "HY-VIS05",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Stroke Types – Visual Map",
+  "content": "<div style='background:#f0f7ff; padding:12px;'>Ischemic (85%) → clot → tPA if ≤4.5h</div><br><div style='background:#fff5f5; padding:12px;'>Hemorrhagic → bleed → NO tPA</div><br><table style='width:100%; border-collapse:collapse; margin-top:8px;'><tr style='background:#eee;'><td>First test</td><td>CT head</td></tr><tr><td>Next</td><td>Determine type</td></tr></table><br><span class='hl-red'>Trap:</span> Never delay CT"
+},
+{
+  "id": "HY-VIS06",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Antibiotics – Spectrum Visual",
+  "content": "<div style='background:#f0fff4; padding:10px;'>Gram + → Penicillin / Cephalosporins</div><div style='background:#f0f7ff; padding:10px;'>Gram - → Aminoglycosides / Fluoroquinolones</div><div style='background:#fff5f5; padding:10px;'>Anaerobes → Metronidazole</div><br><span class='hl-red'>Trap:</span> Cephalosporins DO NOT cover LAME (Listeria, Atypicals, MRSA, Enterococcus)"
+},
+{
+  "id": "HY-VIS07",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Upper vs Lower GI Bleed",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td>Upper</td><td>Lower</td></tr><tr><td>Presentation</td><td>Melena</td><td>Hematochezia</td></tr><tr style='background:#eee;'><td>Cause</td><td>Ulcer</td><td>Diverticulosis</td></tr><tr><td>Dx</td><td>Endoscopy</td><td>Colonoscopy</td></tr></table><br><div style='background:#fff5f5; padding:10px;'>Unstable → Resuscitate FIRST</div>"
+},
+{
+  "id": "HY-VIS08",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Heart Sounds – Visual Summary",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>S1 → AV valves close</div><div style='background:#f0fff4; padding:10px;'>S2 → Semilunar valves close</div><div style='background:#fff5f5; padding:10px;'>S3 → Heart failure</div><div style='background:#ffe0e0; padding:10px;'>S4 → Stiff ventricle</div><br><span class='hl-red'>Trap:</span> S3 = volume overload"
+},
+{
+  "id": "HY-VIS09",
+  "cat": "Medicine",
+  "sub": "Renal",
+  "title": "Acid-Base Disorders – Quick Visual",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td>Type</td><td>pH</td><td>Cause</td></tr><tr><td>Metabolic acidosis</td><td>↓</td><td>DKA</td></tr><tr style='background:#eee;'><td>Resp acidosis</td><td>↓</td><td>COPD</td></tr><tr><td>Metabolic alkalosis</td><td>↑</td><td>Vomiting</td></tr><tr style='background:#eee;'><td>Resp alkalosis</td><td>↑</td><td>Anxiety</td></tr></table><br><span class='hl-red'>Trap:</span> Always check compensation"
+},
+{
+  "id": "HY-VIS10",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Electrolytes – Life-Threatening Changes",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Hyperkalemia → peaked T waves → calcium gluconate</div><div style='background:#f0f7ff; padding:10px;'>Hypokalemia → U waves → replace K</div><div style='background:#f0fff4; padding:10px;'>Hyponatremia → confusion → slow correction</div><br><span class='hl-red'>Trap:</span> Correct Na slowly to avoid osmotic demyelination"
+}
 ]
