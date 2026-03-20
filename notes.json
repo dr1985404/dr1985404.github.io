@@ -1440,4 +1440,145 @@
   "title": "Ultimate Exam Rule",
   "content": "<div style='background:#fff5f5; padding:12px;'><b>Do what saves life first</b><br><b>Then confirm diagnosis</b><br><b>Then refine management</b></div>"
 }
+,
+{
+  "id": "CA-FINAL-ULTRA-001",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "First Rule – Do Not Diagnose First",
+  "content": "<div style='background:#fff5f5; padding:12px;'><b>Exam rule:</b><br>Unstable patient → treat immediately<br>Stable patient → investigate</div><br>Most common mistake: jumping to diagnosis before stabilizing."
+},
+{
+  "id": "CA-FINAL-ULTRA-002",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "Most Asked Question Type",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>They ask: What is the NEXT BEST STEP</div><br>Not diagnosis. Not mechanism.<br><span class='hl-red'>Trap:</span> Do not overthink."
+},
+{
+  "id": "CA-FINAL-ULTRA-003",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "If You See UNSTABLE",
+  "content": "<div style='background:#fff5f5; padding:12px;'>Do NOT order test<br>Do NOT wait<br><b>Act immediately</b></div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-004",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "If You See RED FLAG",
+  "content": "<div style='background:#fff5f5; padding:12px;'>Always choose serious diagnosis</div><br>Example: headache + neuro deficit → tumor or bleed"
+},
+{
+  "id": "CA-FINAL-ULTRA-005",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "If Options Include Imaging",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>CT first in emergency</div><br><span class='hl-red'>Trap:</span> MRI is rarely first step"
+},
+{
+  "id": "CA-FINAL-ULTRA-006",
+  "cat": "Exam Strategy",
+  "sub": "Core",
+  "title": "If Options Include Lab vs Treatment",
+  "content": "<div style='background:#fff5f5; padding:12px;'>If urgent → treat first</div><div style='background:#f0f7ff; padding:12px;'>If stable → investigate</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-007",
+  "cat": "Exam Strategy",
+  "sub": "Elimination",
+  "title": "Elimination Method",
+  "content": "<div style='background:#f0fff4; padding:12px;'>Remove 2 wrong answers immediately</div><br>Then choose safest option"
+},
+{
+  "id": "CA-FINAL-ULTRA-008",
+  "cat": "Exam Strategy",
+  "sub": "Elimination",
+  "title": "Most Dangerous Answer",
+  "content": "<div style='background:#fff5f5; padding:12px;'>If answer delays care → wrong</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-009",
+  "cat": "Exam Strategy",
+  "sub": "Elimination",
+  "title": "Most Safe Answer",
+  "content": "<div style='background:#f0fff4; padding:12px;'>Pick option that protects patient first</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-010",
+  "cat": "Exam Strategy",
+  "sub": "Time",
+  "title": "Time Strategy",
+  "content": "<div style='background:#f0f7ff; padding:12px;'>1 question ≈ 1 minute</div><br>Stuck → skip immediately"
+},
+{
+  "id": "CA-FINAL-ULTRA-011",
+  "cat": "Exam Strategy",
+  "sub": "Time",
+  "title": "When You Don’t Know Answer",
+  "content": "<div style='background:#fff5f5; padding:12px;'>Do NOT leave blank</div><div style='background:#f0fff4; padding:12px;'>Choose safest clinical action</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-012",
+  "cat": "Exam Strategy",
+  "sub": "Patterns",
+  "title": "Pattern Recognition",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Chest pain → ECG</div><div style='background:#f0f7ff; padding:10px;'>Stroke → CT</div><div style='background:#f0f7ff; padding:10px;'>Pregnancy → β-hCG</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-013",
+  "cat": "Exam Strategy",
+  "sub": "Patterns",
+  "title": "Classic Traps",
+  "content": "<div style='background:#fff5f5; padding:12px;'>• D-dimer in high-risk PE → wrong<br>• MRI first in emergency → wrong<br>• Delaying antibiotics in sepsis → wrong</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-014",
+  "cat": "Exam Strategy",
+  "sub": "Psych",
+  "title": "Ethics Questions",
+  "content": "<div style='background:#f0fff4; padding:12px;'>Respect autonomy first</div><div style='background:#fff5f5; padding:12px;'>Unless patient lacks capacity</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-015",
+  "cat": "Exam Strategy",
+  "sub": "Psych",
+  "title": "Capacity Rule",
+  "content": "<div style='background:#f0f7ff; padding:12px;'>Understand + appreciate + reason + communicate</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-016",
+  "cat": "Exam Strategy",
+  "sub": "Pharmacology",
+  "title": "Drug Questions Rule",
+  "content": "<div style='background:#fff5f5; padding:12px;'>Most dangerous side effect wins</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-017",
+  "cat": "Exam Strategy",
+  "sub": "Preventive",
+  "title": "Screening Questions",
+  "content": "<div style='background:#f0fff4; padding:12px;'>Follow Canadian guidelines only</div><br><span class='hl-red'>Trap:</span> US recommendations may be wrong"
+},
+{
+  "id": "CA-FINAL-ULTRA-018",
+  "cat": "Exam Strategy",
+  "sub": "Final",
+  "title": "Golden Rule",
+  "content": "<div style='background:#fff5f5; padding:14px;'><b>If it can kill → act now</b><br><b>If not urgent → investigate</b></div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-019",
+  "cat": "Exam Strategy",
+  "sub": "Final",
+  "title": "Top 5 Instant Answers",
+  "content": "<div style='background:#f0f7ff; padding:12px;'>• Chest pain → ECG<br>• Stroke → CT<br>• Hypoglycemia → glucose<br>• Anaphylaxis → epinephrine<br>• Sepsis → antibiotics</div>"
+},
+{
+  "id": "CA-FINAL-ULTRA-020",
+  "cat": "Exam Strategy",
+  "sub": "Final",
+  "title": "Last Minute Mindset",
+  "content": "<div style='background:#f0fff4; padding:14px;'><b>You are not guessing</b><br>You are eliminating wrong answers<br>You are choosing safest action</div>"
+}
 ]
