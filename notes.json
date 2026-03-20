@@ -1823,4 +1823,264 @@
   "title": "Advanced Exam Rule",
   "content": "<div style='background:#fff5f5; padding:14px;'><b>If pattern is classic → do not doubt it</b><br><b>If patient is unstable → act immediately</b><br><b>If unsure → choose safest option</b></div>"
 }
+,
+{
+  "id": "CA-ETH-001",
+  "cat": "Ethics",
+  "sub": "Consent",
+  "title": "Consent and Capacity | Canadian Core Rules",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Capacity</b> = understand + appreciate consequences</div><br><table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>If capable</b></td><td>Patient decides, even if refusal may cause death</td></tr><tr><td><b>If incapable</b></td><td>Use substitute decision-maker according to provincial law</td></tr><tr style='background:#eee;'><td><b>Emergency</b></td><td>Treat immediately if consent cannot be obtained and delay risks harm</td></tr></table><span class='hl-red'>Exam trap:</span> disagreeing with doctor does not equal incapacity"
+},
+{
+  "id": "CA-ETH-002",
+  "cat": "Ethics",
+  "sub": "Confidentiality",
+  "title": "Confidentiality | When Disclosure Is Allowed",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Default:</b> do not disclose without patient consent</div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Disclose if legally required</b><br>• reportable diseases<br>• child protection concerns<br>• imminent risk of serious harm<br>• court order</div><br><span class='hl-blue'>Best exam answer:</span> seek consent first unless a clear legal exception applies"
+},
+{
+  "id": "CA-ETH-003",
+  "cat": "Ethics",
+  "sub": "Minors",
+  "title": "Mature Minor and Best Interests",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Mature minor</b> depends on capacity, not age alone</div><br><div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Emergency child care:</b> life-saving treatment proceeds despite parental refusal</div><br><span class='hl-red'>Exam trap:</span> parental wishes do not override the child's best interests in life-threatening emergencies"
+},
+{
+  "id": "CA-ETH-004",
+  "cat": "Ethics",
+  "sub": "Disclosure",
+  "title": "Adverse Event Disclosure",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Canadian rule:</b> disclose harmful incident or patient safety event honestly and promptly</div><br><table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td>Say what happened</td><td>yes</td></tr><tr><td>Explain next steps</td><td>yes</td></tr><tr style='background:#eee;'><td>Offer empathic apology</td><td>yes</td></tr><tr><td>Hide because no lasting harm</td><td>no</td></tr></table>"
+},
+{
+  "id": "CA-CARD-001",
+  "cat": "Cardiology",
+  "sub": "ACS",
+  "title": "Acute Coronary Syndrome | MCCQE1 Approach",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>First 10 minutes:</b> ECG + ASA</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>STEMI</b> → urgent reperfusion</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>NSTEMI/UA</b> → serial ECG + serial troponin + risk stratification</div><br><span class='hl-red'>Exam trap:</span> normal first ECG does not exclude ACS"
+},
+{
+  "id": "CA-CARD-002",
+  "cat": "Cardiology",
+  "sub": "Heart Failure",
+  "title": "Heart Failure | Chronic Therapy",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>HFrEF core drugs</b></td><td>ACEi/ARB/ARNI + beta-blocker + MRA + SGLT2 inhibitor</td></tr><tr><td><b>Loop diuretic</b></td><td>for congestion relief</td></tr><tr style='background:#eee;'><td><b>Exam trap</b></td><td>diuretics improve symptoms but do not replace mortality-reducing therapy</td></tr></table>"
+},
+{
+  "id": "CA-CARD-003",
+  "cat": "Cardiology",
+  "sub": "AF",
+  "title": "Atrial Fibrillation | Canadian Exam Logic",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Unstable AF</b> → synchronized cardioversion</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Stable AF</b> → rate control first in many cases</div><br><table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td>Stroke prevention</td><td>CHA2DS2-VASc</td></tr><tr><td>Bleeding risk</td><td>assess separately</td></tr></table><span class='hl-red'>Exam trap:</span> rhythm control is not automatically first-line in every stable patient"
+},
+{
+  "id": "CA-CARD-004",
+  "cat": "Cardiology",
+  "sub": "HTN",
+  "title": "Hypertension | Canadian Threshold Logic",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Confirm diagnosis</b> with repeated readings and preferably out-of-office monitoring when appropriate</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Initial drugs:</b> thiazide-like diuretic, ACEi/ARB, or long-acting CCB depending on context</div><br><span class='hl-red'>Pregnancy:</span> avoid ACEi and ARB"
+},
+{
+  "id": "CA-RESP-001",
+  "cat": "Respirology",
+  "sub": "Asthma",
+  "title": "Asthma | Practical Exam Framework",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Diagnosis:</b> variable airflow obstruction + reversibility</div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Controller therapy matters</b> because SABA-only strategy is not enough for ongoing disease control</div><br><div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Acute severe attack:</b> oxygen + inhaled bronchodilator + systemic steroids</div>"
+},
+{
+  "id": "CA-RESP-002",
+  "cat": "Respirology",
+  "sub": "COPD",
+  "title": "COPD | High-Yield Canadian Points",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Diagnosis</b></td><td>post-bronchodilator FEV1/FVC less than 0.70</td></tr><tr><td><b>Smoking cessation</b></td><td>most important intervention</td></tr><tr style='background:#eee;'><td><b>Exacerbation</b></td><td>SABA ± SAMA + steroids ± antibiotics</td></tr><tr><td><b>Oxygen target</b></td><td>88 to 92 percent in CO2 retainers</td></tr></table>"
+},
+{
+  "id": "CA-RESP-003",
+  "cat": "Respirology",
+  "sub": "PE",
+  "title": "Pulmonary Embolism | Exam Steps",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>First:</b> assess stability</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Stable</b> → use pretest probability + D-dimer when appropriate + CTPA if indicated</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Unstable</b> → urgent treatment pathway, bedside assessment, consider thrombolysis if massive PE</div>"
+},
+{
+  "id": "CA-NEU-001",
+  "cat": "Neurology",
+  "sub": "Stroke",
+  "title": "Stroke | Canadian Emergency Flow",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Sudden focal deficit</b> = stroke until proven otherwise</div><br><table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td>First test</td><td>non-contrast CT head</td></tr><tr><td>If ischemic and eligible</td><td>reperfusion pathway</td></tr><tr style='background:#eee;'><td>If hemorrhagic</td><td>no thrombolysis</td></tr></table><span class='hl-red'>Exam trap:</span> do not give aspirin until hemorrhage is excluded"
+},
+{
+  "id": "CA-NEU-002",
+  "cat": "Neurology",
+  "sub": "SAH",
+  "title": "Thunderclap Headache | SAH Rule",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Worst headache of life</b> → subarachnoid hemorrhage until ruled out</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'>CT head first</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'>If CT negative and suspicion remains high → lumbar puncture</div>"
+},
+{
+  "id": "CA-NEU-003",
+  "cat": "Neurology",
+  "sub": "Seizure",
+  "title": "Status Epilepticus | First-Line Therapy",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Seizure lasting more than 5 minutes</b> = status epilepticus</div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>First-line:</b> benzodiazepine</div><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Then:</b> second-line antiseizure drug if ongoing</div>"
+},
+{
+  "id": "CA-ENDO-001",
+  "cat": "Endocrinology",
+  "sub": "DKA",
+  "title": "DKA | Correct Order Matters",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>1</b></td><td>IV fluids</td></tr><tr><td><b>2</b></td><td>check and correct potassium</td></tr><tr style='background:#eee;'><td><b>3</b></td><td>insulin infusion</td></tr></table><br><span class='hl-red'>Exam trap:</span> insulin before addressing severe hypokalemia is dangerous"
+},
+{
+  "id": "CA-ENDO-002",
+  "cat": "Endocrinology",
+  "sub": "Thyroid",
+  "title": "Hypothyroidism vs Hyperthyroidism | Clean Contrast",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Hypothyroid</b></td><td>fatigue, cold intolerance, constipation, weight gain</td></tr><tr><td><b>Hyperthyroid</b></td><td>heat intolerance, tremor, palpitations, weight loss</td></tr><tr style='background:#eee;'><td><b>Tx hypothyroid</b></td><td>levothyroxine</td></tr><tr><td><b>Tx Graves</b></td><td>methimazole in many nonpregnant adults</td></tr></table>"
+},
+{
+  "id": "CA-ENDO-003",
+  "cat": "Endocrinology",
+  "sub": "Diabetes",
+  "title": "Type 2 Diabetes | Canadian Treatment Pearls",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Metformin</b> is common first-line therapy if renal function allows</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>If ASCVD, HF, or CKD</b> → strong role for SGLT2 inhibitor or GLP-1 receptor agonist depending on comorbidity profile</div><br><span class='hl-red'>Exam trap:</span> choose drug by comorbidity, not HbA1c alone"
+},
+{
+  "id": "CA-ID-001",
+  "cat": "Infectious Disease",
+  "sub": "Sepsis",
+  "title": "Sepsis and Septic Shock | Exam Priorities",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Suspect sepsis early</b></div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Priority bundle:</b> cultures, antibiotics, IV fluids, lactate, source control</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>If persistent hypotension after fluids</b> → vasopressor support</div>"
+},
+{
+  "id": "CA-ID-002",
+  "cat": "Infectious Disease",
+  "sub": "Meningitis",
+  "title": "Bacterial Meningitis | Safe Exam Answer",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Fever + neck stiffness + altered state</b> → treat urgently</div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Do not delay empiric antibiotics</b> when meningitis is strongly suspected</div>"
+},
+{
+  "id": "CA-ID-003",
+  "cat": "Infectious Disease",
+  "sub": "PID",
+  "title": "Pelvic Inflammatory Disease | Exam Trigger",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Lower abdominal pain + cervical motion tenderness</b> = treat empirically for PID if clinically consistent</div><br><span class='hl-red'>Exam trap:</span> do not wait for all test results before starting treatment in the right setting"
+},
+{
+  "id": "CA-GI-001",
+  "cat": "GI",
+  "sub": "Upper GI Bleed",
+  "title": "Upper GI Bleeding | Priorities",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>First:</b> ABCs + IV access + resuscitation</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'>Then risk stratify and arrange endoscopy</div><br><span class='hl-red'>Exam trap:</span> stabilize before chasing the final diagnosis"
+},
+{
+  "id": "CA-GI-002",
+  "cat": "GI",
+  "sub": "Pancreatitis",
+  "title": "Acute Pancreatitis | Core Exam Facts",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Best lab</b></td><td>lipase</td></tr><tr><td><b>Common causes</b></td><td>gallstones and alcohol</td></tr><tr style='background:#eee;'><td><b>Initial management</b></td><td>IV fluids + analgesia + supportive care</td></tr></table>"
+},
+{
+  "id": "CA-GI-003",
+  "cat": "GI",
+  "sub": "Appendicitis",
+  "title": "Appendicitis | Classic Pattern",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'>Periumbilical pain → migrates to RLQ</div><div style='background:#fff5f5; padding:10px; border-radius:8px;'>Anorexia + fever + localized tenderness support diagnosis</div><br><span class='hl-red'>Exam trap:</span> atypical presentations are common in children, pregnancy, and older adults"
+},
+{
+  "id": "CA-OB-001",
+  "cat": "OBGYN",
+  "sub": "Preeclampsia",
+  "title": "Preeclampsia and HELLP | Exam Notes",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Severe features</b> include headache, visual symptoms, RUQ or epigastric pain, thrombocytopenia, renal impairment, pulmonary edema</div><br><div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>HELLP</b> = hemolysis + elevated liver enzymes + low platelets</div><br><span class='hl-red'>Exam trap:</span> definitive treatment is delivery when indicated"
+},
+{
+  "id": "CA-OB-002",
+  "cat": "OBGYN",
+  "sub": "Bleeding",
+  "title": "Late Pregnancy Bleeding | First Principle",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Maternal stabilization first</b></div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'>Painful bleeding suggests abruption</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'>Painless bleeding suggests placenta previa until proven otherwise</div>"
+},
+{
+  "id": "CA-OB-003",
+  "cat": "OBGYN",
+  "sub": "Prenatal Screening",
+  "title": "Prenatal Core Preventive Points",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Folic acid</b></td><td>start before conception if possible</td></tr><tr><td><b>Tdap</b></td><td>recommended in each pregnancy</td></tr><tr style='background:#eee;'><td><b>Live vaccines</b></td><td>avoid during pregnancy</td></tr></table>"
+},
+{
+  "id": "CA-PEDS-001",
+  "cat": "Pediatrics",
+  "sub": "Airway",
+  "title": "Epiglottitis vs Croup | Must Not Miss",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Epiglottitis</b></td><td>drooling, toxic, tripod, stridor</td></tr><tr><td><b>Croup</b></td><td>barking cough, hoarseness, inspiratory stridor</td></tr></table><br><div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Epiglottitis:</b> secure airway first and avoid agitating the child</div>"
+},
+{
+  "id": "CA-PEDS-002",
+  "cat": "Pediatrics",
+  "sub": "Development",
+  "title": "Developmental Delay | Red Flags",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Loss of milestones</b> is always concerning</div><br><div style='background:#f0f7ff; padding:10px; border-radius:8px;'>Persistent head lag and major motor delay warrant formal assessment</div><br><span class='hl-red'>Exam trap:</span> do not reassure when a true red flag is present"
+},
+{
+  "id": "CA-PEDS-003",
+  "cat": "Pediatrics",
+  "sub": "GI",
+  "title": "Intussusception | High-Yield Pattern",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'>episodic pain + legs drawn up + vomiting</div><div style='background:#fff5f5; padding:10px; border-radius:8px;'>currant jelly stool is late and not always present</div><div style='background:#f0fff4; padding:10px; border-radius:8px;'>ultrasound + air enema in stable child</div>"
+},
+{
+  "id": "CA-PSY-001",
+  "cat": "Psychiatry",
+  "sub": "Mood",
+  "title": "Depression | Clean Treatment Notes",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>First-line:</b> psychotherapy and or SSRI depending on severity and context</div><br><table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td>Bupropion</td><td>less sexual dysfunction, avoid in seizure disorders and eating disorders</td></tr><tr><td>Mirtazapine</td><td>helpful if poor appetite or insomnia</td></tr></table>"
+},
+{
+  "id": "CA-PSY-002",
+  "cat": "Psychiatry",
+  "sub": "Bipolar",
+  "title": "Bipolar Disorder and Lithium | High Yield",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>Mania</b> = elevated or irritable mood + decreased need for sleep + increased activity + impaired judgment</div><br><div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>Lithium toxicity risk rises</b> with renal impairment, dehydration, NSAIDs, ACE inhibitors, and thiazides</div><br><span class='hl-green'>Monitor:</span> lithium level, creatinine, TSH"
+},
+{
+  "id": "CA-PSY-003",
+  "cat": "Psychiatry",
+  "sub": "Psychosis",
+  "title": "Delusional Disorder vs Schizophrenia",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Delusional disorder</b></td><td>fixed delusion with relatively preserved function</td></tr><tr><td><b>Schizophrenia</b></td><td>broader psychotic syndrome with functional decline</td></tr></table>"
+},
+{
+  "id": "CA-PREV-001",
+  "cat": "Preventive Medicine",
+  "sub": "Screening",
+  "title": "Canadian Screening | Corrected Exam Version",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Colorectal</b></td><td>FIT every 2 years age 50 to 74 in average risk adults</td></tr><tr><td><b>Breast</b></td><td>mammography every 2 to 3 years age 50 to 74 in average risk women</td></tr><tr style='background:#eee;'><td><b>Cervical</b></td><td>Pap screening age 25 to 69 in many Canadian pathways</td></tr></table><br><span class='hl-red'>Exam trap:</span> do not default to US-style screening ages"
+},
+{
+  "id": "CA-PREV-002",
+  "cat": "Preventive Medicine",
+  "sub": "Immunization",
+  "title": "Adult Immunization | Canadian High Yield",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:8px;'><b>Older adults:</b> annual influenza + pneumococcal strategy + shingles vaccine + routine tetanus boosters</div><br><span class='hl-red'>Exam trap:</span> live vaccines are generally avoided in pregnancy and in many immunocompromised patients"
+},
+{
+  "id": "CA-BIO-001",
+  "cat": "Biostatistics",
+  "sub": "P value",
+  "title": "P Value | Safe Exam Interpretation",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:8px;'><b>P value</b> = probability of seeing data this extreme or more if the null hypothesis were true</div><br><div style='background:#fff5f5; padding:10px; border-radius:8px;'><b>It does NOT mean</b> the probability that the treatment works in this patient</div>"
+},
+{
+  "id": "CA-BIO-002",
+  "cat": "Biostatistics",
+  "sub": "Study design",
+  "title": "Study Designs | Quick Table",
+  "content": "<table style='width:100%; border-collapse:collapse; margin:8px 0;'><tr style='background:#eee;'><td><b>Cross-sectional</b></td><td>snapshot, prevalence</td></tr><tr><td><b>Case-control</b></td><td>rare disease, odds ratio, retrospective</td></tr><tr style='background:#eee;'><td><b>Cohort</b></td><td>incidence, relative risk</td></tr><tr><td><b>RCT</b></td><td>best for intervention efficacy</td></tr></table>"
+},
+{
+  "id": "CA-FINAL-001",
+  "cat": "MCCQE1",
+  "sub": "Exam Strategy",
+  "title": "Canadian Exam Strategy | Final Rule Set",
+  "content": "<div style='background:#fff5f5; padding:12px; border-radius:8px;'><b>1.</b> unstable patient → stabilize first<br><b>2.</b> capacity question → autonomy first if capable<br><b>3.</b> pregnancy question → avoid teratogens and think maternal stabilization first<br><b>4.</b> pediatric emergency → airway and serious bacterial illness first<br><b>5.</b> preventive question → use Canadian screening, not US defaults</div>"
+}
 ]
