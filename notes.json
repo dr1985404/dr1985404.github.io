@@ -876,4 +876,145 @@
   "title": "Ultra High-Yield Final Rules",
   "content": "<div style='background:#fff5f5; padding:12px;'><b>Exam mindset:</b><br>• Stabilize first<br>• Rule out life-threatening<br>• Use stepwise approach<br>• Avoid over-treatment<br>• Think Canadian guidelines</div>"
 }
+,
+{
+  "id": "CA-ELITE-051",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Unstable Patient – Thinking Algorithm",
+  "content": "<div style='background:#fff5f5; padding:12px; border-radius:6px;'><b>Step 1:</b> ABC first always</div><div style='background:#f0f7ff; padding:12px;'><b>Step 2:</b> Identify life-threatening cause</div><div style='background:#f0fff4; padding:12px;'><b>Step 3:</b> Treat before full diagnosis</div><br><span class='hl-red'>Trap:</span> Never delay life-saving treatment for investigations."
+},
+{
+  "id": "CA-ELITE-052",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Chest Pain – How Examiner Thinks",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Feature</b></td><td><b>Interpretation</b></td></tr><tr><td>Exertional + pressure</td><td>ACS likely</td></tr><tr style='background:#f9f9f9;'><td>Pleuritic</td><td>PE / pneumothorax</td></tr><tr><td>Tearing to back</td><td>Aortic dissection</td></tr></table><br><span class='hl-red'>Trap:</span> Do not ignore risk factors even if pain is atypical."
+},
+{
+  "id": "CA-ELITE-053",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Syncope – Exam Logic",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Type</b></td><td><b>Clue</b></td></tr><tr><td>Cardiac</td><td>Sudden, no prodrome</td></tr><tr style='background:#f9f9f9;'><td>Vasovagal</td><td>Prodrome + triggers</td></tr><tr><td>Orthostatic</td><td>Standing, dehydration</td></tr></table><br><span class='hl-red'>Trap:</span> Cardiac syncope = highest risk → urgent workup."
+},
+{
+  "id": "CA-ELITE-054",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Dyspnea – Clinical Reasoning Map",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Acute → PE / pneumothorax / asthma</div><div style='background:#f0fff4; padding:10px;'>Chronic → COPD / HF / anemia</div><br><span class='hl-red'>Trap:</span> Always check oxygen saturation early."
+},
+{
+  "id": "CA-ELITE-055",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "ABG Interpretation – Stepwise",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Step 1: pH</div><div style='background:#f0fff4; padding:10px;'>Step 2: CO2 vs HCO3</div><div style='background:#fff5f5; padding:10px;'>Step 3: Compensation</div><br><span class='hl-red'>Trap:</span> Do not skip stepwise analysis."
+},
+{
+  "id": "CA-ELITE-056",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Abdominal Pain – Examiner Pattern",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Location</b></td><td><b>Likely cause</b></td></tr><tr><td>RUQ</td><td>Gallbladder</td></tr><tr style='background:#f9f9f9;'><td>Epigastric</td><td>Pancreas / ulcer</td></tr><tr><td>RLQ</td><td>Appendix</td></tr></table><br><span class='hl-red'>Trap:</span> Migration of pain = appendicitis."
+},
+{
+  "id": "CA-ELITE-057",
+  "cat": "Medicine",
+  "sub": "GI",
+  "title": "Diarrhea – Key Differentiation",
+  "content": "<div style='background:#f0fff4; padding:10px;'>Watery → viral/toxin</div><div style='background:#fff5f5; padding:10px;'>Bloody → invasive bacteria</div><br><span class='hl-red'>Trap:</span> Bloody diarrhea needs further workup."
+},
+{
+  "id": "CA-ELITE-058",
+  "cat": "Medicine",
+  "sub": "Renal",
+  "title": "Electrolytes – Exam Thinking",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Hyperkalemia = cardiac emergency</div><div style='background:#f0fff4; padding:10px;'>Hyponatremia = brain risk</div><br><span class='hl-red'>Trap:</span> Treat severe abnormalities first, not numbers."
+},
+{
+  "id": "CA-ELITE-059",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Weakness – Localization Logic",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td><b>Pattern</b></td><td><b>Location</b></td></tr><tr><td>Unilateral</td><td>Brain</td></tr><tr style='background:#f9f9f9;'><td>Bilateral</td><td>Spinal/systemic</td></tr></table><br><span class='hl-red'>Trap:</span> Always localize before diagnosing."
+},
+{
+  "id": "CA-ELITE-060",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Vertigo – Peripheral vs Central",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td></td><td><b>Peripheral</b></td><td><b>Central</b></td></tr><tr><td>Onset</td><td>Sudden</td><td>Gradual</td></tr><tr style='background:#f9f9f9;'><td>Neuro signs</td><td>No</td><td>Yes</td></tr></table><br><span class='hl-red'>Trap:</span> Neuro deficit = central until proven otherwise."
+},
+{
+  "id": "CA-ELITE-061",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Hypoglycemia – Immediate Thinking",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Confusion + sweating → check glucose</div><br><span class='hl-green'>Treat immediately</span><br><span class='hl-red'>Trap:</span> Do not delay treatment for confirmation."
+},
+{
+  "id": "CA-ELITE-062",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Hypercalcemia – Exam Clues",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Stones + bones + groans + psychiatric symptoms</div><br><span class='hl-red'>Trap:</span> Always check malignancy vs hyperparathyroidism."
+},
+{
+  "id": "CA-ELITE-063",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Fever – Diagnostic Thinking",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Acute → infection</div><div style='background:#f0fff4; padding:10px;'>Chronic → malignancy / autoimmune</div><br><span class='hl-red'>Trap:</span> Always consider source before antibiotics."
+},
+{
+  "id": "CA-ELITE-064",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Endocarditis – High Yield Logic",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Fever + murmur + risk factor</div><br><span class='hl-green'>Dx: Blood cultures + echo</span><br><span class='hl-red'>Trap:</span> Always draw cultures before antibiotics if stable."
+},
+{
+  "id": "CA-ELITE-065",
+  "cat": "Medicine",
+  "sub": "Hematology",
+  "title": "Bleeding vs Clotting – Thinking",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Bleeding → platelet/coagulation issue</div><div style='background:#fff5f5; padding:10px;'>Clotting → hypercoagulable state</div>"
+},
+{
+  "id": "CA-ELITE-066",
+  "cat": "Medicine",
+  "sub": "Dermatology",
+  "title": "Skin Lesions – Quick Identification",
+  "content": "<div style='background:#f0fff4; padding:10px;'>Macule → flat</div><div style='background:#f0f7ff; padding:10px;'>Papule → raised</div><div style='background:#fff5f5; padding:10px;'>Vesicle → fluid</div>"
+},
+{
+  "id": "CA-ELITE-067",
+  "cat": "OBGYN",
+  "sub": "Obstetrics",
+  "title": "Labor – Stages Simplified",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Stage 1: dilation</div><div style='background:#f0fff4; padding:10px;'>Stage 2: delivery</div><div style='background:#fff5f5; padding:10px;'>Stage 3: placenta</div>"
+},
+{
+  "id": "CA-ELITE-068",
+  "cat": "OBGYN",
+  "sub": "Gynecology",
+  "title": "Pelvic Pain – Core Causes",
+  "content": "<div style='background:#f0f7ff; padding:10px;'>Ectopic</div><div style='background:#fff5f5; padding:10px;'>PID</div><div style='background:#f0fff4; padding:10px;'>Ovarian torsion</div><br><span class='hl-red'>Trap:</span> Always rule out ectopic first."
+},
+{
+  "id": "CA-ELITE-069",
+  "cat": "Pediatrics",
+  "sub": "Emergency",
+  "title": "Child with Stridor – Thinking",
+  "content": "<div style='background:#fff5f5; padding:10px;'>Drooling → epiglottitis</div><div style='background:#f0f7ff; padding:10px;'>Barking cough → croup</div>"
+},
+{
+  "id": "CA-ELITE-070",
+  "cat": "Medicine",
+  "sub": "Final Elite",
+  "title": "How to Answer Any MCCQE Question",
+  "content": "<div style='background:#fff5f5; padding:12px;'><b>Step 1:</b> Is patient stable<br><b>Step 2:</b> What can kill the patient<br><b>Step 3:</b> What is the next best step<br><b>Step 4:</b> Avoid traps</div>"
+}
 ]
