@@ -383,4 +383,75 @@
   "sub": "Top 10 High Yield",
   "title": "🏆 Top 10 MCCQE1 Must-Know",
   "content": "1. <span class='hl-red'>MI:</span> ECG → Aspirin → Troponin\n2. <span class='hl-blue'>COPD O2:</span> 88-92% target\n3. <span class='hl-blue'>Pancreatitis:</span> Lipase + IV fluids\n4. <span class='hl-blue'>PE:</span> CTPA (stable)\n5. <span class='hl-blue'>Stroke:</span> CT head → tPA ≤4.5h\n6. <span class='hl-red'>Epiglottitis:</span> Airway first!\n7. <span class='hl-green'>Kawasaki:</span> IVIG\n8. <span class='hl-green'>Colon:</span> Colonoscopy screen\n9. <span class='hl-green'>Thyroid nodule:</span> FNA\n10. <span class='hl-green'>Preeclampsia:</span> MgSO4"
-}]
+}},
+{
+  "id": "HY-ALG01",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "Sore Throat – MCCQE1 Algorithm",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>STEP 1:</b> Apply Centor Score<br>• Fever >38°C<br>• No cough<br>• Tender anterior LN<br>• Tonsillar exudate<br><br><b>STEP 2:</b><table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td>Score 0-1</td><td>No test, No antibiotics</td></tr><tr><td>Score 2-3</td><td>Rapid antigen test</td></tr><tr style='background:#eee;'><td>Score ≥4</td><td>Empiric antibiotics</td></tr></table></div>• <span class='hl-green'>Tx:</span> Penicillin V x10 days • <span class='hl-red'>Trap:</span> Viral features → NO antibiotics"
+},
+{
+  "id": "HY-ALG02",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Stroke – MCCQE1 Approach",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>STEP 1:</b> CT head without contrast<br><b>STEP 2:</b> If hemorrhage → NO thrombolysis<br>If ischemic → assess timing<br><b>STEP 3:</b> ≤4.5 hours → thrombolysis if eligible</div>• <span class='hl-red'>Trap:</span> Never give tPA before CT • <span class='hl-green'>Next:</span> Antiplatelet if not candidate"
+},
+{
+  "id": "HY-ALG03",
+  "cat": "Medicine",
+  "sub": "Cardiology",
+  "title": "Chest Pain – Emergency Algorithm",
+  "content": "<div style='background:#fff5f5; padding:10px; border-left:5px solid red; border-radius:6px;'><b>Always rule out:</b> MI • PE • Aortic dissection • Pneumothorax</div><table style='width:100%; border-collapse:collapse; margin-top:8px;'><tr style='background:#eee;'><td>MI</td><td>ECG + Troponin → PCI</td></tr><tr><td>PE</td><td>Wells → CTPE</td></tr><tr style='background:#eee;'><td>Dissection</td><td>CT angiography</td></tr><tr><td>Pneumothorax</td><td>CXR → Chest tube</td></tr></table>• <span class='hl-green'>First step:</span> ECG within 10 min"
+},
+{
+  "id": "HY-ALG04",
+  "cat": "Medicine",
+  "sub": "Endocrinology",
+  "title": "Diabetes – MCCQE1 Escalation",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:6px;'><b>STEP 1:</b> Lifestyle + Metformin<br><b>STEP 2:</b> Add SGLT2 or GLP-1 if CVD/CKD<br><b>STEP 3:</b> Add insulin if uncontrolled</div>• <span class='hl-blue'>Target HbA1c:</span> <7% • <span class='hl-red'>Avoid:</span> Metformin if eGFR <30"
+},
+{
+  "id": "HY-ALG05",
+  "cat": "Medicine",
+  "sub": "Respirology",
+  "title": "Asthma – Stepwise Treatment",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>STEP 1:</b> PRN SABA + Low-dose ICS<br><b>STEP 2:</b> Increase ICS dose<br><b>STEP 3:</b> Add LABA</div>• <span class='hl-red'>Exacerbation:</span> Prednisone 50 mg x5 days • <span class='hl-green'>Goal:</span> No symptoms + normal FEV1"
+},
+{
+  "id": "HY-ALG06",
+  "cat": "Medicine",
+  "sub": "Infectious Disease",
+  "title": "UTI – MCCQE1 Decision",
+  "content": "<table style='width:100%; border-collapse:collapse;'><tr style='background:#eee;'><td>Uncomplicated</td><td>Nitrofurantoin 100 mg BID x5d</td></tr><tr><td>Complicated</td><td>Cefixime x10d</td></tr><tr style='background:#eee;'><td>Pyelonephritis</td><td>IV antibiotics</td></tr></table>• <span class='hl-red'>Do NOT treat:</span> Asymptomatic bacteriuria (except pregnancy)"
+},
+{
+  "id": "HY-ALG07",
+  "cat": "Medicine",
+  "sub": "Preventive",
+  "title": "Screening – Canadian High Yield",
+  "content": "<div style='background:#f0fff4; padding:10px; border-radius:6px;'>• Breast: 50–74 q2-3y<br>• Cervical: 25–69 q3y<br>• Colon: FIT q2y or colonoscopy<br>• Lung: LDCT if high risk</div>• <span class='hl-red'>Trap:</span> No ovarian screening"
+},
+{
+  "id": "HY-ALG08",
+  "cat": "Medicine",
+  "sub": "Neurology",
+  "title": "Headache – Red Flag Approach",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>Red flags:</b><br>• Thunderclap<br>• Fever<br>• Neuro deficit<br>• Age >50 new headache</div>• <span class='hl-green'>Next:</span> CT ± LP • <span class='hl-red'>Trap:</span> Do not treat migraine before ruling out bleed"
+},
+{
+  "id": "HY-ALG09",
+  "cat": "Psychiatry",
+  "sub": "Mood Disorders",
+  "title": "Depression – Treatment Ladder",
+  "content": "<div style='background:#f0f7ff; padding:10px; border-radius:6px;'><b>Mild:</b> CBT<br><b>Moderate:</b> SSRI<br><b>Severe:</b> SSRI + CBT</div>• <span class='hl-blue'>Duration:</span> 6-9 months after remission • <span class='hl-red'>Trap:</span> Always assess suicide risk"
+},
+{
+  "id": "HY-ALG10",
+  "cat": "Medicine",
+  "sub": "Emergency",
+  "title": "Anaphylaxis – Immediate Management",
+  "content": "<div style='background:#fff5f5; padding:10px; border-radius:6px;'><b>FIRST:</b> IM Epinephrine<br><b>Then:</b> Airway + Oxygen + IV fluids</div>• <span class='hl-green'>Adjunct:</span> Antihistamine + Steroids • <span class='hl-red'>Trap:</span> Do NOT delay epinephrine"
+}
+]
