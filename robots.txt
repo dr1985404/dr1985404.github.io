@@ -1,10 +1,13 @@
 User-agent: *
 Allow: /
+Allow: /ads.txt
 
 User-agent: Mediapartners-Google
 Allow: /
+Allow: /ads.txt
 
 User-agent: Google-Display-Ads-Bot
 Allow: /
+Allow: /ads.txt
 
 Sitemap: https://dr1985404.github.io/sitemap.xml
