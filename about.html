@@ -3,37 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About This Platform</title>
+  <title>About – MCCQE1 Prep Platform</title>
   <style>
-    :root{
-      --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
-      --text:#1f2a37; --muted:#6b7280;
-    }
-    body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
-    header{ background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; padding:20px; text-align:center; }
-    .container{ max-width:800px; margin:0 auto; padding:20px; }
-    h1{ color:var(--navy); border-bottom:3px solid var(--gold); padding-bottom:10px; }
-    h2{ color:var(--navy); margin-top:25px; }
-    p{ margin:15px 0; }
-    .stats{ display:flex; justify-content:space-around; margin:25px 0; flex-wrap:wrap; }
-    .stat{ text-align:center; padding:15px; background:#f8fbff; border-radius:8px; margin:10px; min-width:120px; }
-    .stat-number{ font-size:2rem; font-weight:bold; color:var(--blue); }
-    .stat-label{ font-size:0.9rem; color:var(--navy); }
+    :root{ --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb; --text:#1f2a37; --muted:#6b7280; }
+    body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+    header{ background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; padding:28px 20px; text-align:center; }
+    header p{ margin:8px 0 0; opacity:.85; font-size:.95rem; }
+    .container{ max-width:800px; margin:0 auto; padding:30px 20px; }
+    h1{ margin:0; font-size:1.8rem; }
+    h2{ color:var(--navy); border-left:4px solid var(--gold); padding-left:12px; margin-top:35px; }
+    p{ margin:12px 0; color:var(--text); }
+    .disclaimer-box{ background:#fff8e1; border:1px solid var(--gold); border-radius:8px; padding:16px 20px; margin:25px 0; }
+    .disclaimer-box strong{ color:#7a5c00; }
+    .stats{ display:flex; justify-content:space-around; flex-wrap:wrap; margin:25px 0; gap:12px; }
+    .stat{ text-align:center; padding:18px; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,.07); min-width:130px; }
+    .stat-number{ font-size:2rem; font-weight:700; color:var(--navy); }
+    .stat-label{ font-size:.85rem; color:var(--muted); margin-top:4px; }
     .back-link{ display:inline-block; margin-top:30px; color:var(--gold); text-decoration:none; font-weight:bold; }
     .back-link:hover{ text-decoration:underline; }
+    footer{ text-align:center; padding:20px; font-size:.82rem; color:var(--muted); border-top:1px solid #dde3ed; margin-top:40px; }
   </style>
 </head>
 <body>
   <header>
     <h1>About This Platform</h1>
+    <p>Free MCCQE1 Preparation for International Medical Graduates</p>
   </header>
   <div class="container">
-    <h2>Our Purpose</h2>
-    <p>This platform provides free, high-yield MCCQE1 preparation resources specifically designed for International Medical Graduates pursuing licensure in Canada. We offer access to a comprehensive question bank and structured clinical notes to support exam readiness.</p>
-    
-    <h2>Our Commitment</h2>
-    <p>We believe financial barriers should not prevent access to quality medical exam preparation. This service remains completely free and is sustained through ethical, non-intrusive advertising to ensure long-term availability.</p>
-    
+
+    <div class="disclaimer-box">
+      <strong>⚕️ Educational Disclaimer:</strong> All content on this platform is intended solely for exam preparation and educational purposes. It does not constitute medical advice, diagnosis, or treatment. Always consult qualified healthcare professionals for clinical decisions.
+    </div>
+
+    <h2>Our Mission</h2>
+    <p>This platform was created to support International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part 1 (MCCQE1). We believe that financial limitations should never be a barrier to a medical career in Canada.</p>
+    <p>All resources — including the question bank, clinical notes, and specialty reviews — are provided completely free of charge and are sustained through ethical, non-intrusive advertising.</p>
+
     <div class="stats">
       <div class="stat">
         <div class="stat-number">2,357+</div>
@@ -48,11 +53,21 @@
         <div class="stat-label">Medical Specialties</div>
       </div>
     </div>
-    
-    <h2>Content Integrity</h2>
-    <p>All materials are carefully curated to align with MCC objectives and undergo regular review to maintain accuracy and relevance. The platform is continuously updated to reflect current exam patterns while upholding the highest educational standards.</p>
-    
+
+    <h2>What We Offer</h2>
+    <p>The platform covers all major MCCQE1 domains including Internal Medicine, Surgery, Pediatrics, OB/GYN, Psychiatry, Preventive Medicine, Emergency Medicine, Anesthesiology, and Ethics. Content is regularly updated to reflect current MCC objectives and exam patterns.</p>
+
+    <h2>Content Quality</h2>
+    <p>All materials are curated by medical professionals with expertise in Canadian licensing examinations. Questions are reviewed for clinical accuracy and alignment with the MCC's Medical Expert and CanMEDS frameworks.</p>
+
+    <h2>Advertising</h2>
+    <p>This site uses Google AdSense to display advertisements. Ads help keep the platform free and accessible to all IMGs worldwide. We do not endorse any specific advertised products or services.</p>
+
+    <h2>Contact Us</h2>
+    <p>For feedback, content corrections, or inquiries, please visit our <a href="contact.html" style="color:var(--gold);">Contact page</a>.</p>
+
     <a href="index.html" class="back-link">← Return to Platform</a>
   </div>
+  <footer>© 2025 MCCQE1 Prep Platform. All rights reserved. | <a href="privacy.html" style="color:var(--muted);">Privacy Policy</a> | <a href="terms.html" style="color:var(--muted);">Terms of Use</a></footer>
 </body>
 </html>
