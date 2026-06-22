@@ -10,4 +10,4 @@ User-agent: Google-Display-Ads-Bot
 Allow: /
 Allow: /ads.txt
 
-Sitemap: https://dr1985404.github.io/sitemap.xml
+Sitemap: /sitemap.xml

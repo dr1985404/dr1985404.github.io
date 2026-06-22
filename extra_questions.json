@@ -14257,6 +14257,48 @@
     ],
     "correct": 3,
     "rationale": "Dx: Atopic dermatitis, classically presenting in infants with severely pruritic, dry, poorly-demarcated white scaling and erythema on the face and extensor surfaces (sparing the diaper area).\nTx: Topical skin moisturizers (emollients) are the first-line treatment.\nRisk: Personal or family history of atopy (such as the father's asthma) is a major risk factor."
+  },
+  {
+    "id": "NEW_HY_001",
+    "cat": "Medicine",
+    "sub": "Cardiology",
+    "text": "A 65-year-old male with a 40 pack-year smoking history presents for a routine check-up. He has no significant past medical history and feels well. His blood pressure is 130/80 mmHg. According to Canadian Task Force on Preventive Health Care guidelines, which of the following screening tests is most appropriate for this patient?",
+    "options": [
+      "Abdominal ultrasound for aortic aneurysm",
+      "Low-dose CT scan of the chest",
+      "Exercise stress test",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "rationale": "According to Canadian guidelines, men aged 65-80 who have ever smoked should have a one-time screening ultrasound for abdominal aortic aneurysm (AAA). Additionally, adults aged 55-74 with a ≥30 pack-year smoking history who currently smoke or quit within the past 15 years should be screened annually with low-dose CT for lung cancer."
+  },
+  {
+    "id": "NEW_HY_002",
+    "cat": "Ethics",
+    "sub": "Consent",
+    "text": "A 15-year-old female presents to the clinic requesting oral contraceptives. She is sexually active and does not want her parents to know. She demonstrates a clear understanding of the risks, benefits, and alternatives of the medication. What is the most appropriate next step?",
+    "options": [
+      "Refuse to prescribe without parental consent",
+      "Prescribe the medication and maintain confidentiality",
+      "Prescribe the medication but inform her parents",
+      "Refer her to a social worker"
+    ],
+    "correct": 1,
+    "rationale": "Under the 'mature minor' doctrine in Canada, a minor who is capable of understanding the nature and consequences of a proposed treatment can give valid consent. The physician must maintain confidentiality unless there is a risk of serious harm."
+  },
+  {
+    "id": "NEW_HY_003",
+    "cat": "Surgery",
+    "sub": "General",
+    "text": "A 45-year-old female presents to the emergency department with severe, colicky right upper quadrant abdominal pain that radiates to her right shoulder. The pain started 2 hours ago after eating a fatty meal. She has nausea and vomited once. On examination, she has tenderness in the RUQ and a positive Murphy's sign. What is the most appropriate initial imaging modality?",
+    "options": [
+      "CT scan of the abdomen",
+      "Abdominal ultrasound",
+      "HIDA scan",
+      "MRI of the abdomen"
+    ],
+    "correct": 1,
+    "rationale": "The patient's presentation is classic for acute cholecystitis. Abdominal ultrasound is the most appropriate initial imaging modality as it is highly sensitive and specific for detecting gallstones, gallbladder wall thickening, and pericholecystic fluid."
   }
 ]
 

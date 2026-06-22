@@ -3,14 +3,14 @@
 
   <!-- Main Pages -->
   <url>
-    <loc>https://dr1985404.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/privacy.html</loc>
+    <loc>/privacy.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -18,7 +18,7 @@
 
   <!-- High-Yield General Overview Page -->
   <url>
-    <loc>https://dr1985404.github.io/high-yield-mccqe1.html</loc>
+    <loc>/high-yield-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -26,63 +26,63 @@
 
   <!-- Specialty Pages -->
   <url>
-    <loc>https://dr1985404.github.io/internal-medicine-mccqe1.html</loc>
+    <loc>/internal-medicine-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/pediatrics-mccqe1.html</loc>
+    <loc>/pediatrics-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/psychiatry-mccqe1.html</loc>
+    <loc>/psychiatry-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/surgery-mccqe1.html</loc>
+    <loc>/surgery-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/obgyn-mccqe1.html</loc>
+    <loc>/obgyn-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/ethics-mccqe1.html</loc>
+    <loc>/ethics-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/emergency-medicine-mccqe1.html</loc>
+    <loc>/emergency-medicine-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/preventive-medicine-mccqe1.html</loc>
+    <loc>/preventive-medicine-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://dr1985404.github.io/anesthesiology-mccqe1.html</loc>
+    <loc>/anesthesiology-mccqe1.html</loc>
     <lastmod>2026-03-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
