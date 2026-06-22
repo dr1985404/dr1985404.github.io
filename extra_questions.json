@@ -14262,7 +14262,7 @@
     "id": "NEW_HY_001",
     "cat": "Medicine",
     "sub": "Cardiology",
-    "text": "A 65-year-old male with a 40 pack-year smoking history presents for a routine check-up. He has no significant past medical history and feels well. His blood pressure is 130/80 mmHg. According to Canadian Task Force on Preventive Health Care guidelines, which of the following screening tests is most appropriate for this patient?",
+    "text": "A 65-year-old male with a 40 pack-year smoking history presents for a routine check-up. He has no significant past medical history and feels well. His blood pressure is 130/80 mmHg. According to Canadian Task Force on Preventive Health Care guidelines, which of the following screening tests is most appropriate for this patient, assuming he is a current smoker or quit within the last 15 years?",
     "options": [
       "Abdominal ultrasound for aortic aneurysm",
       "Low-dose CT scan of the chest",
@@ -14270,7 +14270,7 @@
       "Both A and B"
     ],
     "correct": 3,
-    "rationale": "According to Canadian guidelines, men aged 65-80 who have ever smoked should have a one-time screening ultrasound for abdominal aortic aneurysm (AAA). Additionally, adults aged 55-74 with a ≥30 pack-year smoking history who currently smoke or quit within the past 15 years should be screened annually with low-dose CT for lung cancer."
+    "rationale": "According to Canadian guidelines, men aged 65-80 who have ever smoked should have a one-time screening ultrasound for abdominal aortic aneurysm (AAA). Additionally, adults aged 55-74 with a ≥30 pack-year smoking history who currently smoke or quit within the past 15 years should be screened annually with low-dose CT for lung cancer for up to three consecutive times."
   },
   {
     "id": "NEW_HY_002",
