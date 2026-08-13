@@ -192,6 +192,14 @@
     .hero-btns{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;}
     @media (max-width:768px){.hero-section h1{font-size:1.8rem;}.hero-section p{font-size:1rem;}}
 
+    /* Mnemonic Styles */
+    .mnemonic-card{background:#fff; border-radius:20px; border-left:8px solid; margin-bottom:20px; box-shadow:var(--shadow); overflow:hidden; transition:0.3s;}
+    .mnemonic-card:hover{transform:scale(1.02);}
+    .mnemonic-header{padding:15px 20px; color:#fff; font-weight:900; display:flex; justify-content:space-between; align-items:center; font-size:1.2rem;}
+    .mnemonic-body{padding:20px; font-size:1.1rem; line-height:1.8;}
+    .mnemonic-tag{background:rgba(255,255,255,0.2); padding:4px 10px; border-radius:8px; font-size:0.8rem; font-weight:800;}
+    .mnemonic-code{font-family:monospace; background:#f1f5f9; padding:10px; border-radius:10px; display:block; margin-bottom:15px; font-size:1.3rem; color:var(--navy); text-align:center; font-weight:900; border:2px dashed var(--gold);}
+
     body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
     body.dark .vault-stats{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
     body.dark .stat-item{ color:#e2e8f0; }
@@ -236,6 +244,8 @@
     body.dark .progress-label{ color:#94a3b8; }
     body.dark .progress-wrap{ background:#334155; }
     body.dark .ad-wrapper{ background:#1e293b; border-color:#334155; }
+    body.dark .mnemonic-card{ background:#1e293b; border-color:#334155; }
+    body.dark .mnemonic-code{ background:#0f172a; color:#fff; border-color:#c8a45c; }
 
     footer{ background:#0b1730; color:#fff; text-align:center; padding:20px 14px; margin-top:40px; border-top:3px solid #c8a45c; }
     footer a{ color:#c8a45c; text-decoration:none; margin:0 12px; font-size:0.88rem; font-weight:700; }
@@ -301,7 +311,7 @@
       <p>The most comprehensive free resource for International Medical Graduates. Access 6,000+ High-Yield Questions, Clinical Decision-Making cases, and Expert Notes. No Subscription. No Hidden Fees.</p>
       <div class="hero-btns">
         <button class="btn btn-gold" onclick="activeMainTab='questions';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">🚀 Start Free Practice</button>
-        <button class="btn btn-light" onclick="activeMainTab='cdm';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">📋 Clinical Cases</button>
+        <button class="btn btn-light" onclick="activeMainTab='tricks';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">💡 Memory Tricks</button>
       </div>
     </div>
   </section>
@@ -345,6 +355,7 @@
     <div id="tab-questions" class="tab active" onclick="switchMainTab('questions')">Q-BANK</div>
     <div id="tab-notes" class="tab" onclick="switchMainTab('notes')">HIGH-YIELD</div>
     <div id="tab-cdm" class="tab" onclick="switchMainTab('cdm')">CDM CASES</div>
+    <div id="tab-tricks" class="tab" onclick="switchMainTab('tricks')">TRICKS</div>
     <div id="tab-bookmarks" class="tab" onclick="switchMainTab('bookmarks')">🔖 SAVED</div>
   </nav>
 
@@ -407,7 +418,7 @@
       });
     });
 
-    let bank=[],notes=[],cdm=[],filteredQuestions=[],filteredNotes=[],currentIdx=0;
+    let bank=[],notes=[],cdm=[],tricks=[],filteredQuestions=[],filteredNotes=[],currentIdx=0;
     let activeMainTab="questions",currentCategory="",currentSubcategory="";
     let examMode=false,examSec=0,timerInt,userSels={};
     let answered=JSON.parse(localStorage.getItem('answered_questions')||'[]');
@@ -416,6 +427,7 @@
     const qFiles=["questions.json","extra_questions.json","extra_questions_2.json","ethics_questions.json","eq2_part1.json","eq2_part2.json","eq2_part3.json","eq2_part4.json","eq2_part5.json","eq2_part6.json"];
     const nFiles=["notes.json","clinical_cards.json","extra1.json"];
     const cdmFiles=["cdm_cases.json"];
+    const tFiles=["mnemonics.json"];
 
     if(localStorage.getItem('dark')==='1') document.body.classList.add('dark');
     function toggleDark(){
@@ -424,15 +436,17 @@
     }
 
     async function init(){
-      const [qResults, nResults, cResults] = await Promise.all([
+      const [qResults, nResults, cResults, tResults] = await Promise.all([
         Promise.all(qFiles.map(f => fetchJson(f))),
         Promise.all(nFiles.map(f => fetchJson(f))),
-        Promise.all(cdmFiles.map(f => fetchJson(f)))
+        Promise.all(cdmFiles.map(f => fetchJson(f))),
+        Promise.all(tFiles.map(f => fetchJson(f)))
       ]);
       
       bank = sanitize(qResults.flat());
       notes = nResults.flat();
       cdm = cResults.flat();
+      tricks = tResults.flat();
 
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
@@ -529,6 +543,7 @@
     function renderMain(){
       hideAll();
       if(activeMainTab==="bookmarks"){showBookmarks();return;}
+      if(activeMainTab==="tricks"){renderTricks();return;}
       const data=(activeMainTab==="questions"?bank:(activeMainTab==="cdm"?cdm:notes));
       const cats=[...new Set(data.map(x=>x.cat))].sort();
       const db=document.getElementById("main-dashboard");db.style.display="grid";
@@ -541,6 +556,23 @@
           ${activeMainTab==="questions"?`<div class="progress-wrap" style="margin-top:8px"><div class="progress-bar" style="width:${pct}%"></div></div><div class="progress-label">${pct}%</div>`:''}
         </div>`;
       }).join("");
+    }
+
+    function renderTricks(){
+      hideAll();
+      const db=document.getElementById("main-dashboard");db.style.display="grid";
+      db.innerHTML=tricks.map(t=>`
+        <div class="mnemonic-card" style="border-left-color:${t.color}">
+          <div class="mnemonic-header" style="background:${t.color}">
+            <span>${t.icon} ${t.title}</span>
+            <span class="mnemonic-tag">${t.cat}</span>
+          </div>
+          <div class="mnemonic-body">
+            <div class="mnemonic-code">${t.mnemonic}</div>
+            <div>${t.content}</div>
+          </div>
+        </div>
+      `).join("");
     }
 
     function showBookmarks(){
@@ -674,6 +706,7 @@
       document.getElementById("tab-questions").className=(t==="questions"?"tab active":"tab");
       document.getElementById("tab-notes").className=(t==="notes"?"tab active":"tab");
       document.getElementById("tab-cdm").className=(t==="cdm"?"tab active":"tab");
+      document.getElementById("tab-tricks").className=(t==="tricks"?"tab active":"tab");
       document.getElementById("tab-bookmarks").className=(t==="bookmarks"?"tab active":"tab");
       renderMain();
     }
@@ -683,7 +716,7 @@
 
   <script>
     if('serviceWorker' in navigator){
-      navigator.serviceWorker.register('/sw.js');
+      navigator.worker.register('/sw.js');
     }
   </script>
 

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "m1",
+    "title": "Apgar Score",
+    "cat": "Pediatrics",
+    "mnemonic": "APGAR",
+    "content": "<strong>A</strong>ppearance (Skin Color)<br><strong>P</strong>ulse (Heart Rate)<br><strong>G</strong>rimace (Reflex Irritability)<br><strong>A</strong>ctivity (Muscle Tone)<br><strong>R</strong>espiration (Breathing)",
+    "color": "#ec4899",
+    "icon": "👶"
+  },
+  {
+    "id": "m2",
+    "title": "Hyperkalemia Management",
+    "cat": "Internal Medicine",
+    "mnemonic": "C BIG K Drop",
+    "content": "<strong>C</strong>alcium Gluconate (Stabilize heart)<br><strong>B</strong>icarbonate / <strong>B</strong>eta-agonists<br><strong>I</strong>nsulin + <strong>G</strong>lucose<br><strong>K</strong>ayexalate<br><strong>D</strong>iuretics / <strong>D</strong>ialysis",
+    "color": "#3b82f6",
+    "icon": "🩸"
+  },
+  {
+    "id": "m3",
+    "title": "Post-Op Fever Causes",
+    "cat": "Surgery",
+    "mnemonic": "The 5 W's",
+    "content": "<strong>W</strong>ind (Atelectasis/Pneumonia) - Day 1-2<br><strong>W</strong>ater (UTI) - Day 3-5<br><strong>W</strong>alking (DVT/PE) - Day 4-6<br><strong>W</strong>ound (Infection) - Day 5-7<br><strong>W</strong>onder drugs (Drug fever) - Anytime",
+    "color": "#f59e0b",
+    "icon": "🔪"
+  },
+  {
+    "id": "m4",
+    "title": "Preeclampsia Features",
+    "cat": "OBGYN",
+    "mnemonic": "PRE",
+    "content": "<strong>P</strong>roteinuria<br><strong>R</strong>ising blood pressure<br><strong>E</strong>dema (No longer in criteria but helpful)",
+    "color": "#8b5cf6",
+    "icon": "🤰"
+  },
+  {
+    "id": "m5",
+    "title": "Signs of Inflammation",
+    "cat": "Emergency Medicine",
+    "mnemonic": "PRISH",
+    "content": "<strong>P</strong>ain<br><strong>R</strong>edness<br><strong>I</strong>mmobility<br><strong>S</strong>welling<br><strong>H</strong>eat",
+    "color": "#ef4444",
+    "icon": "🚨"
+  }
+]
