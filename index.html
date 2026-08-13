@@ -89,9 +89,8 @@
     
     .social-btns{ display:flex; gap:10px; }
     .social-link{ color:#fff; text-decoration:none; background:rgba(255,255,255,0.1); padding:6px 12px; border-radius:12px; font-size:0.75rem; font-weight:700; border:1px solid rgba(255,255,255,0.1); transition:0.3s; }
-    .social-link:hover{ background:rgba(255,255,255,0.2); transform:translateY(-1px); }
 
-    .vault-stats{ background:#fff; padding:12px 20px; border-bottom:1px solid var(--line); display:flex; justify-content:center; gap:20px; font-size:0.85rem; font-weight:700; box-shadow:0 2px 10px rgba(0,0,0,0.02); }
+    .vault-stats{ background:#fff; padding:12px 20px; border-bottom:1px solid var(--line); display:flex; justify-content:center; gap:20px; font-size:0.85rem; font-weight:700; }
     .stat-val{ color:var(--blue); font-weight:900; }
 
     .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:58px; z-index:999; padding:0 10px; }
@@ -100,17 +99,15 @@
     .tab.active::after{ content:''; position:absolute; bottom:0; left:20%; right:20%; height:3px; background:var(--blue); border-radius:10px; }
 
     .hero-section{ background:var(--navy); padding:40px 20px; text-align:center; color:#fff; position:relative; overflow:hidden; }
-    .hero-section::before{ content:''; position:absolute; top:-50%; left:-50%; width:200%; height:200%; background:radial-gradient(circle, rgba(59,130,246,0.1) 0%, transparent 70%); z-index:0; }
-    .hero-content{ position:relative; z-index:1; }
-    .hero-section h1{ font-size:2rem; font-weight:900; margin-bottom:10px; letter-spacing:-0.03em; }
-    .hero-section p{ font-size:1rem; color:var(--muted); margin-bottom:25px; max-width:600px; margin-left:auto; margin-right:auto; }
+    .hero-section h1{ font-size:2rem; font-weight:900; margin-bottom:10px; }
+    .hero-section p{ font-size:1rem; color:var(--muted); margin-bottom:25px; }
     
     .container{ max-width:1100px; margin:0 auto; padding:20px; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr)); gap:15px; }
     
     .sub-card{ background:#fff; border-radius:24px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:0.3s; box-shadow:var(--shadow); }
-    .sub-card:hover{ transform:translateY(-4px); border-color:var(--blue); box-shadow:0 10px 25px -5px rgba(59,130,246,0.1); }
-    .sub-card i{ display:block; font-size:2.2rem; margin-bottom:12px; filter:drop-shadow(0 4px 6px rgba(0,0,0,0.1)); }
+    .sub-card:hover{ transform:translateY(-4px); border-color:var(--blue); }
+    .sub-card i{ display:block; font-size:2.2rem; margin-bottom:12px; }
     .sub-card h3{ margin:0 0 5px 0; font-size:1.1rem; font-weight:800; color:var(--navy); }
     .sub-card p{ color:var(--muted); font-size:0.8rem; font-weight:700; margin:0; }
 
@@ -118,8 +115,7 @@
     .card-header{ padding:15px 20px; color:#fff; font-weight:800; display:flex; justify-content:space-between; align-items:center; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; }
     
-    .option{ padding:15px 20px; border:2px solid var(--line); border-radius:16px; margin-bottom:12px; cursor:pointer; background:#fff; transition:0.2s; font-weight:600; }
-    .option:hover{ border-color:var(--blue); background:var(--bg); }
+    .option{ padding:15px 20px; border:2px solid var(--line); border-radius:16px; margin-bottom:12px; cursor:pointer; background:#fff; font-weight:600; }
     .option.selected{ border-color:var(--blue); background:#eff6ff; color:var(--blue); }
     .option.correct{ background:#ecfdf5!important; border-color:var(--green)!important; color:#065f46!important; font-weight:800; }
     .option.wrong{ background:#fef2f2!important; border-color:var(--red)!important; color:#991b1b!important; font-weight:800; }
@@ -127,50 +123,44 @@
     .rationale{ display:none; margin-top:20px; padding:20px; background:var(--bg); border-radius:16px; border-left:5px solid var(--blue); }
     
     .btn{ border:none; border-radius:16px; padding:16px 24px; font-weight:800; cursor:pointer; transition:0.3s; font-size:1rem; display:inline-flex; align-items:center; justify-content:center; gap:8px; }
-    .btn-gold{ background:var(--gold); color:var(--navy); box-shadow:0 4px 15px -1px rgba(251,191,36,0.3); }
-    .btn-gold:hover{ background:var(--gold-dark); transform:translateY(-1px); }
+    .btn-gold{ background:var(--gold); color:var(--navy); }
     .btn-light{ background:#fff; color:var(--navy); border:1px solid var(--line); }
-    .btn-light:hover{ background:var(--bg); }
 
     .study-dashboard{ max-width:1100px; margin:20px auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px; padding:0 20px; }
     .dash-card{ background:#fff; border-radius:20px; padding:15px 20px; display:flex; align-items:center; gap:15px; box-shadow:var(--shadow); border:1px solid var(--line); }
     .dash-icon{ font-size:1.8rem; background:var(--bg); width:50px; height:50px; display:flex; align-items:center; justify-content:center; border-radius:15px; color:var(--blue); }
-    .dash-info h4{ margin:0; font-size:0.7rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
     .dash-info p{ margin:0; font-size:1.1rem; font-weight:900; color:var(--navy); }
 
     .mnemonic-card{ background:#fff; border-radius:24px; margin-bottom:20px; box-shadow:var(--shadow); overflow:hidden; border:1px solid var(--line); }
     .mnemonic-header{ padding:15px 25px; color:#fff; font-weight:900; display:flex; justify-content:space-between; align-items:center; }
     .mnemonic-body{ padding:25px; }
-    .mnemonic-code{ font-family:'SF Mono', 'Fira Code', monospace; background:var(--bg); padding:15px; border-radius:16px; display:block; margin-bottom:15px; font-size:1.3rem; color:var(--navy); text-align:center; font-weight:900; border:2px dashed var(--blue); letter-spacing:0.1em; }
+    .mnemonic-code{ font-family:monospace; background:var(--bg); padding:15px; border-radius:16px; display:block; margin-bottom:15px; font-size:1.3rem; color:var(--navy); text-align:center; font-weight:900; border:2px dashed var(--blue); }
 
     body.dark{ --bg:#0f172a; --card:#1e293b; --text:#f1f5f9; --muted:#94a3b8; --line:#334155; }
     body.dark .vault-stats, body.dark .main-tabs, body.dark .sub-card, body.dark .card, body.dark .mnemonic-card, body.dark .dash-card { background:#1e293b; border-color:#334155; }
     body.dark .option{ background:#1e293b; border-color:#334155; }
     body.dark .mnemonic-code{ background:#0f172a; color:#fff; }
-    body.dark .btn-light{ background:#1e293b; color:#fff; border-color:#334155; }
 
     footer{ background:var(--navy); color:#fff; text-align:center; padding:30px 20px; margin-top:40px; }
     footer a{ color:var(--muted); text-decoration:none; margin:0 15px; font-size:0.85rem; font-weight:600; }
-    footer p{ margin-top:15px; font-size:0.75rem; color:rgba(255,255,255,0.3); }
 
     .loading-screen{ position:fixed; top:0; left:0; right:0; bottom:0; background:var(--navy); z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; }
     .spinner{ width:40px; height:40px; border:4px solid rgba(255,255,255,0.1); border-top-color:var(--gold); border-radius:50%; animation:spin 1s linear infinite; margin-bottom:20px; }
     @keyframes spin{ to{ transform:rotate(360deg); } }
-    
-    .ad-wrapper{ max-width:1100px; margin:5px auto; text-align:center; overflow:hidden; min-height:1px; }
+    .ad-wrapper{ max-width:1100px; margin:5px auto; text-align:center; min-height:1px; }
   </style>
 </head>
 <body>
   <div id="loading-screen" class="loading-screen">
     <div class="spinner"></div>
-    <div style="font-weight:800; letter-spacing:0.05em;">PREPARING 6,000+ QUESTIONS...</div>
+    <div style="font-weight:800; letter-spacing:0.05em;">LOADING 6,000+ QUESTIONS...</div>
   </div>
 
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
       <div style="display:flex; align-items:center; gap:15px;">
-        <button onclick="toggleDark()" style="background:rgba(255,255,255,0.1); border:none; color:#fff; width:36px; height:36px; border-radius:10px; cursor:pointer; display:flex; align-items:center; justify-content:center;">🌙</button>
+        <button onclick="toggleDark()" style="background:rgba(255,255,255,0.1); border:none; color:#fff; width:36px; height:36px; border-radius:10px; cursor:pointer;">🌙</button>
         <div class="social-btns">
           <a href="https://www.youtube.com/@Medivaultpro" target="_blank" class="social-link">YouTube</a>
           <a href="https://www.facebook.com/share/g/15Y4s2rM1B/" target="_blank" class="social-link">FB</a>
@@ -180,13 +170,11 @@
   </header>
 
   <section class="hero-section">
-    <div class="hero-content">
-      <h1>100% Free MCCQE1 Bank</h1>
-      <p>Premium resources for International Medical Graduates. Over 6,000+ Questions, Clinical Cases, and Expert Notes.</p>
-      <div style="display:flex;justify-content:center;gap:12px;">
-        <button class="btn btn-gold" onclick="switchMainTab('questions')">🚀 Start Practice</button>
-        <button class="btn btn-light" onclick="switchMainTab('tricks')">💡 Study Tricks</button>
-      </div>
+    <h1>100% Free MCCQE1 Bank</h1>
+    <p>Premium resources for International Medical Graduates.</p>
+    <div style="display:flex;justify-content:center;gap:12px;">
+      <button class="btn btn-gold" onclick="switchMainTab('questions')">🚀 Start Practice</button>
+      <button class="btn btn-light" onclick="switchMainTab('tricks')">💡 Study Tricks</button>
     </div>
   </section>
 
@@ -217,35 +205,27 @@
   <div class="container">
     <div id="main-dashboard" class="dashboard"></div>
     <div id="sub-dashboard" class="dashboard"></div>
-    
     <div id="view-area">
       <div id="mode-panel" style="display:none; justify-content:space-between; align-items:center; margin-bottom:20px; background:rgba(0,0,0,0.02); padding:10px; border-radius:16px;">
         <div style="background:rgba(0,0,0,0.05); padding:4px; border-radius:12px; display:flex; gap:5px;">
-          <button id="m-study" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800; font-size:0.8rem;" onclick="setMode('study')">Study</button>
-          <button id="m-exam" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800; font-size:0.8rem;" onclick="setMode('exam')">Exam</button>
+          <button id="m-study" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800;" onclick="setMode('study')">Study</button>
+          <button id="m-exam" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800;" onclick="setMode('exam')">Exam</button>
         </div>
-        <div id="timer" style="font-weight:900; color:var(--red); font-size:1.1rem; display:none;">00:00</div>
+        <div id="timer" style="font-weight:900; color:var(--red); display:none;">00:00</div>
       </div>
-      
       <div id="progress-section" style="display:none; margin-bottom:20px;">
-        <div style="width:100%; background:rgba(0,0,0,0.05); border-radius:999px; height:8px;"><div id="prog-bar" style="height:8px; border-radius:999px; background:linear-gradient(to right, var(--blue), var(--green)); transition:width 0.5s; width:0%"></div></div>
-        <div id="prog-label" style="font-size:0.75rem; color:var(--muted); text-align:right; font-weight:800; margin-top:5px;">0 / 0 Answered</div>
+        <div style="width:100%; background:rgba(0,0,0,0.05); border-radius:999px; height:8px;"><div id="prog-bar" style="height:8px; border-radius:999px; background:var(--blue); width:0%"></div></div>
+        <div id="prog-label" style="font-size:0.75rem; color:var(--muted); text-align:right; font-weight:800;">0 / 0 Answered</div>
       </div>
-      
       <div id="content-container"></div>
-      
       <div id="nav-btns" style="display:flex; gap:15px; margin-top:25px;"></div>
-      <div style="text-align:center; margin-top:25px;">
-        <button class="btn btn-light" onclick="goBack()" style="min-width:160px;">↩ Back to Categories</button>
-      </div>
+      <div style="text-align:center; margin-top:25px;"><button class="btn btn-light" onclick="goBack()" style="min-width:160px;">↩ Back</button></div>
     </div>
   </div>
 
   <footer>
-    <div style="display:flex; justify-content:center; flex-wrap:wrap;">
-      <a href="/privacy.html">Privacy Policy</a><a href="/about.html">About Us</a><a href="/contact.html">Contact</a><a href="/terms.html">Terms</a>
-    </div>
-    <p>&copy; 2025 MediVault Pro. Empowering IMGs worldwide.</p>
+    <a href="/privacy.html">Privacy Policy</a><a href="/about.html">About Us</a><a href="/contact.html">Contact</a><a href="/terms.html">Terms</a>
+    <p>&copy; 2025 MediVault Pro.</p>
   </footer>
 
   <script>
@@ -278,7 +258,7 @@
       document.getElementById('loading-screen').style.display="none";
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
-      document.getElementById('total-solved').innerText = answered.filter(x => !x.includes("-")).length; // Unique Qs
+      document.getElementById('total-solved').innerText = answered.filter(x => !x.includes("-")).length;
       updateDashboard();
       renderMain();
     }
@@ -395,7 +375,7 @@
 
     function updateProgress(){
       const total=filteredQuestions.length, done=filteredQuestions.filter(q=>answered.some(a=>a===q.id)).length, pct=total?Math.round(done/total*100):0;
-      document.getElementById("prog-bar").style.width=pct+"%"; document.getElementById("prog-label").innerText=`${done} / ${total}`;
+      document.getElementById("prog-bar").style.width=pct+"%"; document.getElementById("prog-label").innerText=`${done} / ${total} Answered`;
     }
 
     function renderNav(){
@@ -403,8 +383,21 @@
       document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${currentIdx===data.length-1&&examMode?'Finish':'Next'}</button>`;
     }
 
-    function next(){ const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); if(currentIdx<data.length-1){ currentIdx++; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); document.getElementById('main-tabs').scrollIntoView(); } else if(examMode) finishEx(); }
-    function prev(){ if(currentIdx>0){ currentIdx--; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); document.getElementById('main-tabs').scrollIntoView(); } }
+    function next(){ 
+      const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); 
+      if(currentIdx<data.length-1){ 
+        currentIdx++; 
+        (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
+        document.getElementById('main-tabs').scrollIntoView();
+      } else if(examMode) finishEx(); 
+    }
+    function prev(){ 
+      if(currentIdx>0){ 
+        currentIdx--; 
+        (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
+        document.getElementById('main-tabs').scrollIntoView();
+      } 
+    }
     function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
     
     function setModeUI(m){
