@@ -125,6 +125,7 @@
     .btn{ border:none; border-radius:16px; padding:16px 24px; font-weight:800; cursor:pointer; transition:0.3s; font-size:1rem; display:inline-flex; align-items:center; justify-content:center; gap:8px; }
     .btn-gold{ background:var(--gold); color:var(--navy); }
     .btn-light{ background:#fff; color:var(--navy); border:1px solid var(--line); }
+    .btn-red{ background:var(--red); color:#fff; }
 
     .study-dashboard{ max-width:1100px; margin:20px auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)); gap:15px; padding:0 20px; }
     .dash-card{ background:#fff; border-radius:20px; padding:15px 20px; display:flex; align-items:center; gap:15px; box-shadow:var(--shadow); border:1px solid var(--line); }
@@ -258,7 +259,10 @@
       document.getElementById('loading-screen').style.display="none";
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
-      document.getElementById('total-solved').innerText = answered.filter(x => typeof x === 'string' && !x.includes(":")).length;
+      
+      const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
+      document.getElementById('total-solved').innerText = uniqueSolved.size;
+      
       updateDashboard();
       renderMain();
     }
@@ -322,9 +326,27 @@
 
     function showBookmarks(){
       hideAll(); const bqs=bank.filter(q=>bookmarks.includes(q.id));
-      if(bqs.length===0){ document.getElementById("main-dashboard").style.display="grid"; document.getElementById("main-dashboard").innerHTML=`<div style="padding:40px;text-align:center;grid-column:1/-1;color:var(--muted);">🔖 No saved items yet.</div>`; return; }
+      if(bqs.length===0){ 
+        document.getElementById("main-dashboard").style.display="grid"; 
+        document.getElementById("main-dashboard").innerHTML=`<div style="padding:40px;text-align:center;grid-column:1/-1;color:var(--muted);">
+          🔖 No saved items yet.<br><br>
+          <button class="btn btn-red" onclick="resetProgress()">⚠️ Reset All Progress</button>
+        </div>`; 
+        return; 
+      }
       filteredQuestions=bqs; currentIdx=0; currentSubcategory="bookmarks"; currentCategory="Bookmarks";
       document.getElementById("view-area").style.display="block"; showQ();
+    }
+
+    function resetProgress(){
+      if(confirm("Are you sure? This will delete all solved questions and study streak!")){
+        localStorage.removeItem('answered_questions');
+        localStorage.removeItem('study_streak');
+        localStorage.removeItem('last_study_date');
+        localStorage.removeItem('daily_stats');
+        answered = [];
+        location.reload();
+      }
     }
 
     function openCat(c){
@@ -340,7 +362,7 @@
       if(activeMainTab==="questions"){
         document.getElementById("mode-panel").style.display="flex"; document.getElementById("progress-section").style.display="block";
         filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)); 
-        setModeUI('study'); 
+        setModeUI(examMode ? 'exam' : 'study'); 
         showQ();
       } else {
         filteredNotes=(activeMainTab==="cdm"?cdm:notes).filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)); showNote();
@@ -390,16 +412,16 @@
       if(currentIdx<data.length-1){ 
         currentIdx++; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        const target = document.getElementById('main-tabs');
-        if(target) window.scrollTo({ top: target.offsetTop - 10, behavior: 'auto' });
+        const scrollTarget = document.getElementById('main-tabs');
+        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
       } else if(examMode) finishEx(); 
     }
     function prev(){ 
       if(currentIdx>0){ 
         currentIdx--; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        const target = document.getElementById('main-tabs');
-        if(target) window.scrollTo({ top: target.offsetTop - 10, behavior: 'auto' });
+        const scrollTarget = document.getElementById('main-tabs');
+        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
       } 
     }
     function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
@@ -411,11 +433,22 @@
       document.getElementById('m-exam').style.background=examMode?'var(--navy)':'transparent';
       document.getElementById('m-exam').style.color=examMode?'#fff':'var(--navy)';
       document.getElementById('timer').style.display=examMode?'block':'none';
-      if(examMode) { examSec=0; clearInterval(timerInt); timerInt=setInterval(()=>{examSec++; let m=Math.floor(examSec/60).toString().padStart(2,'0'), s=(examSec%60).toString().padStart(2,'0'); document.getElementById('timer').innerText=`${m}:${s}`;},1000); } 
-      else clearInterval(timerInt);
+      if(examMode) { 
+        examSec=0; clearInterval(timerInt); 
+        timerInt=setInterval(()=>{
+          examSec++; 
+          let m=Math.floor(examSec/60).toString().padStart(2,'0'), s=(examSec%60).toString().padStart(2,'0'); 
+          document.getElementById('timer').innerText=`${m}:${s}`;
+        },1000); 
+      } else {
+        clearInterval(timerInt);
+      }
     }
 
-    function setMode(m){ setModeUI(m); start(currentSubcategory); }
+    function setMode(m){ 
+      setModeUI(m); 
+      if(currentSubcategory) start(currentSubcategory); 
+    }
     function goBack(){ if(document.getElementById("sub-dashboard").style.display==="grid") renderMain(); else openCat(currentCategory); }
     function getSafeImg(src){ if(!src)return''; return`<img src="https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png" class="content-img" onerror="this.style.display='none'" alt="Medical Illustration">`; }
     function getIcon(c){ const i={"Internal Medicine":"🩺","Surgery":"🔪","Pediatrics":"👶","Psychiatry":"🧠","Ethics & Legal":"⚖️","Emergency Medicine":"🚨","Obstetrics & Gynecology":"🤰","Family Medicine":"👨‍⚕️","Population & Prevention":"📊"}; return i[c]||"📚"; }
