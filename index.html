@@ -113,22 +113,6 @@
   <meta name="apple-mobile-web-app-title" content="MediVault Pro" />
   <link rel="apple-touch-icon" href="og-image.png.PNG" />
 
-  <!-- Schema.org JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebApplication",
-    "name": "MediVault Pro",
-    "url": "https://dr1985404.github.io/",
-    "description": "Free MCCQE1 exam preparation platform for International Medical Graduates in Canada. Features a Q-Bank and High-Yield clinical notes.",
-    "applicationCategory": "EducationApplication",
-    "operatingSystem": "All",
-    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "CAD" },
-    "audience": { "@type": "Audience", "audienceType": "International Medical Graduates, Medical Students, MCCQE1 candidates" },
-    "keywords": "MCCQE1, IMG Canada, medical licensing, Q-Bank, High-Yield notes"
-  }
-  </script>
-
   <style>
     :root{
       --navy:#0b1730; --navy2:#132347; --gold:#c8a45c; --bg:#f4f7fb;
@@ -138,7 +122,6 @@
     }
     *{ box-sizing:border-box; }
     body{ margin:0; font-family:Segoe UI,Arial,sans-serif; background:var(--bg); color:var(--text); padding-bottom:100px; }
-    .seo-h1{ position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
     header{ position:sticky; top:0; z-index:1000; background:linear-gradient(135deg,var(--navy),var(--navy2)); color:#fff; border-bottom:3px solid var(--gold); }
     .topbar{ max-width:1100px; margin:0 auto; padding:16px; display:flex; align-items:center; justify-content:space-between; gap:12px; }
     .brand{ font-size:1.4rem; font-weight:900; }
@@ -151,15 +134,6 @@
     .tab{ flex:1; text-align:center; padding:14px; cursor:pointer; font-weight:800; color:#64748b; }
     .tab.active{ color:var(--blue); border-bottom:4px solid var(--blue); background:#f8fbff; }
     .container{ max-width:1100px; margin:20px auto; padding:0 14px; }
-    .panel{ background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
-    .mode-bar{ padding:12px 16px; background:#f8fafc; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; }
-    .mode-switch{ display:flex; gap:5px; background:#e2e8f0; padding:4px; border-radius:8px; }
-    .m-btn{ border:none; padding:6px 14px; border-radius:6px; cursor:pointer; font-weight:800; font-size:0.75rem; }
-    .m-btn.active{ background:var(--navy); color:#fff; }
-    .timer-display{ font-weight:900; color:var(--red); font-size:1rem; display:none; }
-    .progress-wrap{ width:100%; background:#e2e8f0; border-radius:999px; height:8px; margin:8px 0; }
-    .progress-bar{ height:8px; border-radius:999px; background:linear-gradient(90deg,var(--blue),var(--green)); transition:width 0.4s; }
-    .progress-label{ font-size:0.78rem; color:var(--muted); font-weight:800; text-align:right; }
     .dashboard{ display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; padding:16px; }
     .sub-card{ background:#fff; border-radius:18px; padding:20px; text-align:center; cursor:pointer; border:1px solid var(--line); transition:.2s; position:relative; }
     .sub-card:hover{ transform:translateY(-4px); border-color:var(--gold); }
@@ -170,9 +144,6 @@
     .bookmark-btn{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:0; }
     .card-body{ padding:25px; line-height:1.7; font-size:1.05rem; color:var(--text); }
     .content-img{ width:100%; max-width:600px; height:auto; border-radius:12px; margin:15px auto; border:1px solid var(--line); display:block; background:#eee; }
-    table{ width:100%; border-collapse:collapse; margin:15px 0; font-size:0.92rem; }
-    th,td{ border:1px solid var(--line); padding:10px; text-align:left; color:var(--text); }
-    th{ background:#f8fafc; color:var(--text); }
     .hl-blue{ color:var(--blue); font-weight:800; }
     .hl-green{ color:#16a34a; font-weight:800; }
     .hl-red{ color:var(--red); font-weight:800; }
@@ -190,7 +161,6 @@
     .hero-section h1{font-size:2.5rem;font-weight:900;margin-bottom:20px;color:#fff;}
     .hero-section p{font-size:1.2rem;color:#cbd5e1;margin-bottom:30px;line-height:1.6;}
     .hero-btns{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;}
-    @media (max-width:768px){.hero-section h1{font-size:1.8rem;}.hero-section p{font-size:1rem;}}
 
     /* Mnemonic Styles */
     .mnemonic-card{background:#fff; border-radius:20px; border-left:8px solid; margin-bottom:20px; box-shadow:var(--shadow); overflow:hidden; transition:0.3s;}
@@ -201,84 +171,16 @@
     .mnemonic-code{font-family:monospace; background:#f1f5f9; padding:10px; border-radius:10px; display:block; margin-bottom:15px; font-size:1.3rem; color:var(--navy); text-align:center; font-weight:900; border:2px dashed var(--gold);}
 
     body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
-    body.dark .vault-stats{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
-    body.dark .stat-item{ color:#e2e8f0; }
-    body.dark .main-tabs{ background:#1e293b; border-color:#334155; }
-    body.dark .tab{ background:#1e293b; color:#94a3b8; }
+    body.dark .vault-stats, body.dark .main-tabs, body.dark .sub-card, body.dark .card, body.dark .mnemonic-card { background:#1e293b; border-color:#334155; }
     body.dark .tab.active{ background:#1e3a5f; color:#60a5fa; border-bottom-color:#60a5fa; }
-    body.dark .panel{ background:#1e293b; border-color:#334155; }
-    body.dark .mode-bar{ background:#1a2744; border-color:#334155; }
-    body.dark .mode-switch{ background:#0f172a; }
-    body.dark .m-btn{ background:#253347; color:#94a3b8; }
-    body.dark .m-btn.active{ background:#1d4ed8; color:#fff; }
-    body.dark .sub-card{ background:#1e293b; border-color:#334155; }
-    body.dark .sub-card h3{ color:#e2e8f0 !important; }
-    body.dark .sub-card p{ color:#94a3b8; }
-    body.dark .card{ background:#1e293b; border-color:#334155; }
-    body.dark .card-body{ color:#e2e8f0 !important; background:#1e293b; }
-    body.dark .card-body *{ color:#e2e8f0; }
-    body.dark .card-body .hl-blue{ color:#60a5fa !important; }
-    body.dark .card-body .hl-green{ color:#4ade80 !important; }
-    body.dark .card-body .hl-red{ color:#f87171 !important; }
-    body.dark .rationale{ background:#253347 !important; color:#e2e8f0 !important; border-color:#334155; }
-    body.dark .rationale *{ color:#e2e8f0 !important; }
-    body.dark .rationale strong{ color:#93c5fd !important; }
-    body.dark th{ background:#1a2744 !important; color:#e2e8f0 !important; }
-    body.dark td{ color:#e2e8f0 !important; background:#1e293b; }
-    body.dark table{ border-color:#334155; }
-    body.dark th, body.dark td{ border-color:#334155; }
-    body.dark .option{ background:#253347; border-color:#334155; color:#e2e8f0 !important; }
-    body.dark .option.selected{ background:#1e3a5f !important; border-color:#2563eb !important; color:#bfdbfe !important; }
-    body.dark .option.correct{ background:#14532d !important; border-color:#22c55e !important; color:#bbf7d0 !important; font-weight:800; }
-    body.dark .option.wrong{ background:#450a0a !important; border-color:#ef4444 !important; color:#fca5a5 !important; font-weight:800; }
-    body.dark #content-container{ color:#e2e8f0; }
-    body.dark #progress-text{ color:#94a3b8 !important; }
-    body.dark .btn-light{ background:#253347; color:#e2e8f0; }
-    body.dark .btn-gold{ background:#b8944c; color:#fff; }
-    body.dark .faq-section h2{ color:#93c5fd; }
-    body.dark .faq-item{ background:#1e293b !important; border-color:#334155 !important; }
-    body.dark .faq-item h3{ color:#e2e8f0 !important; }
-    body.dark .faq-item p{ color:#94a3b8 !important; }
-    body.dark .hero-section{ background:#0b1f40; border-bottom-color:#c8a45c; }
-    body.dark .hero-section p{ color:#94a3b8; }
-    body.dark .progress-label{ color:#94a3b8; }
-    body.dark .progress-wrap{ background:#334155; }
-    body.dark .ad-wrapper{ background:#1e293b; border-color:#334155; }
-    body.dark .mnemonic-card{ background:#1e293b; border-color:#334155; }
     body.dark .mnemonic-code{ background:#0f172a; color:#fff; border-color:#c8a45c; }
 
     footer{ background:#0b1730; color:#fff; text-align:center; padding:20px 14px; margin-top:40px; border-top:3px solid #c8a45c; }
     footer a{ color:#c8a45c; text-decoration:none; margin:0 12px; font-size:0.88rem; font-weight:700; }
-    footer a:hover{ text-decoration:underline; }
-    footer p{ margin:8px 0 0 0; font-size:0.78rem; color:#64748b; }
-    body.dark footer{ background:#0b1730 !important; border-top-color:#334155 !important; }
-    body.dark footer a{ color:#94a3b8 !important; }
-    body.dark footer p{ color:#64748b !important; }
-
-    #cookie-banner{
-      position:fixed; bottom:0; left:0; right:0; background:rgba(11,23,48,0.95); color:#fff;
-      padding:12px 16px; font-size:0.85rem; z-index:9999; display:none; justify-content:space-between; align-items:center;
-      border-top:3px solid var(--gold);
-    }
-    #cookie-banner p{ margin:0; line-height:1.4; }
-    #cookie-banner button{
-      background:var(--gold); color:#fff; border:none; padding:6px 12px; border-radius:6px; font-weight:700; cursor:pointer;
-      transition:0.2s;
-    }
-    #cookie-banner button:hover{ background:#b8944c; }
-    body.dark #cookie-banner{ background:rgba(15,27,58,0.95); }
-
-    .dark-toggle{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:4px 8px; }
-    .bm-badge{ position:absolute; top:10px; right:10px; background:var(--gold); color:#fff; border-radius:999px; font-size:0.7rem; font-weight:900; padding:2px 7px; display:none; }
-    #sub-dashboard,#view-area,#main-dashboard{ display:none; }
-    
-    .ad-wrapper{ max-width:1100px; margin:16px auto; padding:8px 14px; background:#fff; border-radius:12px; border:1px solid var(--line); text-align:center; overflow:hidden; }
-    .ad-label{ font-size:0.7rem; color:var(--muted); text-align:center; margin-bottom:4px; font-weight:600; letter-spacing:0.05em; }
 
     .study-dashboard{ max-width:1100px; margin:16px auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; padding:0 14px; }
     .dash-card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; align-items:center; gap:16px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
     .dash-icon{ font-size:1.8rem; background:var(--bg); width:50px; height:50px; display:flex; align-items:center; justify-content:center; border-radius:10px; color:var(--gold); }
-    .dash-info h4{ margin:0; font-size:0.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
     .dash-info p{ margin:2px 0 0 0; font-size:1.1rem; font-weight:800; color:var(--navy); }
     
     .progress-ring-wrap{ position:relative; width:45px; height:45px; }
@@ -289,6 +191,9 @@
     body.dark .dash-card{ background:var(--navy2); border-color:#2d3a5a; }
     body.dark .dash-info p{ color:#fff; }
     body.dark .dash-icon{ background:var(--navy); }
+    
+    #sub-dashboard,#view-area,#main-dashboard{ display:none; }
+    .ad-wrapper{ max-width:1100px; margin:16px auto; padding:8px 14px; background:#fff; border-radius:12px; border:1px solid var(--line); text-align:center; overflow:hidden; }
   </style>
 </head>
 <body>
@@ -296,7 +201,7 @@
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
       <div style="display:flex; align-items:center; gap:12px;">
-        <button class="dark-toggle" onclick="toggleDark()" title="Toggle Dark Mode">🌙</button>
+        <button onclick="toggleDark()" style="background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer;">🌙</button>
         <div class="social-btns">
           <a href="https://www.youtube.com/@Medivaultpro" target="_blank" class="social-link">📺 YouTube</a>
           <a href="https://www.facebook.com/share/g/15Y4s2rM1B/" target="_blank" class="social-link">📘 FB</a>
@@ -308,47 +213,27 @@
   <section class="hero-section">
     <div class="hero-content">
       <h1>100% Free MCCQE1 Question Bank 2026</h1>
-      <p>The most comprehensive free resource for International Medical Graduates. Access 6,000+ High-Yield Questions, Clinical Decision-Making cases, and Expert Notes. No Subscription. No Hidden Fees.</p>
+      <p>The most comprehensive free resource for International Medical Graduates. Access 6,000+ High-Yield Questions, Clinical Decision-Making cases, and Expert Notes.</p>
       <div class="hero-btns">
-        <button class="btn btn-gold" onclick="activeMainTab='questions';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">🚀 Start Free Practice</button>
-        <button class="btn btn-light" onclick="activeMainTab='tricks';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">💡 Memory Tricks</button>
+        <button class="btn btn-gold" onclick="switchMainTab('questions')">🚀 Start Free Practice</button>
+        <button class="btn btn-light" onclick="switchMainTab('tricks')">💡 Memory Tricks</button>
       </div>
     </div>
   </section>
 
   <div class="vault-stats">
-    <div class="stat-item">📋 <span id="total-q">0</span> Questions</div>
-    <div class="stat-item">💡 <span id="total-n">0</span> High-Yield</div>
-    <div class="stat-item">✅ Solved: <span id="total-solved" class="stat-val">0</span></div>
+    <div class="stat-item">📋 <span id="total-q">...</span> Questions</div>
+    <div class="stat-item">💡 <span id="total-n">...</span> High-Yield</div>
+    <div class="stat-item">✅ Solved: <span id="total-solved">0</span></div>
   </div>
 
   <div class="study-dashboard">
+    <div class="dash-card"><div class="dash-icon">⏳</div><div class="dash-info"><h4>Exam Countdown</h4><p id="exam-timer">-- Days Left</p></div></div>
     <div class="dash-card">
-      <div class="dash-icon">⏳</div>
-      <div class="dash-info">
-        <h4>Exam Countdown</h4>
-        <p id="exam-timer">-- Days Left</p>
-      </div>
+      <div class="progress-ring-wrap"><svg class="progress-ring" width="45" height="45"><circle class="progress-ring__circle" stroke-width="4" fill="transparent" r="18" cx="22.5" cy="22.5"/></svg><div class="progress-text-center" id="daily-pct">0%</div></div>
+      <div class="dash-info"><h4>Daily Progress</h4><p id="daily-stat">0/50 Questions</p></div>
     </div>
-    <div class="dash-card">
-      <div class="progress-ring-wrap">
-        <svg class="progress-ring" width="45" height="45">
-          <circle class="progress-ring__circle" stroke-width="4" fill="transparent" r="18" cx="22.5" cy="22.5"/>
-        </svg>
-        <div class="progress-text-center" id="daily-pct">0%</div>
-      </div>
-      <div class="dash-info">
-        <h4>Daily Progress</h4>
-        <p id="daily-stat">0/50 Questions</p>
-      </div>
-    </div>
-    <div class="dash-card">
-      <div class="dash-icon">🔥</div>
-      <div class="dash-info">
-        <h4>Study Streak</h4>
-        <p id="study-streak">0 Days</p>
-      </div>
-    </div>
+    <div class="dash-card"><div class="dash-icon">🔥</div><div class="dash-info"><h4>Study Streak</h4><p id="study-streak">0 Days</p></div></div>
   </div>
 
   <nav class="main-tabs" id="main-tabs">
@@ -360,7 +245,6 @@
   </nav>
 
   <div class="ad-wrapper">
-    <div class="ad-label">ADVERTISEMENT</div>
     <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6061088335639984" data-ad-slot="AUTO" data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
@@ -368,148 +252,39 @@
   <div class="container">
     <div id="main-dashboard" class="dashboard"></div>
     <div id="sub-dashboard" class="dashboard"></div>
-
     <div id="view-area">
       <div id="mode-panel" class="mode-bar">
         <div class="mode-switch">
           <button id="m-study" class="m-btn active" onclick="setMode('study')">Study</button>
           <button id="m-exam" class="m-btn" onclick="setMode('exam')">Exam</button>
         </div>
-        <div id="timer" class="timer-display">00:00</div>
+        <div id="timer" style="font-weight:900; color:var(--red); display:none;">00:00</div>
       </div>
-
       <div id="progress-section" style="margin-bottom:15px;">
-        <div class="progress-wrap"><div id="prog-bar" class="progress-bar" style="width:0%"></div></div>
-        <div id="prog-label" class="progress-label">0 / 0 answered (0%)</div>
+        <div style="width:100%; background:#e2e8f0; border-radius:999px; height:8px; margin:8px 0;"><div id="prog-bar" style="height:8px; border-radius:999px; background:linear-gradient(90deg,var(--blue),var(--green)); transition:width 0.4s; width:0%"></div></div>
+        <div id="prog-label" style="font-size:0.78rem; color:var(--muted); font-weight:800; text-align:right;">0 / 0 answered (0%)</div>
       </div>
-
       <div id="content-container"></div>
-
       <div id="nav-btns" style="display:flex; gap:12px; margin-top:20px;"></div>
-      <div style="text-align:center; margin-top:20px;">
-        <button class="btn btn-light" onclick="goBack()" style="max-width:200px;">↩ Back to Categories</button>
-      </div>
+      <div style="text-align:center; margin-top:20px;"><button class="btn btn-light" onclick="goBack()" style="max-width:200px;">↩ Back</button></div>
     </div>
-  </div>
-
-  <div id="cookie-banner">
-    <p>We use cookies to enhance your experience and show personalized ads. By continuing, you accept our <a href="/privacy.html" style="color:var(--gold);">Privacy Policy</a>.</p>
-    <button id="accept-cookies">Accept All</button>
   </div>
 
   <footer>
-    <div>
-      <a href="/privacy.html">Privacy Policy</a>
-      <a href="/about.html">About</a>
-      <a href="/contact.html">Contact</a>
-      <a href="/terms.html">Terms of Use</a>
-    </div>
-    <p>&copy; 2025 MediVault Pro. Free MCCQE1 preparation for International Medical Graduates.</p>
+    <a href="/privacy.html">Privacy Policy</a><a href="/about.html">About</a><a href="/contact.html">Contact</a><a href="/terms.html">Terms</a>
+    <p>&copy; 2025 MediVault Pro. Free MCCQE1 preparation.</p>
   </footer>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function(){
-      if(!localStorage.getItem('cookiesAccepted')){
-        document.getElementById('cookie-banner').style.display = 'flex';
-      }
-      document.getElementById('accept-cookies').addEventListener('click', function(){
-        localStorage.setItem('cookiesAccepted', 'true');
-        document.getElementById('cookie-banner').style.display = 'none';
-      });
-    });
-
     let bank=[],notes=[],cdm=[],tricks=[],filteredQuestions=[],filteredNotes=[],currentIdx=0;
-    let activeMainTab="questions",currentCategory="",currentSubcategory="";
-    let examMode=false,examSec=0,timerInt,userSels={};
+    let activeMainTab="questions",currentCategory="",currentSubcategory="",examMode=false,examSec=0,timerInt,userSels={};
     let answered=JSON.parse(localStorage.getItem('answered_questions')||'[]');
     let bookmarks=JSON.parse(localStorage.getItem('bookmarks')||'[]');
 
-    const qFiles=["questions.json","extra_questions.json","extra_questions_2.json","ethics_questions.json","eq2_part1.json","eq2_part2.json","eq2_part3.json","eq2_part4.json","eq2_part5.json","eq2_part6.json"];
+    const qFiles=["questions.json","extra_questions.json","extra_questions_2.json","extra_questions_3.json","ethics_questions.json","eq2_part1.json","eq2_part2.json","eq2_part3.json","eq2_part4.json","eq2_part5.json","eq2_part6.json"];
     const nFiles=["notes.json","clinical_cards.json","extra1.json"];
     const cdmFiles=["cdm_cases.json"];
     const tFiles=["mnemonics.json"];
-
-    if(localStorage.getItem('dark')==='1') document.body.classList.add('dark');
-    function toggleDark(){
-      document.body.classList.toggle('dark');
-      localStorage.setItem('dark', document.body.classList.contains('dark')?'1':'0');
-    }
-
-    async function init(){
-      try {
-        const [qRes, nRes, cRes, tRes] = await Promise.all([
-          Promise.all(qFiles.map(f => fetchJson(f))),
-          Promise.all(nFiles.map(f => fetchJson(f))),
-          Promise.all(cdmFiles.map(f => fetchJson(f))),
-          Promise.all(tFiles.map(f => fetchJson(f)))
-        ]);
-        
-        bank = sanitize(qRes.flat().filter(x => x && typeof x === 'object'));
-        notes = nRes.flat().filter(x => x && typeof x === 'object');
-        cdm = cRes.flat().filter(x => x && typeof x === 'object');
-        tricks = tRes.flat().filter(x => x && typeof x === 'object');
-
-        document.getElementById('total-q').innerText = bank.length;
-        document.getElementById('total-n').innerText = notes.length + cdm.length;
-        document.getElementById('total-solved').innerText = answered.length;
-        updateDashboard();
-        renderMain();
-      } catch (e) {
-        console.error("Init error:", e);
-      }
-    }
-
-    function updateDashboard(){
-      const examDate = new Date('2026-10-21T09:00:00');
-      const now = new Date();
-      const diff = examDate - now;
-      if(diff > 0){
-        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-        document.getElementById('exam-timer').innerText = `${days} Days Left`;
-      } else {
-        document.getElementById('exam-timer').innerText = "Exam Period";
-      }
-
-      const today = new Date().toDateString();
-      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
-      if(dailyData.date !== today){
-        dailyData = { date: today, count: 0 };
-        localStorage.setItem('daily_stats', JSON.stringify(dailyData));
-      }
-      const goal = 50;
-      const pct = Math.min(Math.round((dailyData.count / goal) * 100), 100);
-      document.getElementById('daily-stat').innerText = `${dailyData.count}/${goal} Questions`;
-      document.getElementById('daily-pct').innerText = `${pct}%`;
-      const circle = document.querySelector('.progress-ring__circle');
-      if(circle){
-        const radius = circle.r.baseVal.value;
-        const circumference = radius * 2 * Math.PI;
-        circle.style.strokeDasharray = `${circumference} ${circumference}`;
-        circle.style.strokeDashoffset = circumference - (pct / 100) * circumference;
-      }
-
-      let streak = parseInt(localStorage.getItem('study_streak') || '0');
-      document.getElementById('study-streak').innerText = `${streak} Days`;
-    }
-
-    function trackActivity(){
-      const today = new Date().toDateString();
-      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
-      if(dailyData.date === today) dailyData.count++;
-      else dailyData = { date: today, count: 1 };
-      localStorage.setItem('daily_stats', JSON.stringify(dailyData));
-
-      let lastDate = localStorage.getItem('last_study_date');
-      let streak = parseInt(localStorage.getItem('study_streak') || '0');
-      if(lastDate !== today){
-        const yesterday = new Date(); yesterday.setDate(yesterday.getDate() - 1);
-        if(lastDate === yesterday.toDateString()) streak++;
-        else streak = 1;
-        localStorage.setItem('study_streak', streak);
-        localStorage.setItem('last_study_date', today);
-      }
-      updateDashboard();
-    }
 
     async function fetchJson(f){
       try{
@@ -517,251 +292,163 @@
         if(!r.ok) return [];
         const data = await r.json();
         return Array.isArray(data) ? data : [];
-      }catch(e){
-        console.error("Fetch error for " + f, e);
-        return[];
-      }
-    }
-    
-    function sanitize(d){
-      const s=new Set();
-      return d.filter(q=>{
-        if(!q || !q.text || s.has(q.text.trim().toLowerCase())) return false;
-        s.add(q.text.trim().toLowerCase());
-        return true;
-      });
+      }catch(e){ return[]; }
     }
 
-    function getSafeImg(src){if(!src)return'';const pSrc=`https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;return`<img src="${pSrc}" class="content-img" onerror="this.style.display='none'" alt="Medical illustration">`;}
+    async function init(){
+      // Load files in sequence to avoid hitting browser limits on mobile
+      for(const f of qFiles) { const d = await fetchJson(f); bank = bank.concat(d); }
+      for(const f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
+      for(const f of cdmFiles) { const d = await fetchJson(f); cdm = cdm.concat(d); }
+      for(const f of tFiles) { const d = await fetchJson(f); tricks = tricks.concat(d); }
+      
+      // Basic sanitization
+      bank = bank.filter(q => q && q.text && q.id);
+      
+      document.getElementById('total-q').innerText = bank.length;
+      document.getElementById('total-n').innerText = notes.length + cdm.length;
+      document.getElementById('total-solved').innerText = answered.length;
+      updateDashboard();
+      renderMain();
+    }
+
+    function toggleDark(){ document.body.classList.toggle('dark'); localStorage.setItem('dark', document.body.classList.contains('dark')?'1':'0'); }
+    if(localStorage.getItem('dark')==='1') document.body.classList.add('dark');
+
+    function updateDashboard(){
+      const diff = new Date('2026-10-21') - new Date();
+      document.getElementById('exam-timer').innerText = diff > 0 ? Math.floor(diff/(1000*60*60*24)) + " Days Left" : "Exam Period";
+      const today = new Date().toDateString();
+      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
+      if(dailyData.date !== today) dailyData = { date: today, count: 0 };
+      const pct = Math.min(Math.round((dailyData.count / 50) * 100), 100);
+      document.getElementById('daily-stat').innerText = `${dailyData.count}/50 Questions`;
+      document.getElementById('daily-pct').innerText = `${pct}%`;
+      const circle = document.querySelector('.progress-ring__circle');
+      if(circle){ const circum = 18 * 2 * Math.PI; circle.style.strokeDasharray = `${circum} ${circum}`; circle.style.strokeDashoffset = circum - (pct/100)*circum; }
+      document.getElementById('study-streak').innerText = (localStorage.getItem('study_streak') || '0') + " Days";
+    }
+
+    function trackActivity(){
+      const today = new Date().toDateString();
+      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
+      if(dailyData.date === today) dailyData.count++; else dailyData = { date: today, count: 1 };
+      localStorage.setItem('daily_stats', JSON.stringify(dailyData));
+      let lastDate = localStorage.getItem('last_study_date');
+      let streak = parseInt(localStorage.getItem('study_streak') || '0');
+      if(lastDate !== today){
+        const yesterday = new Date(); yesterday.setDate(yesterday.getDate()-1);
+        streak = (lastDate === yesterday.toDateString()) ? streak + 1 : 1;
+        localStorage.setItem('study_streak', streak);
+        localStorage.setItem('last_study_date', today);
+      }
+      updateDashboard();
+    }
 
     function hideAll(){
       document.getElementById("content-container").innerHTML="";
-      document.getElementById("main-dashboard").style.display="none";
-      document.getElementById("sub-dashboard").style.display="none";
-      document.getElementById("view-area").style.display="none";
-      document.getElementById("mode-panel").style.display="none";
-      document.getElementById("progress-section").style.display="none";
-      if(!examMode)stopTimer();
+      ["main-dashboard","sub-dashboard","view-area","mode-panel","progress-section"].forEach(id=>document.getElementById(id).style.display="none");
+      if(!examMode) clearInterval(timerInt);
     }
 
-    function updateProgress(){
-      const total=filteredQuestions.length;
-      const done=filteredQuestions.filter(q=>answered.some(a=>a===q.id)).length;
-      const pct=total?Math.round(done/total*100):0;
-      document.getElementById("prog-bar").style.width=pct+"%";
-      document.getElementById("prog-label").innerText=`${done} / ${total} answered (${pct}%)`;
+    function switchMainTab(t){
+      activeMainTab=t;
+      ["tab-questions","tab-notes","tab-cdm","tab-tricks","tab-bookmarks"].forEach(id=>document.getElementById(id).className="tab"+(id==="tab-"+t?" active":""));
+      renderMain();
     }
-
-    function setMode(m){
-      examMode=(m==='exam');
-      document.getElementById('m-study').className="m-btn"+(!examMode?" active":"");
-      document.getElementById('m-exam').className="m-btn"+(examMode?" active":"");
-      document.getElementById('timer').style.display=examMode?'block':'none';
-      if(examMode)startTimer();else stopTimer();
-      start(currentSubcategory);
-    }
-    function startTimer(){examSec=0;clearInterval(timerInt);timerInt=setInterval(()=>{examSec++;let m=Math.floor(examSec/60).toString().padStart(2,'0');let s=(examSec%60).toString().padStart(2,'0');document.getElementById('timer').innerText=`${m}:${s}`;},1000);}
-    function stopTimer(){clearInterval(timerInt);}
 
     function renderMain(){
       hideAll();
-      if(activeMainTab==="bookmarks"){showBookmarks();return;}
-      if(activeMainTab==="tricks"){renderTricks();return;}
+      if(activeMainTab==="bookmarks"){ showBookmarks(); return; }
+      if(activeMainTab==="tricks"){ renderTricks(); return; }
       const data=(activeMainTab==="questions"?bank:(activeMainTab==="cdm"?cdm:notes));
       const cats=[...new Set(data.map(x=>x.cat))].sort();
-      const db=document.getElementById("main-dashboard");db.style.display="grid";
+      const db=document.getElementById("main-dashboard"); db.style.display="grid";
       db.innerHTML=cats.map(c=>{
         const count=data.filter(x=>x.cat===c).length;
         const solved=activeMainTab==="questions"?data.filter(x=>x.cat===c&&answered.includes(x.id)).length:0;
         const pct=count?Math.round(solved/count*100):0;
-        return`<div class="sub-card" onclick="openCat('${c}')">
-          <i>${getIcon(c)}</i><h3>${c}</h3><p>${count} items</p>
-          ${activeMainTab==="questions"?`<div class="progress-wrap" style="margin-top:8px"><div class="progress-bar" style="width:${pct}%"></div></div><div class="progress-label">${pct}%</div>`:''}
-        </div>`;
+        return `<div class="sub-card" onclick="openCat('${c}')"><i>${getIcon(c)}</i><h3>${c}</h3><p>${count} items</p>${activeMainTab==="questions"?`<div style="width:100%; background:#e2e8f0; border-radius:999px; height:6px; margin-top:8px;"><div style="height:6px; border-radius:999px; background:var(--blue); width:${pct}%"></div></div>`:''}</div>`;
       }).join("");
     }
 
     function renderTricks(){
-      hideAll();
-      const db=document.getElementById("main-dashboard");db.style.display="grid";
-      if(tricks.length === 0) {
-        db.innerHTML = `<div style="padding:30px;text-align:center;color:var(--muted);grid-column:1/-1;">💡 Visual Mnemonics coming soon!</div>`;
-        return;
-      }
-      db.innerHTML=tricks.map(t=>`
-        <div class="mnemonic-card" style="border-left-color:${t.color}">
-          <div class="mnemonic-header" style="background:${t.color}">
-            <span>${t.icon} ${t.title}</span>
-            <span class="mnemonic-tag">${t.cat}</span>
-          </div>
-          <div class="mnemonic-body">
-            <div class="mnemonic-code">${t.mnemonic}</div>
-            <div>${t.content}</div>
-          </div>
-        </div>
-      `).join("");
+      hideAll(); const db=document.getElementById("main-dashboard"); db.style.display="grid";
+      if(tricks.length===0){ db.innerHTML=`<div style="padding:30px;text-align:center;grid-column:1/-1;">💡 Visual Mnemonics coming soon!</div>`; return; }
+      db.innerHTML=tricks.map(t=>`<div class="mnemonic-card" style="border-left-color:${t.color}"><div class="mnemonic-header" style="background:${t.color}"><span>${t.icon} ${t.title}</span><span class="mnemonic-tag">${t.cat}</span></div><div class="mnemonic-body"><div class="mnemonic-code">${t.mnemonic}</div><div>${t.content}</div></div></div>`).join("");
     }
 
     function showBookmarks(){
-      hideAll();
-      const bqs=bank.filter(q=>bookmarks.includes(q.id));
-      const db=document.getElementById("main-dashboard");db.style.display="grid";
-      if(bqs.length===0){db.innerHTML=`<div style="padding:30px;text-align:center;color:var(--muted);grid-column:1/-1;">🔖 No saved questions yet.<br>Tap ⭐ on any question to save it.</div>`;return;}
+      hideAll(); const bqs=bank.filter(q=>bookmarks.includes(q.id));
+      if(bqs.length===0){ document.getElementById("main-dashboard").style.display="grid"; document.getElementById("main-dashboard").innerHTML=`<div style="padding:30px;text-align:center;grid-column:1/-1;">🔖 No saved questions.</div>`; return; }
       filteredQuestions=bqs; currentIdx=0; currentSubcategory="bookmarks"; currentCategory="Bookmarks";
-      document.getElementById("view-area").style.display="block";
-      document.getElementById("progress-section").style.display="block";
-      document.getElementById("mode-panel").style.display="flex";
-      updateProgress(); showQ();
-    }
-
-    function toggleBookmark(qId){
-      if(bookmarks.includes(qId)) bookmarks=bookmarks.filter(b=>b!==qId);
-      else bookmarks.push(qId);
-      localStorage.setItem('bookmarks',JSON.stringify(bookmarks));
-      showQ();
+      document.getElementById("view-area").style.display="block"; showQ();
     }
 
     function openCat(c){
-      hideAll();currentCategory=c;const data=(activeMainTab==="questions"?bank:(activeMainTab==="cdm"?cdm:notes));
+      hideAll(); currentCategory=c; const data=(activeMainTab==="questions"?bank:(activeMainTab==="cdm"?cdm:notes));
       const subs=[...new Set(data.filter(x=>x.cat===c).map(x=>x.sub||"General"))].sort();
-      const sdb=document.getElementById("sub-dashboard");sdb.style.display="grid";
-      let allCount=data.filter(x=>x.cat===c).length;
-      sdb.innerHTML=`<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All Items</h3><p>${allCount} items</p></div>`+
-        subs.map(s=>{const count=data.filter(x=>x.cat===c&&(x.sub||"General")===s).length;return`<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3><p>${count} items</p></div>`;}).join("")+
-        `<div class="sub-card" onclick="goBack()" style="background:#fef2f2;"><i>↩️</i><h3>Back</h3></div>`;
+      const sdb=document.getElementById("sub-dashboard"); sdb.style.display="grid";
+      sdb.innerHTML=`<div class="sub-card" onclick="start('All')"><i>📂</i><h3>All</h3></div>` + subs.map(s=>`<div class="sub-card" onclick="start('${s}')"><i>🧩</i><h3>${s}</h3></div>`).join("") + `<div class="sub-card" onclick="renderMain()" style="background:#fef2f2;"><i>↩️</i><h3>Back</h3></div>`;
     }
 
     function start(s){
-      hideAll();currentSubcategory=s;currentIdx=0;userSels={};
+      hideAll(); currentSubcategory=s; currentIdx=0; userSels={};
       document.getElementById("view-area").style.display="block";
       if(activeMainTab==="questions"){
-        document.getElementById("mode-panel").style.display="flex";
-        document.getElementById("progress-section").style.display="block";
-        filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s));
-        updateProgress(); showQ();
-      } else if(activeMainTab==="cdm"){
-        filteredNotes=cdm.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s));
-        showNote();
+        document.getElementById("mode-panel").style.display="flex"; document.getElementById("progress-section").style.display="block";
+        filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)); showQ();
       } else {
-        filteredNotes=notes.filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s));
-        showNote();
+        filteredNotes=(activeMainTab==="cdm"?cdm:notes).filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)); showNote();
       }
     }
 
     function showNote(){
-      const n=filteredNotes[currentIdx],container=document.getElementById("content-container");
-      if(!n) return;
-      const prefix = activeMainTab==="cdm" ? "CDM Cases" : "High-Yield";
-      const color = activeMainTab==="cdm" ? "var(--green)" : "var(--blue)";
-      document.getElementById("progress-text").innerText=`${prefix} > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
-      container.innerHTML=`<div class="card" style="border-top:6px solid ${color}">
-        <div class="card-header" style="background:${color}">${n.title}</div>
-        <div class="card-body">${getSafeImg(n.img)}<div>${formatText(n.content)}</div>
-        ${n.quiz ? `<div style="margin-top:20px;padding:15px;background:#f0f9ff;border-radius:12px;border:1px dashed var(--blue);">
-          <div style="font-weight:800;color:var(--blue);margin-bottom:8px;">🎯 Critical Decision Point:</div>
-          <div style="font-weight:700;">${n.quiz.q}</div>
-          <button class="btn btn-gold" style="margin-top:10px;padding:8px 16px;font-size:0.85rem;" onclick="this.nextElementSibling.style.display='block';this.style.display='none'">Show Decision</button>
-          <div style="display:none;margin-top:10px;color:var(--green);font-weight:800;">Correct Action: ${n.quiz.a}</div>
-        </div>` : ''}
-        </div>
-      </div>`;
+      const n=filteredNotes[currentIdx]; if(!n) return;
+      document.getElementById("content-container").innerHTML=`<div class="card" style="border-top:6px solid ${activeMainTab==="cdm"?'var(--green)':'var(--blue)'}"><div class="card-header" style="background:${activeMainTab==="cdm"?'var(--green)':'var(--blue)'}">${n.title}</div><div class="card-body">${getSafeImg(n.img)}<div>${n.content}</div>${n.quiz?`<div style="margin-top:20px;padding:15px;background:#f0f9ff;border-radius:12px;border:1px dashed var(--blue);"><div style="font-weight:800;color:var(--blue);">🎯 Decision Point:</div><div>${n.quiz.q}</div><button class="btn btn-gold" style="margin-top:10px;padding:8px;" onclick="this.nextElementSibling.style.display='block';this.style.display='none'">Show Answer</button><div style="display:none;margin-top:10px;color:var(--green);font-weight:800;">${n.quiz.a}</div></div>`:''}</div></div>`;
       renderNav();
     }
 
     function showQ(){
-      const q=filteredQuestions[currentIdx],container=document.getElementById("content-container");
-      if(!q) return;
-      document.getElementById("progress-text").innerText=`Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
+      const q=filteredQuestions[currentIdx]; if(!q) return;
       const isBm=bookmarks.includes(q.id);
-      let optionsHtml=q.options.map((o,i)=>{
-        let st="";
-        if(!examMode&&answered.includes(q.id+i))st=(i===q.correct?"correct":"wrong");
-        if(examMode&&userSels[currentIdx]===i)st="selected";
-        return`<div class="option ${st}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`;
-      }).join("");
-      container.innerHTML=`<div class="card" style="border-top:6px solid var(--navy)">
-        <div class="card-header" style="background:var(--navy)">
-          <span>ID: ${q.id}</span>
-          <button class="bookmark-btn" onclick="toggleBookmark('${q.id}')" title="Save question">${isBm?'⭐':'☆'}</button>
-        </div>
-        <div class="card-body">
-          <div style="font-weight:800;margin-bottom:15px;">${q.text}</div>
-          ${getSafeImg(q.img)}
-          ${optionsHtml}
-          <div class="rationale" id="rat" style="${!examMode&&answered.includes(q.id)?'display:block':''}">
-            <strong>Explanation:</strong><br>${formatText(q.rationale)}
-          </div>
-        </div>
-      </div>`;
-      renderNav();
-      updateProgress();
+      let opsHtml=q.options.map((o,i)=>`<div class="option ${!examMode&&answered.includes(q.id+i)?(i===q.correct?'correct':'wrong'):(examMode&&userSels[currentIdx]===i?'selected':'')}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("");
+      document.getElementById("content-container").innerHTML=`<div class="card" style="border-top:6px solid var(--navy)"><div class="card-header" style="background:var(--navy)"><span>ID: ${q.id}</span><button class="bookmark-btn" onclick="toggleBookmark('${q.id}')">${isBm?'⭐':'☆'}</button></div><div class="card-body"><div style="font-weight:800;margin-bottom:15px;">${q.text}</div>${getSafeImg(q.img)}${opsHtml}<div class="rationale" id="rat" style="${!examMode&&answered.includes(q.id)?'display:block':''}"><strong>Explanation:</strong><br>${q.rationale}</div></div></div>`;
+      renderNav(); updateProgress();
     }
 
     function handleAns(idx,cor,qId){
-      if(examMode){userSels[currentIdx]=idx;showQ();}
-      else{
-        const ops=document.querySelectorAll(".option");
-        ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
+      if(examMode){ userSels[currentIdx]=idx; showQ(); }
+      else {
+        const ops=document.querySelectorAll(".option"); ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
         document.getElementById("rat").style.display="block";
-        if(!answered.includes(qId)){
-          answered.push(qId);
-          localStorage.setItem('answered_questions',JSON.stringify(answered));
-          document.getElementById('total-solved').innerText=answered.length;
-          trackActivity();
-        }
+        if(!answered.includes(qId)){ answered.push(qId); localStorage.setItem('answered_questions',JSON.stringify(answered)); document.getElementById('total-solved').innerText=answered.length; trackActivity(); }
         updateProgress();
       }
     }
 
+    function updateProgress(){
+      const total=filteredQuestions.length, done=filteredQuestions.filter(q=>answered.some(a=>a===q.id)).length, pct=total?Math.round(done/total*100):0;
+      document.getElementById("prog-bar").style.width=pct+"%"; document.getElementById("prog-label").innerText=`${done} / ${total} answered (${pct}%)`;
+    }
+
     function renderNav(){
       const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes);
-      let nextT=(currentIdx===data.length-1&&examMode)?"Finish":"Next";
-      document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${nextT}</button>`;
+      document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${currentIdx===data.length-1&&examMode?'Finish':'Next'}</button>`;
     }
 
-    function next(){const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes);if(currentIdx<data.length-1){currentIdx++;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}else if(examMode)finishEx();}
-    function prev(){if(currentIdx>0){currentIdx--;(activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote();}}
-    function finishEx(){stopTimer();let score=0;filteredQuestions.forEach((q,i)=>{if(userSels[i]===q.correct)score++;});alert(`Finished!\nScore: ${score}/${filteredQuestions.length}\nTime: ${document.getElementById('timer').innerText}`);examMode=false;setMode('study');}
-    function formatText(t){
-      if(!t)return"";
-      return t
-        .replace(/Dx:/g,'<span class="hl-blue">Dx:</span>')
-        .replace(/Tx:/g,'<span class="hl-green">Tx:</span>')
-        .replace(/Risk:/g,'<span class="hl-red">Risk:</span>')
-        .replace(/\n/g,"<br>");
-    }
-    function goBack(){if(document.getElementById("view-area").style.display==="block")openCat(currentCategory);else renderMain();}
-    function switchMainTab(t){
-      activeMainTab=t;
-      document.getElementById("tab-questions").className=(t==="questions"?"tab active":"tab");
-      document.getElementById("tab-notes").className=(t==="notes"?"tab active":"tab");
-      document.getElementById("tab-cdm").className=(t==="cdm"?"tab active":"tab");
-      document.getElementById("tab-tricks").className=(t==="tricks"?"tab active":"tab");
-      document.getElementById("tab-bookmarks").className=(t==="bookmarks"?"tab active":"tab");
-      renderMain();
-    }
-    function getIcon(c){const i={"Internal Medicine":"🩺","Surgery":"🔪","Pediatrics":"👶","Psychiatry":"🧠","Ethics & Legal":"⚖️","Emergency Medicine":"🚨","Obstetrics & Gynecology":"🤰","Family Medicine":"👨‍⚕️","Population & Prevention":"📊","Study Resources":"📚"};return i[c]||"📚";}
+    function next(){ const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); if(currentIdx<data.length-1){ currentIdx++; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); } else if(examMode) finishEx(); }
+    function prev(){ if(currentIdx>0){ currentIdx--; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); } }
+    function finishEx(){ alert(`Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setMode('study'); }
+    function setMode(m){ examMode=(m==='exam'); document.getElementById('m-study').className="m-btn"+(!examMode?" active":""); document.getElementById('m-exam').className="m-btn"+(examMode?" active":""); document.getElementById('timer').style.display=examMode?'block':'none'; if(examMode) { examSec=0; clearInterval(timerInt); timerInt=setInterval(()=>{examSec++; let m=Math.floor(examSec/60).toString().padStart(2,'0'), s=(examSec%60).toString().padStart(2,'0'); document.getElementById('timer').innerText=`${m}:${s}`;},1000); } else clearInterval(timerInt); start(currentSubcategory); }
+    function goBack(){ if(document.getElementById("sub-dashboard").style.display==="grid") renderMain(); else openCat(currentCategory); }
+    function getSafeImg(src){ if(!src)return''; return`<img src="https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png" class="content-img" onerror="this.style.display='none'" alt="Medical illustration">`; }
+    function getIcon(c){ const i={"Internal Medicine":"🩺","Surgery":"🔪","Pediatrics":"👶","Psychiatry":"🧠","Ethics & Legal":"⚖️","Emergency Medicine":"🚨","Obstetrics & Gynecology":"🤰","Family Medicine":"👨‍⚕️","Population & Prevention":"📊"}; return i[c]||"📚"; }
+    function toggleBookmark(qId){ if(bookmarks.includes(qId)) bookmarks=bookmarks.filter(b=>b!==qId); else bookmarks.push(qId); localStorage.setItem('bookmarks',JSON.stringify(bookmarks)); showQ(); }
+
     init();
   </script>
-
-  <script>
-    if('serviceWorker' in navigator){
-      navigator.serviceWorker.register('/sw.js');
-    }
-  </script>
-
-  <script
-    data-name="BMC-Widget"
-    data-cfasync="false"
-    src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-    data-id="MediVaultPro"
-    data-description="Support me on Buy me a coffee!"
-    data-message=""
-    data-color="#5F7FFF"
-    data-position="Right"
-    data-x_margin="18"
-    data-y_margin="18">
-  </script>
-
+  <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 </html>
