@@ -399,8 +399,8 @@
       document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${currentIdx===data.length-1&&examMode?'Finish':'Next'}</button>`;
     }
 
-    function next(){ const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); if(currentIdx<data.length-1){ currentIdx++; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo({top:0,behavior:'smooth'}); } else if(examMode) finishEx(); }
-    function prev(){ if(currentIdx>0){ currentIdx--; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo({top:0,behavior:'smooth'}); } }
+    function next(){ const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); if(currentIdx<data.length-1){ currentIdx++; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo(0,0); } else if(examMode) finishEx(); }
+    function prev(){ if(currentIdx>0){ currentIdx--; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo(0,0); } }
     function finishEx(){ alert(`Exam Finished! Your Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setMode('study'); }
     
     function setMode(m){ 
