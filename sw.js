@@ -8,7 +8,8 @@ const FILES = [
   "/ethics_questions.json",
   "/notes.json",
   "/clinical_cards.json",
-  "/extra1.json"
+  "/extra1.json",
+  "/cdm_cases.json"
 ];
 
 self.addEventListener("install", e => {

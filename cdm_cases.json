@@ -1,0 +1,112 @@
+[
+  {
+    "id": "CDM_001",
+    "cat": "Emergency Medicine",
+    "sub": "Cardiovascular",
+    "title": "⚡ Case: Acute Chest Pain in the ER",
+    "content": "<b>Scenario:</b> A 62-year-old male presents to the Emergency Department with sudden onset substernal chest pain described as 'crushing', radiating to the left arm, and associated with diaphoresis and nausea. History of HTN and smoking.<br><br><b>Decision Pathway:</b><br>1. <b>Initial Step:</b> Immediate ABCs, IV access, and 12-lead ECG (must be done within 10 minutes).<br>2. <b>Stabilization:</b> Aspirin 160-325 mg (chewed), Nitroglycerin SL (if BP stable), and Oxygen (if SpO2 < 90%).<br>3. <b>ECG Finding:</b> 3mm ST-elevation in leads V1-V4.<br>4. <b>Definitive Action:</b> Consult Cardiology for emergent Percutaneous Coronary Intervention (PCI). If PCI not available within 90-120 minutes, consider Fibrinolysis.",
+    "quiz": {
+      "q": "What is the most critical first medication to administer in this suspected STEMI?",
+      "a": "Chewable Aspirin (ASA) 160-325 mg."
+    }
+  },
+  {
+    "id": "CDM_002",
+    "cat": "Surgery",
+    "sub": "Acute Abdomen",
+    "title": "🔪 Case: Right Lower Quadrant Pain",
+    "content": "<b>Scenario:</b> A 19-year-old female presents with 12 hours of periumbilical pain that has now migrated to the Right Lower Quadrant (RLQ). She reports anorexia and one episode of vomiting. Temp: 38.2°C.<br><br><b>Decision Pathway:</b><br>1. <b>Physical Exam:</b> Check for McBurney’s point tenderness, Rovsing’s sign, and Psoas sign.<br>2. <b>Workup:</b> CBC (leukocytosis), Urinalysis (to rule out UTI/Stone), and Pregnancy Test (mandatory for all females of childbearing age).<br>3. <b>Imaging:</b> In a young thin patient, Ultrasound is preferred first. CT scan is highly sensitive if diagnosis remains unclear.<br>4. <b>Management:</b> NPO, IV fluids, and Surgical consultation for Appendectomy.",
+    "quiz": {
+      "q": "What is the mandatory first lab test for this patient before any imaging or surgery?",
+      "a": "β-hCG (Pregnancy Test)."
+    }
+  },
+  {
+    "id": "CDM_003",
+    "cat": "Pediatrics",
+    "sub": "Respiratory",
+    "title": "👶 Case: The Barking Cough",
+    "content": "<b>Scenario:</b> A 2-year-old boy is brought to the clinic at 2 AM with a 'seal-like' barking cough and inspiratory stridor that worsens when he is agitated. He has had mild coryza for 2 days.<br><br><b>Decision Pathway:</b><br>1. <b>Assessment:</b> Assess for respiratory distress (indrawing, cyanosis, level of consciousness). Use the Westley Croup Score.<br>2. <b>Management (Mild):</b> Single dose of oral Dexamethasone (0.6 mg/kg) and cool mist/home care.<br>3. <b>Management (Moderate/Severe):</b> Nebulized Epinephrine (to reduce subglottic edema) and Dexamethasone. Observe for 2-4 hours for rebound effect.<br>4. <b>Caution:</b> Avoid agitating the child; do not examine the throat with a tongue depressor if epiglottitis is suspected.",
+    "quiz": {
+      "q": "What is the mainstay of pharmacological treatment for all children with Croup, regardless of severity?",
+      "a": "Corticosteroids (e.g., Dexamethasone)."
+    }
+  },
+  {
+    "id": "CDM_004",
+    "cat": "Obstetrics",
+    "sub": "Pregnancy Complications",
+    "title": "🤰 Case: Third Trimester Bleeding",
+    "content": "<b>Scenario:</b> A 34-year-old G3P2 at 32 weeks gestation presents with sudden, painless, bright red vaginal bleeding. She denies trauma or contractions. Fetal heart rate is 140 bpm and reactive.<br><br><b>Decision Pathway:</b><br>1. <b>Stabilization:</b> Large-bore IV access, CBC, Type and Screen, Coagulation profile.<br>2. <b>Contraindication:</b> <b>DO NOT</b> perform a digital vaginal exam until placenta previa is ruled out by ultrasound.<br>3. <b>Diagnosis:</b> Transabdominal ultrasound to locate the placenta (likely Placenta Previa).<br>4. <b>Management:</b> If stable, bed rest and monitor. If unstable or fetal distress, emergent C-section. Administer Betamethasone for lung maturity if < 34 weeks.",
+    "quiz": {
+      "q": "Which physical examination step is strictly contraindicated in this scenario?",
+      "a": "Digital Vaginal Examination."
+    }
+  },
+  {
+    "id": "CDM_005",
+    "cat": "Psychiatry",
+    "sub": "Psychosis",
+    "title": "🧠 Case: First Episode Psychosis",
+    "content": "<b>Scenario:</b> A 21-year-old university student is brought in by his roommates. He has become increasingly withdrawn, stopped attending classes, and is heard talking to himself. He believes the university is monitoring him through his laptop camera.<br><br><b>Decision Pathway:</b><br>1. <b>Safety Assessment:</b> Evaluate for risk of harm to self or others. Determine if involuntary admission (Form 1 in Ontario/equivalent) is required.<br>2. <b>Medical Workup:</b> Rule out organic causes: Urine Toxicology (cannabis/stimulants), CBC, Electrolytes, TSH, B12, and possibly Neuroimaging (CT/MRI).<br>3. <b>Diagnosis:</b> Schizophreniform disorder if symptoms < 6 months; Schizophrenia if > 6 months.<br>4. <b>Treatment:</b> Atypical antipsychotics (e.g., Risperidone, Olanzapine) and psychosocial support.",
+    "quiz": {
+      "q": "What is the most important initial priority when assessing a patient with new-onset psychosis?",
+      "a": "Safety assessment (suicidality/homicidality/ability to care for self)."
+    }
+  },
+  {
+    "id": "CDM_006",
+    "cat": "Internal Medicine",
+    "sub": "Geriatrics",
+    "title": "🧓 Case: Confusion in the Elderly",
+    "content": "<b>Scenario:</b> An 82-year-old female from a long-term care home is brought to the ER for 'confusion' that developed over the last 24 hours. She is picking at the air and is disoriented to time and place. Baseline was mild cognitive impairment.<br><br><b>Decision Pathway:</b><br>1. <b>Diagnosis:</b> This is Delirium (acute change in arousal/attention).<br>2. <b>Search for Triggers (Mnemonic: DELIRIUMS):</b> Drugs (anticholinergics, benzos), Electrolytes, Liver/Lung/Kidney failure, Infection (UTI is #1), Reduced sensory input, Intracranial, Urinary retention/Fecal impaction, Metabolic, Sleep deprivation.<br>3. <b>Workup:</b> Urinalysis, CBC, Electrolytes, CXR, ECG.<br>4. <b>Management:</b> Treat the underlying cause (e.g., antibiotics for UTI), re-orient the patient, avoid physical restraints, and use low-dose antipsychotics only if patient is a danger to self/staff.",
+    "quiz": {
+      "q": "What is the most common underlying cause of delirium in an elderly patient presenting from a nursing home?",
+      "a": "Urinary Tract Infection (UTI)."
+    }
+  },
+  {
+    "id": "CDM_007",
+    "cat": "Ethics",
+    "sub": "Legal",
+    "title": "⚖️ Case: The Mature Minor",
+    "content": "<b>Scenario:</b> A 15-year-old girl visits a walk-in clinic requesting oral contraceptives. She is sexually active and does not want her parents to know. She demonstrates a clear understanding of the risks, benefits, and alternatives.<br><br><b>Decision Pathway:</b><br>1. <b>Capacity Assessment:</b> In Canada (except Quebec), there is no fixed age of consent. Capacity is based on the 'Mature Minor' doctrine.<br>2. <b>Evaluation:</b> Does the patient understand the nature of the treatment and appreciate the consequences of choice/refusal?<br>3. <b>Action:</b> If the minor is capable, the physician should provide the treatment and maintain confidentiality.<br>4. <b>Exception:</b> Confidentiality must be breached if there is a risk of harm (e.g., child abuse/protection concerns).",
+    "quiz": {
+      "q": "What is the primary factor determining if a 15-year-old can consent to medical treatment in most Canadian provinces?",
+      "a": "The patient's capacity to understand and appreciate the treatment (Mature Minor doctrine)."
+    }
+  },
+  {
+    "id": "CDM_008",
+    "cat": "Surgery",
+    "sub": "Post-op Care",
+    "title": "🌡️ Case: Post-operative Fever",
+    "content": "<b>Scenario:</b> A 68-year-old male is on Post-op Day 3 after a total hip replacement. He develops a fever of 38.5°C and new-onset shortness of breath.<br><br><b>Decision Pathway:</b><br>1. <b>Differential (The 5 W's):</b> Wind (Atelectasis/Pneumonia - Day 1-2), Water (UTI - Day 3), Walking (DVT/PE - Day 5), Wound (Infection - Day 7), Wonder drugs (Drug fever/Transfusion).<br>2. <b>Assessment:</b> Physical exam of the wound, calves (Homan's sign is unreliable), and lungs. Check vitals (HR, BP, SpO2).<br>3. <b>Workup:</b> CXR, Urinalysis, CBC, and if PE is suspected, CTPA or V/Q scan.<br>4. <b>Management:</b> If PE is confirmed, start anticoagulation (LMWH or Heparin).",
+    "quiz": {
+      "q": "A patient develops a fever on POD 3 with respiratory symptoms. What is the most likely 'Wind' related complication?",
+      "a": "Pneumonia (Atelectasis usually occurs earlier on POD 1-2)."
+    }
+  },
+  {
+    "id": "CDM_009",
+    "cat": "Medicine",
+    "sub": "Endocrinology",
+    "title": "🩸 Case: Hyperglycemic Emergency",
+    "content": "<b>Scenario:</b> A 24-year-old female with Type 1 Diabetes presents with abdominal pain, vomiting, and deep, rapid breathing (Kussmaul breathing). Her glucose is 28 mmol/L and urine shows 4+ ketones.<br><br><b>Decision Pathway:</b><br>1. <b>Diagnosis:</b> Diabetic Ketoacidosis (DKA).<br>2. <b>Immediate Action:</b> Aggressive IV fluid resuscitation (Normal Saline).<br>3. <b>Potassium Management:</b> Check K+ levels. If K+ < 3.3, replace K+ <b>before</b> starting insulin. If K+ 3.3-5.2, add K+ to fluids and start insulin.<br>4. <b>Insulin Therapy:</b> IV regular insulin infusion (0.1 units/kg/hr).<br>5. <b>Monitoring:</b> Close monitoring of Anion Gap closure and Electrolytes.",
+    "quiz": {
+      "q": "What is the first step in the management of DKA before starting insulin if the potassium is low?",
+      "a": "Potassium replacement."
+    }
+  },
+  {
+    "id": "CDM_010",
+    "cat": "Emergency Medicine",
+    "sub": "Trauma",
+    "title": "🚨 Case: Head Injury Management",
+    "content": "<b>Scenario:</b> A 45-year-old male fell from a ladder and hit his head. He had a 2-minute loss of consciousness. He is now GCS 14 (confused) and has vomited twice. He is on Warfarin for atrial fibrillation.<br><br><b>Decision Pathway:</b><br>1. <b>Assessment:</b> ABCs, C-spine stabilization, and GCS score.<br>2. <b>Imaging Criteria (Canadian CT Head Rule):</b> The patient meets high-risk criteria for CT Head (GCS < 15 at 2 hours, > 1 episode of vomiting, and use of anticoagulation).<br>3. <b>Action:</b> Emergent non-contrast CT Head to rule out intracranial hemorrhage.<br>4. <b>Management:</b> If bleed found, consult Neurosurgery and reverse anticoagulation (e.g., Prothrombin Complex Concentrate and Vitamin K).",
+    "quiz": {
+      "q": "According to the Canadian CT Head Rule, does a patient on anticoagulation with a head injury require a CT scan?",
+      "a": "Yes, anticoagulation is a high-risk factor that mandates a CT scan."
+    }
+  }
+]
