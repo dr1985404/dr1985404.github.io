@@ -156,6 +156,8 @@
     .loading-screen{ position:fixed; top:0; left:0; right:0; bottom:0; background:var(--navy); z-index:9999; display:flex; flex-direction:column; align-items:center; justify-content:center; color:#fff; }
     .spinner{ width:40px; height:40px; border:4px solid rgba(255,255,255,0.1); border-top-color:var(--gold); border-radius:50%; animation:spin 1s linear infinite; margin-bottom:20px; }
     @keyframes spin{ to{ transform:rotate(360deg); } }
+    
+    .ad-wrapper{ max-width:1100px; margin:5px auto; text-align:center; overflow:hidden; min-height:1px; }
   </style>
 </head>
 <body>
@@ -217,7 +219,7 @@
     <div id="sub-dashboard" class="dashboard"></div>
     
     <div id="view-area">
-      <div id="mode-panel" style="display:none; justify-content:space-between; align-items:center; margin-bottom:20px; background:var(--bg); padding:10px; border-radius:16px;">
+      <div id="mode-panel" style="display:none; justify-content:space-between; align-items:center; margin-bottom:20px; background:rgba(0,0,0,0.02); padding:10px; border-radius:16px;">
         <div style="background:rgba(0,0,0,0.05); padding:4px; border-radius:12px; display:flex; gap:5px;">
           <button id="m-study" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800; font-size:0.8rem;" onclick="setMode('study')">Study</button>
           <button id="m-exam" class="m-btn" style="border:none; padding:8px 16px; border-radius:8px; cursor:pointer; font-weight:800; font-size:0.8rem;" onclick="setMode('exam')">Exam</button>
@@ -267,16 +269,16 @@
     }
 
     async function init(){
-      for(const f of qFiles) { bank = bank.concat(await fetchJson(f)); }
-      for(const f of nFiles) { notes = notes.concat(await fetchJson(f)); }
-      for(const f of cdmFiles) { cdm = cdm.concat(await fetchJson(f)); }
-      for(const f of tFiles) { tricks = tricks.concat(await fetchJson(f)); }
+      for(const f of qFiles) { const d = await fetchJson(f); bank = bank.concat(d); }
+      for(const f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
+      for(const f of cdmFiles) { const d = await fetchJson(f); cdm = cdm.concat(d); }
+      for(const f of tFiles) { const d = await fetchJson(f); tricks = tricks.concat(d); }
       
       bank = bank.filter(q => q && q.text && q.id);
       document.getElementById('loading-screen').style.display="none";
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
-      document.getElementById('total-solved').innerText = answered.length;
+      document.getElementById('total-solved').innerText = answered.filter(x => !x.includes("-")).length; // Unique Qs
       updateDashboard();
       renderMain();
     }
@@ -357,7 +359,9 @@
       document.getElementById("view-area").style.display="block";
       if(activeMainTab==="questions"){
         document.getElementById("mode-panel").style.display="flex"; document.getElementById("progress-section").style.display="block";
-        filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)); setMode('study'); showQ();
+        filteredQuestions=bank.filter(q=>q.cat===currentCategory&&(s==="All"||q.sub===s)); 
+        setModeUI('study'); 
+        showQ();
       } else {
         filteredNotes=(activeMainTab==="cdm"?cdm:notes).filter(n=>n.cat===currentCategory&&(s==="All"||n.sub===s)); showNote();
       }
@@ -372,7 +376,7 @@
 
     function showQ(){
       const q=filteredQuestions[currentIdx]; if(!q) return;
-      let opsHtml=q.options.map((o,i)=>`<div class="option ${!examMode&&answered.includes(q.id+i)?(i===q.correct?'correct':'wrong'):(examMode&&userSels[currentIdx]===i?'selected':'')}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("");
+      let opsHtml=q.options.map((o,i)=>`<div class="option ${!examMode&&answered.includes(q.id+'-'+i)?(i===q.correct?'correct':'wrong'):(examMode&&userSels[currentIdx]===i?'selected':'')}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("");
       document.getElementById("content-container").innerHTML=`<div class="card" style="border-top:6px solid var(--navy)"><div class="card-header" style="background:var(--navy)"><span>ID: ${q.id}</span><button onclick="toggleBookmark('${q.id}')" style="background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer;">${bookmarks.includes(q.id)?'⭐':'☆'}</button></div><div class="card-body"><div style="font-weight:800;margin-bottom:20px;font-size:1.1rem;">${q.text}</div>${getSafeImg(q.img)}${opsHtml}<div class="rationale" id="rat" style="${!examMode&&answered.includes(q.id)?'display:block':''}"><strong>Explanation:</strong><br>${q.rationale}</div></div></div>`;
       renderNav(); updateProgress();
     }
@@ -383,15 +387,15 @@
         if(answered.includes(qId)) return;
         const ops=document.querySelectorAll(".option"); ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
         document.getElementById("rat").style.display="block";
-        answered.push(qId); answered.push(qId+idx); // Save both Q and selected option
-        localStorage.setItem('answered_questions',JSON.stringify(answered)); document.getElementById('total-solved').innerText=answered.filter(x=>!x.includes("CQ") && !x.includes("ETH") && !x.includes("QB")).length || answered.length/2; trackActivity();
+        answered.push(qId); answered.push(qId+'-'+idx);
+        localStorage.setItem('answered_questions',JSON.stringify(answered)); document.getElementById('total-solved').innerText=answered.filter(x=>!x.includes("-")).length; trackActivity();
         updateProgress();
       }
     }
 
     function updateProgress(){
       const total=filteredQuestions.length, done=filteredQuestions.filter(q=>answered.some(a=>a===q.id)).length, pct=total?Math.round(done/total*100):0;
-      document.getElementById("prog-bar").style.width=pct+"%"; document.getElementById("prog-label").innerText=`${done} / ${total} Solved (${pct}%)`;
+      document.getElementById("prog-bar").style.width=pct+"%"; document.getElementById("prog-label").innerText=`${done} / ${total}`;
     }
 
     function renderNav(){
@@ -401,20 +405,20 @@
 
     function next(){ const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes); if(currentIdx<data.length-1){ currentIdx++; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo(0,0); } else if(examMode) finishEx(); }
     function prev(){ if(currentIdx>0){ currentIdx--; (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); window.scrollTo(0,0); } }
-    function finishEx(){ alert(`Exam Finished! Your Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setMode('study'); }
+    function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
     
-    function setMode(m){ 
+    function setModeUI(m){
       examMode=(m==='exam'); 
       document.getElementById('m-study').style.background=examMode?'transparent':'var(--navy)';
       document.getElementById('m-study').style.color=examMode?'var(--navy)':'#fff';
       document.getElementById('m-exam').style.background=examMode?'var(--navy)':'transparent';
       document.getElementById('m-exam').style.color=examMode?'#fff':'var(--navy)';
-      document.getElementById('timer').style.display=examMode?'block':'none'; 
+      document.getElementById('timer').style.display=examMode?'block':'none';
       if(examMode) { examSec=0; clearInterval(timerInt); timerInt=setInterval(()=>{examSec++; let m=Math.floor(examSec/60).toString().padStart(2,'0'), s=(examSec%60).toString().padStart(2,'0'); document.getElementById('timer').innerText=`${m}:${s}`;},1000); } 
-      else clearInterval(timerInt); 
-      start(currentSubcategory); 
+      else clearInterval(timerInt);
     }
-    
+
+    function setMode(m){ setModeUI(m); start(currentSubcategory); }
     function goBack(){ if(document.getElementById("sub-dashboard").style.display==="grid") renderMain(); else openCat(currentCategory); }
     function getSafeImg(src){ if(!src)return''; return`<img src="https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png" class="content-img" onerror="this.style.display='none'" alt="Medical Illustration">`; }
     function getIcon(c){ const i={"Internal Medicine":"🩺","Surgery":"🔪","Pediatrics":"👶","Psychiatry":"🧠","Ethics & Legal":"⚖️","Emergency Medicine":"🚨","Obstetrics & Gynecology":"🤰","Family Medicine":"👨‍⚕️","Population & Prevention":"📊"}; return i[c]||"📚"; }
