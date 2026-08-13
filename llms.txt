@@ -1,10 +1,12 @@
-# MediVault Pro
+# MediVault Pro - Free MCCQE1 Question Bank
 
-> Free MCCQE1 exam preparation platform for International Medical Graduates (IMGs) preparing for Canadian medical licensing.
+MediVault Pro is a comprehensive, free medical examination preparation platform specifically designed for International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part I (MCCQE1).
 
-## Q-Bank
-- 2357 MCCQE1-style questions across all medical specialties
-- High-Yield notes and flashcards
+## Core Resources
+- **Q-Bank:** Over 6,000 exam-style multiple-choice questions with detailed rationales.
+- **High-Yield Notes:** Structured clinical summaries covering all major medical specialties.
+- **Clinical Decision-Making (CDM):** Interactive cases focused on clinical reasoning.
+- **Visual Mnemonics:** Memory aids and clinical tricks for efficient study.
 
 ## URL
-https://dr1985404.github.io
+https://dr1985404.github.io/
