@@ -48,6 +48,14 @@
   <!-- PWA -->
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#0b1730" />
+  
+  <!-- Performance Hints -->
+  <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://images.weserv.nl">
+  <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -177,6 +185,13 @@
     .btn-gold{ background:var(--gold); color:#fff; }
     .btn-light{ background:#f3f4f6; color:var(--text); }
 
+    .hero-section{background:linear-gradient(135deg,#0b1730 0%,#132347 100%);color:white;padding:60px 20px;text-align:center;border-bottom:4px solid var(--gold);margin-bottom:20px;}
+    .hero-content{max-width:800px;margin:0 auto;}
+    .hero-section h1{font-size:2.5rem;font-weight:900;margin-bottom:20px;color:#fff;}
+    .hero-section p{font-size:1.2rem;color:#cbd5e1;margin-bottom:30px;line-height:1.6;}
+    .hero-btns{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;}
+    @media (max-width:768px){.hero-section h1{font-size:1.8rem;}.hero-section p{font-size:1rem;}}
+
     body.dark{ --bg:#0f172a; --card:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --line:#334155; background:var(--bg); color:var(--text); }
     body.dark .vault-stats{ background:#1e293b; border-color:#334155; color:#e2e8f0; }
     body.dark .stat-item{ color:#e2e8f0; }
@@ -246,69 +261,54 @@
     .dark-toggle{ background:none; border:none; color:#fff; font-size:1.3rem; cursor:pointer; padding:4px 8px; }
     .bm-badge{ position:absolute; top:10px; right:10px; background:var(--gold); color:#fff; border-radius:999px; font-size:0.7rem; font-weight:900; padding:2px 7px; display:none; }
     #sub-dashboard,#view-area,#main-dashboard{ display:none; }
+    
     .ad-wrapper{ max-width:1100px; margin:16px auto; padding:8px 14px; background:#fff; border-radius:12px; border:1px solid var(--line); text-align:center; overflow:hidden; }
     .ad-label{ font-size:0.7rem; color:var(--muted); text-align:center; margin-bottom:4px; font-weight:600; letter-spacing:0.05em; }
+
     .study-dashboard{ max-width:1100px; margin:16px auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; padding:0 14px; }
     .dash-card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; align-items:center; gap:16px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
     .dash-icon{ font-size:1.8rem; background:var(--bg); width:50px; height:50px; display:flex; align-items:center; justify-content:center; border-radius:10px; color:var(--gold); }
     .dash-info h4{ margin:0; font-size:0.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
     .dash-info p{ margin:2px 0 0 0; font-size:1.1rem; font-weight:800; color:var(--navy); }
+    
     .progress-ring-wrap{ position:relative; width:45px; height:45px; }
     .progress-ring{ transform:rotate(-90deg); }
     .progress-ring__circle{ transition:stroke-dashoffset 0.35s; transform-origin:50% 50%; stroke:var(--gold); }
     .progress-text-center{ position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:0.7rem; font-weight:800; }
+
     body.dark .dash-card{ background:var(--navy2); border-color:#2d3a5a; }
     body.dark .dash-info p{ color:#fff; }
     body.dark .dash-icon{ background:var(--navy); }
-    .faq-section{ max-width:1100px; margin:40px auto 20px auto; padding:0 14px; }
-    .faq-section h2{ font-size:1.3rem; font-weight:800; margin-bottom:10px; color:#0b1730; }
-    .faq-item{ background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin-bottom:10px; }
-    .faq-item h3{ margin:0 0 6px 0; font-size:1rem; font-weight:800; color:#111827; }
-    .faq-item p{ margin:0; font-size:0.92rem; color:#374151; line-height:1.6; }
   </style>
 </head>
 <body>
-
-  <div id="cookie-banner">
-    <p>We use cookies to enhance your experience and show personalized ads. By continuing, you accept our <a href="/privacy.html" style="color:#c8a45c;text-decoration:underline;">Privacy Policy</a>.</p>
-    <button id="accept-cookies">Accept</button>
-  </div>
-
-  <h1 class="seo-h1">MediVault Pro – Free MCCQE1 Q-Bank and High-Yield Notes for International Medical Graduates in Canada</h1>
-
   <header>
     <div class="topbar">
       <div class="brand">MEDIVAULT PRO</div>
-      <div class="social-btns">
-        <button class="dark-toggle" onclick="toggleDark()" title="Dark Mode">🌙</button>
-        <a class="social-link" href="https://www.youtube.com/@Drab123-v7l" target="_blank">📺 YouTube</a>
-        <a class="social-link" href="https://www.facebook.com/share/1B5BwQUhim/" target="_blank">📘 FB</a>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <button class="dark-toggle" onclick="toggleDark()" title="Toggle Dark Mode">🌙</button>
+        <div class="social-btns">
+          <a href="https://www.youtube.com/@Medivaultpro" target="_blank" class="social-link">📺 YouTube</a>
+          <a href="https://www.facebook.com/share/g/15Y4s2rM1B/" target="_blank" class="social-link">📘 FB</a>
+        </div>
       </div>
     </div>
   </header>
-<section class="hero-section">
-  <div class="hero-content">
-    <h1>100% Free MCCQE1 Question Bank 2026</h1>
-    <p>The most comprehensive free resource for International Medical Graduates. Access 6,000+ High-Yield Questions, Clinical Decision-Making cases, and Expert Notes. No Subscription. No Hidden Fees.</p>
-    <div class="hero-btns">
-      <button class="btn btn-gold" onclick="activeMainTab='questions';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">🚀 Start Free Practice</button>
-      <button class="btn btn-light" onclick="activeMainTab='cdm';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">📋 Clinical Cases</button>
-    </div>
-  </div>
-</section>
 
-
-  <section class="hero-section" style="background:#0b1730;color:white;padding:20px 14px;border-bottom:2px solid #c8a45c;">
-    <div style="max-width:1100px;margin:0 auto;">
-      <h2 style="margin:0 0 8px 0;font-size:1.4rem;font-weight:800;">Free MCCQE1 Q-Bank for International Medical Graduates</h2>
-      <p style="margin:0 0 4px 0;font-size:0.95rem;line-height:1.6;">MediVault Pro is a free, high-yield MCCQE1 preparation platform built specifically for International Medical Graduates (IMGs) in Canada. Practice with over 2,000 exam-style questions across all major specialties.</p>
-      <p style="margin:0;font-size:0.92rem;opacity:0.9;">Use the Q-BANK tab for timed questions and explanations, and the HIGH-YIELD tab to review structured summaries by specialty before your exam day.</p>
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>100% Free MCCQE1 Question Bank 2026</h1>
+      <p>The most comprehensive free resource for International Medical Graduates. Access 6,000+ High-Yield Questions, Clinical Decision-Making cases, and Expert Notes. No Subscription. No Hidden Fees.</p>
+      <div class="hero-btns">
+        <button class="btn btn-gold" onclick="activeMainTab='questions';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">🚀 Start Free Practice</button>
+        <button class="btn btn-light" onclick="activeMainTab='cdm';renderMain();document.getElementById('main-tabs').scrollIntoView({behavior:'smooth'});">📋 Clinical Cases</button>
+      </div>
     </div>
   </section>
 
   <div class="vault-stats">
-    <div class="stat-item">📋 Questions: <span id="total-q" class="stat-val">0</span></div>
-    <div class="stat-item">💡 High-Yield: <span id="total-n" class="stat-val">0</span></div>
+    <div class="stat-item">📋 <span id="total-q">0</span> Questions</div>
+    <div class="stat-item">💡 <span id="total-n">0</span> High-Yield</div>
     <div class="stat-item">✅ Solved: <span id="total-solved" class="stat-val">0</span></div>
   </div>
 
@@ -317,7 +317,7 @@
       <div class="dash-icon">⏳</div>
       <div class="dash-info">
         <h4>Exam Countdown</h4>
-        <p id="exam-timer">Loading...</p>
+        <p id="exam-timer">-- Days Left</p>
       </div>
     </div>
     <div class="dash-card">
@@ -341,16 +341,25 @@
     </div>
   </div>
 
-  <div class="main-tabs">
-    <div class="tab active" id="tab-questions" onclick="switchMainTab('questions')">Q-BANK</div>
-    <div class="tab" id="tab-notes" onclick="switchMainTab('notes')">HIGH-YIELD</div>
-    <div class="tab" id="tab-cdm" onclick="switchMainTab('cdm')">CDM CASES</div>
-    <div class="tab" id="tab-bookmarks" onclick="switchMainTab('bookmarks')">🔖 SAVED</div>
+  <nav class="main-tabs" id="main-tabs">
+    <div id="tab-questions" class="tab active" onclick="switchMainTab('questions')">Q-BANK</div>
+    <div id="tab-notes" class="tab" onclick="switchMainTab('notes')">HIGH-YIELD</div>
+    <div id="tab-cdm" class="tab" onclick="switchMainTab('cdm')">CDM CASES</div>
+    <div id="tab-bookmarks" class="tab" onclick="switchMainTab('bookmarks')">🔖 SAVED</div>
+  </nav>
+
+  <div class="ad-wrapper">
+    <div class="ad-label">ADVERTISEMENT</div>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6061088335639984" data-ad-slot="AUTO" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
 
   <div class="container">
-    <div class="panel">
-      <div id="mode-panel" class="mode-bar" style="display:none;">
+    <div id="main-dashboard" class="dashboard"></div>
+    <div id="sub-dashboard" class="dashboard"></div>
+
+    <div id="view-area">
+      <div id="mode-panel" class="mode-bar">
         <div class="mode-switch">
           <button id="m-study" class="m-btn active" onclick="setMode('study')">Study</button>
           <button id="m-exam" class="m-btn" onclick="setMode('exam')">Exam</button>
@@ -358,59 +367,24 @@
         <div id="timer" class="timer-display">00:00</div>
       </div>
 
-      <div id="progress-section" style="padding:10px 16px 0 16px; display:none;">
-        <div class="progress-wrap"><div class="progress-bar" id="prog-bar" style="width:0%"></div></div>
-        <div class="progress-label" id="prog-label">0 / 0 answered</div>
+      <div id="progress-section" style="margin-bottom:15px;">
+        <div class="progress-wrap"><div id="prog-bar" class="progress-bar" style="width:0%"></div></div>
+        <div id="prog-label" class="progress-label">0 / 0 answered (0%)</div>
       </div>
 
-      <div id="main-dashboard" class="dashboard"></div>
-      <div id="sub-dashboard" class="dashboard"></div>
+      <div id="content-container"></div>
 
-      <div id="view-area" style="padding:16px;">
-        <div id="progress-text" style="font-weight:800;color:var(--muted);margin-bottom:12px;font-size:0.85rem;"></div>
-        <div id="content-container"></div>
-        <div id="nav-btns" style="display:flex;gap:10px;margin-top:15px;"></div>
-        <button class="btn btn-light" style="width:100%;margin-top:10px;" onclick="goBack()">← Back</button>
+      <div id="nav-btns" style="display:flex; gap:12px; margin-top:20px;"></div>
+      <div style="text-align:center; margin-top:20px;">
+        <button class="btn btn-light" onclick="goBack()" style="max-width:200px;">↩ Back to Categories</button>
       </div>
     </div>
   </div>
 
-  <!-- SEO TEXT SECTION -->
-  <section style="max-width:1100px;margin:30px auto 10px auto;padding:0 14px;">
-    <h2 style="font-size:1.2rem;font-weight:800;color:#0b1730;margin-bottom:8px;">About MediVault Pro – MCCQE1 Preparation for IMGs</h2>
-    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">MediVault Pro is a free, comprehensive MCCQE1 question bank designed specifically for International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part I (MCCQE1). Our platform covers all key clinical disciplines including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology, Preventive Medicine, and Medical Ethics — all aligned with the MCC's official objectives.</p>
-    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0 0 10px 0;">Every question in our Q-Bank comes with a detailed explanation and rationale to help you not just memorize answers, but truly understand the clinical reasoning required for the MCCQE1. High-Yield notes provide concise, exam-ready summaries of the most commonly tested topics, making your study sessions efficient and targeted.</p>
-    <p style="font-size:0.93rem;color:#374151;line-height:1.7;margin:0;">Whether you are a new IMG to Canada, a family medicine resident, or a physician seeking licensure through the MCCQE1, MediVault Pro gives you the tools to study smarter — completely free of charge.</p>
-  </section>
-
-  <!-- FAQ Section -->
-  <section class="faq-section">
-    <h2>Frequently Asked Questions about MCCQE1 Prep</h2>
-    <div class="faq-item"><h3>What is the MCCQE1 exam?</h3><p>The MCCQE1 (Medical Council of Canada Qualifying Examination Part I) is a computer-based exam required for all physicians seeking licensure in Canada. It assesses clinical decision-making, medical knowledge, and patient management across multiple specialties. International Medical Graduates (IMGs) must pass it to practice medicine in Canada.</p></div>
-    <div class="faq-item"><h3>What is MediVault Pro?</h3><p>MediVault Pro is a free MCCQE1 question bank and high-yield notes platform designed for International Medical Graduates preparing for Canadian medical licensing exams. It includes thousands of practice questions with detailed explanations, plus structured clinical notes organized by specialty.</p></div>
-    <div class="faq-item"><h3>Is MediVault Pro really free?</h3><p>Yes. The entire Q-Bank and all high-yield notes are completely free to access. The platform is supported by advertising to keep it free for all IMGs worldwide. We believe every IMG deserves access to quality MCCQE1 preparation resources without financial barriers.</p></div>
-    <div class="faq-item"><h3>How should I use this Q-Bank for MCCQE1?</h3><p>Start with the HIGH-YIELD notes to consolidate core topics, then switch to the Q-BANK in Exam mode to practice timed questions under pressure. Review the explanations for each question carefully, even when you answer correctly. Use the bookmark feature to save difficult questions for later review.</p></div>
-    <div class="faq-item"><h3>What specialties are covered in MediVault Pro?</h3><p>MediVault Pro covers all major MCCQE1 specialties including Internal Medicine, Surgery, Pediatrics, Psychiatry, Obstetrics and Gynecology (OB/GYN), Emergency Medicine, Preventive Medicine, and Medical Ethics and Law — all aligned with MCC's Clinical Presentations framework.</p></div>
-    <div class="faq-item"><h3>What is the difference between Study Mode and Exam Mode?</h3><p>In Study Mode, you see the correct answer and full explanation immediately after each question, making it ideal for learning. In Exam Mode, a timer runs as you answer all questions without feedback, then you receive your final score — simulating real MCCQE1 exam conditions.</p></div>
-    <div class="faq-item"><h3>Does MediVault Pro replace official MCCQE1 resources?</h3><p>No. MediVault Pro is a supplementary tool. You should still review the official MCC objectives, guidelines, and recommended textbooks. MediVault Pro is designed to complement your main study resources by providing extra practice and quick high-yield reviews.</p></div>
-    <div class="faq-item"><h3>Can I use MediVault Pro on my mobile phone?</h3><p>Yes. MediVault Pro is fully responsive and works on all devices including mobile phones, tablets, and desktop computers. You can also install it as a Progressive Web App (PWA) on your phone for offline access and a faster experience.</p></div>
-  </section>
-
-  <section style="max-width:1100px;margin:20px auto;padding:0 14px;text-align:center;border-top:1px solid var(--line);padding-top:20px;">
-    <h3 style="font-size:1rem;font-weight:800;color:var(--navy);margin-bottom:12px;">High-Yield Study Resources</h3>
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;">
-      <a href="/internal-medicine-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Internal Medicine</a>
-      <a href="/surgery-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Surgery</a>
-      <a href="/pediatrics-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Pediatrics</a>
-      <a href="/obgyn-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">OB/GYN</a>
-      <a href="/psychiatry-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Psychiatry</a>
-      <a href="/ethics-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Ethics & Law</a>
-      <a href="/emergency-medicine-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Emergency Medicine</a>
-      <a href="/preventive-medicine-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Preventive Medicine</a>
-      <a href="/anesthesiology-mccqe1.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">Anesthesiology</a>
-      <a href="/clinical-decision-making.html" style="font-size:0.85rem;color:var(--blue);text-decoration:none;font-weight:700;">CDM Cases</a>
-    </div>
-  </section>
+  <div id="cookie-banner">
+    <p>We use cookies to enhance your experience and show personalized ads. By continuing, you accept our <a href="/privacy.html" style="color:var(--gold);">Privacy Policy</a>.</p>
+    <button id="accept-cookies">Accept All</button>
+  </div>
 
   <footer>
     <div>
@@ -450,15 +424,15 @@
     }
 
     async function init(){
-      let rawB = [];
-      for(let f of qFiles){ const d = await fetchJson(f); if(Array.isArray(d)) rawB = rawB.concat(d); }
-      bank = sanitize(rawB);
+      const [qResults, nResults, cResults] = await Promise.all([
+        Promise.all(qFiles.map(f => fetchJson(f))),
+        Promise.all(nFiles.map(f => fetchJson(f))),
+        Promise.all(cdmFiles.map(f => fetchJson(f)))
+      ]);
       
-      notes = [];
-      for(let f of nFiles){ const d = await fetchJson(f); if(Array.isArray(d)) notes = notes.concat(d); }
-      
-      cdm = [];
-      for(let f of cdmFiles){ const d = await fetchJson(f); if(Array.isArray(d)) cdm = cdm.concat(d); }
+      bank = sanitize(qResults.flat());
+      notes = nResults.flat();
+      cdm = cResults.flat();
 
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
