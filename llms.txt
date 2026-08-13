@@ -3,10 +3,20 @@
 MediVault Pro is a comprehensive, free medical examination preparation platform specifically designed for International Medical Graduates (IMGs) preparing for the Medical Council of Canada Qualifying Examination Part I (MCCQE1).
 
 ## Core Resources
-- **Q-Bank:** Over 6,000 exam-style multiple-choice questions with detailed rationales.
-- **High-Yield Notes:** Structured clinical summaries covering all major medical specialties.
-- **Clinical Decision-Making (CDM):** Interactive cases focused on clinical reasoning.
-- **Visual Mnemonics:** Memory aids and clinical tricks for efficient study.
+- [Q-Bank](https://dr1985404.github.io/): Over 6,000 exam-style multiple-choice questions with detailed rationales.
+- [High-Yield Notes](https://dr1985404.github.io/high-yield-mccqe1.html): Structured clinical summaries covering all major medical specialties.
+- [CDM Cases](https://dr1985404.github.io/clinical-decision-making.html): Interactive cases focused on clinical reasoning.
+- [Ethics & Law](https://dr1985404.github.io/ethics-mccqe1.html): Specialized prep for Canadian medical legal standards.
 
-## URL
-https://dr1985404.github.io/
+## Specialties
+- [Internal Medicine](https://dr1985404.github.io/internal-medicine-mccqe1.html)
+- [Surgery](https://dr1985404.github.io/surgery-mccqe1.html)
+- [Pediatrics](https://dr1985404.github.io/pediatrics-mccqe1.html)
+- [Psychiatry](https://dr1985404.github.io/psychiatry-mccqe1.html)
+
+## Contact & Support
+- [About Us](https://dr1985404.github.io/about.html)
+- [Contact Support](https://dr1985404.github.io/contact.html)
+- [Privacy Policy](https://dr1985404.github.io/privacy.html)
+
+For more information, visit the official site: https://dr1985404.github.io/
