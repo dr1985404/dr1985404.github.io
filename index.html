@@ -197,6 +197,18 @@
     #sub-dashboard,#view-area,#main-dashboard{ display:none; }
     .ad-wrapper{ max-width:1100px; margin:16px auto; padding:8px 14px; background:#fff; border-radius:12px; border:1px solid var(--line); text-align:center; overflow:hidden; }
     .ad-label{ font-size:0.7rem; color:var(--muted); text-align:center; margin-bottom:4px; font-weight:600; letter-spacing:0.05em; }
+    .study-dashboard{ max-width:1100px; margin:16px auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:16px; padding:0 14px; }
+    .dash-card{ background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; align-items:center; gap:16px; box-shadow:0 2px 8px rgba(0,0,0,0.05); }
+    .dash-icon{ font-size:1.8rem; background:var(--bg); width:50px; height:50px; display:flex; align-items:center; justify-content:center; border-radius:10px; color:var(--gold); }
+    .dash-info h4{ margin:0; font-size:0.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.05em; }
+    .dash-info p{ margin:2px 0 0 0; font-size:1.1rem; font-weight:800; color:var(--navy); }
+    .progress-ring-wrap{ position:relative; width:45px; height:45px; }
+    .progress-ring{ transform:rotate(-90deg); }
+    .progress-ring__circle{ transition:stroke-dashoffset 0.35s; transform-origin:50% 50%; stroke:var(--gold); }
+    .progress-text-center{ position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); font-size:0.7rem; font-weight:800; }
+    body.dark .dash-card{ background:var(--navy2); border-color:#2d3a5a; }
+    body.dark .dash-info p{ color:#fff; }
+    body.dark .dash-icon{ background:var(--navy); }
     .faq-section{ max-width:1100px; margin:40px auto 20px auto; padding:0 14px; }
     .faq-section h2{ font-size:1.3rem; font-weight:800; margin-bottom:10px; color:#0b1730; }
     .faq-item{ background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin-bottom:10px; }
@@ -236,6 +248,35 @@
     <div class="stat-item">📋 Questions: <span id="total-q" class="stat-val">0</span></div>
     <div class="stat-item">💡 High-Yield: <span id="total-n" class="stat-val">0</span></div>
     <div class="stat-item">✅ Solved: <span id="total-solved" class="stat-val">0</span></div>
+  </div>
+
+  <div class="study-dashboard">
+    <div class="dash-card">
+      <div class="dash-icon">⏳</div>
+      <div class="dash-info">
+        <h4>Exam Countdown</h4>
+        <p id="exam-timer">Loading...</p>
+      </div>
+    </div>
+    <div class="dash-card">
+      <div class="progress-ring-wrap">
+        <svg class="progress-ring" width="45" height="45">
+          <circle class="progress-ring__circle" stroke-width="4" fill="transparent" r="18" cx="22.5" cy="22.5"/>
+        </svg>
+        <div class="progress-text-center" id="daily-pct">0%</div>
+      </div>
+      <div class="dash-info">
+        <h4>Daily Progress</h4>
+        <p id="daily-stat">0/50 Questions</p>
+      </div>
+    </div>
+    <div class="dash-card">
+      <div class="dash-icon">🔥</div>
+      <div class="dash-info">
+        <h4>Study Streak</h4>
+        <p id="study-streak">0 Days</p>
+      </div>
+    </div>
   </div>
 
   <div class="main-tabs">
@@ -355,7 +396,60 @@
       document.getElementById('total-q').innerText=bank.length;
       document.getElementById('total-n').innerText=notes.length + cdm.length;
       document.getElementById('total-solved').innerText=answered.length;
+      updateDashboard();
       renderMain();
+    }
+
+    function updateDashboard(){
+      const examDate = new Date('2026-10-21T09:00:00');
+      const now = new Date();
+      const diff = examDate - now;
+      if(diff > 0){
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        document.getElementById('exam-timer').innerText = `${days} Days Left`;
+      } else {
+        document.getElementById('exam-timer').innerText = "Exam Period";
+      }
+
+      const today = new Date().toDateString();
+      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
+      if(dailyData.date !== today){
+        dailyData = { date: today, count: 0 };
+        localStorage.setItem('daily_stats', JSON.stringify(dailyData));
+      }
+      const goal = 50;
+      const pct = Math.min(Math.round((dailyData.count / goal) * 100), 100);
+      document.getElementById('daily-stat').innerText = `${dailyData.count}/${goal} Questions`;
+      document.getElementById('daily-pct').innerText = `${pct}%`;
+      const circle = document.querySelector('.progress-ring__circle');
+      if(circle){
+        const radius = circle.r.baseVal.value;
+        const circumference = radius * 2 * Math.PI;
+        circle.style.strokeDasharray = `${circumference} ${circumference}`;
+        circle.style.strokeDashoffset = circumference - (pct / 100) * circumference;
+      }
+
+      let streak = parseInt(localStorage.getItem('study_streak') || '0');
+      document.getElementById('study-streak').innerText = `${streak} Days`;
+    }
+
+    function trackActivity(){
+      const today = new Date().toDateString();
+      let dailyData = JSON.parse(localStorage.getItem('daily_stats') || '{}');
+      if(dailyData.date === today) dailyData.count++;
+      else dailyData = { date: today, count: 1 };
+      localStorage.setItem('daily_stats', JSON.stringify(dailyData));
+
+      let lastDate = localStorage.getItem('last_study_date');
+      let streak = parseInt(localStorage.getItem('study_streak') || '0');
+      if(lastDate !== today){
+        const yesterday = new Date(); yesterday.setDate(yesterday.getDate() - 1);
+        if(lastDate === yesterday.toDateString()) streak++;
+        else streak = 1;
+        localStorage.setItem('study_streak', streak);
+        localStorage.setItem('last_study_date', today);
+      }
+      updateDashboard();
     }
 
     async function fetchJson(f){try{const r=await fetch(`./${f}?v=${Date.now()}`);return await r.json();}catch(e){return[];}}
@@ -511,6 +605,7 @@
           answered.push(qId);
           localStorage.setItem('answered_questions',JSON.stringify(answered));
           document.getElementById('total-solved').innerText=answered.length;
+          trackActivity();
         }
         updateProgress();
       }
