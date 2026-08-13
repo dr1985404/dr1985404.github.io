@@ -258,7 +258,10 @@
       document.getElementById('loading-screen').style.display="none";
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
-      document.getElementById('total-solved').innerText = answered.filter(x => !x.includes("-")).length;
+      
+      const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
+      document.getElementById('total-solved').innerText = uniqueSolved.size;
+      
       updateDashboard();
       renderMain();
     }
@@ -356,7 +359,7 @@
 
     function showQ(){
       const q=filteredQuestions[currentIdx]; if(!q) return;
-      let opsHtml=q.options.map((o,i)=>`<div class="option ${!examMode&&answered.includes(q.id+'-'+i)?(i===q.correct?'correct':'wrong'):(examMode&&userSels[currentIdx]===i?'selected':'')}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("");
+      let opsHtml=q.options.map((o,i)=>`<div class="option ${!examMode&&answered.includes(q.id+':'+i)?(i===q.correct?'correct':'wrong'):(examMode&&userSels[currentIdx]===i?'selected':'')}" onclick="handleAns(${i},${q.correct},'${q.id}')">${o}</div>`).join("");
       document.getElementById("content-container").innerHTML=`<div class="card" style="border-top:6px solid var(--navy)"><div class="card-header" style="background:var(--navy)"><span>ID: ${q.id}</span><button onclick="toggleBookmark('${q.id}')" style="background:none;border:none;color:#fff;font-size:1.4rem;cursor:pointer;">${bookmarks.includes(q.id)?'⭐':'☆'}</button></div><div class="card-body"><div style="font-weight:800;margin-bottom:20px;font-size:1.1rem;">${q.text}</div>${getSafeImg(q.img)}${opsHtml}<div class="rationale" id="rat" style="${!examMode&&answered.includes(q.id)?'display:block':''}"><strong>Explanation:</strong><br>${q.rationale}</div></div></div>`;
       renderNav(); updateProgress();
     }
@@ -367,8 +370,11 @@
         if(answered.includes(qId)) return;
         const ops=document.querySelectorAll(".option"); ops.forEach((op,i)=>op.className="option "+(i===cor?"correct":(i===idx?"wrong":"")));
         document.getElementById("rat").style.display="block";
-        answered.push(qId); answered.push(qId+'-'+idx);
-        localStorage.setItem('answered_questions',JSON.stringify(answered)); document.getElementById('total-solved').innerText=answered.filter(x=>!x.includes("-")).length; trackActivity();
+        answered.push(qId); answered.push(qId+':'+idx);
+        localStorage.setItem('answered_questions',JSON.stringify(answered)); 
+        const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
+        document.getElementById('total-solved').innerText = uniqueSolved.size;
+        trackActivity();
         updateProgress();
       }
     }
@@ -388,14 +394,16 @@
       if(currentIdx<data.length-1){ 
         currentIdx++; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        document.getElementById('main-tabs').scrollIntoView();
+        const scrollTarget = document.getElementById('main-tabs');
+        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
       } else if(examMode) finishEx(); 
     }
     function prev(){ 
       if(currentIdx>0){ 
         currentIdx--; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        document.getElementById('main-tabs').scrollIntoView();
+        const scrollTarget = document.getElementById('main-tabs');
+        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
       } 
     }
     function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
