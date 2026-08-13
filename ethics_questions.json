@@ -1,7 +1,7 @@
 [
   {
     "id": "ETH-CAN-001",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Confidentiality & Driving",
     "text": "A 45-year-old commercial truck driver is diagnosed with uncontrolled tonic-clonic seizures. He pleads with you not to report his condition to the provincial Ministry of Transportation, fearing he will lose his livelihood. What is your legal obligation in most Canadian provinces?",
     "options": [
@@ -15,7 +15,7 @@
   },
   {
     "id": "ETH-CAN-002",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Mature Minor Doctrine",
     "text": "A 14-year-old male requests testing for sexually transmitted infections (STIs). He clearly understands the procedure and the implications of the results but insists that his parents must not be informed. What is the most appropriate next step?",
     "options": [
@@ -29,7 +29,7 @@
   },
   {
     "id": "ETH-CAN-003",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Informed Consent",
     "text": "During an informed consent discussion for an elective cholecystectomy, the surgeon explains the benefits and the common risks of the procedure. To meet the Canadian legal standard for 'Informed Consent', what else MUST be disclosed?",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "ETH-CAN-004",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "End of Life (MAID)",
     "text": "A 70-year-old patient with terminal ALS requests Medical Assistance in Dying (MAID). According to current Canadian law (Bill C-7), which of the following is true regarding the eligibility criteria?",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "id": "ETH-CAN-005",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Substitute Decision Maker",
     "text": "An unconscious elderly patient requires urgent surgery. There is no advance directive. The patient's common-law partner and his adult son from a previous marriage disagree on the course of action. Who is the highest-ranking Substitute Decision Maker (SDM) in most Canadian jurisdictions?",
     "options": [
@@ -5831,7 +5831,7 @@
   },
   {
     "id": "QB_comm-mccqe-agenda-setting-001",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Agenda setting in primary care",
     "text": "A patient arrives with diabetes follow-up, knee pain, insomnia, and a work form. The appointment is short. What is the best opening response?",
     "options": [
@@ -5846,7 +5846,7 @@
   },
   {
     "id": "QB_comm-mccqe-open-question-002",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Opening the interview",
     "text": "A 46-year-old presents with fatigue. Which opening question best supports patient-centred communication?",
     "options": [
@@ -5861,7 +5861,7 @@
   },
   {
     "id": "QB_comm-mccqe-ice-003",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Ideas, concerns, expectations",
     "text": "A patient with chest pain says, \"I know it is probably nothing.\" What is the best next communication step while assessing risk?",
     "options": [
@@ -5876,7 +5876,7 @@
   },
   {
     "id": "QB_comm-mccqe-empathy-nurse-004",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Empathic response",
     "text": "A patient begins crying after hearing that a biopsy is malignant. Which response is best?",
     "options": [
@@ -5891,7 +5891,7 @@
   },
   {
     "id": "QB_comm-mccqe-bad-news-warning-shot-005",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Breaking bad news",
     "text": "A CT scan suggests metastatic cancer. The patient asks for the result. What is the best way to begin?",
     "options": [
@@ -5906,7 +5906,7 @@
   },
   {
     "id": "QB_comm-mccqe-family-blocks-bad-news-006",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Family asks to hide diagnosis",
     "text": "A family asks you not to tell a capable patient about a serious cancer diagnosis because the patient will lose hope. What is best?",
     "options": [
@@ -5921,7 +5921,7 @@
   },
   {
     "id": "QB_comm-mccqe-angry-patient-007",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Angry patient",
     "text": "A patient is shouting because the clinic is running 90 minutes late. What is the best first response?",
     "options": [
@@ -5936,7 +5936,7 @@
   },
   {
     "id": "QB_comm-mccqe-threat-safety-008",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Threatening patient",
     "text": "A patient says, \"If you do not give me oxycodone, I will smash this place.\" What is the best response?",
     "options": [
@@ -5951,7 +5951,7 @@
   },
   {
     "id": "QB_comm-mccqe-antibiotic-request-009",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Antibiotic request for viral illness",
     "text": "A patient with a viral sore throat demands antibiotics because they worked last time. What is the best response?",
     "options": [
@@ -5966,7 +5966,7 @@
   },
   {
     "id": "QB_comm-mccqe-low-value-mri-010",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Explaining low-value imaging",
     "text": "A patient with acute low back pain and no red flags insists on MRI because they are worried. What is best?",
     "options": [
@@ -5981,7 +5981,7 @@
   },
   {
     "id": "QB_comm-mccqe-nnt-absolute-risk-011",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Risk communication",
     "text": "A patient asks whether a preventive medication is worth taking. Which explanation is best?",
     "options": [
@@ -5996,7 +5996,7 @@
   },
   {
     "id": "QB_comm-mccqe-shared-decision-012",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Shared decision-making",
     "text": "A patient with mild depression is deciding between counselling, medication, both, or watchful waiting with close follow-up. What is best?",
     "options": [
@@ -6011,7 +6011,7 @@
   },
   {
     "id": "QB_comm-mccqe-teach-back-013",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Teach-back",
     "text": "A patient starts warfarin and nods while you explain bleeding precautions. What is best before ending the visit?",
     "options": [
@@ -6026,7 +6026,7 @@
   },
   {
     "id": "QB_comm-mccqe-interpreter-014",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Professional interpreter",
     "text": "A patient with limited English is asked to consent for surgery. Their adult child offers to interpret. What is best?",
     "options": [
@@ -6041,7 +6041,7 @@
   },
   {
     "id": "QB_comm-mccqe-cultural-safety-015",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Cultural safety",
     "text": "An Indigenous patient says they avoid the clinic because they felt judged in the past. What is best?",
     "options": [
@@ -6056,7 +6056,7 @@
   },
   {
     "id": "QB_comm-mccqe-stigma-obesity-016",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Weight bias communication",
     "text": "A patient with knee pain and obesity says clinicians always blame their weight. What is best?",
     "options": [
@@ -6071,7 +6071,7 @@
   },
   {
     "id": "QB_comm-mccqe-substance-use-017",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Substance use counselling",
     "text": "A patient drinks heavily and says, \"I am not an alcoholic, so do not lecture me.\" What is the best response?",
     "options": [
@@ -6086,7 +6086,7 @@
   },
   {
     "id": "QB_comm-mccqe-smoking-018",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Motivational interviewing",
     "text": "A smoker says, \"I know I should quit, but cigarettes calm me.\" What is the best response?",
     "options": [
@@ -6101,7 +6101,7 @@
   },
   {
     "id": "QB_comm-mccqe-suicide-019",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Suicide risk conversation",
     "text": "A depressed patient says, \"Sometimes I wish I would not wake up.\" What is the best next question?",
     "options": [
@@ -6116,7 +6116,7 @@
   },
   {
     "id": "QB_comm-mccqe-ipv-020",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Intimate partner violence",
     "text": "A patient with bruises looks at their partner before answering. What is the best communication step?",
     "options": [
@@ -6131,7 +6131,7 @@
   },
   {
     "id": "QB_comm-mccqe-sexual-assault-021",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Sexual assault disclosure",
     "text": "A patient says they were sexually assaulted last night and feels ashamed. What is best?",
     "options": [
@@ -6146,7 +6146,7 @@
   },
   {
     "id": "QB_comm-mccqe-adolescent-confidentiality-022",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Adolescent confidentiality",
     "text": "A 15-year-old asks for contraception and says her parents must not know. What is the best response?",
     "options": [
@@ -6161,7 +6161,7 @@
   },
   {
     "id": "QB_comm-mccqe-parent-vaccine-023",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Vaccine hesitancy",
     "text": "A parent is worried that vaccines will harm their child. What is best?",
     "options": [
@@ -6176,7 +6176,7 @@
   },
   {
     "id": "QB_comm-mccqe-parent-demand-antibiotic-child-024",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Parent demands antibiotics",
     "text": "A parent demands antibiotics for a child with a viral URI and says, \"I know my child.\" What is best?",
     "options": [
@@ -6191,7 +6191,7 @@
   },
   {
     "id": "QB_comm-mccqe-safety-net-025",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Safety-netting",
     "text": "A patient with likely viral gastroenteritis is stable for home care. Which closing statement is best?",
     "options": [
@@ -6206,7 +6206,7 @@
   },
   {
     "id": "QB_comm-mccqe-uncertainty-026",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Communicating uncertainty",
     "text": "A patient asks, \"Are you 100% sure this chest pain is not my heart?\" after a low-risk assessment. What is best?",
     "options": [
@@ -6221,7 +6221,7 @@
   },
   {
     "id": "QB_comm-mccqe-somatization-027",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Medically unexplained symptoms",
     "text": "A patient has chronic abdominal pain with many normal investigations and feels dismissed. What is the best response?",
     "options": [
@@ -6236,7 +6236,7 @@
   },
   {
     "id": "QB_comm-mccqe-personality-conflict-028",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Boundary setting with repeated urgent demands",
     "text": "A patient repeatedly demands same-day calls for nonurgent symptoms and becomes upset when limits are set. What is best?",
     "options": [
@@ -6251,7 +6251,7 @@
   },
   {
     "id": "QB_comm-mccqe-opioid-refill-029",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Opioid refill request",
     "text": "A patient requests an early opioid refill after losing the bottle. They are angry and in pain. What is best?",
     "options": [
@@ -6266,7 +6266,7 @@
   },
   {
     "id": "QB_comm-mccqe-error-disclosure-030",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Disclosure of harm",
     "text": "A patient received the wrong medication dose and required monitoring but is now stable. What should you say first?",
     "options": [
@@ -6281,7 +6281,7 @@
   },
   {
     "id": "QB_comm-mccqe-apology-031",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Apology after adverse event",
     "text": "A resident worries that saying sorry after a medication error means admitting legal liability. What is the best teaching?",
     "options": [
@@ -6296,7 +6296,7 @@
   },
   {
     "id": "QB_comm-mccqe-consent-check-032",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Consent conversation",
     "text": "Before a procedure, the patient says, \"Just do whatever you think.\" What is best?",
     "options": [
@@ -6311,7 +6311,7 @@
   },
   {
     "id": "QB_comm-mccqe-capacity-language-033",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Capacity with communication barrier",
     "text": "An older patient seems confused during consent, but they forgot hearing aids and English is not their first language. What is best?",
     "options": [
@@ -6326,7 +6326,7 @@
   },
   {
     "id": "QB_comm-mccqe-capable-refusal-034",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Responding to refusal",
     "text": "A capable patient refuses admission for pneumonia after understanding risks. What is the best communication response?",
     "options": [
@@ -6341,7 +6341,7 @@
   },
   {
     "id": "QB_comm-mccqe-end-of-life-035",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Goals of care",
     "text": "A frail patient with advanced COPD asks, \"Am I dying?\" The family says not to discuss it. What is best?",
     "options": [
@@ -6356,7 +6356,7 @@
   },
   {
     "id": "QB_comm-mccqe-code-status-036",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Code status discussion",
     "text": "A patient with metastatic cancer is admitted. Which question best begins a goals-of-care conversation?",
     "options": [
@@ -6371,7 +6371,7 @@
   },
   {
     "id": "QB_comm-mccqe-grief-037",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Grief response",
     "text": "A patient’s spouse died last week. They cry during the visit and say they feel lost. What is best?",
     "options": [
@@ -6386,7 +6386,7 @@
   },
   {
     "id": "QB_comm-mccqe-delirium-family-038",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Explaining delirium to family",
     "text": "A family says their hospitalized parent suddenly became confused and asks if this is dementia. What is best?",
     "options": [
@@ -6401,7 +6401,7 @@
   },
   {
     "id": "QB_comm-mccqe-dementia-driving-039",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Dementia and driving discussion",
     "text": "A patient with dementia becomes angry when told driving safety must be addressed. What is best?",
     "options": [
@@ -6416,7 +6416,7 @@
   },
   {
     "id": "QB_comm-mccqe-elder-abuse-040",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Elder abuse communication",
     "text": "An older patient appears fearful of a caregiver and has unexplained bruises. What is best?",
     "options": [
@@ -6431,7 +6431,7 @@
   },
   {
     "id": "QB_comm-mccqe-disability-form-041",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Disability form communication",
     "text": "A patient demands that you write they are permanently unable to work, but your assessment does not support this. What is best?",
     "options": [
@@ -6446,7 +6446,7 @@
   },
   {
     "id": "QB_comm-mccqe-test-result-phone-042",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Communicating sensitive results",
     "text": "A patient asks for HIV results by voicemail on a shared family phone. What is best?",
     "options": [
@@ -6461,7 +6461,7 @@
   },
   {
     "id": "QB_comm-mccqe-virtual-care-043",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Virtual care communication",
     "text": "During a video visit, the patient is in a car with other people present and wants to discuss STI symptoms. What is best?",
     "options": [
@@ -6476,7 +6476,7 @@
   },
   {
     "id": "QB_comm-mccqe-cost-conversation-044",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Medication cost conversation",
     "text": "A patient with diabetes is not taking medication because it is too expensive and feels embarrassed. What is best?",
     "options": [
@@ -6491,7 +6491,7 @@
   },
   {
     "id": "QB_comm-mccqe-health-literacy-045",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Health literacy",
     "text": "A patient with heart failure cannot describe how to adjust diuretics and has been readmitted twice. What is best?",
     "options": [
@@ -6506,7 +6506,7 @@
   },
   {
     "id": "QB_comm-mccqe-numeracy-046",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Numeracy and risk",
     "text": "A patient says a 30% relative risk reduction sounds huge. What is best?",
     "options": [
@@ -6521,7 +6521,7 @@
   },
   {
     "id": "QB_comm-mccqe-patient-online-info-047",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Patient brings online information",
     "text": "A patient brings printed online information about a supplement and asks your opinion. What is best?",
     "options": [
@@ -6536,7 +6536,7 @@
   },
   {
     "id": "QB_comm-mccqe-ai-info-048",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "AI-generated answer",
     "text": "A patient brings an AI-generated diagnosis and says it proves they need antibiotics. What is best?",
     "options": [
@@ -6551,7 +6551,7 @@
   },
   {
     "id": "QB_comm-mccqe-team-conflict-049",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Interprofessional conflict",
     "text": "A nurse raises concern that a medication order seems unsafe. What is the best response?",
     "options": [
@@ -6566,7 +6566,7 @@
   },
   {
     "id": "QB_comm-mccqe-handoff-050",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Handoff communication",
     "text": "You are handing over a patient with sepsis risk to the night team. What is best?",
     "options": [
@@ -6581,7 +6581,7 @@
   },
   {
     "id": "QB_comm-mccqe-lab-followup-051",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Follow-up of results",
     "text": "A patient’s abnormal potassium result returns after the visit. What communication plan is best?",
     "options": [
@@ -6596,7 +6596,7 @@
   },
   {
     "id": "QB_comm-mccqe-referral-expectations-052",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Referral expectations",
     "text": "A patient is angry that a specialist appointment will take months. What is best?",
     "options": [
@@ -6611,7 +6611,7 @@
   },
   {
     "id": "QB_comm-mccqe-minor-ailment-redflags-053",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Minor ailment red flags",
     "text": "A patient asks for treatment for a minor ailment, but the history includes red flags. What is best communication?",
     "options": [
@@ -6626,7 +6626,7 @@
   },
   {
     "id": "QB_comm-mccqe-pregnancy-screening-054",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Prenatal screening choice",
     "text": "A pregnant patient asks whether they must do prenatal genetic screening. What is best?",
     "options": [
@@ -6641,7 +6641,7 @@
   },
   {
     "id": "QB_comm-mccqe-miscarriage-language-055",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Pregnancy loss language",
     "text": "A patient has an early pregnancy loss and asks if it was caused by something they did. What is best?",
     "options": [
@@ -6656,7 +6656,7 @@
   },
   {
     "id": "QB_comm-mccqe-contraception-values-056",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Contraception counselling",
     "text": "A patient asks for contraception but worries about side effects and future fertility. What is best?",
     "options": [
@@ -6671,7 +6671,7 @@
   },
   {
     "id": "QB_comm-mccqe-sti-partner-notification-057",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "STI partner notification",
     "text": "A patient with gonorrhea is embarrassed and refuses to tell partners. What is best?",
     "options": [
@@ -6686,7 +6686,7 @@
   },
   {
     "id": "QB_comm-mccqe-eating-disorder-058",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Eating disorder communication",
     "text": "A teen with weight loss says, \"Do not tell my parents.\" Vitals are concerning. What is best?",
     "options": [
@@ -6701,7 +6701,7 @@
   },
   {
     "id": "QB_comm-mccqe-psychosis-059",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Psychosis communication",
     "text": "A patient with persecutory delusions says cameras are watching them. What is best?",
     "options": [
@@ -6716,7 +6716,7 @@
   },
   {
     "id": "QB_comm-mccqe-manic-patient-060",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Mania and limit setting",
     "text": "A manic patient speaks rapidly, interrupts, and tries to leave before risk assessment. What is best?",
     "options": [
@@ -6731,7 +6731,7 @@
   },
   {
     "id": "QB_psych-mdd-discontinuation-counselling-004",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Counselling about antidepressant tapering",
     "text": "A patient says, “I do not want to be dependent on antidepressants. I want to quit today.” Which response is best?",
     "options": [
@@ -6746,7 +6746,7 @@
   },
   {
     "id": "QB_comm-complete-angry-wait-001",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Angry patient after long wait",
     "text": "A patient says, “This clinic does not care. I waited two hours and nobody listened.” Vitals are stable. What is the best first response?",
     "options": [
@@ -6761,7 +6761,7 @@
   },
   {
     "id": "QB_comm-complete-antibiotic-demand-002",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Refusing unnecessary antibiotics",
     "text": "A patient with viral upper respiratory symptoms insists on antibiotics because they have a job interview in two days. What is the best response?",
     "options": [
@@ -6776,7 +6776,7 @@
   },
   {
     "id": "QB_comm-complete-opioid-request-003",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Opioid refill request with safety concern",
     "text": "A patient becomes upset when an early opioid refill is declined. What is the best communication approach?",
     "options": [
@@ -6791,7 +6791,7 @@
   },
   {
     "id": "QB_comm-complete-bad-news-004",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Warning shot before bad news",
     "text": "A CT scan strongly suggests metastatic cancer. The patient asks, “Is it bad?” What should the physician say next?",
     "options": [
@@ -6806,7 +6806,7 @@
   },
   {
     "id": "QB_comm-complete-family-blocks-news-005",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Family asks to hide diagnosis",
     "text": "Family members ask the physician not to tell a capable patient about a new cancer diagnosis. The patient previously said they want all information. What is best?",
     "options": [
@@ -6821,7 +6821,7 @@
   },
   {
     "id": "QB_comm-complete-interpreter-consent-006",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Interpreter for consent",
     "text": "A patient with limited English nods during a surgical consent discussion while the adult child translates. What is the safest next step?",
     "options": [
@@ -6836,7 +6836,7 @@
   },
   {
     "id": "QB_comm-complete-teach-back-007",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Teach-back for medication safety",
     "text": "An older patient starts insulin and says the instructions are clear, but looks confused. What should the clinician say?",
     "options": [
@@ -6851,7 +6851,7 @@
   },
   {
     "id": "QB_comm-complete-sexual-assault-008",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Sexual assault disclosure",
     "text": "A patient says they were sexually assaulted last night and begins crying. What is the best first response?",
     "options": [
@@ -6866,7 +6866,7 @@
   },
   {
     "id": "QB_comm-complete-ipv-009",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Intimate partner violence safety",
     "text": "A patient discloses partner violence but says they are not ready to leave. What is the best response?",
     "options": [
@@ -6881,7 +6881,7 @@
   },
   {
     "id": "QB_comm-complete-suicide-010",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Direct suicide question",
     "text": "A depressed patient says, “Everyone would be better without me.” What should the physician ask?",
     "options": [
@@ -6896,7 +6896,7 @@
   },
   {
     "id": "QB_comm-complete-medical-error-011",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Disclosure after medication error",
     "text": "A patient was given the wrong medication dose but is now clinically stable. What is the best communication step?",
     "options": [
@@ -6911,7 +6911,7 @@
   },
   {
     "id": "QB_comm-complete-uncertain-error-cause-012",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Uncertain cause after adverse event",
     "text": "The team knows harm occurred, but the cause is still under review. What should be said?",
     "options": [
@@ -6926,7 +6926,7 @@
   },
   {
     "id": "QB_comm-complete-ai-result-013",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Patient brings AI diagnosis",
     "text": "A patient brings an AI-generated report saying they likely have cancer and demands urgent full-body MRI. What is best?",
     "options": [
@@ -6941,7 +6941,7 @@
   },
   {
     "id": "QB_comm-complete-low-value-imaging-014",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Low back pain imaging request",
     "text": "A patient with acute mechanical low back pain and no red flags asks for MRI. What is the best explanation?",
     "options": [
@@ -6956,7 +6956,7 @@
   },
   {
     "id": "QB_comm-complete-vaccine-hesitancy-015",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Vaccine hesitancy",
     "text": "A parent is worried vaccines may overwhelm the immune system. What is the best response?",
     "options": [
@@ -6971,7 +6971,7 @@
   },
   {
     "id": "QB_comm-complete-smoking-016",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Smoking cessation readiness",
     "text": "A patient with COPD smokes daily and says they are not ready to quit. What is the best response?",
     "options": [
@@ -6986,7 +6986,7 @@
   },
   {
     "id": "QB_comm-complete-capacity-support-017",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Communication support before capacity judgment",
     "text": "A patient with aphasia appears unable to answer complex questions about treatment. What is the best next step?",
     "options": [
@@ -7001,7 +7001,7 @@
   },
   {
     "id": "QB_comm-complete-adolescent-confidentiality-018",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Adolescent asks for confidentiality",
     "text": "A 15-year-old asks for contraception and does not want parents told. What should the physician explain first?",
     "options": [
@@ -7016,7 +7016,7 @@
   },
   {
     "id": "QB_comm-complete-sdm-screening-019",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Shared decision-making for screening",
     "text": "A patient is unsure about a screening test with modest benefit and possible false positives. What is best?",
     "options": [
@@ -7031,7 +7031,7 @@
   },
   {
     "id": "QB_comm-complete-end-of-life-020",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Goals of care discussion",
     "text": "A patient with advanced illness asks, “Am I dying?” What is the best response?",
     "options": [
@@ -7046,7 +7046,7 @@
   },
   {
     "id": "QB_comm-complete-dementia-driving-021",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Driving safety conversation",
     "text": "A patient with cognitive decline becomes angry when driving risk is raised. What is best?",
     "options": [
@@ -7061,7 +7061,7 @@
   },
   {
     "id": "QB_comm-complete-medication-side-effect-022",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Medication adverse effect counselling",
     "text": "A patient stopped an antidepressant suddenly because of nausea and now has dizziness and electric-shock sensations. What is best?",
     "options": [
@@ -7076,7 +7076,7 @@
   },
   {
     "id": "QB_comm-complete-doorknob-concern-023",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Late visit concern",
     "text": "At the end of a visit, a patient says, “One more thing, I had chest pressure yesterday.” What is best?",
     "options": [
@@ -7091,7 +7091,7 @@
   },
   {
     "id": "QB_comm-complete-cultural-safety-024",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Cultural safety",
     "text": "An Indigenous patient says they avoid the hospital because of prior racist treatment. What is the best response?",
     "options": [
@@ -7106,7 +7106,7 @@
   },
   {
     "id": "QB_comm-complete-cost-barrier-025",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Cost barrier to medication",
     "text": "A patient says they cannot afford the prescribed medication. What is the best response?",
     "options": [
@@ -7121,7 +7121,7 @@
   },
   {
     "id": "QB_comm-complete-patient-requests-note-026",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Medical certificate request",
     "text": "A patient asks for a work note stating they were unable to work for a month, but you only assessed them today. What is best?",
     "options": [
@@ -7136,7 +7136,7 @@
   },
   {
     "id": "QB_comm-complete-sensitive-exam-027",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Consent for sensitive examination",
     "text": "Before a pelvic examination, what is the best communication step?",
     "options": [
@@ -7151,7 +7151,7 @@
   },
   {
     "id": "QB_comm-complete-mental-health-stigma-028",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Stigma in substance use",
     "text": "A patient with opioid use disorder misses appointments and asks for help. What is best?",
     "options": [
@@ -7166,7 +7166,7 @@
   },
   {
     "id": "QB_comm-complete-lab-result-anxiety-029",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Anxious patient about borderline lab",
     "text": "A patient is anxious about a mildly abnormal lab result with low clinical concern. What is best?",
     "options": [
@@ -7181,7 +7181,7 @@
   },
   {
     "id": "QB_comm-complete-safety-netting-030",
-    "cat": "Communication",
+    "cat": "Ethics & Legal",
     "sub": "Safety-netting after discharge",
     "text": "A child with likely viral gastroenteritis is well hydrated and going home. What instruction is best?",
     "options": [
@@ -7196,7 +7196,7 @@
   },
   {
     "id": "QB_verified-recall-disclosure-006",
-    "cat": "Ethics, Law & Communication",
+    "cat": "Ethics & Legal",
     "sub": "Disclosure after a harmful medication error",
     "text": "A hospitalized patient receives ten times the intended haloperidol dose because of a medication error and later falls, sustaining a hip fracture. What is the physician's most appropriate communication duty?",
     "options": [

@@ -29,7 +29,7 @@
   },
   {
     "id": "MCC001",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Airway",
     "text": "A 45-year-old obese male... 3-3-2 rule. What does the \"2\" evaluate?",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "id": "MCC011",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Disclosure",
     "text": "Surgeon performs elective cholecystectomy. Minor liver laceration repaired without harm. Disclosure obligation?",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "id": "B5-001A",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Pediatrics",
     "text": "6yo in hemorrhagic shock. Jehovah's Witness parents refuse transfusion. Next step?",
     "options": [
@@ -71,7 +71,7 @@
   },
   {
     "id": "B5-001B",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Pediatrics",
     "text": "A 6-year-old child is brought to the emergency department in hemorrhagic shock following a severe motor vehicle collision. The trauma team determines that an immediate, life-saving blood transfusion is required. The child's parents, who are devout Jehovah's Witnesses, firmly refuse the blood transfusion on religious grounds. According to Canadian medical ethics and legal standards, what is the most appropriate next step for the physician?",
     "options": [
@@ -85,7 +85,7 @@
   },
   {
     "id": "B5-002",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Preoperative Assessment",
     "text": "A 58-year-old male with BMI 38 kg/m² and poorly controlled hypertension is evaluated preoperatively. His wife reports loud snoring and gasping for air during sleep. Using the STOP-BANG questionnaire, what condition is this patient at highest risk for?",
     "options": [
@@ -99,7 +99,7 @@
   },
   {
     "id": "B5-003",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ECG",
     "text": "A 72-year-old male with progressive exertional dyspnea. ECG: QRS 145 msec, broad/notched R waves in leads I, aVL, V5, V6, and deep S waves in V1-V2. No Q waves in lateral leads. What is the correct interpretation?",
     "options": [
@@ -113,7 +113,7 @@
   },
   {
     "id": "B5-004",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Reproductive Rights",
     "text": "A 26-year-old pregnant patient (14 weeks) with IV substance use disorder is admitted with infective endocarditis. She frequently leaves AMA to use illicit substances. Can she be legally detained to protect the fetus?",
     "options": [
@@ -127,7 +127,7 @@
   },
   {
     "id": "B5-005",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Induction Agents",
     "text": "A 30-year-old male requires emergency laparotomy after stab wound. BP 75/40 mmHg (hypovolemic shock) with severe active asthma. Which IV induction agent is most appropriate for RSI?",
     "options": [
@@ -141,7 +141,7 @@
   },
   {
     "id": "B5-006",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ACLS",
     "text": "A 65-year-old collapses in telemetry unit. Unresponsive, no pulse. Monitor shows Ventricular Fibrillation (VF). CPR initiated. According to ACLS guidelines, what is the most critical immediate next step?",
     "options": [
@@ -155,7 +155,7 @@
   },
   {
     "id": "B5-007",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Regional Block Complications",
     "text": "A 35-year-old female receives spinal anesthetic for C-section. 10 minutes later: nausea, dyspnea, BP 80/45, HR 45. Sensory block at T2 level. Primary pathophysiological mechanism?",
     "options": [
@@ -169,7 +169,7 @@
   },
   {
     "id": "B5-008",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "MAID",
     "text": "A 75-year-old competent male with terminal pancreatic cancer requests MAID. Unbearable pain not relieved by palliative care. Meets all criteria. Under Canadian legislation, how many independent medical assessments are required?",
     "options": [
@@ -183,7 +183,7 @@
   },
   {
     "id": "B5-009",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ECG Electrolytes",
     "text": "A 45-year-old female with anorexia nervosa and chronic diarrhea has muscle cramps and palpitations. ECG: QTc 540 msec with normal T waves. Which electrolyte abnormality is most likely?",
     "options": [
@@ -197,7 +197,7 @@
   },
   {
     "id": "B5-010",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Fluid Management",
     "text": "A 70 kg adult patient requires maintenance IV fluids during lengthy elective surgery (NPO). Using the 4-2-1 rule, what is the correct hourly infusion rate?",
     "options": [
@@ -211,7 +211,7 @@
   },
   {
     "id": "B6-001",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ACLS Bradycardia",
     "text": "A 65-year-old male presents confused, diaphoretic, BP 80/50 mmHg. Cardiac monitor shows sinus bradycardia at 35 bpm. According to ACLS guidelines, what is the most appropriate first-line pharmacological intervention?",
     "options": [
@@ -225,7 +225,7 @@
   },
   {
     "id": "B6-002",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Indigenous Health",
     "text": "A First Nations child on a reserve requires a specialized medical device for a chronic condition. Jurisdictional dispute between provincial and federal governments threatens to delay the child's care. Which legal obligation mandates prompt equitable access to the device while the payment dispute is resolved later?",
     "options": [
@@ -239,7 +239,7 @@
   },
   {
     "id": "B6-003",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ACLS Non-Shockable",
     "text": "A 55-year-old ICU patient becomes unresponsive. Monitor shows asystole (flat line). No palpable pulse. High-quality CPR initiated. According to ACLS Adult Cardiac Arrest Algorithm, what is the most appropriate next step?",
     "options": [
@@ -253,7 +253,7 @@
   },
   {
     "id": "B6-004",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "PONV Risk Factors",
     "text": "A 40-year-old female scheduled for elective laparoscopic cholecystectomy. The anesthesiologist evaluates her PONV risk. Which combination represents recognized independent clinical risk factors for PONV?",
     "options": [
@@ -267,7 +267,7 @@
   },
   {
     "id": "B6-005",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "STEMI Lateral",
     "text": "A 58-year-old male with acute severe retrosternal chest pain. ECG: ST elevation in leads I, aVL, V5, V6 with reciprocal ST depression in inferior leads. Which coronary artery territory is most likely involved?",
     "options": [
@@ -281,7 +281,7 @@
   },
   {
     "id": "B6-006",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Consent and Capacity",
     "text": "A 72-year-old male with severe COPD exacerbation requires intubation to survive. Full capacity assessment confirms he understands his condition and that refusal means death. He firmly refuses intubation. Most appropriate action?",
     "options": [
@@ -295,7 +295,7 @@
   },
   {
     "id": "B6-007",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "Mallampati",
     "text": "During preoperative airway assessment, patient opens mouth maximally and protrudes tongue. Anesthesiologist can visualize hard palate and base of uvula only. Tonsillar pillars entirely obscured. What is the Mallampati classification?",
     "options": [
@@ -309,7 +309,7 @@
   },
   {
     "id": "B6-008",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ACLS SVT",
     "text": "A 32-year-old female with sudden palpitations and lightheadedness. BP stable 120/80 mmHg. Monitor: regular narrow-complex tachycardia at 180 bpm. Vagal maneuvers failed. According to ACLS, what is the most appropriate next pharmacological intervention?",
     "options": [
@@ -323,7 +323,7 @@
   },
   {
     "id": "B6-009",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Physician-Industry Relations",
     "text": "A family physician is invited to a pharmaceutical company-sponsored 'lunch and learn' about a new antihypertensive. The company offers to pay travel expenses and provides a free lunch. According to Canadian ethical guidelines, what is the most appropriate action?",
     "options": [
@@ -337,7 +337,7 @@
   },
   {
     "id": "B6-010",
-    "cat": "Anesthesiology",
+    "cat": "Surgery",
     "sub": "PDPH",
     "text": "A 29-year-old postpartum patient who received epidural for labor analgesia reports severe headache on day 2. Headache worsens significantly when sitting/standing and almost completely resolves when lying flat. Most likely diagnosis?",
     "options": [
@@ -351,7 +351,7 @@
   },
   {
     "id": "B7-001",
-    "cat": "Biostatistics",
+    "cat": "Population & Prevention",
     "sub": "P-Value",
     "text": "In a randomized controlled trial, the case fatality rate was lower in patients who received a drug. The result reported P = 0.05. What does this mean?",
     "options": [
@@ -365,7 +365,7 @@
   },
   {
     "id": "B7-002",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Rheumatology",
     "text": "A 25-year-old man presents with 2 months of knee swelling and pain, plus 2 years of low back pain and morning stiffness. Which investigation would most likely confirm the diagnosis?",
     "options": [
@@ -379,7 +379,7 @@
   },
   {
     "id": "B7-003",
-    "cat": "Emergency",
+    "cat": "Emergency Medicine",
     "sub": "Toxicology",
     "text": "A woman is found unconscious in her car in a closed garage. Her PaO2 is normal, but pulse oximetry shows low oxygen saturation. What explains this discrepancy?",
     "options": [
@@ -393,7 +393,7 @@
   },
   {
     "id": "B7-004",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Urology",
     "text": "A 77-year-old man reports urinary frequency, nocturia, and feeling that his bladder is always full, with leakage of urine day and night. What is the most likely diagnosis?",
     "options": [
@@ -421,7 +421,7 @@
   },
   {
     "id": "B7-006",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Confidentiality",
     "text": "A woman reports physical abuse by her husband. A police officer requests medical information for the investigation. What is the best next step?",
     "options": [
@@ -435,7 +435,7 @@
   },
   {
     "id": "B7-007",
-    "cat": "OBGYN",
+    "cat": "Obstetrics & Gynecology",
     "sub": "Prenatal Care",
     "text": "A pregnant woman with BMI 58 asks how much weight she should gain during pregnancy. What is the best advice?",
     "options": [
@@ -491,7 +491,7 @@
   },
   {
     "id": "B7-011",
-    "cat": "Emergency",
+    "cat": "Emergency Medicine",
     "sub": "Anaphylaxis",
     "text": "A patient receives a penicillin injection and 30 minutes later develops: BP 70/30, HR 130, wheezing, and flushed skin. What is the most appropriate treatment?",
     "options": [
@@ -505,7 +505,7 @@
   },
   {
     "id": "B8-001",
-    "cat": "Biostatistics",
+    "cat": "Population & Prevention",
     "sub": "P-Value",
     "text": "In a randomized controlled trial evaluating a new drug, the mortality rate in the treated group is lower than in the control group. The result is reported as P = 0.05. What does this indicate?",
     "options": [
@@ -519,7 +519,7 @@
   },
   {
     "id": "B8-002",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Rheumatology",
     "text": "A 25-year-old man presents with knee swelling and pain for 2 months plus chronic back pain and morning stiffness for 2 years. Which investigation confirms the diagnosis?",
     "options": [
@@ -533,7 +533,7 @@
   },
   {
     "id": "B8-003",
-    "cat": "Emergency",
+    "cat": "Emergency Medicine",
     "sub": "Toxicology",
     "text": "A patient is found unconscious in a car inside a closed garage. Arterial oxygen pressure (PaO2) is normal, but pulse oximetry shows low oxygen saturation. Most likely cause?",
     "options": [
@@ -547,7 +547,7 @@
   },
   {
     "id": "B8-004",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Urology",
     "text": "A 77-year-old man reports urinary frequency, nocturia, persistent bladder fullness with leakage. Most likely diagnosis?",
     "options": [
@@ -575,7 +575,7 @@
   },
   {
     "id": "B8-006",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Confidentiality",
     "text": "A woman reports physical abuse by her partner. Police request medical records. What is the best next step?",
     "options": [
@@ -589,7 +589,7 @@
   },
   {
     "id": "B8-007",
-    "cat": "OBGYN",
+    "cat": "Obstetrics & Gynecology",
     "sub": "Prenatal Care",
     "text": "A pregnant woman with BMI 58 asks about recommended weight gain during pregnancy. What is the best recommendation?",
     "options": [
@@ -673,7 +673,7 @@
   },
   {
     "id": "B8-013",
-    "cat": "Emergency",
+    "cat": "Emergency Medicine",
     "sub": "Anaphylaxis",
     "text": "A patient develops hypotension, wheezing, and rash after penicillin injection. Best treatment?",
     "options": [
@@ -687,7 +687,7 @@
   },
   {
     "id": "B8-014",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Pulmonology",
     "text": "A patient with severe pancreatitis develops dyspnea and dullness to percussion on the left chest. Most likely diagnosis?",
     "options": [
@@ -701,7 +701,7 @@
   },
   {
     "id": "B8-015",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Nephrology",
     "text": "A trauma patient develops elevated creatinine after a crush injury. Most likely cause?",
     "options": [
@@ -729,7 +729,7 @@
   },
   {
     "id": "B8-017",
-    "cat": "OBGYN",
+    "cat": "Obstetrics & Gynecology",
     "sub": "Preeclampsia",
     "text": "A pregnant woman with hypertension, proteinuria, headache, and epigastric pain presents at 38 weeks. Which test should be included in evaluation for HELLP syndrome?",
     "options": [
@@ -771,7 +771,7 @@
   },
   {
     "id": "B8-020",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "End of Life",
     "text": "A patient with ALS has severe pain not controlled by other treatments. Morphine is prescribed. The patient later dies. What is this considered?",
     "options": [
@@ -813,7 +813,7 @@
   },
   {
     "id": "B9-023",
-    "cat": "Biostatistics",
+    "cat": "Population & Prevention",
     "sub": "Study Types",
     "text": "A physician studies dermatitis cases among factory workers using workplace records. What type of study is this?",
     "options": [
@@ -841,7 +841,7 @@
   },
   {
     "id": "B9-025",
-    "cat": "OBGYN",
+    "cat": "Obstetrics & Gynecology",
     "sub": "Obstetric Emergency",
     "text": "A pregnant woman at 30 weeks presents with vaginal bleeding and severe back pain. Best initial step?",
     "options": [
@@ -5055,7 +5055,7 @@
   },
   {
     "id": "NEU-001",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Stroke",
     "text": "A 68-year-old man with atrial fibrillation presents with sudden left-sided weakness and facial droop. Onset 2 hours ago. CT head: no hemorrhage. BP 160/90. Most appropriate next step?",
     "options": [
@@ -5069,7 +5069,7 @@
   },
   {
     "id": "NEU-002",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Stroke",
     "text": "A 72-year-old woman develops sudden onset severe headache described as 'worst headache of my life'. No focal deficits. CT head is negative. Most appropriate next step?",
     "options": [
@@ -5083,7 +5083,7 @@
   },
   {
     "id": "NEU-003",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Seizures",
     "text": "A 25-year-old woman is brought in actively seizing for 8 minutes. IV access obtained. First-line treatment?",
     "options": [
@@ -5097,7 +5097,7 @@
   },
   {
     "id": "NEU-004",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Headache",
     "text": "A 35-year-old woman has recurrent unilateral throbbing headaches with photophobia, phonophobia, and nausea lasting 4–72 hours. Best acute treatment?",
     "options": [
@@ -5111,7 +5111,7 @@
   },
   {
     "id": "NEU-005",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Meningitis",
     "text": "A 19-year-old university student presents with fever, neck stiffness, and photophobia. CSF: cloudy, WBC 3000 (neutrophils), protein elevated, glucose low. Most likely organism?",
     "options": [
@@ -5125,7 +5125,7 @@
   },
   {
     "id": "NEU-006",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "TIA",
     "text": "A 65-year-old man had sudden right arm weakness and slurred speech lasting 20 minutes, now fully resolved. ABCD2 score is 6. Best management?",
     "options": [
@@ -5139,7 +5139,7 @@
   },
   {
     "id": "NEU-007",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Multiple Sclerosis",
     "text": "A 28-year-old woman has two episodes of neurological symptoms separated in time and space: optic neuritis 6 months ago and now leg weakness. MRI: multiple periventricular white matter lesions. Diagnosis?",
     "options": [
@@ -5153,7 +5153,7 @@
   },
   {
     "id": "NEU-008",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Parkinson",
     "text": "A 65-year-old man has resting tremor, bradykinesia, cogwheel rigidity, and shuffling gait. First-line treatment?",
     "options": [
@@ -5167,7 +5167,7 @@
   },
   {
     "id": "ENDO-001",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Diabetes",
     "text": "A 22-year-old type 1 diabetic presents with nausea, vomiting, Kussmaul breathing, and fruity breath. Blood glucose 28 mmol/L, pH 7.1, bicarbonate 10, ketones +++. Most critical initial step?",
     "options": [
@@ -5181,7 +5181,7 @@
   },
   {
     "id": "ENDO-002",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Diabetes",
     "text": "A 55-year-old woman with Type 2 diabetes has HbA1c of 8.5%. She has CKD stage 3 (eGFR 38). Which medication is most appropriate?",
     "options": [
@@ -5195,7 +5195,7 @@
   },
   {
     "id": "ENDO-003",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Thyroid",
     "text": "A 45-year-old woman presents with fatigue, weight gain, cold intolerance, constipation, and dry skin. TSH 12 mIU/L, free T4 low. Diagnosis and treatment?",
     "options": [
@@ -5209,7 +5209,7 @@
   },
   {
     "id": "ENDO-004",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Thyroid",
     "text": "A 32-year-old woman presents with palpitations, weight loss, heat intolerance, tremor, and exophthalmos. TSH undetectable, T4 elevated. Most appropriate first-line treatment?",
     "options": [
@@ -5223,7 +5223,7 @@
   },
   {
     "id": "ENDO-005",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Thyroid",
     "text": "A 55-year-old woman with known Graves' disease develops fever 40°C, HR 145, hypertension, agitation, and confusion after surgery. Most likely diagnosis?",
     "options": [
@@ -5237,7 +5237,7 @@
   },
   {
     "id": "ENDO-006",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Adrenal",
     "text": "A 35-year-old woman on long-term prednisone suddenly stops her medication. She presents with hypotension, hyponatremia, hyperkalemia, and hypoglycemia. Most likely diagnosis?",
     "options": [
@@ -5251,7 +5251,7 @@
   },
   {
     "id": "ENDO-007",
-    "cat": "Endocrinology",
+    "cat": "Internal Medicine",
     "sub": "Diabetes",
     "text": "Screening criteria for Type 2 diabetes in Canada. Which patient should be screened?",
     "options": [
@@ -5262,11 +5262,10 @@
     ],
     "correct": 1,
     "rationale": "Canadian Diabetes Association: screen every 3 years starting age 40, OR earlier if risk factors present: obesity (BMI≥25), hypertension, dyslipidemia, family history, Indigenous/South Asian/African ethnicity, gestational DM history, or prediabetes."
-  }
-,
+  },
   {
     "id": "ID-001",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "Sepsis",
     "text": "A 70-year-old nursing home patient: HR 118, RR 24, temp 38.8°C, BP 88/52 not responding to 2L fluids, lactate 4.2 mmol/L. Diagnosis and next step?",
     "options": [
@@ -5280,7 +5279,7 @@
   },
   {
     "id": "ID-002",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "Pneumonia",
     "text": "A 65-year-old man presents with fever, productive cough, lobar consolidation on CXR, and confusion. PSI score high-risk. Most appropriate management?",
     "options": [
@@ -5294,7 +5293,7 @@
   },
   {
     "id": "ID-003",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "HIV",
     "text": "A 30-year-old man presents with fever, night sweats, and lymphadenopathy 3 weeks after unprotected sex. HIV Ag/Ab 4th generation test is positive. Next step?",
     "options": [
@@ -5308,7 +5307,7 @@
   },
   {
     "id": "ID-004",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "Tuberculosis",
     "text": "A recent immigrant from a high-prevalence country has latent TB (positive IGRA, negative CXR, asymptomatic). Best management per Canadian TB Standards?",
     "options": [
@@ -5322,7 +5321,7 @@
   },
   {
     "id": "ID-005",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "STI",
     "text": "A 22-year-old sexually active woman has vaginal discharge and cervical motion tenderness on exam. No peritoneal signs. Most likely diagnosis and treatment?",
     "options": [
@@ -5336,7 +5335,7 @@
   },
   {
     "id": "ID-006",
-    "cat": "Infectious Disease",
+    "cat": "Internal Medicine",
     "sub": "UTI",
     "text": "A 28-year-old non-pregnant woman has dysuria, frequency, and urgency. Urinalysis: positive nitrites, WBC 20/hpf. No fever or flank pain. Best treatment?",
     "options": [
@@ -5347,11 +5346,10 @@
     ],
     "correct": 1,
     "rationale": "Uncomplicated UTI in non-pregnant women: nitrofurantoin is first-line (AMMI Canada guidelines). Avoids fluoroquinolone resistance. TMP-SMX second-line if susceptibility known. Ciprofloxacin reserved for complicated UTI or pyelonephritis."
-  }
-,
+  },
   {
     "id": "PREV-001",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Cancer Screening",
     "text": "A 52-year-old average-risk woman asks about colorectal cancer screening. According to Canadian Task Force guidelines, what is the recommended approach?",
     "options": [
@@ -5365,7 +5363,7 @@
   },
   {
     "id": "PREV-002",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Cancer Screening",
     "text": "A 48-year-old woman asks about cervical cancer screening in Ontario. What is the current recommendation?",
     "options": [
@@ -5379,7 +5377,7 @@
   },
   {
     "id": "PREV-003",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Cancer Screening",
     "text": "A 52-year-old woman with average risk asks about breast cancer screening. Canadian Task Force recommendation?",
     "options": [
@@ -5393,7 +5391,7 @@
   },
   {
     "id": "PREV-004",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Immunization",
     "text": "A 65-year-old healthy Canadian asks what vaccines are recommended. Which is most important for his age group?",
     "options": [
@@ -5407,7 +5405,7 @@
   },
   {
     "id": "PREV-005",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Hypertension Screening",
     "text": "A 45-year-old man has office BP of 148/94 on two visits. No target organ damage. According to Hypertension Canada 2023, what is the threshold for diagnosis and treatment initiation?",
     "options": [
@@ -5421,7 +5419,7 @@
   },
   {
     "id": "PREV-006",
-    "cat": "Preventive Medicine",
+    "cat": "Population & Prevention",
     "sub": "Lipid Screening",
     "text": "According to Canadian Cardiovascular Society (CCS) 2021, who should be screened for dyslipidemia?",
     "options": [
@@ -5432,11 +5430,10 @@
     ],
     "correct": 1,
     "rationale": "CCS 2021: Screen men ≥40, women ≥50 or postmenopausal. Screen earlier with: diabetes, hypertension, smoking, family history premature CVD, inflammatory disease, CKD, HIV. Use FRS or PCE for 10-year CV risk calculation."
-  }
-,
+  },
   {
     "id": "HEM-001",
-    "cat": "Hematology",
+    "cat": "Internal Medicine",
     "sub": "Anemia",
     "text": "A 35-year-old woman has fatigue, pallor, MCV 68 fL, serum ferritin 6 ng/mL, low iron, high TIBC. Most appropriate treatment?",
     "options": [
@@ -5450,7 +5447,7 @@
   },
   {
     "id": "HEM-002",
-    "cat": "Hematology",
+    "cat": "Internal Medicine",
     "sub": "DVT/PE",
     "text": "A 55-year-old woman, 1 week post-knee surgery, presents with sudden dyspnea, pleuritic chest pain, and hypoxia. Most appropriate diagnostic step?",
     "options": [
@@ -5464,7 +5461,7 @@
   },
   {
     "id": "HEM-003",
-    "cat": "Hematology",
+    "cat": "Internal Medicine",
     "sub": "Thrombocytopenia",
     "text": "A patient on heparin day 8 develops new thrombosis and platelet count drops from 230 to 75 × 10⁹/L. Most likely diagnosis?",
     "options": [
@@ -5476,6 +5473,4 @@
     "correct": 2,
     "rationale": "HIT: platelet drop >50% on days 5-14 of heparin + new thrombosis = 4T score. STOP all heparin (including flushes). Switch to direct thrombin inhibitor (argatroban) or fondaparinux. Never use warfarin acutely. Confirm with anti-PF4 antibody test."
   }
-
-
 ]

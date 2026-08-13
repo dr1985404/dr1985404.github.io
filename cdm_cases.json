@@ -34,7 +34,7 @@
   },
   {
     "id": "CDM_004",
-    "cat": "Obstetrics",
+    "cat": "Obstetrics & Gynecology",
     "sub": "Pregnancy Complications",
     "title": "🤰 Case: Third Trimester Bleeding",
     "content": "<b>Scenario:</b> A 34-year-old G3P2 at 32 weeks gestation presents with sudden, painless, bright red vaginal bleeding. She denies trauma or contractions. Fetal heart rate is 140 bpm and reactive.<br><br><b>Decision Pathway:</b><br>1. <b>Stabilization:</b> Large-bore IV access, CBC, Type and Screen, Coagulation profile.<br>2. <b>Contraindication:</b> <b>DO NOT</b> perform a digital vaginal exam until placenta previa is ruled out by ultrasound.<br>3. <b>Diagnosis:</b> Transabdominal ultrasound to locate the placenta (likely Placenta Previa).<br>4. <b>Management:</b> If stable, bed rest and monitor. If unstable or fetal distress, emergent C-section. Administer Betamethasone for lung maturity if < 34 weeks.",
@@ -67,7 +67,7 @@
   },
   {
     "id": "CDM_007",
-    "cat": "Ethics",
+    "cat": "Ethics & Legal",
     "sub": "Legal",
     "title": "⚖️ Case: The Mature Minor",
     "content": "<b>Scenario:</b> A 15-year-old girl visits a walk-in clinic requesting oral contraceptives. She is sexually active and does not want her parents to know. She demonstrates a clear understanding of the risks, benefits, and alternatives.<br><br><b>Decision Pathway:</b><br>1. <b>Capacity Assessment:</b> In Canada (except Quebec), there is no fixed age of consent. Capacity is based on the 'Mature Minor' doctrine.<br>2. <b>Evaluation:</b> Does the patient understand the nature of the treatment and appreciate the consequences of choice/refusal?<br>3. <b>Action:</b> If the minor is capable, the physician should provide the treatment and maintain confidentiality.<br>4. <b>Exception:</b> Confidentiality must be breached if there is a risk of harm (e.g., child abuse/protection concerns).",
@@ -89,7 +89,7 @@
   },
   {
     "id": "CDM_009",
-    "cat": "Medicine",
+    "cat": "Internal Medicine",
     "sub": "Endocrinology",
     "title": "🩸 Case: Hyperglycemic Emergency",
     "content": "<b>Scenario:</b> A 24-year-old female with Type 1 Diabetes presents with abdominal pain, vomiting, and deep, rapid breathing (Kussmaul breathing). Her glucose is 28 mmol/L and urine shows 4+ ketones.<br><br><b>Decision Pathway:</b><br>1. <b>Diagnosis:</b> Diabetic Ketoacidosis (DKA).<br>2. <b>Immediate Action:</b> Aggressive IV fluid resuscitation (Normal Saline).<br>3. <b>Potassium Management:</b> Check K+ levels. If K+ < 3.3, replace K+ <b>before</b> starting insulin. If K+ 3.3-5.2, add K+ to fluids and start insulin.<br>4. <b>Insulin Therapy:</b> IV regular insulin infusion (0.1 units/kg/hr).<br>5. <b>Monitoring:</b> Close monitoring of Anion Gap closure and Electrolytes.",

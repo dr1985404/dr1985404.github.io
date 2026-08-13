@@ -1,7 +1,7 @@
 [
   {
     "id": "QB_qb-15411",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Post-operative Fever",
     "text": "A 56-year-old man has surgery for ruptured diverticulitis. 24 hours after the surgery, he develops fever. What is the\nmost likely cause?",
     "options": [
@@ -16,7 +16,7 @@
   },
   {
     "id": "QB_qb-16308",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Post-operative Fever",
     "text": "A 60 year old woman had an abdominal hysterectomy and salpingo-oophorectomy 3 days ago. She had an indwelling\nbladder catheter, which was removed in the recovery room. She has been voiding normally since then. She began\nambulation on the 1st postoperative day, and has been as active as possible under the circumstances, including faithful\nadherence to a prescribed program of incentive spirometry. On the evening of the 3rd postoperative day, she spikes a\nfever, with a temperature to 39.4°C (103°F). Which of the following is the most likely source of the fever?",
     "options": [
@@ -31,7 +31,7 @@
   },
   {
     "id": "QB_qb-15435",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ischemic Ulcer",
     "text": "A 45-year-old woman presents with a problem on her toe. She first noticed an ulcer under her toe a year ago that has\nprogressed to the present state. Physical exam reveals an ischemic ulcer on the second toe in a patient with critical limb\nischemia. The surrounding skin is cool to touch.\nWhat would you do next?",
     "options": [
@@ -46,7 +46,7 @@
   },
   {
     "id": "QB_qb-15441",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cholelithiasis",
     "text": "A 45-year-old female came to you for a routine medical check up. You found two stones in the gall bladder. She has no\nactive diseases and no symptoms. What would you like to do?",
     "options": [
@@ -61,7 +61,7 @@
   },
   {
     "id": "QB_qb-15453",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Mesenteric Ischemia",
     "text": "A 68 year old male suffers sudden mid abdominal pain. He is pale and diaphoretic but elicits no intensity of pain during\nabdominal palpation. What is the most likely diagnosis?",
     "options": [
@@ -76,7 +76,7 @@
   },
   {
     "id": "QB_qb-17078",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Mesenteric Ischemia",
     "text": "A 79-year-old white male presents with a 4-hour history of acute abdominal pain. He indicates that the pain is severe\nand intermittently screams with discomfort. The abdomen is soft with minimal diffuse tenderness. There is no\nabdominal guarding or localized tenderness. Bowel sounds are hypoactive and vital signs are unremarkable. There is no\npsychiatric history or history of prior abdominal surgery.\nWhich one of the following is the most likely diagnosis?",
     "options": [
@@ -91,7 +91,7 @@
   },
   {
     "id": "QB_qb-17791",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Mesenteric Ischemia",
     "text": "A 68-year-old man with a history of diabetes, hypertension and atrial fibrillation is admitted to the ER for severe\nabdominal pain. He has vomited twice in the last hour and has had one bloody stool. The patient is complaining of\nsevere pain but your exam reveals a soft abdomen. His vitals are: HR:140 bpm, BP:85/60 mmHg, RR:19 rpm, T:38.9°C.\nAn abdominal x-ray shows pneumatosis intestinalis (air in the bowel wall).\nWhich of the following would be your next best step?",
     "options": [
@@ -106,7 +106,7 @@
   },
   {
     "id": "QB_qb-17089",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Delirium",
     "text": "An 80-year-old male had knee replacement surgery this morning. You are called by the nursing staff late at night\nbecause he had climbed out of bed and was found on the floor by a nurse. He began sobbing, saying that his mother was\nhit by a freight train when he was a child.\nThe patient’s regular medications include atorvastatin (Lipitor), metoprolol (Lopressor), and hydrochlorothiazide, as\nwell as a variety of medications for knee pain. A retired banker, he now volunteers as a financial manager for several\nlocal charities. He had a negative stress test before the elective surgery. The operation was done under combined general\nand epidural anesthesia, and postoperative pain has\nbeen treated with morphine via patient-controlled analgesia.\nWhich one of the following is the most likely diagnosis?",
     "options": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "QB_qb-17905",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Delirium",
     "text": "A 72-year-old Hispanic female with moderately severe Alzheimer’s disease is hospitalized for treatment of a fracture of\nthe left humerus. The first night after admission she becomes confused and agitated.\nThe most appropriate management at this point is which one of the following?",
     "options": [
@@ -136,7 +136,7 @@
   },
   {
     "id": "QB_qb-16450",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Compartment Syndrome",
     "text": "A 38 year old male is admitted to the hospital after being found lying on the floor unconscious from a drug overdose. The next morning, he is alert and complains of constant pain in the anterior aspect of his left leg. On examination, you\nnote pain with passive stretching, pain with palpation anteriorly, and a slightly decreased dorsalis pedis pulse on the left.\nThere is no edema or erythema. Radiographs of the lower extremity are normal. Which one of the following would you\ndo now?",
     "options": [
@@ -151,7 +151,7 @@
   },
   {
     "id": "QB_qb-15492",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Clostridium infection",
     "text": "What is the most appropriate treatment of Clostridial gas gangrene?",
     "options": [
@@ -166,7 +166,7 @@
   },
   {
     "id": "QB_qb-16827",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pulmonary Embolism",
     "text": "A 62-year-old male presents for surgical clearance prior to transurethral resection of the prostate. His past history is\nsignificant for a pulmonary embolus after a cholecystectomy 15 years ago. His examination is unremarkable except that\nhe is 23 kg (50 lb) overweight.\nThe most appropriate recommendation to the urologist would be to:",
     "options": [
@@ -181,7 +181,7 @@
   },
   {
     "id": "QB_qb-17567",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pulmonary Embolism",
     "text": "A 26 year old male was brought to the Emergency Room right after he underwent a motor vehicle accident.\nHe suffered multiple traumatic fractures including a significant head trauma. He suddenly became dyspneic and\ntachypneic complaining of chest discomfort and has a syncopal episode.\nHis blood pressure dropped to 70/50 mmHg, pulse is 140/min, and respirations are 30/min. CT angiogram shows a\nmassive obstruction in the main pulmonary artery with saddle shaped extension into both pulmonary arteries. What is\nthe most appropriate line of management for this patient?",
     "options": [
@@ -196,7 +196,7 @@
   },
   {
     "id": "QB_qb-16830",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Varicocele",
     "text": "Which one of the following statements regarding varicoceles is true?",
     "options": [
@@ -211,7 +211,7 @@
   },
   {
     "id": "QB_qb-17085",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Varicocele",
     "text": "A 14-year-old male presents for a routine physical examination. During a genital examination, you note a mass over the\nleft testicle. This mass feels like a bag of worms, but resolves when you examine the patient in the supine position.\nThe most appropriate course of care would be:",
     "options": [
@@ -226,7 +226,7 @@
   },
   {
     "id": "QB_qb-16341",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Carpal Tunnel Syndrome",
     "text": "A neurosurgeon complains of a 3 week history of awakening at night with right-hand discomfort that resolves after\nseveral minutes. On examination, he has mild weakness of thumb abduction and diminished pain sensibility on the\npalmar aspect of the thumb and index finger. The most likely diagnosis is:",
     "options": [
@@ -241,7 +241,7 @@
   },
   {
     "id": "QB_qb-15610",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Splenic Rupture",
     "text": "A 35-year-old patient is rushed to the ED after an accident. When he comes in he is in hypovolemic shock. Immediate\nabdomen imaging reveals fluid in the splenorenal recess. The patient is unresponsive to initial management with fluid and blood administration. What is the most appropriate management?",
     "options": [
@@ -256,7 +256,7 @@
   },
   {
     "id": "QB_qb-16836",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Rotator Cuff Injury",
     "text": "Which one of the following is true regarding testing the rotator cuff for injury?",
     "options": [
@@ -271,7 +271,7 @@
   },
   {
     "id": "QB_qb-17658",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Rotator Cuff Injury",
     "text": "A 22-year-old professional male hockey player with no previous history of shoulder problems is injured in a fall. He has\nimmediate pain and is unable to abduct his arm. He goes to the emergency department and an MRI reveals an acute tear\nof the rotator cuff. He needs to 'get back in the game' as soon as possible.\nWhich one of the following is the best initial treatment for this injury?",
     "options": [
@@ -286,7 +286,7 @@
   },
   {
     "id": "QB_qb-15640",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tibial Nerve Injury",
     "text": "A 27 year old carpenter dropped his circular saw and severed his lower leg. Which one of the following would be\nindicative of a severed tibial nerve?",
     "options": [
@@ -301,7 +301,7 @@
   },
   {
     "id": "QB_qb-15658",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hemothorax",
     "text": "A young adult is brought to the hospital 8 hours after a motor vehicle accident. He is in shock and severe respiratory\ndistress. His upper airway is clear. Neck veins are not distended and the trachea is deviated to the right. Breath sounds\nare absent over the left chest, and the percussion note over the left chest is dull. Breath sounds are normal on the right\nside. The patient has:",
     "options": [
@@ -316,7 +316,7 @@
   },
   {
     "id": "QB_qb-17650",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hemothorax",
     "text": "A 72-year-old male slipped on a rug in his kitchen and struck his right side against a counter. He presents several days\nafter the fall with a complaint of ongoing pain in his flank. He has a history of chronic atrial fibrillation, which is treated\nwith warfarin (Coumadin). His vital signs are normal. A physical examination reveals tenderness to palpation along the\nposterior-lateral chest wall and decreased breath sounds in the right base. Radiographs reveal two fractured ribs on the\nright side and a moderately large pleural effusion in the right hemithorax. Laboratory test results include a hemoglobin\nof 10.5 mg/dL (baseline 11.0-12.0 mg/dL) and a prothrombin time of 33.5 seconds with an INR of 2.5. Which one of\nthe following would be the most appropriate management at this time?",
     "options": [
@@ -331,7 +331,7 @@
   },
   {
     "id": "QB_qb-16555",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Preoperative Evaluation",
     "text": "A 72 year old black male comes to your office for surgical clearance to undergo elective hemicolectomy for recurrent\ndiverticulitis. The patient suffered an uncomplicated acute anterior-wall myocardial infarction approximately 18 months\nago. A stress test was normal 2 months after he was discharged from the hospital. Currently, the patient feels well,\nwalks while playing nine holes of golf three times per week, and is able to walk up a flight of stairs without chest pain\nor significant dyspnea. Findings are normal on a physical examination. Which one of the following would be most\nappropriate for this patient prior to surgery?",
     "options": [
@@ -346,7 +346,7 @@
   },
   {
     "id": "QB_qb-17238",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Preoperative Evaluation",
     "text": "A 65-year-old nonsmoker is scheduled to undergo right knee replacement. His cardiac history is negative, and he takes\naspirin, 81 mg/day, to prevent cardiovascular problems. He also takes simvastatin (Zocor), 20 mg/day, for\nhypercholesterolemia, and metoprolol (Lopressor), 25 mg twice daily, for hypertension. His body mass index (BMI) is\n26 kg/m2, his heart rate is 60 beats/min, and his blood pressure is controlled.\nWhich one of the following is the best recommendation regarding metoprolol?",
     "options": [
@@ -361,7 +361,7 @@
   },
   {
     "id": "QB_qb-17836",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Preoperative Evaluation",
     "text": "A 50-year-old female with significant findings of rheumatoid arthritis presents for a preoperative evaluation for planned\nreplacement of the metacarpophalangeal joints of her right hand under general anesthesia. She generally enjoys good\nhealth and has had ongoing medical care for her illness.\nOf the following, which one would be most important for preoperative assessment of this patient’s surgical risk?",
     "options": [
@@ -376,7 +376,7 @@
   },
   {
     "id": "QB_qb-17077",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Achilles Tendon Rupture",
     "text": "Which one of the following is most typical of acute Achilles tendon rupture?",
     "options": [
@@ -391,7 +391,7 @@
   },
   {
     "id": "QB_qb-15998",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Burns",
     "text": "A 32-year-old male is admitted to the Emergency Department 1h after he sustained major fire burns to the thorax, the\nneck and the face. Aside from hypovolemic shock, the most immediate life-threatening complication to anticipate is:",
     "options": [
@@ -406,7 +406,7 @@
   },
   {
     "id": "QB_qb-16347",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hemorrhoids",
     "text": "A painful thrombosed external hemorrhoid diagnosed within the first 24 hours after occurrence is ideally treated by:",
     "options": [
@@ -421,7 +421,7 @@
   },
   {
     "id": "QB_qb-17182",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hemorrhoids",
     "text": "Which one of the following would be the best treatment option for prolapse of a fourth degree hemorrhoid that cannot\nbe reduced?",
     "options": [
@@ -436,7 +436,7 @@
   },
   {
     "id": "QB_qb-15877",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Radial Nerve Injury",
     "text": "A 45-year-old female presents with a history of a direct blow over the shaft of her left humerus. Her x-ray shows a\nspiral fracture of the distal third of the humerus. On examination of her hand, sensation is intact on the palmar side but\nabsent on the dorsum of her hand. Which one of the following nerves is most likely injured?",
     "options": [
@@ -451,7 +451,7 @@
   },
   {
     "id": "QB_qb-15761",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Small Bowel Obstruction",
     "text": "What is the most common cause of small intestinal obstruction in males over 65 years?",
     "options": [
@@ -466,7 +466,7 @@
   },
   {
     "id": "QB_qb-17793",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Small Bowel Obstruction",
     "text": "What is the most common etiology of small bowel obstruction?",
     "options": [
@@ -481,7 +481,7 @@
   },
   {
     "id": "QB_qb-16183",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diagnostic Investigations",
     "text": "A 35 year old woman is seen in the emergency department because of the sudden onset of severe low back pain 12\nhours earlier. Careful physical examination, including a neurologic examination, is normal except for evidence of\nmuscle spasm. She believes she has a herniated disc because 2 years ago her father developed the sudden onset of back\npain that required immediate surgery.\nShe returns 3 weeks later because of persistent left lower leg pain and a weak left ankle-jerk reflex. In addition to pain\nmanagement, which of the following is the most appropriate step at this time?",
     "options": [
@@ -496,7 +496,7 @@
   },
   {
     "id": "QB_qb-16338",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diagnostic Investigations",
     "text": "A 19 year old woman is brought to the emergency room following involvement in a motor vehicle accident. On\nexamination, she has a Glascow coma scale (GCS) of 10 and swelling over the occipital protuberance. The most\nappropriate imaging study is:",
     "options": [
@@ -511,7 +511,7 @@
   },
   {
     "id": "QB_qb-16352",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diagnostic Investigations",
     "text": "A 70-year-old Asian male presents with hematochezia. He has stable vital signs. Lower endoscopy is performed but is\nunsuccessful due to active bleeding. Which of the following would be the next appropriate investigation?",
     "options": [
@@ -526,7 +526,7 @@
   },
   {
     "id": "QB_qb-15832",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Peroneal Nerve Injury",
     "text": "Following induction of anesthesia for a vaginal hysterectomy a patient is placed in the lithotomy position. Post-operatively, the patient complains of right foot drop. Which nerve is most likely to have been injured during the\nprocedure?",
     "options": [
@@ -541,7 +541,7 @@
   },
   {
     "id": "QB_qb-16313",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ulnar Nerve Injury",
     "text": "A 35 year old intoxicated man presents to the Emergency Department with a deep laceration to his right distal forearm\nafter putting his hand through a window. On examination, he has no sensation to his little finger and the ulnar aspect of\nhis ring finger. Power on abduction and adduction of all fingers is markedly decreased. He is unable to flex the distal\njoint of his little finger. When he flexes his wrist, his hand deviates radially. The examination was otherwise normal.\nWhat structure(s) have been damaged?",
     "options": [
@@ -556,7 +556,7 @@
   },
   {
     "id": "QB_qb-15876",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Anorectal Abscess",
     "text": "A 24-year-old male arrives at your office complaining of pain in his rectum. Examination reveals a perianal abscess. All\nof the following signs are characteristic, except:",
     "options": [
@@ -571,7 +571,7 @@
   },
   {
     "id": "QB_qb-15880",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Metastatic Carcinoma",
     "text": "An enlarged axillary lymph node is removed from a 61 year old female. Microscopically the nodal architecture is\neffaced by anaplastic gland-forming cells. Special studies on the tissue confirm the presence of estrogen and\nprogesterone receptor proteins. Which one of the following is the most likely diagnosis?",
     "options": [
@@ -586,7 +586,7 @@
   },
   {
     "id": "QB_qb-15882",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Lung Carcinoma",
     "text": "A previously well 54 year old woman with a three-month history of weight loss and recurring chest infections is found\nto have a left hilar mass on chest x-ray. Bronchoscopy and biopsy reveal small cell carcinoma. All staging investigations\nare normal, suggesting disease is confined to the lung. Which one of the following treatment strategies is most\nappropriate?",
     "options": [
@@ -601,7 +601,7 @@
   },
   {
     "id": "QB_qb-17086",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Lateral Epicondylitis",
     "text": "A 40-year-old male comes to your office with pain over the lateral aspect of his right elbow. On examination there is\ntenderness over his right lateral epicondyle, which is pronounced with wrist extension.Which one of the following would be the most appropriate basis for making the diagnosis in this patient?",
     "options": [
@@ -616,7 +616,7 @@
   },
   {
     "id": "QB_qb-15894",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Scaphoid Fracture",
     "text": "A 20-year-old man falls onto his outstretched left hand. On examination, there is pain on deep palpation at the base of\nthe thumb. Which one of the following bones is most likely fractured?",
     "options": [
@@ -631,7 +631,7 @@
   },
   {
     "id": "QB_qb-16775",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Scaphoid Fracture",
     "text": "You see a 30-year-old male who has just fallen on an outstretched hand. He complains of wrist pain and edema.\nExamination reveals tenderness over the anatomic snuffbox and over the scaphoid tubercle at the proximal wrist crease\nwith the hand in extension. Radiographs of the wrist are negative.\nWhich one of the following would be the most appropriate action at this point?",
     "options": [
@@ -646,7 +646,7 @@
   },
   {
     "id": "QB_qb-18189",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Scaphoid Fracture",
     "text": "While playing basketball, a 29-year-old male falls on his outstretched hand with his wrist fully extended. He sees you\nthe following day because of diffuse wrist pain and decreased range of motion. The point of maximal tenderness is on\nthe dorsal aspect of the wrist between the extensor pollicis brevis and extensor pollicis longus tendons. There is no\nvisible deformity. Radiographs show no fracture.\nWhich one of the following is the most appropriate initial treatment of this patient?",
     "options": [
@@ -661,7 +661,7 @@
   },
   {
     "id": "QB_qb-16304",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Breast Cancer",
     "text": "A 75-year-old woman has a red, swollen, warm, tender breast. She states that the condition has been present for at least\nseveral weeks, perhaps a month or two. The skin over the area looks like orange peel. On physical examination there is\na fullness to the entire breast, with no discrete mass.\nWhich of the following is the most likely diagnosis?",
     "options": [
@@ -676,7 +676,7 @@
   },
   {
     "id": "QB_qb-17792",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Breast Cancer",
     "text": "What is the most common benign breast tumor in women under 30?",
     "options": [
@@ -691,7 +691,7 @@
   },
   {
     "id": "QB_qb-15925",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Nasogastric Tube Feeding",
     "text": "A 50 year old male with a large carcinoma of the distal esophagus has an associated 9 kg weight loss. To prepare for\nsurgery, he is started on full-strength enteral nutrition via a feeding tube. Which one of the following is the most\ncommon side effect of nasogastric tube feedings?",
     "options": [
@@ -706,7 +706,7 @@
   },
   {
     "id": "QB_qb-15939",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Dehydration",
     "text": "A 65 year old man is on his second postoperative day after colon resection for carcinoma. He is on intravenous fluids\nand nasogastric suction. Which one of the following would be the most reliable in assessing the state of his hydration?",
     "options": [
@@ -721,7 +721,7 @@
   },
   {
     "id": "QB_qb-15946",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cricothyrotomy",
     "text": "A 29 year old man is admitted to the emergency department with a faciomaxillary injury and inability to breathe. In the\nabsence of special equipment, an airway is best made through which one of the following structures?",
     "options": [
@@ -736,7 +736,7 @@
   },
   {
     "id": "QB_qb-15947",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Pancreatitis",
     "text": "A 35 year old woman presents with severe, stabbing abdominal pain radiating from the epigastrium to the back and\nchest. She is nauseated and says that her abdomen feels bloated as well as painful, and that the pain is worse lying\ndown. She has tachycardia, a low-grade fever, an absence of bowel sounds, guarding, and an exquisitely tender\nabdomen. Further questioning reveals that she drank excessive amounts of alcohol last night. She has no prior medical\nor family history for cardiac disease. A plain radiograph of the abdomen shows no air under the diaphragm. Which of\nthe following processes is most likely in this patient?",
     "options": [
@@ -751,7 +751,7 @@
   },
   {
     "id": "QB_qb-16317",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Pancreatitis",
     "text": "After a weekend of heavy drinking, a 28-year-old male presents with abdominal pain radiating to the back. What is the\ninvestigative and prognostic modality of choice for the suspected diagnosis?",
     "options": [
@@ -766,7 +766,7 @@
   },
   {
     "id": "QB_qb-15958",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Anterior Cruciate Ligament Injury",
     "text": "A 24-year-old patient was found to have an unstable knee joint after a car accident. With the patient supine (with the\nhips flexed to 45 degrees, the knees flexed to 90 degrees and the feet flat on table) you support the patient's thigh and\ncalf. The lower leg is moved anteriorly. Excessive passive anterior motion of the lower leg from the femur is noted.\nWhich one of the following structures is most likely injured in this patient?",
     "options": [
@@ -781,7 +781,7 @@
   },
   {
     "id": "QB_qb-15969",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Spinal Accessory Nerve Injury",
     "text": "After surgical incision of an abscess situated in the mid-right posterior triangle of the neck, the patient complained of\nshoulder pain and could no longer raise her right hand above her head to brush her hair. Which one of the following\nnerves is most likely injured in this patient?",
     "options": [
@@ -796,7 +796,7 @@
   },
   {
     "id": "QB_qb-16311",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Basic Life Support",
     "text": "A young woman who was involved in a cliff diving accident is brought into the emergency department by her\nboyfriend. She is not breathing and is unresponsive to deep pain with a right pupil that is dilated and nonreactive. The\nleft pupil is normal. The most appropriate initial management is:",
     "options": [
@@ -811,7 +811,7 @@
   },
   {
     "id": "QB_qb-17790",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Inguinal Hernia",
     "text": "Direct inguinal hernias pass:",
     "options": [
@@ -826,7 +826,7 @@
   },
   {
     "id": "QB_qb-16706",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Median Nerve Injury",
     "text": "A 12-year-old white male is brought to your office after accidentally cutting his left hand with a pocketknife. On\nexamination you find a deep 2-cm laceration at the base of the thenar eminence. To test for motor injury to the median\nnerve you would have the patient:",
     "options": [
@@ -841,7 +841,7 @@
   },
   {
     "id": "QB_qb-16013",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Axillary Nerve Injury",
     "text": "A 32 year old male presents with history of trauma to the right shoulder. On examination the outer aspect of the right\nshoulder is flattened and the shoulder cannot be moved. Skin sensation is absent over the lower part of the right deltoid\nmuscle. X-ray shows anterior dislocation of the right shoulder. Which one of the following nerves is most likely\ninjured?",
     "options": [
@@ -856,7 +856,7 @@
   },
   {
     "id": "QB_qb-16014",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Abdominal Aortic Aneurysm",
     "text": "A 75-year-old man comes to the emergency room with a history of sudden onset of pain in the abdomen and back. He\nis found to be hypotensive, with a pulsatile, tender abdominal mass. Which of the following best describes the correct\nimmediate management of this patient?",
     "options": [
@@ -871,7 +871,7 @@
   },
   {
     "id": "QB_qb-16491",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Abdominal Aortic Aneurysm",
     "text": "A 70 year old white male has a slowly enlarging, asymptomatic abdominal aortic aneurysm. You should usually\nrecommend surgical intervention when the diameter of the aneurysm approaches:",
     "options": [
@@ -886,7 +886,7 @@
   },
   {
     "id": "QB_qb-16024",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Temporomandibular Joint Syndrome",
     "text": "A patient who presents with pain or fullness in the ear aggravated by chewing most likely has which one of the\nfollowing?",
     "options": [
@@ -901,7 +901,7 @@
   },
   {
     "id": "QB_qb-16026",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Prostate Cancer",
     "text": "A 64 year old man is found to have a nodular prostate on digital rectal examination. Subsequent biopsy confirms cancer\nof the prostate. Which one of the following would have the most prognostic value?",
     "options": [
@@ -916,7 +916,7 @@
   },
   {
     "id": "QB_qb-16307",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Subdural Hematoma",
     "text": "An 77-year-old man becomes \"senile\" over a period of 3 or 4 weeks. He used to be active and managed all of his\nfinancial affairs. Now, he stares at the wall, barely talks, and sleeps most of the day. His daughter recalls that he fell off\nhis rocking chair about a week before the mental changes began. Which of the following would a CT scan of his head\nmost likely show?",
     "options": [
@@ -931,7 +931,7 @@
   },
   {
     "id": "QB_qb-16041",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "MEN Syndrome",
     "text": "A 51 year old man presents with symptoms consistent with hypercalcemia, which is confirmed with a high blood\ncalcium measurement. Further imaging results show tumors in three different organs. A diagnoses of Wermer syndrome\n(MEN I) is made. All of the following surgeries may be indicated in this patient, except:",
     "options": [
@@ -946,7 +946,7 @@
   },
   {
     "id": "QB_qb-16524",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Carotid Stenosis",
     "text": "An 82 year old white male has a transient ischemic attack. A carotid duplex study reveals an 85% stenosis in the\naffected carotid artery. Which one of the following would be the most appropriate management at this time?",
     "options": [
@@ -961,7 +961,7 @@
   },
   {
     "id": "QB_qb-16070",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diverticular Disease",
     "text": "A 62-year-old woman comes to the office because of pain in the left lower quadrant of her abdomen for the past 48\nhours. The pain is associated with tenesmus, loss of appetite and a sensation of being febrile. She has a history of long-standing irritable bowel symptoms and has not taken any pharmacotherapy.\nVital signs are: temperature 37.3°C (99.2°F), pulse 84/min and regular and respirations 12/min. On physical\nexamination the abdomen is tender in the left lower quadrant; there is no rebound tenderness and bowel sounds are\nnormal. Leukocyte count is 10.2 x10^9/L with 71% segmented neutrophils and 3% band forms. The patient is sent home\non a liquid diet and amoxicillin-clavulanate therapy. Three days later she returns because the pain has become worse\nand she is now having chills.Which of the following is the most appropriate next step?",
     "options": [
@@ -976,7 +976,7 @@
   },
   {
     "id": "QB_qb-16315",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diverticular Disease",
     "text": "Surgical indications for diverticulitis include all of the following, except:",
     "options": [
@@ -991,7 +991,7 @@
   },
   {
     "id": "QB_qb-16337",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diverticular Disease",
     "text": "An overweight, 55-year-old man presents with left lower quadrant tenderness and a one week history of abdominal pain,\nloose non-bloody stools and worsening fever. Laboratory investigation yields leukocytosis with neutrophilia and left\nshift. What is the diagnostic modality of choice?",
     "options": [
@@ -1006,7 +1006,7 @@
   },
   {
     "id": "QB_qb-17817",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diverticular Disease",
     "text": "A 69-year-old male presents with a 2-week history of fever, fatigue, weight loss, and mild diarrhea. He is found to have\na mildly tender mass in the left lower quadrant of the abdomen.\nThe most likely diagnosis is:",
     "options": [
@@ -1021,7 +1021,7 @@
   },
   {
     "id": "QB_qb-17602",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Thyroid Nodule",
     "text": "A 45-year-old white male undergoes a health screening at his church. He has a carotid Doppler study, abdominal\nultrasonography, heel densitometry, and a multiphasic blood panel. He receives a report indicating that all of the studies\nare normal, but a 0.7-cm thyroid nodule was noted. The TSH level is normal. He schedules a visit with you and brings\nyou the report. A neck examination and ENT examination are normal, and you do not detect a nodule. His past medical\nhistory and family history are unremarkable. You recommend:",
     "options": [
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "QB_qb-16116",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Endocarditis",
     "text": "Endocarditis in an I.V. drug user:",
     "options": [
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "QB_qb-16151",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Medial Collateral Ligament Injury",
     "text": "A 27-year-old man comes to the office because of a week history of right knee pain. He says he jogs 3 miles a day and\nthat the pain in his knee worsens during his run. On physical examination his gait appears to be normal. Examination of\nthe right knee reveals tenderness and fullness over the medial collateral ligament. On physical examination there is most\nlikely to be:",
     "options": [
@@ -1066,7 +1066,7 @@
   },
   {
     "id": "QB_qb-16182",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Acute Back Syndrome",
     "text": "A 35 year old woman is seen in the emergency department because of the sudden onset of severe low back pain 12\nhours earlier. The pain began when she bent over to pick up her 2 year old child. Low doses of ibuprofen have eased the\ndiscomfort slightly. Careful physical examination, including a neurologic examination, is normal except for evidence of\nmuscle spasm. She believes she has a herniated disc because 2 years ago her father developed the sudden onset of back\npain that required immediate surgery. Which of the following is the most appropriate first step?",
     "options": [
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "QB_qb-16194",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Infective Arthritis",
     "text": "A 25 year old man comes to the emergency department because of pain, swelling and erythema over the\nmetacarpophalangeal joint of the right long finger. Three days ago he struck an opponent in the mouth during an\naltercation. On physical examination there is an abrasion over the dorsal surface of the joint, pain on passive motion of\nthe finger, and exquisite tenderness along the volar aspect of the finger and metacarpal. His temperature is 38.5°C\n(101.3°F). X-ray films are normal. Which of the following is the most appropriate management?",
     "options": [
@@ -1096,7 +1096,7 @@
   },
   {
     "id": "QB_qb-16320",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tonsillectomy",
     "text": "Which of the following is the least likely to occur post-tonsillectomy?",
     "options": [
@@ -1111,7 +1111,7 @@
   },
   {
     "id": "QB_qb-16332",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tonsillectomy",
     "text": "Which of the following is an absolute indication for a tonsillectomy?",
     "options": [
@@ -1126,7 +1126,7 @@
   },
   {
     "id": "QB_qb-16305",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Morton's Neuroma",
     "text": "A 50-year-old woman, who wears high-heeled, pointed shoes, complains of pain in the forefoot after prolonged standing\nor walking. Occasionally, she also experiences numbness, a burning sensation, and tingling in the area. Physical\nexamination shows no obvious deformities and a very tender spot in the third interspace, between the third and fourth\ntoes. There is no redness, limitation of motion, or signs of inflammation. Which of the following is the most likely\ndiagnosis?",
     "options": [
@@ -1141,7 +1141,7 @@
   },
   {
     "id": "QB_qb-17600",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Plantar Fasciitis",
     "text": "A 55-year-old male presents for an evaluation of heel pain. He has a relatively sedentary office job, but exercises daily\nby jogging 3 miles. He has pain in the right heel at the medial aspect of the calcaneus and is tender on examination. The\npain is worse with the first few steps of the morning. Besides rest, ice, NSAIDs, and prefabricated shoe inserts which\none of the following would be beneficial and effective as adjunctive therapy for this patient's condition?",
     "options": [
@@ -1156,7 +1156,7 @@
   },
   {
     "id": "QB_qb-16309",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Diabetic Ulcer",
     "text": "A 70 year old man has had an indolent, unhealing ulcer at the heel of the right foot for several weeks, since he started\nwearing his new shoes. He indicates that neither the blister nor the ulcer ever gave him any pain. The ulcer is 3.5 cm in\ndiameter, the ulcer base looks dirty, and there is hardly any granulation tissue. The skin around the ulcer looks normal.\nThe patient has no sensation to pin prick anywhere in that foot. Peripheral pulses are weak but palpable. He is obese and\nhas varicose veins, high cholesterol, and poorly controlled type 2 diabetes mellitus. Which of the following most\naccurately characterizes the ulcer?",
     "options": [
@@ -1171,7 +1171,7 @@
   },
   {
     "id": "QB_qb-16310",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Epistaxis",
     "text": "Which of the following statements regarding epistaxis is true?",
     "options": [
@@ -1186,7 +1186,7 @@
   },
   {
     "id": "QB_qb-16559",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "DVT",
     "text": "Which one of the following procedures carries the highest risk for postoperative deep venous thrombosis?",
     "options": [
@@ -1201,7 +1201,7 @@
   },
   {
     "id": "QB_qb-17069",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "DVT",
     "text": "A 45-year-old female presents with a 1-day history of left leg swelling. She notes that this has never happened to her\nbefore, and she denies any trauma to the leg. She underwent an appendectomy 10 weeks ago, and is otherwise healthy.\nA physical examination is normal except for 2+ pitting edema of the entire left leg.\nThe most appropriate next step would be:",
     "options": [
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "QB_qb-16318",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tibia and Fibula Fracture",
     "text": "An 18-year-old motorcyclist presents in the emergency department following an accident. He has a compound (open)\ntibia and fibula fracture of the right leg and on examination the right leg has normal pulses. Your immediate\nmanagement of choice should be:",
     "options": [
@@ -1231,7 +1231,7 @@
   },
   {
     "id": "QB_qb-16319",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Vasospasm",
     "text": "A patient with a subarachnoid hemorrhage from a ruptured aneurysm undergoes successful surgery 2 days after the\nhemorrhage. On the four post-op day, he shows right arm weakness and alterations in consciousness. The most likely\ndiagnosis is:",
     "options": [
@@ -1246,7 +1246,7 @@
   },
   {
     "id": "QB_qb-16329",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Mandibular Fracture",
     "text": "Which of the following is true regarding mandibular fractures?",
     "options": [
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "QB_qb-16335",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Glasgow Coma Scale",
     "text": "A 24-year-old woman arrives at the Emergency Department unconscious. Her BP is 90/60 mmHg, her heart rate is 60\nbpm, she is breathing at 8 breaths per minute and her O2 sat is 86%. Her eyes remain closed even after pain stimulation\nand the only sounds she makes are incomprehensible. Her arms or legs flexed briskly in response to pain. This patient’s\nGlasgow coma score (GCS) score is:",
     "options": [
@@ -1276,7 +1276,7 @@
   },
   {
     "id": "QB_qb-16336",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Intracranial Pressure",
     "text": "Which physical exam finding below is usually not associated with increasing intracranial pressure?",
     "options": [
@@ -1291,7 +1291,7 @@
   },
   {
     "id": "QB_qb-16342",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Spinal Stenosis",
     "text": "A 73-year-old woman presents with a 6-month history of deteriorating gait and low back discomfort, exacerbated by\nwalking. Examination is unremarkable except for hypoactive muscle stretch reflexes in the legs. X-rays of the\nlumbosacral area shows the expected degenerative changes associated with a woman of her age. The most likely\ndiagnosis is:",
     "options": [
@@ -1306,7 +1306,7 @@
   },
   {
     "id": "QB_qb-16508",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Spinal Stenosis",
     "text": "A 72 year old white male with known coronary artery disease complains of pain in his back and legs which is increased by standing and walking and relieved by sitting. On examination, deep tendon reflexes in his legs are 0 to 1+ bilaterally.\nHe has mild muscle weakness of his quadriceps and 1+ pedal pulses. He is taking ibuprofen, 800 mg three times a day,\nand using a back brace without much relief. Which one of the following would be most likely to relieve his symptoms?",
     "options": [
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "QB_qb-17091",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Spinal Stenosis",
     "text": "A 65-year-old male presents to your office with the complaint of a gradual onset of bilateral lower back pain that\nradiates to his buttocks, thighs, and lower legs. He states that the pain is worse during walking and standing and is\nalleviated by sitting.\nThis patient is most likely suffering from:",
     "options": [
@@ -1336,7 +1336,7 @@
   },
   {
     "id": "QB_qb-16344",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Open Fracture",
     "text": "Management of an open fracture should always include each of the following, except:",
     "options": [
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "QB_qb-16361",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ovarian Cyst",
     "text": "A 62 year old white female comes to see you for her annual pelvic examination. You find a nontender, cystic left adnexal mass. The patient is asymptomatic and otherwise in good health, and has no other pelvic abnormalities.\nTransvaginal ultrasonography demonstrates a 5-cm septated left ovarian cyst. Her CA-125 level is 120 U/mL (N <35).\nThe best management option is to:",
     "options": [
@@ -1366,7 +1366,7 @@
   },
   {
     "id": "QB_qb-16380",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Autonomic Hyperreflexia",
     "text": "A 27 year old white male has been in rehabilitation for C6 complete quadriplegia. His health had been good prior to a\ndiving accident 2 months ago which caused his paralysis. The patient has been catheterized since admission and his\nrecovery has been steady. His vital signs have been normal and stable.\nThe nurse calls and tells you that for the past hour the patient has experienced sweating, rhinorrhea, and a pounding\nheadache. His heart rate is 55/min and his blood pressure is 220/115 mm Hg. His temperature and respirations are\nreported as normal. There has been no vomiting and his neurologic examination is unchanged. The most likely\ndiagnosis is:",
     "options": [
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "QB_qb-16699",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Breast Mass",
     "text": "A 38 year old white female presents to your office with a 4-cm palpable nodule in her right breast. Fine-needle\naspiration yields 4 cc of bloody fluid. Following the aspiration, the breast nodule is no longer palpable. Which one of\nthe following would be most appropriate at this point?",
     "options": [
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "QB_qb-16742",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Breast Mass",
     "text": "A 14 year old black female presents for a routine evaluation. On examination, you note a rubbery, well-defined,\nnontender breast mass approximately 2 cm in diameter. The patient denies any history of breast tenderness, nipple\ndischarge, or skin changes. The most likely diagnosis is:",
     "options": [
@@ -1411,7 +1411,7 @@
   },
   {
     "id": "QB_qb-16397",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Splenectomy",
     "text": "A 72 year old female is found to have a complex splenic mass on a CT scan done for another reason. Because of\nconcerns regarding possible malignancy and the potential for spontaneous splenic rupture, an elective splenectomy is\nplanned. Which one of the following immunizations should be given prior to her surgery?",
     "options": [
@@ -1426,7 +1426,7 @@
   },
   {
     "id": "QB_qb-16425",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Gallbladder Carcinoma",
     "text": "In elderly patients with asymptomatic gallstones, which one of the following is an indication for elective\ncholecystectomy because of the increased risk of gallbladder carcinoma?",
     "options": [
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "QB_qb-16427",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Appendicitis",
     "text": "When presenting with appendicitis, patients over the age of 65 are more likely than younger patients to have which one\nof the following?",
     "options": [
@@ -1456,7 +1456,7 @@
   },
   {
     "id": "QB_qb-16460",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Flexor Tendon Injury",
     "text": "A football player sustains a finger injury in a preseason scrimmage. He reports getting his finger caught in another team\nmember’s jersey. His right ring finger is tender on the volar surface, and is swollen around the distal interphalangeal\njoint. He is unable to flex at the distal interphalangeal joint, but can flex at the proximal interphalangeal joint and at the\nmetacarpophalangeal joint. Radiographs do not show any bony abnormalitity. You would now:",
     "options": [
@@ -1471,7 +1471,7 @@
   },
   {
     "id": "QB_qb-16474",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Femoral Fracture",
     "text": "A high incidence of osteonecrosis of the femoral head occurs with:",
     "options": [
@@ -1486,7 +1486,7 @@
   },
   {
     "id": "QB_qb-16488",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Testicular Torsion",
     "text": "Which one of the following is true regarding testicular torsion?",
     "options": [
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "QB_qb-16520",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pallidotomy",
     "text": "Pallidotomy is a surgical therapy for:",
     "options": [
@@ -1516,7 +1516,7 @@
   },
   {
     "id": "QB_qb-16539",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ovarian Cancer",
     "text": "A 26-year-old married nulliparous female consults you after her 44-year-old sister was diagnosed with ovarian cancer. Her mother died in an automobile accident at the age of 59. Her aunt was diagnosed with breast cancer at age 50. The\npatient is BRCA1 positive. She asks your advice on childbearing and oophorectomy. Which one of the following would\nbe appropriate advice?",
     "options": [
@@ -1531,7 +1531,7 @@
   },
   {
     "id": "QB_qb-16543",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ankle Sprain",
     "text": "A 21-year-old white female presents to the emergency department with a history consistent with a lateral ankle sprain\nthat occurred 2 hours ago while she was playing softball. She complains of pain over the distal anterior talofibular\nligament, but is able to bear weight. There is mild swelling, mild black and blue discoloration, and moderate tenderness\nto palpation over the insertion of the anterior talofibular ligament, but the malleoli are nontender to palpation. Which\none of the following statements is true regarding the management of this case?",
     "options": [
@@ -1546,7 +1546,7 @@
   },
   {
     "id": "QB_qb-17596",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ankle Sprain",
     "text": "An 18-year-old female basketball player comes to your office the day after sustaining an inversion injury to her ankle.\nShe says she treated the injury overnight with rest, ice, compression, and elevation. You examine her and diagnose a\nmoderate to severe lateral ankle sprain. In addition to rehabilitative exercises, you advise:",
     "options": [
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "QB_qb-17516",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Aortic Stenosis",
     "text": "A 76-year-old female is presenting to the ED with progressive exertional dyspnea and peripheral edema. She has a long\nstanding history of hypercholesterolemia (controlled with statins), and a 30 pack year smoking history. A TEE is performed and reveals aortic stenosis, with an area of 0.67 cm², LV and LA dilatation. Her LV end systolic diameter is\n60mm, and her LVEF is 49%. She has a JVD > 4cm above the horizontal. Which of the following would best treat the\npatient's heart condition?",
     "options": [
@@ -1576,7 +1576,7 @@
   },
   {
     "id": "QB_qb-16591",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "LASIK",
     "text": "Which one of the following eye operations involves creation of a corneal flap with ablation of a precise amount of\ncorneal stroma, without sutures?",
     "options": [
@@ -1591,7 +1591,7 @@
   },
   {
     "id": "QB_qb-16614",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pospartum Hematoma",
     "text": "You discovered a 10 cm enlarging hematoma adjacent to the episiotomy site in a patient whose baby you delivered 6\nhours ago. The best management at this time is:",
     "options": [
@@ -1606,7 +1606,7 @@
   },
   {
     "id": "QB_qb-16616",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Imperforate Hymen",
     "text": "A 13-year-old white female reports a 6 month history of intermittent abdominal cramping, with each episode becoming\nprogressively worse. Based on her history, there is no obvious relationship to eating, voiding, or defecating. She report that she has not yet begun menstruating and is not sexually active. Her weight has been stable. She appears to be in mild\nemotional distress about being the “last girl in her class to have a period”. She is in no physical discomfort and her vital\nsigns are normal. Secondary sexual characteristics appear to be developing normally. She is in the 57th percentile for\nheight and the 65th percentile for weight. A complete physical examination confirms your presumptive diagnosis. The\ntherapeutic procedure of choice would be:",
     "options": [
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "QB_qb-16620",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Colon Cancer",
     "text": "A 57-year-old black female has a partial resection of the colon for cancer. The surgical specimen has clean margins, and\nthere is no lymph node involvement. There is no evidence of metastasis. You recommend periodic colonoscopy for\nsurveillance, and also plan to monitor which one of the following tumor markers for recurrence?",
     "options": [
@@ -1636,7 +1636,7 @@
   },
   {
     "id": "QB_qb-16662",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cellulitis",
     "text": "A 55-year-old white female presents with redness at the scar from a lumpectomy performed for stage I cancer of her\nright breast 4 months ago. The patient has completed radiation treatments to the breast. She is afebrile and there is no\naxillary adenopathy. There is no wound drainage, crepitance, or bullous lesions. Which of the following organisms\nwould be the most likely cause of cellulitis in this patient?",
     "options": [
@@ -1651,7 +1651,7 @@
   },
   {
     "id": "QB_qb-16695",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Herbal Preparations",
     "text": "Which one of the following herbal preparations should be stopped for at least 7 days prior to elective surgery?",
     "options": [
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "QB_qb-16705",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Snakebite",
     "text": "A 27-year-old white male presents to the emergency department 2 hours after being bitten by a rattlesnake. He\ncomplains of weakness, abdominal cramping, left leg pain, and left leg swelling. His speech is slurred, and his breath\nsmells of alcohol.\nPhysical Findings:\nTemperature 37.0°C (98.6°F), Blood pressure 100/60 mm Hg, Pulse 122 beats/minm, Respirations 24/min\nSkin diaphoretic; ecchymoses on both forearms; bite puncture site just above left lateral malleolus\nExtremities: there's visible swelling of left leg and thigh; No skin tightness the leg is noted\nWhich one of the following therapeutic interventions is indicated at this time?",
     "options": [
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "QB_qb-16752",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Warfarin",
     "text": "A patient who is scheduled for an elective surgery, is curently taking Coumadin. What lab test is best for evaluating this\npatients current Coumadin (Warfarin) level?",
     "options": [
@@ -1696,7 +1696,7 @@
   },
   {
     "id": "QB_qb-16784",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ingrown Toenail",
     "text": "First time presentation of painful ingrown toenails that display granulation tissue and lateral nail fold hypertrophy are\nbest treated by:",
     "options": [
@@ -1711,7 +1711,7 @@
   },
   {
     "id": "QB_qb-16797",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Fat-pad Atrophy",
     "text": "An 80-year-old male presents with the chief complain of a “bone spur”, describing mid-heel pain that worsens as the\nday progresses. The pain is not relieved with ibuprofen. Examination reveals tenderness in the central aspect of the heel\nand a radiograph of the foot is unremarkable.\nThe most likely diagnosis is:",
     "options": [
@@ -1726,7 +1726,7 @@
   },
   {
     "id": "QB_qb-17114",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Bariatric Surgery",
     "text": "A 42-year-old white male who has been obese for many years seeks your advice about bariatric surgery. He has\ncontrolled hypertension and his body mass index (BMI) is 46 kg/m2.\nWhich one of the following would you tell him is the leading cause of death from this surgery?",
     "options": [
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "QB_qb-17644",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Bariatric Surgery",
     "text": "Which one of the following is the leading cause of death following bariatric surgery?",
     "options": [
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "QB_qb-18273",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Bariatric Surgery",
     "text": "You are considering recommending surgical treatments for obesity in selected patients. All other attempts to control\nweight have failed in these patients, including diet education, medication, exercise, and behavior modification. Each of\nthese individuals is a well-informed and motivated patient with acceptable operative risks and is able to participate in\ntreatment and long-term follow-up. They strongly desire substantial weight loss because their obesity impairs the quality\nof their lives, and they have asked about surgical options. Which one of these patients would meet the criteria for\nsurgical treatment of obesity?",
     "options": [
@@ -1771,7 +1771,7 @@
   },
   {
     "id": "QB_qb-16886",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Osgood-Schlatter Disease",
     "text": "Which one of the following is true regarding Osgood-Schlatter disease?",
     "options": [
@@ -1786,7 +1786,7 @@
   },
   {
     "id": "QB_qb-17939",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Perioperative Cardiovascular Risk",
     "text": "Which one of the following surgical procedures is associated with the highest risk for perioperative myocardial\nischemia?",
     "options": [
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "QB_qb-17081",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Drug Adverse Effects",
     "text": "Which one of the following has been associated with tendon rupture?",
     "options": [
@@ -1816,7 +1816,7 @@
   },
   {
     "id": "QB_qb-17071",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ureterolithiasis",
     "text": "A 28-year-old male presents to the hospital complaining of intermittent right flank pain radiating to the groin. He rates\nthe pain as 10 on a scale of 10. He denies fever and chills, but has nausea and vomiting unrelieved by a promethazine\n(Phenergan) suppository in the emergency department. An abdominal examination is remarkable for tenderness of the right lower quadrant and right flank on deep palpation. He has no guarding or rebound tenderness.\nA urinalysis reveals 15-20 RBCs/hpf but is otherwise unremarkable. An abdominal KUB radiograph shows a right\nureteral calculus in the mid-ureter, measuring 4 mm.\nWhich one of the following would be most appropriate?",
     "options": [
@@ -1831,7 +1831,7 @@
   },
   {
     "id": "QB_qb-17073",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hamate Fracture",
     "text": "A high-school baseball player has severe wrist pain after check-swinging at a pitch.\nThe most likely injury is:",
     "options": [
@@ -1846,7 +1846,7 @@
   },
   {
     "id": "QB_qb-17076",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Gamekeeper's Thumb",
     "text": "Which one of the following is true regarding gamekeeper’s thumb (skier’s thumb)?",
     "options": [
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "QB_qb-17079",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "ACL injury",
     "text": "A 40-year-old male comes to the urgent care center with severe pain in his right knee. The pain began suddenly when he\npivoted on the knee while playing touch football at a family Thanksgiving gathering.\nYou perform the following: the knee is placed in 30° of flexion, with the patient lying supine. You place one hand\nbehind the tibia (with your thumb being on the tibial tuberosity) and the other on the patient's thigh. On pulling\nanteriorly on the tibia, you remark about 1cm of tibial anterior translation. This is best described as:",
     "options": [
@@ -1876,7 +1876,7 @@
   },
   {
     "id": "QB_qb-17082",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Extensor Tendon Injury",
     "text": "A 25-year-old male presents with a history of a forceful blow to the tip of the extended middle finger of his right hand\nduring a neighborhood volleyball game last evening. You diagnose mallet finger.\nWhich one of the following findings would lead you to consider referring this patient for surgical consultation?",
     "options": [
@@ -1891,7 +1891,7 @@
   },
   {
     "id": "QB_qb-17257",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Extensor Tendon Injury",
     "text": "A 16-year-old high-school basketball player is struck on the end of her long finger by the ball. Her finger was fully\nextended and the result was a forced flexion injury of the proximal interphalangeal (PIP) joint. She is unable to actively extend the PIP joint, although passive extension is possible. She is tender over the dorsal aspect of the middle phalanx.\nRadiographs are negative.\nWhich one of the following is true regarding this injury?",
     "options": [
@@ -1906,7 +1906,7 @@
   },
   {
     "id": "QB_qb-17084",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Lisfranc fracture/dislocation",
     "text": "A 42-year-old nurse presents with pain in her right foot. Six hours ago, she stepped in a hole and fell, twisting her foot\nwhile her weight was on it. She is unable to bear weight due to the pain. On examination, there is moderate swelling and\ntenderness to palpation over the dorsum of the midfoot.\nThe most likely diagnosis is:",
     "options": [
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "QB_qb-17088",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Right Hemisphere Lesion",
     "text": "A 64-year-old white male smoker presents after an episode of numbness over the left side of his face and left arm that\nresolved within approximately 1 hour. Results of a workup include an LDL cholesterol level of 4.1 mmol/L (161\nmg/dL), a normal CT brain scan, and carotid ultrasonography showing 40% stenosis of the right carotid artery and 60%\nstenosis of the left carotid artery. Which one of the following would be least appropriate at this point?",
     "options": [
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "QB_qb-17090",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Atrial Fibrillation",
     "text": "A 73-year-old black male being treated with warfarin (Coumadin) for chronic atrial fibrillation has been scheduled by\nhis podiatrist for a bunionectomy. He has no history of a previous thromboembolic event, and his most recent INR was\n2.5. The patient consults you regarding the preoperative and postoperative management of his anticoagulation.\nYou plan to stop his regular daily warfarin dose 3-4 days prior to his scheduled operation and restart it the day after.\nWhich one of the following would be most appropriate during the 4-5 days he is not taking his regular warfarin?",
     "options": [
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "QB_qb-17092",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Malignant Hyperthermia",
     "text": "A 55-year-old male with coronary artery disease undergoes coronary artery bypass grafting (CABG). The operation is\nuneventful, but 2 hours after the surgery he suddenly spikes a fever to 40.0˚C (104.0˚F). The patient’s pulse rate is 110\nbeats/min and his blood pressure is 140/85 mm Hg. He remains on the ventilator and does not awaken during the\nepisode. The physical examination is otherwise unremarkable except for his surgical incisions. He has no history of\nrecent infection prior to the surgery and his WBC count is not elevated. Apart from hypertension and coronary artery disease, his past medical and surgical histories are negative.\nThe most likely explanation for this patient’s fever is:",
     "options": [
@@ -1966,7 +1966,7 @@
   },
   {
     "id": "QB_qb-17107",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Biliary Colic",
     "text": "A 35-year-old white female presents to your office with a history of three episodes of intense right upper quadrant pain\nover the last few weeks. Each attack developed a few hours after her evening meal, lasted 1-2 hours, and was\naccompanied by nausea. Between episodes she feels fine. She went to the emergency department after the third episode,\nand blood tests and a sonogram of the gallbladder were negative.\nWhich one of the following would you recommend?",
     "options": [
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "QB_qb-17789",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Biliary Colic",
     "text": "Referred pain from biliary colic typically presents in the patient’s:",
     "options": [
@@ -1996,7 +1996,7 @@
   },
   {
     "id": "QB_qb-17195",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Contrast-related Nephropathy",
     "text": "An 81-year-old male is scheduled to have an abdominal CT with contrast to assess for a possible tumor. His medical\nhistory is significant for COPD and type 2 diabetes mellitus. His serum creatinine level is 120 µmol/L.\nWhich one of the following would decrease the likelihood of contrast-related nephropathy in this patient?",
     "options": [
@@ -2011,7 +2011,7 @@
   },
   {
     "id": "QB_qb-17244",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Basal Cell Carcinoma",
     "text": "A 56-year-old male had a 1-cm basal cell carcinoma resected from his temple area. The pathology report shows that\ncancer is present in one of the margins of the specimen.\nWhich one of the following would be the most appropriate next step?",
     "options": [
@@ -2026,7 +2026,7 @@
   },
   {
     "id": "QB_qb-17572",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Vitamin K Deficiency",
     "text": "A 65-year-old Caucasian man had undergone an emergent colectomy following a complete colonic obstruction by a\nsigmoid volvulus.\nThe patient has been on ticarcillin and sulbactam and NPO (nothing by mouth) for the past week. One week post-op, he\ndeveloped bleeding from the venipuncture site and bleeding gums followed by an unexplained epistaxis.Vitals are stable and physical exam shows oozing of blood from the nose, gums and IV lines. You order some lab tests\nwhich show normal platelet count, but an abnormal PT (INR=3.9), a high normal aPTT (37 sec) and a normal bleeding\ntime (3min). Which of the following is the most likely diagnosis of this patient?",
     "options": [
@@ -2041,7 +2041,7 @@
   },
   {
     "id": "QB_qb-17609",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Myoglobinuria",
     "text": "A 45-year-old white male is admitted to the intensive-care unit after being pinned in a car wreck for 2 hours. He has\nsustained several broken bones and crush injuries to both thighs. On admission his urine is clear but the next morning it\nis burgundy colored. Some fresh urine is drawn from his Foley catheter and sent for analysis, with the following results:\nSpecific gravity. ......... 1.020\npH............................... 6.0\nProtein........................ 30 mg/dL (N 1-14)\nGlucose. .................... negative\nHemoglobin................ 4+\nUrobilinogen. ............. 0.1 Ehrlich Units (N 0.1-1.0)\nBile............................. negative\nRBCs......................... 1-2/hpf\nWBCs. ...................... 0-2/hpf\nOccasional hyaline casts\nYou immediately order a CBC which shows his hematocrit to have dropped 4 percentage points overnight. Visual\ninspection of the serum shows it is clear.\nThe color of his urine is most likely due to:",
     "options": [
@@ -2056,7 +2056,7 @@
   },
   {
     "id": "QB_qb-17615",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Inflammatory Bowel Disease",
     "text": "Which one of the following is more likely to be associated with ulcerative colitis rather than Crohn’s disease?",
     "options": [
@@ -2071,7 +2071,7 @@
   },
   {
     "id": "QB_qb-17627",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tarsal Tunnel Syndrome",
     "text": "A 56-year-old black male has pain and tingling in the medial aspect of his ankle and the plantar aspect of his foot. He\njogs 3 miles daily and has no history of any injury. The symptoms are aggravated by activity, and sometimes keep him\nawake at night. The only findings on examination are paresthesias when a reflex hammer is used to tap just inferior to\nthe medial malleolus. This patient probably has:",
     "options": [
@@ -2086,7 +2086,7 @@
   },
   {
     "id": "QB_qb-17639",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Postoperative Pulmonary Complications",
     "text": "Which one of the following confers the greatest risk for postoperative pulmonary complications in noncardiothoracic\nsurgery?",
     "options": [
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "QB_qb-17902",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Patellofemoral Pain Syndrome",
     "text": "A 30-year-old male complains of the gradual onset of anterior right knee pain on climbing the stairs. On examination\nthere is no effusion, but there is tenderness over the medial retinaculum. There is good ligament strength, and range of\nmotion is normal. When the knee is extended from 90° flexion to full extension, the patella deviates laterally.\nWhich one of the following would be the best initial treatment for this condition?",
     "options": [
@@ -2116,7 +2116,7 @@
   },
   {
     "id": "QB_qb-17695",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Local Anesthetic",
     "text": "Which one of the following decreases pain from infiltration of local anesthetics?",
     "options": [
@@ -2131,7 +2131,7 @@
   },
   {
     "id": "QB_qb-17720",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Melanoma",
     "text": "A 32-year-old farmer comes to your office because of an upper respiratory infection. While he is there he points out a\nlesion on his forearm that he first noted approximately 1 year ago. It is a 1-cm asymmetric nodule with an irregular\nborder and variations in color from black to blue. The patient says that it itches and has been enlarging for the past 2\nmonths. He says he is so busy that he is not sure when he can return to have it taken care of. In such cases the best\napproach would be to:",
     "options": [
@@ -2146,7 +2146,7 @@
   },
   {
     "id": "QB_qb-17771",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Fat Embolism",
     "text": "One day after an orthopedic procedure to fix a femoral bone fracture by trauma, a 36-year-old white woman develops\ntachycardia, tachypnea, dyspnea, and hypoxia. What is the most likely diagnosis?",
     "options": [
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "QB_qb-17775",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Recurrent Laryngeal Nerve Injury",
     "text": "Following surgery for a left hemi-thyroidectomy the patient is found to have persistent hoarseness. Which one of the\nfollowing nerves is most likely to have been injured?",
     "options": [
@@ -2176,7 +2176,7 @@
   },
   {
     "id": "QB_qb-17777",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Buckle Fracture of the Wrist",
     "text": "A 5-year-old male is brought to your office with forearm pain after a fall, and you diagnose a non-angulated buckle\nfracture of the distal radius and ulna. Which one of the following treatments has the best functional outcome at 3-4 weeks?",
     "options": [
@@ -2191,7 +2191,7 @@
   },
   {
     "id": "QB_qb-17778",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hypovolemic Shock",
     "text": "A patient brought into the ED after a gun shot wound to the abdomen. He has a low blood pressure, low central venous\npressure (CVP), low pulmonary capillary wedge pressure (PCWP), and prolonged capillary refill. What is the\nappropriate initial management?",
     "options": [
@@ -2206,7 +2206,7 @@
   },
   {
     "id": "QB_qb-17954",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hypovolemic Shock",
     "text": "A middle-aged woman is admitted unconscious to the Emergency Department following a head injury in a car accident.\nThere is bruising over the upper abdomen. Blood pressure is 80 mm Hg systolic, pulse 120/minute. What is the most\nimportant initial step in the management of this patient?",
     "options": [
@@ -2221,7 +2221,7 @@
   },
   {
     "id": "QB_qb-17892",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tracheotomy",
     "text": "The preferred site for an emergency airway is:",
     "options": [
@@ -2236,7 +2236,7 @@
   },
   {
     "id": "QB_qb-18197",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Renal Calculi",
     "text": "A 55-year-old man presents to the emergency department with dull, continuous pain in the renal angle. He had a similar\nattack of this pain a year ago after which he passed a kidney stone. A few years earlier the patient developed\nincarcerated hernia that resulted in resection of about 2 meters of his small intestine (mostly of the ileum).\nIntravenous urography showed a stone of about 0.6 cm at the pelviureteric junction. An analgesic was prescribed and\nthe patient was advised to watch his urine for the stone. Fortunately the stone again passed in urine a few days later. The\nstone was found to be made of calcium oxalate.\nRecurrence of this stone can be prevented by:",
     "options": [
@@ -2251,7 +2251,7 @@
   },
   {
     "id": "QB_qb-18343",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Scrotal Pain",
     "text": "A 12-year-old boy with lower abdominal pain and nausea for 3 hours duration was brought to the emergency\ndepartment by his mother. On examination, the child was found to have a swollen and tender scrotum. There were no\nsigns of external injury and the child was otherwise healthy. The correct course of action for this patient would be:",
     "options": [
@@ -2266,7 +2266,7 @@
   },
   {
     "id": "QB_qb-18444",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Skin Ulcers/Skin Tumors (Benign and Malignant)",
     "text": "A 48-year-old farmer presents to your office with skin ulcer on the side of his nose. He said that this ulcer started as a\nnodule and then ulcerated one year ago. His dermatologist prescribed topical creams but there was no response.\nOn examination, the ulcer was deep, rounded with rolled beaded edges, and indurated base. Cervical lymph nodes were\nnot enlarged. What is the treatment of choice for this patient?",
     "options": [
@@ -2281,7 +2281,7 @@
   },
   {
     "id": "QB_qb-18264",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Chest Injuries (Acute Dyspnea (minutes to hours))",
     "text": "A 27-year-old male is brought to the emergency department after a car accident. He had a head on collision with another\ncar and hit his chest on the steering wheel.\nOn physical examination the patient’s vital signs are temperature 37.4°C, blood pressure 105/65 mmHg, pulse is 110\nbpm, and respirations are 35/min. On observation of the patient’s chest wall, the chest moves inward on inspiration and\noutward on expiration. Auscultation reveals decreased breath sounds on the left side. What is the most likely diagnosis?",
     "options": [
@@ -2296,7 +2296,7 @@
   },
   {
     "id": "QB_qb-18271",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Urinary Tract Injuries",
     "text": "A 25-year-old male is brought to the emergency department after he was thrown off his motorcycle following a collision\nwith an automobile. He was stabilized by paramedics, who brought him to the ED. While he denies any loss of\nconsciousness, he describes a sensation of wanting to urinate but being physically unable to.\nOn physical examination, his abdomen is diffusely tender to palpation. There is blood at the meatus of the penis. After\nfluid resuscitation, a radiograph of the pelvis is taken and demonstrates a fracture of the pubic symphysis. What is the\nmost appropriate next step in the investigation of this patient’s genitourinary tract’s injury?",
     "options": [
@@ -2311,7 +2311,7 @@
   },
   {
     "id": "QB_qb-18094",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Osteoarthritis Management",
     "text": "A 62-year-old diabetic with stage 2 renal dysfunction is evaluated for knee pain that has mildly interfered with his usual\nactivities over the past 3 months. On examination he is mildly tender over the medial joint line. A knee radiograph\nshows moderate medial joint space narrowing.\nIn addition to low-impact exercise, which one of the following would you recommend initially?",
     "options": [
@@ -2326,7 +2326,7 @@
   },
   {
     "id": "QB_qb-18096",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tendinopathy",
     "text": "A 45-year-old female presents to your office with a 1-month history of pain and swelling posterior to the medial\nmalleolus. She does not recall any injury, but reports that the pain is worse with weight bearing and with inversion of\nthe foot. Plantar flexion against resistance elicits pain, and the patient is unable to perform a single-leg heel raise.\nWhich one of the following is true regarding this problem?",
     "options": [
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "QB_qb-18100",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Lower Abdominal Bleeding",
     "text": "An 82-year-old male nursing-home resident is sent to the emergency department with lower abdominal pain and bloody\ndiarrhea. He has a history of multi-infarct dementia, hypertension, and hyperlipidemia. On examination he is afebrile,\nand a nasogastric aspirate is negative for evidence of bleeding.\nWhich one of the following is the most likely cause of this patient’s bleeding?",
     "options": [
@@ -2356,7 +2356,7 @@
   },
   {
     "id": "QB_qb-18104",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Femoroacetabular Impingement",
     "text": "A 35-year-old male amateur rugby player seeks your advice because right hip pain of several months’ duration has\nprogressed to the point of interfering with his athletic performance. The pain is accentuated when he transitions from a\nseated to a standing position, and especially when he pivots on the hip while running, but he cannot recall any\nsignificant trauma to the area and finds no relief with over-the-counter analgesics. On examination his gait is stable. The\naffected hip appears normal and is neither tender to palpation nor excessively warm to touch. Although he has a full\nrange of passive motion, obvious discomfort is evident with internal rotation of the flexed and adducted right hip.\nWhich one of the following is most strongly suggested by this clinical picture?",
     "options": [
@@ -2371,7 +2371,7 @@
   },
   {
     "id": "QB_qb-18441",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Body Dysmorphic Disorder",
     "text": "A 20-year-old girl is hospitalized following a suicide attempt. She is unhappy with her mother for not allowing her to\ndie. Her mother mentions that she has dropped out of school two years ago, has no friends and prefers to stay at home\nbecause she feels that her nose is unsightly and makes her look ugly. She feels that her friends often laugh at the size of\nher nose. She spends a lot of time observing her nose in front of mirror and uses large hat and glasses while going out of\nthe house to hide her nose. She has never dated, as she fears being rejected because of her nose.\nShe has been under psychiatry care and has received counselling and medication. Two years ago, she consulted a plastic\nsurgeon, who turned down her request for rhinoplasty stating that the surgery is not indicated for cosmetic purpose as\nher nose looks normal.\nWhat is the most appropriate diagnosis?",
     "options": [
@@ -2386,7 +2386,7 @@
   },
   {
     "id": "QB_qb-18116",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cataract Surgery",
     "text": "A 72-year-old female sees you for preoperative evaluation prior to cataract surgery. Her history and physical\nexamination are unremarkable, and she has no medical problems other than bilateral cataracts.\nWhich one of the following is recommended prior to surgery in this patient?",
     "options": [
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "QB_qb-18437",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cataract Surgery",
     "text": "A 70-year-old diabetic male sees an ophthalmologist for vision trouble. He has noticed some blurry vision, and\nincreased glare, preventing him from driving at night. He has no other complaints. Visual acuity is 20/70 in his right\neye, not corrected by looking through a pinhole, and 20/25 in his left eye. Slit lamp exam shows opacifications of the lens of his right eye. Intraocular pressures are 14 mmHg and 16 mmHg in the right and left eyes respectively. The\npatient decides to have his cataracts surgically removed.\nHe undergoes extracapsular cataract extraction on his right eye. The procedure is successful, with no intraoperative\ncomplications.\nWhich of the following would be the most likely cause of visual impairment after the procedure?",
     "options": [
@@ -2416,7 +2416,7 @@
   },
   {
     "id": "QB_qb-18128",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Rotator Cuff Tear Surgery Indication",
     "text": "A 37-year-old recreational skier is unable to lift his right arm after falling on his right side with his arm elevated.\nRadiographs of the right shoulder are negative, but diagnostic ultrasonography shows a complete rotator cuff tear.\nWhich one of the following is most accurate with regard to treatment?",
     "options": [
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "QB_qb-18235",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Organ transplantation",
     "text": "A 48-year-old patient, who suffered significant brain damage, is declared brain dead. He had agreed for his organs to be\ndonated after death. Which of the following is true regarding the diagnosis of brain death?",
     "options": [
@@ -2446,7 +2446,7 @@
   },
   {
     "id": "QB_qb-18282",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Scaphoid fracture complications",
     "text": "A 23-year-old softball player is referred to you after falling on an outstretched right hand. He complains of wrist pain.\nOn physical examination, there’s tenderness on the anatomic snuffbox and scaphoid proximal pole. Which of the\nfollowing is the most likely complication of this patient’s condition?",
     "options": [
@@ -2461,7 +2461,7 @@
   },
   {
     "id": "QB_qb-18429",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Fluid Resuscitation in the Burn Patient",
     "text": "A 32-year-old male presents to the ED having been rescued from a burning building. He is moaning in pain, and unable\nto answer any questions. The patient's blood pressure is 105/75 mmHg, heart rate is 110 bpm, respiratory rate 20 bpm,\nand co-oximetry is within normal limits. He is 1.8m, and weighs 80kg. Burns are noted on the entire anterior and\nposterior surfaces of his right arm, and the anterior of his right leg, chest, and abdomen. Two large bore IV lines are\nstarted, and fluids are about to be administered.\nWhat is the estimated initial minimum amount of resuscitation fluid to be administered to this patient over the next 24\nhours?",
     "options": [
@@ -2476,7 +2476,7 @@
   },
   {
     "id": "QB_qb-18303",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Thyroidectomy Complications",
     "text": "A 34-year-old woman underwent an uneventful subtotal thyroidectomy for Grave's disease. A few hours later, you are\ncalled by the nurse because the patient is complaining of difficulty breathing. When you see the patient you find her\ndistressed and you can hear inspiratory stridor. There is a large, firm, tense, anterior swelling right under the surgical\nwound. What is the most appropriate next step in the management?",
     "options": [
@@ -2491,7 +2491,7 @@
   },
   {
     "id": "QB_hy-3",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "IV corticosteroids and surgical consult",
     "text": "A 60-year-old man with a history of ulcerative colitis presents with fever, abdominal distension,\nand tachycardia. Abdominal X-ray shows colonic dilation >6 cm.\nWhich one of the following is the most appropriate next step in management?",
     "options": [
@@ -2506,7 +2506,7 @@
   },
   {
     "id": "QB_hy-15",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Emergency surgical drainage",
     "text": "A 44-year-old woman presents with dull anal pain, low-grade fever, and purulent discharge from\nthe perianal area. On exam, there is a tender fluctuant mass.\nWhich one of the following is the most appropriate next step in management?",
     "options": [
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "QB_hy-18",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Refer for abscess drainage",
     "text": "A 27-year-old man with Crohn’s disease presents with worsening anal pain and fever. On exam,\nthere is erythema and induration around the anus.\nWhich one of the following is the best next step?",
     "options": [
@@ -2536,7 +2536,7 @@
   },
   {
     "id": "QB_hy-39",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Duplex ultrasound of the leg",
     "text": "A 52-year-old woman presents with unilateral swelling of the left ankle and calf. She denies\ntrauma but reports recent prolonged travel.\nWhich one of the following is the most appropriate initial test?",
     "options": [
@@ -2551,7 +2551,7 @@
   },
   {
     "id": "QB_hy-63",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Asthma",
     "text": "A 22-year-old woman presents with episodic wheezing, cough, and shortness of breath that\nworsens at night and with exercise. Spirometry shows reversible airflow obstruction.\nWhich one of the following is the most likely diagnosis?",
     "options": [
@@ -2566,7 +2566,7 @@
   },
   {
     "id": "QB_hy-168",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Small bowel obstruction",
     "text": "A 70-year-old woman presents with abdominal pain, vomiting, and absence of flatus. Abdominal\nX-ray shows dilated loops with air-fluid levels.\nWhich one of the following is the most likely diagnosis?",
     "options": [
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "QB_hy-169",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Adhesions",
     "text": "Which of the following is the most common cause of small bowel obstruction in a patient with\nprior abdominal surgery?",
     "options": [
@@ -2596,7 +2596,7 @@
   },
   {
     "id": "QB_hy-170",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Incarcerated hernia",
     "text": "A 65-year-old man with no surgical history presents with signs of bowel obstruction. What is the\nmost likely cause?",
     "options": [
@@ -2611,7 +2611,7 @@
   },
   {
     "id": "QB_hy-171",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Peritonitis on exam",
     "text": "Which of the following is a red flag for urgent surgical intervention in bowel obstruction?",
     "options": [
@@ -2626,7 +2626,7 @@
   },
   {
     "id": "QB_hy-172",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Bowel obstruction",
     "text": "A 60-year-old man presents with cramping abdominal pain and bloating. Exam reveals high-pitched bowel sounds.\nWhich one of the following conditions is most likely?",
     "options": [
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "QB_hy-175",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Early bowel obstruction",
     "text": "Auscultation reveals hyperactive bowel sounds. Which of the following conditions is most\nconsistent with this finding?",
     "options": [
@@ -2656,7 +2656,7 @@
   },
   {
     "id": "QB_hy-182",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Trauma or musculoskeletal origin",
     "text": "What is the most common cause of non-cyclical breast pain in women over age 40?",
     "options": [
@@ -2671,7 +2671,7 @@
   },
   {
     "id": "QB_hy-212",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "27%",
     "text": "A 30-year-old male presents with a flame burn involving the anterior trunk and left arm.\nAccording to the Rule of Nines, what percentage of body surface area is burned?",
     "options": [
@@ -2686,7 +2686,7 @@
   },
   {
     "id": "QB_hy-213",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Painful, moist, blisters",
     "text": "Which of the following is most characteristic of a superficial partial-thickness burn?",
     "options": [
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "QB_hy-214",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Ringer’s lactate",
     "text": "Which of the following fluids is recommended for initial burn resuscitation in a patient with\n>20% TBSA burns?",
     "options": [
@@ -2716,7 +2716,7 @@
   },
   {
     "id": "QB_hy-215",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Intubate immediately",
     "text": "A burn patient presents with hoarseness, facial burns, and soot in the mouth. What is the most\nappropriate next step?",
     "options": [
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "QB_hy-219",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hamstring avulsion",
     "text": "A patient presents with buttock pain after direct trauma during a football game. There is bruising\nand tenderness over the ischial tuberosity.\nWhat is the most likely diagnosis?",
     "options": [
@@ -2746,7 +2746,7 @@
   },
   {
     "id": "QB_hy-227",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Chronic exertional compartment syndrome",
     "text": "A 28-year-old runner presents with bilateral crampy calf pain that worsens with exertion and\nimproves with rest. Distal pulses are normal.\nWhich one of the following is the most likely diagnosis?",
     "options": [
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "QB_hy-255",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Surgical extraction",
     "text": "What is the definitive treatment for visually significant cataracts?",
     "options": [
@@ -2776,7 +2776,7 @@
   },
   {
     "id": "QB_hy-300",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Marked elevation of ALP with conjugated hyperbilirubinemia",
     "text": "Which of the following findings is most suggestive of extrahepatic biliary obstruction?",
     "options": [
@@ -2791,7 +2791,7 @@
   },
   {
     "id": "QB_hy-305",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Percutaneous cholecystostomy",
     "text": "In a critically ill patient with acute cholecystitis who is not a surgical candidate, what is the most\nappropriate management?",
     "options": [
@@ -2806,7 +2806,7 @@
   },
   {
     "id": "QB_hy-356",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Brachial plexus",
     "text": "Which nerve is most at risk in a posteriorly displaced medial clavicle fracture?",
     "options": [
@@ -2821,7 +2821,7 @@
   },
   {
     "id": "QB_hy-357",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Non-union",
     "text": "Which of the following is a common long-term complication of a displaced clavicle fracture?",
     "options": [
@@ -2836,7 +2836,7 @@
   },
   {
     "id": "QB_hy-407",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Compartment syndrome",
     "text": "A 24-year-old man presents with severe leg pain after a crush injury. Pain worsens with passive\nstretching of toes.\nWhat is the most likely diagnosis?",
     "options": [
@@ -2851,7 +2851,7 @@
   },
   {
     "id": "QB_hy-408",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Immediate fasciotomy",
     "text": "Which of the following is the most critical management step in acute compartment syndrome?",
     "options": [
@@ -2866,7 +2866,7 @@
   },
   {
     "id": "QB_hy-409",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pain out of proportion",
     "text": "What is the most reliable clinical indicator of compartment syndrome?",
     "options": [
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "QB_hy-410",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Paralysis",
     "text": "Which of the following findings is considered a late sign of compartment syndrome?",
     "options": [
@@ -2896,7 +2896,7 @@
   },
   {
     "id": "QB_hy-411",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": ">30 mmHg",
     "text": "Which compartment pressure suggests the need for surgical intervention in compartment\nsyndrome?",
     "options": [
@@ -2911,7 +2911,7 @@
   },
   {
     "id": "QB_hy-490",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Dental abscess",
     "text": "A patient presents with localized swelling, pain, and pus at the base of a molar. What is the most\nlikely diagnosis?",
     "options": [
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "QB_hy-491",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Incision and drainage",
     "text": "Which of the following is the most appropriate first-line treatment for a dental abscess?",
     "options": [
@@ -2941,7 +2941,7 @@
   },
   {
     "id": "QB_hy-492",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Clindamycin",
     "text": "Which antibiotic is appropriate for dental abscess if the patient has a penicillin allergy?",
     "options": [
@@ -2956,7 +2956,7 @@
   },
   {
     "id": "QB_hy-493",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Facial swelling and trismus",
     "text": "Which symptom would prompt urgent dental or surgical consultation for a patient with dental\nabscess?",
     "options": [
@@ -2971,7 +2971,7 @@
   },
   {
     "id": "QB_hy-550",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Posterior shoulder dislocation",
     "text": "A 23-year-old football player presents with a painful, internally rotated shoulder after trauma.\nWhat is the most likely diagnosis?",
     "options": [
@@ -2986,7 +2986,7 @@
   },
   {
     "id": "QB_hy-551",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Anterior",
     "text": "What is the most common type of shoulder dislocation?",
     "options": [
@@ -3001,7 +3001,7 @@
   },
   {
     "id": "QB_hy-552",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Axillary nerve",
     "text": "Which nerve is most commonly injured in anterior shoulder dislocation?",
     "options": [
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "QB_hy-553",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Associated fracture",
     "text": "Which of the following is an indication for orthopedic consultation after shoulder dislocation\nreduction?",
     "options": [
@@ -3031,7 +3031,7 @@
   },
   {
     "id": "QB_hy-580",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Dysphagia to both solids and liquids from onset",
     "text": "Which of the following features suggests a motility disorder rather than mechanical obstruction\nin dysphagia?",
     "options": [
@@ -3046,7 +3046,7 @@
   },
   {
     "id": "QB_hy-662",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Airway obstruction",
     "text": "What is a common complication of untreated posterior epistaxis?",
     "options": [
@@ -3061,7 +3061,7 @@
   },
   {
     "id": "QB_hy-742",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Hemodynamically unstable patient with positive pregnancy test",
     "text": "Which of the following is considered an indication for urgent surgical intervention in a first\ntrimester bleeding scenario?",
     "options": [
@@ -3076,7 +3076,7 @@
   },
   {
     "id": "QB_hy-757",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Silent chest with cyanosis",
     "text": "Which clinical sign suggests complete airway obstruction by a foreign body?",
     "options": [
@@ -3091,7 +3091,7 @@
   },
   {
     "id": "QB_hy-768",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tenderness in the anatomical snuffbox",
     "text": "Which of the following clinical signs is most suggestive of a scaphoid fracture?",
     "options": [
@@ -3106,7 +3106,7 @@
   },
   {
     "id": "QB_hy-769",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Plain x-ray",
     "text": "What is the initial imaging modality of choice for suspected long bone fracture?",
     "options": [
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "QB_hy-770",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Start IV antibiotics and cover with sterile dressing",
     "text": "What is the most appropriate immediate step in managing an open fracture?",
     "options": [
@@ -3136,7 +3136,7 @@
   },
   {
     "id": "QB_hy-841",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "GCS <15 at 2 hours post-injury",
     "text": "Which of the following is an indication for a head CT in minor head trauma?",
     "options": [
@@ -3151,7 +3151,7 @@
   },
   {
     "id": "QB_hy-843",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Test for CSF leak (beta-2 transferrin) and consult neurosurgery",
     "text": "What is the best next step in a patient with suspected skull fracture and clear fluid draining from\nthe ear?",
     "options": [
@@ -3166,7 +3166,7 @@
   },
   {
     "id": "QB_hy-844",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Discharge home with instructions",
     "text": "Which of the following is the most appropriate disposition for a patient with minor head trauma\nand normal GCS, no symptoms, and no risk factors after 6 hours?",
     "options": [
@@ -3181,7 +3181,7 @@
   },
   {
     "id": "QB_hy-904",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Reducible mass above the inguinal ligament",
     "text": "Which of the following physical exam findings most strongly supports a diagnosis of inguinal\nhernia?",
     "options": [
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "QB_hy-905",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "A non-reducible, painful inguinal hernia with signs of obstruction",
     "text": "Which of the following patients requires emergency surgery for a hernia?",
     "options": [
@@ -3211,7 +3211,7 @@
   },
   {
     "id": "QB_hy-906",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Obesity",
     "text": "Which of the following is a known risk factor for hernia recurrence after repair?",
     "options": [
@@ -3226,7 +3226,7 @@
   },
   {
     "id": "QB_hy-916",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Sliding hiatal hernia",
     "text": "Which of the following is the most common type of hiatal hernia?",
     "options": [
@@ -3241,7 +3241,7 @@
   },
   {
     "id": "QB_hy-917",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Barium swallow",
     "text": "What is the most appropriate initial investigation for suspected hiatal hernia?",
     "options": [
@@ -3256,7 +3256,7 @@
   },
   {
     "id": "QB_hy-918",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Gastroesophageal reflux",
     "text": "Which symptom is most commonly associated with sliding hiatal hernia?",
     "options": [
@@ -3271,7 +3271,7 @@
   },
   {
     "id": "QB_hy-919",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Obstruction or volvulus",
     "text": "Which of the following is a surgical indication for paraesophageal hernia?",
     "options": [
@@ -3286,7 +3286,7 @@
   },
   {
     "id": "QB_hy-920",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Aspiration pneumonia",
     "text": "Which of the following is a common complication of large paraesophageal hernia?",
     "options": [
@@ -3301,7 +3301,7 @@
   },
   {
     "id": "QB_hy-959",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Functional bracing and neurovascular assessment",
     "text": "What is the appropriate first step in management of a closed mid-shaft humerus fracture?",
     "options": [
@@ -3316,7 +3316,7 @@
   },
   {
     "id": "QB_hy-960",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Wrist drop",
     "text": "Which clinical sign would most likely indicate radial nerve injury in a humerus fracture patient?",
     "options": [
@@ -3331,7 +3331,7 @@
   },
   {
     "id": "QB_hy-961",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Plain radiograph of the humerus",
     "text": "Which imaging study is most appropriate to evaluate a suspected humerus fracture?",
     "options": [
@@ -3346,7 +3346,7 @@
   },
   {
     "id": "QB_hy-971",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Flank pain",
     "text": "Which of the following symptoms is most commonly associated with acute hydronephrosis due\nto obstruction?",
     "options": [
@@ -3361,7 +3361,7 @@
   },
   {
     "id": "QB_hy-973",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Foley catheter insertion",
     "text": "Which intervention is indicated for immediate relief of bladder outlet obstruction causing\nhydronephrosis?",
     "options": [
@@ -3376,7 +3376,7 @@
   },
   {
     "id": "QB_hy-1070",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Singed nasal hairs and soot in the oropharynx",
     "text": "Which of the following findings most strongly suggests inhalation injury in a burn patient?",
     "options": [
@@ -3391,7 +3391,7 @@
   },
   {
     "id": "QB_hy-1074",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Intra-abdominal solid organ injury",
     "text": "Which of the following injuries is most likely to be missed in the initial trauma evaluation?",
     "options": [
@@ -3406,7 +3406,7 @@
   },
   {
     "id": "QB_hy-1075",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Focused Assessment with Sonography for Trauma (FAST)",
     "text": "Which diagnostic tool is most appropriate for detecting intra-abdominal bleeding in a\nhemodynamically unstable trauma patient?",
     "options": [
@@ -3421,7 +3421,7 @@
   },
   {
     "id": "QB_hy-1097",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Adhesions",
     "text": "Which of the following is the most common cause of small bowel obstruction in adults?",
     "options": [
@@ -3436,7 +3436,7 @@
   },
   {
     "id": "QB_hy-1098",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Dilated loops of bowel with air-fluid levels",
     "text": "Which radiographic finding is most consistent with small bowel obstruction?",
     "options": [
@@ -3451,7 +3451,7 @@
   },
   {
     "id": "QB_hy-1099",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Severe pain out of proportion to findings and metabolic acidosis",
     "text": "Which of the following is a key sign of strangulated bowel obstruction?",
     "options": [
@@ -3466,7 +3466,7 @@
   },
   {
     "id": "QB_hy-1100",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Bowel ischemia and perforation",
     "text": "Which of the following complications may result from prolonged untreated bowel obstruction?",
     "options": [
@@ -3481,7 +3481,7 @@
   },
   {
     "id": "QB_hy-1103",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Pneumatic (air) or contrast enema reduction",
     "text": "What is the initial non-surgical treatment of choice for intussusception?",
     "options": [
@@ -3496,7 +3496,7 @@
   },
   {
     "id": "QB_hy-1120",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Peritonitis on exam or pneumatosis on imaging",
     "text": "Which of the following findings suggests severe ischemic colitis requiring surgical consultation?",
     "options": [
@@ -3511,7 +3511,7 @@
   },
   {
     "id": "QB_hy-1126",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Surgical resection",
     "text": "Which is the first-line treatment for a localized islet cell tumor?",
     "options": [
@@ -3526,7 +3526,7 @@
   },
   {
     "id": "QB_hy-1161",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Airway obstruction",
     "text": "Which of the following is a common complication of advanced laryngeal cancer?",
     "options": [
@@ -3541,7 +3541,7 @@
   },
   {
     "id": "QB_hy-1162",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Radiation therapy or surgical excision",
     "text": "Which of the following is a standard curative approach for early-stage laryngeal cancer?",
     "options": [
@@ -3556,7 +3556,7 @@
   },
   {
     "id": "QB_hy-1186",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Aspiration due to altered consciousness",
     "text": "Which of the following is a common risk factor for developing a lung abscess?",
     "options": [
@@ -3571,7 +3571,7 @@
   },
   {
     "id": "QB_hy-1187",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cavitary lesion with air-fluid level",
     "text": "What is the classic imaging finding associated with a lung abscess?",
     "options": [
@@ -3586,7 +3586,7 @@
   },
   {
     "id": "QB_hy-1188",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "IV broad-spectrum antibiotics with anaerobic coverage (e.g., clindamycin)",
     "text": "What is the preferred initial treatment for a lung abscess?",
     "options": [
@@ -3601,7 +3601,7 @@
   },
   {
     "id": "QB_hy-1189",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Empyema or bronchopleural fistula",
     "text": "Which of the following is a potential complication of untreated lung abscess?",
     "options": [
@@ -3616,7 +3616,7 @@
   },
   {
     "id": "QB_hy-1212",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Tall stature with arm span exceeding height and lens dislocation",
     "text": "Which of the following clinical features is most characteristic of Marfan syndrome?",
     "options": [
@@ -3631,7 +3631,7 @@
   },
   {
     "id": "QB_verified-recall-opioid-001",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Suspected opioid overdose",
     "text": "A person is found unresponsive with pinpoint pupils and very slow breathing after suspected opioid exposure. Which action is most appropriate now?",
     "options": [
@@ -3646,7 +3646,7 @@
   },
   {
     "id": "QB_cu-prevention-lowback-cauda-028",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Cauda equina red flags",
     "text": "A patient with acute low back pain develops urinary retention, saddle anesthesia, and progressive bilateral leg weakness. What is the best next step?",
     "options": [
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "QB_cu-prevention-lowback-infection-029",
-    "cat": "Surgery & Emergency",
+    "cat": "Surgery",
     "sub": "Red flag for spinal infection",
     "text": "A patient with fever, recent bacteremia, and new severe back pain has a normal initial motor examination. What is the most appropriate imaging principle?",
     "options": [
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "QB_verified-recall-take-home-naloxone-008",
-    "cat": "Preventive Medicine & Public Health",
+    "cat": "Population & Prevention",
     "sub": "Discharge planning after opioid overdose",
     "text": "A patient has recovered after emergency treatment of an opioid overdose. Which harm-reduction intervention should be included in discharge planning?",
     "options": [
@@ -4696,7 +4696,7 @@
   },
   {
     "id": "QB_cu-stroke-tia-imaging-011",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Urgent TIA evaluation",
     "text": "A 66-year-old had 25 minutes of aphasia and right arm weakness this morning. Symptoms have fully resolved. The examination is normal in the emergency department. What is the most appropriate next step?",
     "options": [
@@ -4711,7 +4711,7 @@
   },
   {
     "id": "QB_cu-stroke-cta-012",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Vascular imaging for suspected TIA",
     "text": "A patient with suspected high-risk TIA needs acute vascular assessment. Which imaging strategy is first-line when available and appropriate?",
     "options": [
@@ -4726,7 +4726,7 @@
   },
   {
     "id": "QB_cu-stroke-antiplatelet-timing-013",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Antiplatelet timing after ischemic stroke",
     "text": "A patient with non-cardioembolic ischemic stroke did not receive intravenous thrombolysis. Brain imaging has excluded hemorrhage. What is the best antithrombotic timing principle?",
     "options": [
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "QB_cu-stroke-thrombolysis-hold-014",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Antiplatelet therapy after intravenous thrombolysis",
     "text": "A patient received intravenous thrombolysis for acute ischemic stroke. When should routine antiplatelet therapy be reconsidered?",
     "options": [
@@ -4756,7 +4756,7 @@
   },
   {
     "id": "QB_cu-stroke-dapt-015",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Short-term dual antiplatelet therapy",
     "text": "A patient has a high-risk TIA of non-cardioembolic origin, no high bleeding risk, and no reason for anticoagulation. Which secondary prevention regimen is recommended?",
     "options": [
@@ -4771,7 +4771,7 @@
   },
   {
     "id": "QB_cu-af-stroke-136",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "AF after ischemic stroke or TIA",
     "text": "A patient with ischemic stroke is found to have AF and has no contraindication to anticoagulation. Which long-term antithrombotic strategy is recommended?",
     "options": [
@@ -4786,7 +4786,7 @@
   },
   {
     "id": "QB_cu-af-monitor24-137",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "AF detection after embolic stroke",
     "text": "A patient is being investigated for acute embolic ischemic stroke and could receive anticoagulation if AF is found. What rhythm monitoring is recommended in the initial work-up?",
     "options": [
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "QB_cu-af-monitor2wk-138",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Prolonged monitoring after cryptogenic stroke",
     "text": "A 61-year-old has an embolic stroke of undetermined source. Initial short-term ECG monitoring shows no AF, but a cardioembolic cause remains suspected and anticoagulation would be feasible. What is the best next test?",
     "options": [
@@ -4816,7 +4816,7 @@
   },
   {
     "id": "QB_cu-af-stroke-on-oac-140",
-    "cat": "Neurology",
+    "cat": "Internal Medicine",
     "sub": "Ischemic stroke despite anticoagulation",
     "text": "A patient with AF has an ischemic stroke while prescribed a DOAC. What is the best next approach after acute stabilization?",
     "options": [
@@ -4831,7 +4831,7 @@
   },
   {
     "id": "QB_cu-vte-cancer-077",
-    "cat": "Oncology",
+    "cat": "Internal Medicine",
     "sub": "Cancer-associated thrombosis with bleeding risk",
     "text": "A patient with an actively bleeding luminal gastrointestinal cancer develops a proximal DVT and can receive anticoagulation. Which agent is generally preferred when treatment starts?",
     "options": [
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "QB_cu-af-ecg-121",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "ECG diagnosis of atrial fibrillation",
     "text": "A 72-year-old has episodic palpitations. ECG shows an irregularly irregular narrow-complex rhythm with no consistent P waves. What is the most likely diagnosis?",
     "options": [
@@ -4876,7 +4876,7 @@
   },
   {
     "id": "QB_cu-af-unstable-122",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Hemodynamically unstable atrial fibrillation",
     "text": "A patient with AF and a ventricular rate of 170/min has hypotension, pulmonary edema, and ongoing ischemic chest pain attributable to the arrhythmia. What is the best immediate rhythm treatment?",
     "options": [
@@ -4891,7 +4891,7 @@
   },
   {
     "id": "QB_cu-af-triggers-123",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Reversible contributors to atrial fibrillation",
     "text": "A stable patient has newly detected AF. Which initial approach best complements rate or rhythm treatment?",
     "options": [
@@ -4906,7 +4906,7 @@
   },
   {
     "id": "QB_cu-af-stable-rate-124",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Rate control in stable atrial fibrillation",
     "text": "A hemodynamically stable patient with AF has a resting ventricular rate of 145/min and no pre-excitation. What is the best initial management principle?",
     "options": [
@@ -4921,7 +4921,7 @@
   },
   {
     "id": "QB_cu-af-rate-target-125",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Resting heart-rate target in atrial fibrillation",
     "text": "A patient whose primary diagnosis is AF is treated with rate control and is clinically stable. Which resting heart-rate target reflects CCS guidance?",
     "options": [
@@ -4936,7 +4936,7 @@
   },
   {
     "id": "QB_cu-af-rhythm-symptoms-126",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Rhythm control for symptomatic atrial fibrillation",
     "text": "A 58-year-old remains markedly exercise-intolerant and dyspneic from AF despite adequate rate control. What is the best next strategy?",
     "options": [
@@ -4951,7 +4951,7 @@
   },
   {
     "id": "QB_cu-af-cv-unknown-127",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Elective cardioversion with AF of unknown duration",
     "text": "A stable patient with AF of unknown duration is scheduled for elective cardioversion. Which preparation is appropriate?",
     "options": [
@@ -4966,7 +4966,7 @@
   },
   {
     "id": "QB_cu-af-tee-128",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "TEE-guided cardioversion",
     "text": "A stable patient with AF of unknown duration needs earlier cardioversion and has not completed three weeks of anticoagulation. Which alternative is appropriate?",
     "options": [
@@ -4981,7 +4981,7 @@
   },
   {
     "id": "QB_cu-af-emergency-oac-129",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Anticoagulation with emergency cardioversion",
     "text": "An unstable patient requires immediate synchronized cardioversion for AF of uncertain duration. What is the best anticoagulation principle?",
     "options": [
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "QB_cu-af-age65-130",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "CHADS-65 age threshold",
     "text": "A 67-year-old with documented non-valvular AF has no previous stroke and no contraindication to anticoagulation. What is the recommended stroke-prevention strategy?",
     "options": [
@@ -5011,7 +5011,7 @@
   },
   {
     "id": "QB_cu-af-under65-htn-131",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "CHADS-65 risk factor under age 65",
     "text": "A 54-year-old with AF and chronic hypertension has no contraindication to treatment. What is the best stroke-prevention plan?",
     "options": [
@@ -5026,7 +5026,7 @@
   },
   {
     "id": "QB_cu-af-lowrisk-132",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Low-risk atrial fibrillation",
     "text": "A 42-year-old with paroxysmal AF has no heart failure, hypertension, diabetes, previous stroke/TIA, or vascular disease. What is the best routine antithrombotic plan?",
     "options": [
@@ -5041,7 +5041,7 @@
   },
   {
     "id": "QB_cu-af-doac-133",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "DOAC preference in non-valvular atrial fibrillation",
     "text": "A patient with non-valvular AF requires oral anticoagulation and has no contraindication to a DOAC. Which agent strategy is preferred for most patients?",
     "options": [
@@ -5056,7 +5056,7 @@
   },
   {
     "id": "QB_cu-af-valvular-134",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Valvular atrial fibrillation",
     "text": "A patient with AF has a mechanical mitral valve and needs long-term stroke prevention. Which anticoagulant is appropriate?",
     "options": [
@@ -5071,7 +5071,7 @@
   },
   {
     "id": "QB_cu-af-good-warfarin-135",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "Continuing well-controlled warfarin",
     "text": "A patient with AF takes warfarin without adverse effects, maintains INR 2.0–3.0, and has time in therapeutic range above 70%. What is a reasonable plan?",
     "options": [
@@ -5086,7 +5086,7 @@
   },
   {
     "id": "QB_cu-af-stable-cad-139",
-    "cat": "Cardiology",
+    "cat": "Internal Medicine",
     "sub": "AF anticoagulation with stable coronary disease",
     "text": "A patient with AF takes a DOAC and is three years past PCI with stable coronary disease and no other antiplatelet indication. What is the best long-term plan?",
     "options": [
