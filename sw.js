@@ -9,7 +9,13 @@ const FILES = [
   "/notes.json",
   "/clinical_cards.json",
   "/extra1.json",
-  "/cdm_cases.json"
+  "/cdm_cases.json",
+  "/eq2_part1.json",
+  "/eq2_part2.json",
+  "/eq2_part3.json",
+  "/eq2_part4.json",
+  "/eq2_part5.json",
+  "/eq2_part6.json"
 ];
 
 self.addEventListener("install", e => {
