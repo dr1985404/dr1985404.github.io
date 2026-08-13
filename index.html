@@ -258,10 +258,7 @@
       document.getElementById('loading-screen').style.display="none";
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
-      
-      const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
-      document.getElementById('total-solved').innerText = uniqueSolved.size;
-      
+      document.getElementById('total-solved').innerText = answered.filter(x => typeof x === 'string' && !x.includes(":")).length;
       updateDashboard();
       renderMain();
     }
@@ -372,8 +369,7 @@
         document.getElementById("rat").style.display="block";
         answered.push(qId); answered.push(qId+':'+idx);
         localStorage.setItem('answered_questions',JSON.stringify(answered)); 
-        const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
-        document.getElementById('total-solved').innerText = uniqueSolved.size;
+        document.getElementById('total-solved').innerText = new Set(answered.filter(x => !x.includes(":"))).size;
         trackActivity();
         updateProgress();
       }
@@ -394,16 +390,14 @@
       if(currentIdx<data.length-1){ 
         currentIdx++; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        const scrollTarget = document.getElementById('main-tabs');
-        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
+        window.scrollTo(0,0);
       } else if(examMode) finishEx(); 
     }
     function prev(){ 
       if(currentIdx>0){ 
         currentIdx--; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        const scrollTarget = document.getElementById('main-tabs');
-        if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'auto' });
+        window.scrollTo(0,0);
       } 
     }
     function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
