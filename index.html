@@ -436,23 +436,27 @@
     }
 
     async function init(){
-      const [qResults, nResults, cResults, tResults] = await Promise.all([
-        Promise.all(qFiles.map(f => fetchJson(f))),
-        Promise.all(nFiles.map(f => fetchJson(f))),
-        Promise.all(cdmFiles.map(f => fetchJson(f))),
-        Promise.all(tFiles.map(f => fetchJson(f)))
-      ]);
-      
-      bank = sanitize(qResults.flat());
-      notes = nResults.flat();
-      cdm = cResults.flat();
-      tricks = tResults.flat();
+      try {
+        const [qRes, nRes, cRes, tRes] = await Promise.all([
+          Promise.all(qFiles.map(f => fetchJson(f))),
+          Promise.all(nFiles.map(f => fetchJson(f))),
+          Promise.all(cdmFiles.map(f => fetchJson(f))),
+          Promise.all(tFiles.map(f => fetchJson(f)))
+        ]);
+        
+        bank = sanitize(qRes.flat().filter(x => x && typeof x === 'object'));
+        notes = nRes.flat().filter(x => x && typeof x === 'object');
+        cdm = cRes.flat().filter(x => x && typeof x === 'object');
+        tricks = tRes.flat().filter(x => x && typeof x === 'object');
 
-      document.getElementById('total-q').innerText = bank.length;
-      document.getElementById('total-n').innerText = notes.length + cdm.length;
-      document.getElementById('total-solved').innerText = answered.length;
-      updateDashboard();
-      renderMain();
+        document.getElementById('total-q').innerText = bank.length;
+        document.getElementById('total-n').innerText = notes.length + cdm.length;
+        document.getElementById('total-solved').innerText = answered.length;
+        updateDashboard();
+        renderMain();
+      } catch (e) {
+        console.error("Init error:", e);
+      }
     }
 
     function updateDashboard(){
@@ -507,8 +511,27 @@
       updateDashboard();
     }
 
-    async function fetchJson(f){try{const r=await fetch(`./${f}?v=${Date.now()}`);return await r.json();}catch(e){return[];}}
-    function sanitize(d){const s=new Set();return d.filter(q=>{if(!q.text||s.has(q.text.trim().toLowerCase()))return false;s.add(q.text.trim().toLowerCase());return true;});}
+    async function fetchJson(f){
+      try{
+        const r=await fetch(`./${f}?v=${Date.now()}`);
+        if(!r.ok) return [];
+        const data = await r.json();
+        return Array.isArray(data) ? data : [];
+      }catch(e){
+        console.error("Fetch error for " + f, e);
+        return[];
+      }
+    }
+    
+    function sanitize(d){
+      const s=new Set();
+      return d.filter(q=>{
+        if(!q || !q.text || s.has(q.text.trim().toLowerCase())) return false;
+        s.add(q.text.trim().toLowerCase());
+        return true;
+      });
+    }
+
     function getSafeImg(src){if(!src)return'';const pSrc=`https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png`;return`<img src="${pSrc}" class="content-img" onerror="this.style.display='none'" alt="Medical illustration">`;}
 
     function hideAll(){
@@ -561,6 +584,10 @@
     function renderTricks(){
       hideAll();
       const db=document.getElementById("main-dashboard");db.style.display="grid";
+      if(tricks.length === 0) {
+        db.innerHTML = `<div style="padding:30px;text-align:center;color:var(--muted);grid-column:1/-1;">💡 Visual Mnemonics coming soon!</div>`;
+        return;
+      }
       db.innerHTML=tricks.map(t=>`
         <div class="mnemonic-card" style="border-left-color:${t.color}">
           <div class="mnemonic-header" style="background:${t.color}">
@@ -623,6 +650,7 @@
 
     function showNote(){
       const n=filteredNotes[currentIdx],container=document.getElementById("content-container");
+      if(!n) return;
       const prefix = activeMainTab==="cdm" ? "CDM Cases" : "High-Yield";
       const color = activeMainTab==="cdm" ? "var(--green)" : "var(--blue)";
       document.getElementById("progress-text").innerText=`${prefix} > ${currentCategory} (${currentIdx+1}/${filteredNotes.length})`;
@@ -642,6 +670,7 @@
 
     function showQ(){
       const q=filteredQuestions[currentIdx],container=document.getElementById("content-container");
+      if(!q) return;
       document.getElementById("progress-text").innerText=`Q-Bank > ${currentCategory} (${currentIdx+1}/${filteredQuestions.length})`;
       const isBm=bookmarks.includes(q.id);
       let optionsHtml=q.options.map((o,i)=>{
@@ -685,7 +714,8 @@
     }
 
     function renderNav(){
-      let nextT=(currentIdx===filteredQuestions.length-1&&examMode)?"Finish":"Next";
+      const data=(activeMainTab==="questions"||currentSubcategory==="bookmarks"?filteredQuestions:filteredNotes);
+      let nextT=(currentIdx===data.length-1&&examMode)?"Finish":"Next";
       document.getElementById("nav-btns").innerHTML=`<button class="btn btn-light" onclick="prev()">Previous</button><button class="btn btn-gold" onclick="next()">${nextT}</button>`;
     }
 
@@ -716,7 +746,7 @@
 
   <script>
     if('serviceWorker' in navigator){
-      navigator.worker.register('/sw.js');
+      navigator.serviceWorker.register('/sw.js');
     }
   </script>
 
