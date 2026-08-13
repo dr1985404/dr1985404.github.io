@@ -390,14 +390,16 @@
       if(currentIdx<data.length-1){ 
         currentIdx++; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        window.scrollTo(0,0);
+        const target = document.getElementById('main-tabs');
+        if(target) window.scrollTo({ top: target.offsetTop - 10, behavior: 'auto' });
       } else if(examMode) finishEx(); 
     }
     function prev(){ 
       if(currentIdx>0){ 
         currentIdx--; 
         (activeMainTab==="questions"||currentSubcategory==="bookmarks")?showQ():showNote(); 
-        window.scrollTo(0,0);
+        const target = document.getElementById('main-tabs');
+        if(target) window.scrollTo({ top: target.offsetTop - 10, behavior: 'auto' });
       } 
     }
     function finishEx(){ alert(`Exam Finished! Score: ${filteredQuestions.reduce((s,q,i)=>s+(userSels[i]===q.correct?1:0),0)}/${filteredQuestions.length}`); examMode=false; setModeUI('study'); }
