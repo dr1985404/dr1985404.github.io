@@ -388,17 +388,15 @@
     }
 
     async function init(){
-      // Load all files in parallel for maximum speed
-      const [qData, nData, cdmData] = await Promise.all([
-        Promise.all(qFiles.map(f => fetchJson(f))),
-        Promise.all(nFiles.map(f => fetchJson(f))),
-        Promise.all(cdmFiles.map(f => fetchJson(f)))
-      ]);
-
-      let rawB = [].concat(...qData);
+      let rawB = [];
+      for(let f of qFiles){ const d = await fetchJson(f); if(Array.isArray(d)) rawB = rawB.concat(d); }
       bank = sanitize(rawB);
-      notes = [].concat(...nData);
-      cdm = [].concat(...cdmData);
+      
+      notes = [];
+      for(let f of nFiles){ const d = await fetchJson(f); if(Array.isArray(d)) notes = notes.concat(d); }
+      
+      cdm = [];
+      for(let f of cdmFiles){ const d = await fetchJson(f); if(Array.isArray(d)) cdm = cdm.concat(d); }
 
       document.getElementById('total-q').innerText = bank.length;
       document.getElementById('total-n').innerText = notes.length + cdm.length;
