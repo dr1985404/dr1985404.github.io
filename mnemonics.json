@@ -1,5 +1,35 @@
 [
   {
+    "id": "inf4",
+    "title": "Mandatory Reporting in Canada",
+    "cat": "Ethics & Legal",
+    "mnemonic": "MUST REPORT",
+    "content": "Physicians in Canada must report child abuse, gunshot wounds, impaired drivers, and specific diseases.",
+    "img": "mandatory_reporting_infographic.png",
+    "color": "#dc2626",
+    "icon": "⚖️"
+  },
+  {
+    "id": "inf5",
+    "title": "Croup vs Epiglottitis",
+    "cat": "Pediatrics",
+    "mnemonic": "Steeple vs Thumbprint",
+    "content": "High-yield comparison of airway emergencies for pediatric MCCQE1 preparation.",
+    "img": "pediatric_pearls_infographic.png",
+    "color": "#2563eb",
+    "icon": "👶"
+  },
+  {
+    "id": "inf6",
+    "title": "MAiD Eligibility in Canada",
+    "cat": "Ethics & Legal",
+    "mnemonic": "Medical Assistance in Dying",
+    "content": "Legal criteria for MAiD in Canada: Adult, eligible for health services, grievous condition, voluntary request.",
+    "img": "maid_infographic.png",
+    "color": "#0f172a",
+    "icon": "🇨🇦"
+  },
+  {
     "id": "inf1",
     "title": "SIDS Prevention Guide",
     "cat": "Pediatrics",

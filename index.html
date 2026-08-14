@@ -247,16 +247,27 @@
       <div class="dash-card"><div class="dash-icon">🔥</div><div class="dash-info"><p class="dash-label">Study Streak</p><p id="study-streak" class="dash-value">0 Days</p></div></div>
     </div>
 
-    <!-- Daily High-Yield Challenge -->
+    <!-- Daily High-Yield Challenge & Infographic -->
     <div id="daily-challenge-container" class="container" style="display:none; margin-bottom: 0; padding-bottom: 0;">
-      <div class="daily-card">
-        <div class="daily-badge">DAILY CHALLENGE</div>
-        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
-          <span style="font-size:1.5rem;">🎯</span>
-          <h3 style="margin:0; font-size:1.1rem; font-weight:900; color:var(--navy);">Question of the Day</h3>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:15px;">
+        <div class="daily-card">
+          <div class="daily-badge">DAILY CHALLENGE</div>
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+            <span style="font-size:1.5rem;">🎯</span>
+            <h3 style="margin:0; font-size:1.1rem; font-weight:900; color:var(--navy);">Question of the Day</h3>
+          </div>
+          <p id="daily-q-text" style="font-size:0.95rem; font-weight:700; color:var(--muted); margin-bottom:15px;"></p>
+          <button class="btn btn-blue" onclick="openDailyQ()" style="width:100%; background:var(--blue); color:#fff; padding:12px; font-size:0.9rem;">Solve Now & Get Explanation</button>
         </div>
-        <p id="daily-q-text" style="font-size:0.95rem; font-weight:700; color:var(--muted); margin-bottom:15px;"></p>
-        <button class="btn btn-blue" onclick="openDailyQ()" style="width:100%; background:var(--blue); color:#fff; padding:12px; font-size:0.9rem;">Solve Now & Get Explanation</button>
+        <div class="daily-card" style="border-color:var(--gold);">
+          <div class="daily-badge" style="background:var(--gold); color:var(--navy);">HIGH-YIELD PEARL</div>
+          <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+            <span style="font-size:1.5rem;">💡</span>
+            <h3 style="margin:0; font-size:1.1rem; font-weight:900; color:var(--navy);">Trick of the Day</h3>
+          </div>
+          <p id="daily-t-text" style="font-size:0.95rem; font-weight:700; color:var(--muted); margin-bottom:15px;"></p>
+          <button class="btn btn-gold" onclick="switchMainTab('tricks')" style="width:100%; padding:12px; font-size:0.9rem;">View All Visual Tricks</button>
+        </div>
       </div>
     </div>
 
@@ -345,6 +356,12 @@
       const daySeed = Math.floor(new Date().getTime() / (1000 * 60 * 60 * 24));
       dailyQ = bank[daySeed % bank.length];
       document.getElementById('daily-q-text').innerText = dailyQ.text.substring(0, 120) + "...";
+      
+      if(tricks.length > 0) {
+        const dailyT = tricks[daySeed % tricks.length];
+        document.getElementById('daily-t-text').innerText = dailyT.title + ": " + dailyT.mnemonic;
+      }
+      
       document.getElementById('daily-challenge-container').style.display = "block";
     }
 
