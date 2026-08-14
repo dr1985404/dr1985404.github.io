@@ -183,12 +183,30 @@
     .spinner{ width:40px; height:40px; border:4px solid rgba(255,255,255,0.1); border-top-color:var(--gold); border-radius:50%; animation:spin 1s linear infinite; margin-bottom:20px; }
     @keyframes spin{ to{ transform:rotate(360deg); } }
     .ad-wrapper{ max-width:1100px; margin:5px auto; text-align:center; min-height:1px; }
+    
+    /* Share Button Styling */
+    .share-btn-float { position: fixed; bottom: 90px; right: 20px; width: 56px; height: 56px; background: var(--blue); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; box-shadow: 0 4px 15px rgba(29, 78, 216, 0.4); cursor: pointer; z-index: 1001; transition: 0.3s; border: none; }
+    .share-btn-float:hover { transform: scale(1.1); background: var(--navy); }
+    
+    .share-menu { position: fixed; bottom: 160px; right: 20px; background: var(--card); border-radius: 20px; box-shadow: var(--shadow); border: 1px solid var(--line); display: none; flex-direction: column; gap: 10px; padding: 15px; z-index: 1001; animation: slideUp 0.3s ease; }
+    @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    .share-item { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 0.9rem; padding: 8px 12px; border-radius: 12px; transition: 0.2s; }
+    .share-item:hover { background: var(--bg); }
   </style>
 </head>
 <body>
   <div id="loading-screen" class="loading-screen">
     <div class="spinner"></div>
     <div style="font-weight:800; letter-spacing:0.05em;">LOADING 6,000+ HIGH-YIELD QUESTIONS...</div>
+  </div>
+
+  <!-- Floating Share Button -->
+  <button class="share-btn-float" onclick="toggleShareMenu()" aria-label="Share with colleagues">📤</button>
+  <div id="share-menu" class="share-menu">
+    <div style="font-size: 0.7rem; color: var(--muted); margin-bottom: 5px; text-align: center;">SHARE RESOURCE</div>
+    <a href="#" class="share-item" onclick="shareTo('whatsapp')">🟢 WhatsApp</a>
+    <a href="#" class="share-item" onclick="shareTo('telegram')">🔵 Telegram</a>
+    <a href="#" class="share-item" onclick="shareTo('copy')">🔗 Copy Link</a>
   </div>
 
   <header>
@@ -489,6 +507,24 @@
     function getSafeImg(src){ if(!src)return''; return`<img src="https://images.weserv.nl/?url=${encodeURIComponent(src.trim())}&w=600&output=png" class="content-img" onerror="this.style.display='none'" alt="Medical Illustration">`; }
     function getIcon(c){ const i={"Internal Medicine":"🩺","Surgery":"🔪","Pediatrics":"👶","Psychiatry":"🧠","Ethics & Legal":"⚖️","Emergency Medicine":"🚨","Obstetrics & Gynecology":"🤰","Family Medicine":"👨‍⚕️","Population & Prevention":"📊"}; return i[c]||"📚"; }
     function toggleBookmark(qId){ if(bookmarks.includes(qId)) bookmarks=bookmarks.filter(b=>b!==qId); else bookmarks.push(qId); localStorage.setItem('bookmarks',JSON.stringify(bookmarks)); showQ(); }
+
+    function toggleShareMenu() { const m = document.getElementById('share-menu'); m.style.display = (m.style.display === 'flex' ? 'none' : 'flex'); }
+    
+    function shareTo(platform) {
+      const url = window.location.href;
+      const text = "Check out this amazing FREE MCCQE1 Question Bank with 6,000+ questions! 🩺🚀";
+      let link = "";
+      if(platform === 'whatsapp') link = `https://api.whatsapp.com/send?text=${encodeURIComponent(text + " " + url)}`;
+      else if(platform === 'telegram') link = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
+      else if(platform === 'copy') {
+        navigator.clipboard.writeText(url + " " + text);
+        alert("Link copied to clipboard! Share it in your medical groups. ✅");
+        toggleShareMenu();
+        return;
+      }
+      window.open(link, '_blank');
+      toggleShareMenu();
+    }
 
     init();
   </script>
