@@ -1,5 +1,35 @@
 [
   {
+    "id": "inf1",
+    "title": "SIDS Prevention Guide",
+    "cat": "Pediatrics",
+    "mnemonic": "SAFE SLEEP",
+    "content": "Sudden Infant Death Syndrome (SIDS) high-yield prevention strategies for MCCQE1.",
+    "img": "sids_infographic.png",
+    "color": "#ef4444",
+    "icon": "👶"
+  },
+  {
+    "id": "inf2",
+    "title": "The 4 Principles of Ethics",
+    "cat": "Ethics & Legal",
+    "mnemonic": "ABNJ",
+    "content": "Autonomy, Beneficence, Non-Maleficence, and Justice. Core ethics for Canadian medical exams.",
+    "img": "ethics_infographic.png",
+    "color": "#10b981",
+    "icon": "⚖️"
+  },
+  {
+    "id": "inf3",
+    "title": "Heart Failure Pearls",
+    "cat": "Internal Medicine",
+    "mnemonic": "NYHA vs ACC/AHA",
+    "content": "Comprehensive comparison of Heart Failure classifications for cardiology high-yield review.",
+    "img": "cardiology_infographic.png",
+    "color": "#3b82f6",
+    "icon": "❤️"
+  },
+  {
     "id": "m1",
     "title": "Apgar Score",
     "cat": "Pediatrics",

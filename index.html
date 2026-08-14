@@ -375,7 +375,7 @@
 
     function renderTricks(){
       hideAll(); const db=document.getElementById("main-dashboard"); db.style.display="grid";
-      db.innerHTML=tricks.map(t=>`<div class="mnemonic-card" style="border-left:8px solid ${t.color}"><div class="mnemonic-header" style="background:${t.color}"><span>${t.icon} ${t.title}</span><span style="font-size:0.7rem; background:rgba(0,0,0,0.1); padding:4px 8px; border-radius:8px;">${t.cat}</span></div><div class="mnemonic-body"><div class="mnemonic-code">${t.mnemonic}</div><div>${t.content}</div></div></div>`).join("");
+      db.innerHTML=tricks.map(t=>`<div class="mnemonic-card" style="border-left:8px solid ${t.color}"><div class="mnemonic-header" style="background:${t.color}"><span>${t.icon} ${t.title}</span><span style="font-size:0.7rem; background:rgba(0,0,0,0.1); padding:4px 8px; border-radius:8px;">${t.cat}</span></div><div class="mnemonic-body">${t.img ? `<img src="${t.img}" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); cursor:pointer;" onclick="window.open('${t.img}', '_blank')">` : `<div class="mnemonic-code">${t.mnemonic}</div>`}<div>${t.content}</div></div></div>`).join("");
     }
 
     function showBookmarks(){
