@@ -192,6 +192,10 @@
     @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
     .share-item { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-weight: 700; font-size: 0.9rem; padding: 8px 12px; border-radius: 12px; transition: 0.2s; }
     .share-item:hover { background: var(--bg); }
+    
+    /* Daily Challenge Styling */
+    .daily-card { background: linear-gradient(135deg, #eff6ff 0%, #ffffff 100%); border: 2px solid var(--blue); border-radius: 24px; padding: 20px; margin-bottom: 20px; position: relative; overflow: hidden; }
+    .daily-badge { position: absolute; top: 0; right: 0; background: var(--blue); color: #fff; padding: 4px 15px; border-bottom-left-radius: 15px; font-size: 0.7rem; font-weight: 900; letter-spacing: 0.05em; }
   </style>
 </head>
 <body>
@@ -241,6 +245,19 @@
     <div class="study-dashboard">
       <div class="dash-card"><div class="dash-icon">⏳</div><div class="dash-info"><p class="dash-label">Exam Countdown</p><p id="exam-timer" class="dash-value">-- Days</p></div></div>
       <div class="dash-card"><div class="dash-icon">🔥</div><div class="dash-info"><p class="dash-label">Study Streak</p><p id="study-streak" class="dash-value">0 Days</p></div></div>
+    </div>
+
+    <!-- Daily High-Yield Challenge -->
+    <div id="daily-challenge-container" class="container" style="display:none; margin-bottom: 0; padding-bottom: 0;">
+      <div class="daily-card">
+        <div class="daily-badge">DAILY CHALLENGE</div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">
+          <span style="font-size:1.5rem;">🎯</span>
+          <h3 style="margin:0; font-size:1.1rem; font-weight:900; color:var(--navy);">Question of the Day</h3>
+        </div>
+        <p id="daily-q-text" style="font-size:0.95rem; font-weight:700; color:var(--muted); margin-bottom:15px;"></p>
+        <button class="btn btn-blue" onclick="openDailyQ()" style="width:100%; background:var(--blue); color:#fff; padding:12px; font-size:0.9rem;">Solve Now & Get Explanation</button>
+      </div>
     </div>
 
     <nav class="main-tabs" id="main-tabs">
@@ -303,6 +320,7 @@
       }catch(e){ return[]; }
     }
 
+    let dailyQ = null;
     async function init(){
       for(const f of qFiles) { const d = await fetchJson(f); bank = bank.concat(d); }
       for(const f of nFiles) { const d = await fetchJson(f); notes = notes.concat(d); }
@@ -317,8 +335,35 @@
       const uniqueSolved = new Set(answered.filter(x => typeof x === 'string' && !x.includes(":")));
       document.getElementById('total-solved').innerText = uniqueSolved.size;
       
+      setupDailyChallenge();
       updateDashboard();
       renderMain();
+    }
+
+    function setupDailyChallenge(){
+      if(bank.length === 0) return;
+      const daySeed = Math.floor(new Date().getTime() / (1000 * 60 * 60 * 24));
+      dailyQ = bank[daySeed % bank.length];
+      document.getElementById('daily-q-text').innerText = dailyQ.text.substring(0, 120) + "...";
+      document.getElementById('daily-challenge-container').style.display = "block";
+    }
+
+    function openDailyQ(){
+      if(!dailyQ) return;
+      activeMainTab = "questions";
+      currentCategory = dailyQ.cat;
+      currentSubcategory = dailyQ.sub || "General";
+      filteredQuestions = [dailyQ];
+      currentIdx = 0;
+      userSels = {};
+      hideAll();
+      document.getElementById("view-area").style.display = "block";
+      document.getElementById("mode-panel").style.display = "flex";
+      document.getElementById("progress-section").style.display = "block";
+      setModeUI('study');
+      showQ();
+      const scrollTarget = document.getElementById('main-tabs');
+      if(scrollTarget) window.scrollTo({ top: scrollTarget.offsetTop - 60, behavior: 'smooth' });
     }
 
     function toggleDark(){ document.body.classList.toggle('dark'); localStorage.setItem('dark', document.body.classList.contains('dark')?'1':'0'); }
