@@ -492,7 +492,22 @@
 
     init();
   </script>
-  <script>if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js');</script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js?v=2.1').then(reg => {
+        reg.onupdatefound = () => {
+          const installingWorker = reg.installing;
+          installingWorker.onstatechange = () => {
+            if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              if (confirm("New version available! Refresh now?")) {
+                window.location.reload();
+              }
+            }
+          };
+        };
+      });
+    }
+  </script>
   <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="MediVaultPro" data-color="#fbbf24" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </body>
 </html>

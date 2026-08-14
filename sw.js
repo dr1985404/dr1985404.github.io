@@ -1,29 +1,60 @@
-const CACHE = "medivault-v1";
-const FILES = [
-  "/",
-  "/index.html",
-  "/questions.json",
-  "/extra_questions.json",
-  "/extra_questions_2.json",
-  "/ethics_questions.json",
-  "/notes.json",
-  "/clinical_cards.json",
-  "/extra1.json",
-  "/cdm_cases.json",
-  "/eq2_part1.json",
-  "/eq2_part2.json",
-  "/eq2_part3.json",
-  "/eq2_part4.json",
-  "/eq2_part5.json",
-  "/eq2_part6.json"
+const CACHE_NAME = "medivault-v2.1";
+const ASSETS = [
+  "./",
+  "./index.html",
+  "./questions.json",
+  "./extra_questions.json",
+  "./extra_questions_2.json",
+  "./extra_questions_3.json",
+  "./ethics_questions.json",
+  "./notes.json",
+  "./clinical_cards.json",
+  "./extra1.json",
+  "./cdm_cases.json",
+  "./mnemonics.json",
+  "./eq2_part1.json",
+  "./eq2_part2.json",
+  "./eq2_part3.json",
+  "./eq2_part4.json",
+  "./eq2_part5.json",
+  "./eq2_part6.json",
+  "./high-yield-mccqe1.html",
+  "./about.html",
+  "./contact.html",
+  "./privacy.html",
+  "./terms.html"
 ];
 
-self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));
+// Install Event - Caching Assets
+self.addEventListener("install", (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(ASSETS);
+    })
+  );
+  self.skipWaiting();
 });
 
-self.addEventListener("fetch", e => {
-  e.respondWith(
-    caches.match(e.request).then(r => r || fetch(e.request))
+// Activate Event - Cleaning old caches
+self.addEventListener("activate", (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cache) => {
+          if (cache !== CACHE_NAME) {
+            return caches.delete(cache);
+          }
+        })
+      );
+    })
+  );
+});
+
+// Fetch Event - Network First Strategy (Better for frequently updated data)
+self.addEventListener("fetch", (event) => {
+  event.respondWith(
+    fetch(event.request).catch(() => {
+      return caches.match(event.request);
+    })
   );
 });
