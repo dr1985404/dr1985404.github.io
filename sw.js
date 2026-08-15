@@ -1,4 +1,4 @@
-const CACHE_NAME = "medivault-v2.1";
+const CACHE_NAME = "medivault-v2.2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -22,7 +22,13 @@ const ASSETS = [
   "./about.html",
   "./contact.html",
   "./privacy.html",
-  "./terms.html"
+  "./terms.html",
+  "./sids_infographic.png",
+  "./ethics_infographic.png",
+  "./cardiology_infographic.png",
+  "./mandatory_reporting_infographic.png",
+  "./pediatric_pearls_infographic.png",
+  "./maid_infographic.png"
 ];
 
 // Install Event - Caching Assets
@@ -50,7 +56,7 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Fetch Event - Network First Strategy (Better for frequently updated data)
+// Fetch Event - Network First Strategy
 self.addEventListener("fetch", (event) => {
   event.respondWith(
     fetch(event.request).catch(() => {
