@@ -126,8 +126,11 @@
     .vault-stats{ background:#fff; padding:12px 20px; border-bottom:1px solid var(--line); display:flex; justify-content:center; gap:20px; font-size:0.85rem; font-weight:700; }
     .stat-val{ color:var(--blue); font-weight:900; }
 
-    .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:58px; z-index:999; padding:0 10px; }
-    .tab{ flex:1; text-align:center; padding:14px 5px; cursor:pointer; font-weight:800; color:var(--muted); font-size:0.8rem; transition:0.3s; position:relative; }
+    .main-tabs{ display:flex; background:#fff; border-bottom:1px solid var(--line); position:sticky; top:58px; z-index:999; padding:0 10px; overflow-x: auto; scrollbar-width: none; -ms-overflow-style: none; gap: 5px; }
+    .main-tabs::-webkit-scrollbar { display: none; }
+    .tab{ flex:0 0 auto; min-width: 85px; text-align:center; padding:10px 10px; cursor:pointer; font-weight:800; color:var(--muted); font-size:0.7rem; transition:0.3s; position:relative; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    .tab i { font-size: 1.3rem; margin-bottom: 2px; font-style: normal; transition: 0.3s; }
+    .tab.active i { transform: scale(1.15); filter: drop-shadow(0 0 5px rgba(29, 78, 216, 0.3)); }
     .tab.active{ color:var(--blue); }
     .tab.active::after{ content:''; position:absolute; bottom:0; left:20%; right:20%; height:3px; background:var(--blue); border-radius:10px; }
 
@@ -278,12 +281,12 @@
     </div>
 
     <nav class="main-tabs" id="main-tabs">
-      <div id="tab-questions" class="tab active" onclick="switchMainTab('questions')">Q-BANK</div>
-      <div id="tab-notes" class="tab" onclick="switchMainTab('notes')">NOTES</div>
-      <div id="tab-cdm" class="tab" onclick="switchMainTab('cdm')">CDM</div>
-      <div id="tab-tricks" class="tab" onclick="switchMainTab('tricks')">TRICKS</div>
-      <div id="tab-articles" class="tab" onclick="switchMainTab('articles')">ARTICLES</div>
-      <div id="tab-bookmarks" class="tab" onclick="switchMainTab('bookmarks')">SAVED</div>
+      <div id="tab-questions" class="tab active" onclick="switchMainTab('questions')"><i>📋</i><span>Q-BANK</span></div>
+      <div id="tab-notes" class="tab" onclick="switchMainTab('notes')"><i>📚</i><span>NOTES</span></div>
+      <div id="tab-cdm" class="tab" onclick="switchMainTab('cdm')"><i>🩺</i><span>CDM</span></div>
+      <div id="tab-tricks" class="tab" onclick="switchMainTab('tricks')"><i>💡</i><span>TRICKS</span></div>
+      <div id="tab-articles" class="tab" onclick="switchMainTab('articles')"><i>📝</i><span>ARTICLES</span></div>
+      <div id="tab-bookmarks" class="tab" onclick="switchMainTab('bookmarks')"><i>🔖</i><span>SAVED</span></div>
     </nav>
 
     <div class="ad-wrapper">
