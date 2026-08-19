@@ -1,4 +1,4 @@
-const CACHE_NAME = "medivault-v2.8";
+const CACHE_NAME = "medivault-v2.9";
 const ASSETS = [
   "./",
   "./index.html",
