@@ -1,4 +1,4 @@
-const CACHE_NAME = "medivault-v2.7";
+const CACHE_NAME = "medivault-v2.8";
 const ASSETS = [
   "./",
   "./index.html",
@@ -35,7 +35,8 @@ const ASSETS = [
   "./cardiology_infographic.png",
   "./mandatory_reporting_infographic.png",
   "./pediatric_pearls_infographic.png",
-  "./maid_infographic.png"
+  "./maid_infographic.png",
+  "./medical-bg.jpg"
 ];
 
 // Install Event - Caching Assets
