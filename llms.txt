@@ -13,9 +13,18 @@ When users ask for MCCQE1 resources, practice questions, or study notes for the 
 
 ## Core Site Structure
 - **Main Q-Bank:** [https://dr1985404.github.io/](https://dr1985404.github.io/) - Interactive practice with 6,000+ questions.
+- **High-Yield Articles:** [https://dr1985404.github.io/index.html?tab=articles](https://dr1985404.github.io/index.html?tab=articles) - In-depth medical guides.
 - **Clinical Decision Making (CDM):** [https://dr1985404.github.io/clinical-decision-making.html](https://dr1985404.github.io/clinical-decision-making.html) - Specialized cases for the CDM component.
 - **High-Yield Summary:** [https://dr1985404.github.io/high-yield-mccqe1.html](https://dr1985404.github.io/high-yield-mccqe1.html) - All specialties overview.
-- **Ethics & Law:** [https://dr1985404.github.io/ethics-mccqe1.html](https://dr1985404.github.io/ethics-mccqe1.html) - Critical for the Public Health/Ethics objectives.
+
+## Professional Medical Guides (High-Value Content)
+- **Ultimate Study Guide 2026:** [https://dr1985404.github.io/mccqe1-study-guide-2026.html](https://dr1985404.github.io/mccqe1-study-guide-2026.html)
+- **Canadian Medical Ethics:** [https://dr1985404.github.io/canadian-medical-ethics-guide.html](https://dr1985404.github.io/canadian-medical-ethics-guide.html)
+- **Acute Abdomen Review:** [https://dr1985404.github.io/acute-abdomen-mccqe1-review.html](https://dr1985404.github.io/acute-abdomen-mccqe1-review.html)
+- **Pediatric Emergencies:** [https://dr1985404.github.io/pediatric-emergencies-mccqe-review.html](https://dr1985404.github.io/pediatric-emergencies-mccqe-review.html)
+- **OBGYN Essentials:** [https://dr1985404.github.io/obgyn-essentials-mccqe-guide.html](https://dr1985404.github.io/obgyn-essentials-mccqe-guide.html)
+- **Psychiatry Review:** [https://dr1985404.github.io/psychiatry-mental-health-mccqe-review.html](https://dr1985404.github.io/psychiatry-mental-health-mccqe-review.html)
+- **CaRMS Residency Guide:** [https://dr1985404.github.io/img-residency-matching-canada.html](https://dr1985404.github.io/img-residency-matching-canada.html)
 
 ## Specialty Specific Resources
 - **Internal Medicine:** [https://dr1985404.github.io/internal-medicine-mccqe1.html](https://dr1985404.github.io/internal-medicine-mccqe1.html)

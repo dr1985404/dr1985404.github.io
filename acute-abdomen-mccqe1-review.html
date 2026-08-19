@@ -6,9 +6,27 @@
   <title>Acute Abdomen: High-Yield Surgery Review for MCCQE | MediVault Pro</title>
   <meta name="description" content="Professional surgical review of acute abdomen management for MCCQE. Differential diagnosis, imaging protocols, and Canadian surgical guidelines.">
   <meta name="geo.region" content="CA">
+  <link rel="canonical" href="https://dr1985404.github.io/acute-abdomen-mccqe1-review.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Acute Abdomen: High-Yield Surgery Review for MCCQE",
+    "description": "Professional surgical review of acute abdomen management for MCCQE. Differential diagnosis, imaging protocols, and Canadian surgical guidelines.",
+    "author": {"@type": "Organization", "name": "MediVault Pro Editorial Team"},
+    "publisher": {"@type": "Organization", "name": "MediVault Pro"},
+    "datePublished": "2026-08-19"
+  }
+  </script>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
   <style>
     :root { --navy: #0f172a; --blue: #2563eb; --gold: #f59e0b; --bg: #f8fafc; --card: #ffffff; --text: #334155; --border: #e2e8f0; }
+    #progress-container { position: fixed; top: 0; left: 0; width: 100%; height: 5px; background: transparent; z-index: 1000; }
+    #progress-bar { height: 100%; background: var(--blue); width: 0%; transition: width 0.1s ease; }
+    .related-articles { margin-top: 50px; padding: 30px; background: #f1f5f9; border-radius: 12px; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+    .related-card { text-decoration: none; color: var(--text); background: #fff; padding: 15px; border-radius: 8px; border: 1px solid var(--border); font-weight: 600; transition: 0.3s; }
+    .related-card:hover { transform: translateY(-3px); border-color: var(--blue); box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
     body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; margin: 0; padding: 0; }
     header { background: var(--navy); color: #fff; padding: 40px 20px; text-align: center; }
     .container { max-width: 900px; margin: 40px auto; background: var(--card); padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border: 1px solid var(--border); }
@@ -19,6 +37,7 @@
   </style>
 </head>
 <body>
+  <div id="progress-container"><div id="progress-bar"></div></div>
   <header>
     <h1>Acute Abdomen: High-Yield Surgery Review</h1>
     <p>Strategic clinical approach to surgical emergencies for International Medical Graduates.</p>
@@ -50,11 +69,29 @@
       <li><strong>Wonder Drugs (Anytime):</strong> Drug-induced fever.</li>
     </ul>
 
+    <div class="related-articles">
+      <h3 style="margin-top: 0; color: var(--navy);">Explore More Resources</h3>
+      <div class="related-grid">
+        <a href="/mccqe1-study-guide-2026.html" class="related-card">📚 Ultimate Study Guide</a>
+        <a href="/canadian-medical-ethics-guide.html" class="related-card">⚖️ Medical Ethics Guide</a>
+        <a href="/acute-abdomen-mccqe1-review.html" class="related-card">🔪 Surgery Review</a>
+        <a href="/img-residency-matching-canada.html" class="related-card">🇨🇦 CaRMS Matching Guide</a>
+      </div>
+    </div>
+
     <div class="footer-nav">
       <a href="/">🏠 Home</a>
       <a href="/surgery-mccqe1.html">🔪 Surgery Notes</a>
       <a href="/mccqe1-study-guide-2026.html">📚 Study Guide</a>
     </div>
   </div>
+  <script>
+    window.onscroll = function() {
+      let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      let scrolled = (winScroll / height) * 100;
+      document.getElementById("progress-bar").style.width = scrolled + "%";
+    };
+  </script>
 </body>
 </html>
