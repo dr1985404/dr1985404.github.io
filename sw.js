@@ -1,4 +1,4 @@
-const CACHE_NAME = "medivault-v2.2";
+const CACHE_NAME = "medivault-v2.3";
 const ASSETS = [
   "./",
   "./index.html",
@@ -19,6 +19,10 @@ const ASSETS = [
   "./eq2_part5.json",
   "./eq2_part6.json",
   "./high-yield-mccqe1.html",
+  "./mccqe1-study-guide-2026.html",
+  "./canadian-medical-ethics-guide.html",
+  "./acute-abdomen-mccqe1-review.html",
+  "./img-residency-matching-canada.html",
   "./about.html",
   "./contact.html",
   "./privacy.html",

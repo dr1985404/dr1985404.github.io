@@ -276,6 +276,7 @@
       <div id="tab-notes" class="tab" onclick="switchMainTab('notes')">NOTES</div>
       <div id="tab-cdm" class="tab" onclick="switchMainTab('cdm')">CDM</div>
       <div id="tab-tricks" class="tab" onclick="switchMainTab('tricks')">TRICKS</div>
+      <div id="tab-articles" class="tab" onclick="switchMainTab('articles')">ARTICLES</div>
       <div id="tab-bookmarks" class="tab" onclick="switchMainTab('bookmarks')">SAVED</div>
     </nav>
 
@@ -416,7 +417,7 @@
 
     function switchMainTab(t){
       activeMainTab=t;
-      ["tab-questions","tab-notes","tab-cdm","tab-tricks","tab-bookmarks"].forEach(id=>document.getElementById(id).classList.toggle("active", id==="tab-"+t));
+      ["tab-questions","tab-notes","tab-cdm","tab-tricks","tab-articles","tab-bookmarks"].forEach(id=>document.getElementById(id).classList.toggle("active", id==="tab-"+t));
       renderMain();
     }
 
@@ -424,6 +425,7 @@
       hideAll();
       if(activeMainTab==="bookmarks"){ showBookmarks(); return; }
       if(activeMainTab==="tricks"){ renderTricks(); return; }
+      if(activeMainTab==="articles"){ renderArticles(); return; }
       const data=(activeMainTab==="questions"?bank:(activeMainTab==="cdm"?cdm:notes));
       const cats=[...new Set(data.map(x=>x.cat))].sort();
       const db=document.getElementById("main-dashboard"); db.style.display="grid";
@@ -438,6 +440,29 @@
     function renderTricks(){
       hideAll(); const db=document.getElementById("main-dashboard"); db.style.display="grid";
       db.innerHTML=tricks.map(t=>`<div class="mnemonic-card" style="border-left:8px solid ${t.color}"><div class="mnemonic-header" style="background:${t.color}"><span>${t.icon} ${t.title}</span><span style="font-size:0.7rem; background:rgba(0,0,0,0.1); padding:4px 8px; border-radius:8px;">${t.cat}</span></div><div class="mnemonic-body">${t.img ? `<img src="${t.img}" style="width:100%; height:auto; border-radius:12px; margin-bottom:15px; box-shadow:0 4px 10px rgba(0,0,0,0.1); cursor:pointer;" onclick="window.open('${t.img}', '_blank')">` : `<div class="mnemonic-code">${t.mnemonic}</div>`}<div>${t.content}</div></div></div>`).join("");
+    }
+
+    function renderArticles(){
+      hideAll(); const db=document.getElementById("main-dashboard"); db.style.display="grid";
+      const articles = [
+        { title: "Ultimate Guide to Passing the MCCQE 2026", desc: "Comprehensive strategic resource for IMGs navigating Canadian medical licensure.", url: "/mccqe1-study-guide-2026.html", tag: "Strategy", color: "#0f172a" },
+        { title: "Mastering Canadian Medical Ethics", desc: "Essential bioethics principles, consent, capacity, and mandatory reporting guidelines.", url: "/canadian-medical-ethics-guide.html", tag: "Ethics", color: "#1d4ed8" },
+        { title: "Acute Abdomen: High-Yield Surgery Review", desc: "Strategic clinical approach to surgical emergencies and post-op complications.", url: "/acute-abdomen-mccqe1-review.html", tag: "Surgery", color: "#f59e0b" },
+        { title: "CaRMS Strategy: IMG Residency Matching Guide", desc: "Navigating the competitive landscape of Canadian medical residency matching.", url: "/img-residency-matching-canada.html", tag: "Residency", color: "#059669" }
+      ];
+      db.innerHTML = articles.map(a => `
+        <div class="mnemonic-card" style="border-left:8px solid ${a.color}; cursor:pointer;" onclick="window.location.href='${a.url}'">
+          <div class="mnemonic-header" style="background:${a.color}">
+            <span>${a.tag}</span>
+            <span style="font-size:0.7rem; background:rgba(0,0,0,0.1); padding:4px 8px; border-radius:8px;">ARTICLE</span>
+          </div>
+          <div class="mnemonic-body">
+            <h3 style="margin:0 0 10px 0; color:var(--navy); font-weight:900;">${a.title}</h3>
+            <p style="margin:0; font-size:0.95rem; color:var(--muted); font-weight:600; line-height:1.6;">${a.desc}</p>
+            <div style="margin-top:15px; color:var(--blue); font-weight:800; font-size:0.85rem;">Read Full Article →</div>
+          </div>
+        </div>
+      `).join("");
     }
 
     function showBookmarks(){
